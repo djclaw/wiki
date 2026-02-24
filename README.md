@@ -52,5 +52,10 @@ A lightweight, static personal Wikipedia powered by a local knowledge graph.
    python3 scripts/build_db.py
    ```
 
+## Next MVP (planned)
+- Define exactly what should be included in the wiki (scope-first).
+- Use LLM-based extraction only after scope is defined.
+- Apply stricter privacy filtering and a review/audit workflow before publishing.
+
 ## Publishing
 This repo is intended to be published via GitHub Pages (main branch / root).
