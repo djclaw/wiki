@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "name": "history",
+      "type": "history_md",
+      "path": "/home/dj/.nanobot/workspace/memory/HISTORY.md",
+      "enabled": true
+    },
+    {
+      "name": "notes_placeholder",
+      "type": "notes_dir",
+      "path": "",
+      "enabled": false
+    },
+    {
+      "name": "notion_placeholder",
+      "type": "notion_export",
+      "path": "",
+      "enabled": false
+    },
+    {
+      "name": "custom_csv_placeholder",
+      "type": "custom_csv",
+      "path": "",
+      "enabled": false
+    }
+  ]
+}

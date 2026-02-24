@@ -92,8 +92,13 @@ def parse_entry(path: Path):
 
 
 def main():
-    entries = sorted(ENTRIES_DIR.glob("*.html"))
-    index = [parse_entry(p) for p in entries]
+    entries = sorted(ENTRIES_DIR.rglob("*.html"))
+    index = []
+    for p in entries:
+        item = parse_entry(p)
+        rel = p.relative_to(ENTRIES_DIR).as_posix()
+        item["url"] = f"entries/{rel}"
+        index.append(item)
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(index, ensure_ascii=False, indent=2), encoding="utf-8")
