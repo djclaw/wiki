@@ -55,6 +55,11 @@ a:hover {
   font-size: 14px;
 }
 
+.meta a[data-lang].active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .content {
   padding: 24px;
 }

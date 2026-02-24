@@ -108,10 +108,18 @@
   {
     "title": "Welcome",
     "url": "entries/welcome.html",
-    "snippet": "这是一个示例条目，用来展示页面结构。",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
+    "snippet": "This is a sample entry to demonstrate the layout.",
+    "tags": [
+      "example",
+      "template"
+    ],
+    "categories": [
+      "Meta"
+    ],
+    "aliases": [
+      "intro",
+      "start"
+    ],
     "related": [],
     "coordinates": null
   }

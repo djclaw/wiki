@@ -41,6 +41,11 @@
       const url = new URL(window.location.href);
       url.searchParams.set('lang', target);
       el.href = url.pathname + url.search + url.hash;
+      if (target === lang) {
+        el.classList.add('active');
+      } else {
+        el.classList.remove('active');
+      }
     });
 
     document.querySelectorAll('a[href]').forEach((el) => {

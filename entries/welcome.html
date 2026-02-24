@@ -9,42 +9,71 @@
 <body>
   <div class="page">
     <header class="site-header">
-      <div class="logo">Personal Wiki</div>
+      <div class="logo"><a href="../index.html" data-i18n="site_title">DJClaw Wiki</a></div>
       <nav class="meta">
-        <a href="../index.html">主页</a>
+        <a href="../index.html" data-i18n="nav_home">Home</a>
+        <a href="#" data-lang="en" data-i18n="lang_en">EN</a>
+        <a href="#" data-lang="zh" data-i18n="lang_zh">中文</a>
       </nav>
     </header>
 
     <main class="content">
-      <h1>Welcome</h1>
-      <p class="lead">这是一个示例条目，用来展示页面结构。</p>
+      <article class="entity" data-title="Welcome" data-tags="example,template" data-categories="Meta" data-aliases="intro,start" data-related="" data-lat="" data-lon="">
+        <header class="entity-header">
+          <h1>Welcome</h1>
+          <p class="lead" data-i18n="welcome_lead">This is a sample entry to demonstrate the layout.</p>
+        </header>
 
-      <section>
-        <h2>Info</h2>
-        <ul>
-          <li><strong>Type</strong>: Concept</li>
-          <li><strong>Created</strong>: 2026-02-24</li>
-        </ul>
-      </section>
+        <div class="entity-body">
+          <aside class="infobox">
+            <h2 data-i18n="infobox_title">Info</h2>
+            <dl>
+              <dt>Type</dt>
+              <dd>Concept</dd>
+              <dt>Created</dt>
+              <dd>2026-02-24</dd>
+            </dl>
+          </aside>
 
-      <section>
-        <h2>Relations</h2>
-        <ul>
-          <li>Example → Related node</li>
-        </ul>
-      </section>
+          <section class="entity-content">
+            <nav class="toc">
+              <h2 data-i18n="toc_title">Contents</h2>
+              <ol>
+                <li><a href="#relations" data-i18n="welcome_section_relations">Relations</a></li>
+                <li><a href="#sources" data-i18n="welcome_section_sources">Sources</a></li>
+              </ol>
+            </nav>
 
-      <section>
-        <h2>Sources</h2>
-        <ul>
-          <li>Conversation seed</li>
-        </ul>
-      </section>
+            <section id="relations">
+              <h2 data-i18n="welcome_section_relations">Relations</h2>
+              <p>Example → Related node</p>
+            </section>
+
+            <section id="sources">
+              <h2 data-i18n="welcome_section_sources">Sources</h2>
+              <p>Conversation seed</p>
+            </section>
+
+            <section class="entity-related">
+              <h2 data-i18n="related_title">Related</h2>
+              <ul id="related-list"></ul>
+            </section>
+
+            <section class="entity-backlinks">
+              <h2 data-i18n="backlinks_title">Linked from</h2>
+              <ul id="backlinks-list"></ul>
+            </section>
+          </section>
+        </div>
+      </article>
     </main>
 
     <footer class="site-footer">
-      <span>Generated locally · Static pages</span>
+      <span data-i18n="footer_generated">Generated locally · Static pages</span>
     </footer>
   </div>
+
+  <script src="../ui.js"></script>
+  <script src="../entity.js"></script>
 </body>
 </html>

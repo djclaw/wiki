@@ -19,7 +19,12 @@
     "infobox_title": "Info",
     "toc_title": "Contents",
     "related_title": "Related",
-    "backlinks_title": "Linked from"
+    "backlinks_title": "Linked from",
+    "welcome_lead": "This is a sample entry to demonstrate the layout.",
+    "welcome_section_relations": "Relations",
+    "welcome_section_sources": "Sources",
+    "lang_en": "EN",
+    "lang_zh": "中文"
   },
   "zh": {
     "site_title": "DJClaw Wiki",
@@ -41,6 +46,9 @@
     "infobox_title": "信息",
     "toc_title": "目录",
     "related_title": "相关条目",
-    "backlinks_title": "被引用"
+    "backlinks_title": "被引用",
+    "welcome_lead": "这是一个示例条目，用来展示页面结构。",
+    "welcome_section_relations": "关联",
+    "welcome_section_sources": "来源"
   }
 }
