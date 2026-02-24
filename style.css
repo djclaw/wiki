@@ -109,3 +109,64 @@ h1 {
   border-top: 1px solid var(--soft);
   font-size: 12px;
 }
+
+.entity-header {
+  border-bottom: 1px solid var(--soft);
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+
+.entity-body {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 24px;
+}
+
+.infobox {
+  background: #f8f9fa;
+  border: 1px solid var(--border);
+  padding: 12px;
+  font-size: 14px;
+}
+
+.infobox h2 {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+
+.infobox dl {
+  margin: 0;
+}
+
+.infobox dt {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.infobox dd {
+  margin: 4px 0 0;
+}
+
+.toc {
+  border: 1px solid var(--soft);
+  background: #f8f9fa;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.toc h2 {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+
+.toc ol {
+  margin: 0;
+  padding-left: 18px;
+}
+
+@media (max-width: 820px) {
+  .entity-body {
+    grid-template-columns: 1fr;
+  }
+}
