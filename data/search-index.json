@@ -1,5 +1,18 @@
 [
   {
+    "title": "Jersey City",
+    "url": "entries/jersey-city.html",
+    "snippet": "A major city in Hudson County, New Jersey, directly across the Hudson River from Manhattan.",
+    "tags": [
+      "city",
+      "new jersey",
+      "hudson county"
+    ],
+    "categories": [
+      "Place"
+    ]
+  },
+  {
     "title": "纽约市",
     "url": "entries/nyc.html",
     "snippet": "美国东北部的城市与五大行政区组成的大都会核心。",
@@ -10,6 +23,33 @@
     ],
     "categories": [
       "地点"
+    ]
+  },
+  {
+    "title": "New York University (NYU)",
+    "url": "entries/nyu.html",
+    "snippet": "A private research university headquartered in Greenwich Village, New York City.",
+    "tags": [
+      "university",
+      "nyc",
+      "education"
+    ],
+    "categories": [
+      "Organization"
+    ]
+  },
+  {
+    "title": "PATH",
+    "url": "entries/path.html",
+    "snippet": "A rapid transit system connecting Manhattan with key hubs in New Jersey.",
+    "tags": [
+      "transit",
+      "rail",
+      "nyc",
+      "jersey city"
+    ],
+    "categories": [
+      "Transportation"
     ]
   },
   {
