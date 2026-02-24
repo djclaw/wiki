@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personal Wiki</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="site-header">
+      <div class="logo">Personal Wiki</div>
+      <nav class="meta">
+        <a href="index.html">主页</a>
+      </nav>
+    </header>
+
+    <main class="content">
+      <h1>条目索引</h1>
+      <p class="lead">这是你的个人知识图谱的静态百科索引。</p>
+
+      <div class="search">
+        <label for="q">搜索</label>
+        <input id="q" type="search" placeholder="输入关键词..." autocomplete="off" />
+      </div>
+
+      <ul id="results" class="results"></ul>
+    </main>
+
+    <footer class="site-footer">
+      <span>Generated locally · Static pages</span>
+    </footer>
+  </div>
+
+  <script src="search.js"></script>
+</body>
+</html>
