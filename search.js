@@ -30,10 +30,12 @@ function filterIndex(query) {
   if (!query) return index;
   const q = query.toLowerCase();
   return index.filter((item) => {
-    return (
-      item.title.toLowerCase().includes(q) ||
-      (item.snippet && item.snippet.toLowerCase().includes(q))
-    );
+    const titleMatch = item.title && item.title.toLowerCase().includes(q);
+    const snippetMatch = item.snippet && item.snippet.toLowerCase().includes(q);
+    const aliasesMatch = Array.isArray(item.aliases)
+      ? item.aliases.some((alias) => alias.toLowerCase().includes(q))
+      : false;
+    return titleMatch || snippetMatch || aliasesMatch;
   });
 }
 
