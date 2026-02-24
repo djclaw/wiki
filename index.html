@@ -1,39 +1,53 @@
 <!doctype html>
-<html lang="zh-Hans">
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Personal Wiki</title>
+  <title data-i18n="site_title">DJClaw Wiki</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="page">
     <header class="site-header">
-      <div class="logo">Personal Wiki</div>
+      <div class="logo" data-i18n="site_title">DJClaw Wiki</div>
       <nav class="meta">
-        <a href="index.html">主页</a>
+        <a href="index.html" data-i18n="nav_home">Home</a>
+        <a href="#" data-lang="en">EN</a>
+        <a href="#" data-lang="zh">中文</a>
       </nav>
     </header>
 
     <main class="content">
-      <h1>条目索引</h1>
-      <p class="lead">这是你的个人知识图谱的静态百科索引。</p>
+      <h1 data-i18n="index_title">Entry Index</h1>
+      <p class="lead" data-i18n="index_lead">A static index for your personal knowledge graph.</p>
 
       <div class="search">
-        <label for="q">搜索</label>
-        <input id="q" type="search" placeholder="输入关键词..." autocomplete="off" />
+        <label for="q" data-i18n="search_label">Search</label>
+        <input id="q" type="search" data-i18n-attr="placeholder:search_placeholder" placeholder="Type keywords..." autocomplete="off" />
       </div>
 
-      <ul id="results" class="results">
-        <li><a href="entries/welcome.html">Welcome</a> · 示例条目</li>
-      </ul>
+      <div class="filters" id="filters">
+        <div class="filters-title" data-i18n="filters_title">Filters</div>
+        <div class="filter-block">
+          <label for="tag-filter" data-i18n="filter_tags">Tags</label>
+          <select id="tag-filter"></select>
+        </div>
+        <div class="filter-block">
+          <label for="category-filter" data-i18n="filter_categories">Categories</label>
+          <select id="category-filter"></select>
+        </div>
+        <button id="clear-filters" type="button" data-i18n="clear_filters">Clear</button>
+      </div>
+
+      <ul id="results" class="results"></ul>
     </main>
 
     <footer class="site-footer">
-      <span>Generated locally · Static pages</span>
+      <span data-i18n="footer_generated">Generated locally · Static pages</span>
     </footer>
   </div>
 
+  <script src="ui.js"></script>
   <script src="search.js"></script>
 </body>
 </html>

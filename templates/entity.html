@@ -1,4 +1,4 @@
-<article class="entity">
+<article class="entity" data-title="{{title}}">
   <header class="entity-header">
     <h1>{{title}}</h1>
     <p class="lead">{{summary}}</p>
@@ -6,7 +6,7 @@
 
   <div class="entity-body">
     <aside class="infobox">
-      <h2>Info</h2>
+      <h2 data-i18n="infobox_title">Info</h2>
       <dl>
         {{infobox_rows}}
       </dl>
@@ -14,13 +14,23 @@
 
     <section class="entity-content">
       <nav class="toc">
-        <h2>Contents</h2>
+        <h2 data-i18n="toc_title">Contents</h2>
         <ol>
           {{toc_items}}
         </ol>
       </nav>
 
       {{sections}}
+
+      <section class="entity-related">
+        <h2 data-i18n="related_title">Related</h2>
+        <ul id="related-list"></ul>
+      </section>
+
+      <section class="entity-backlinks">
+        <h2 data-i18n="backlinks_title">Linked from</h2>
+        <ul id="backlinks-list"></ul>
+      </section>
     </section>
   </div>
 </article>

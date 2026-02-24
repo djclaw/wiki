@@ -3,22 +3,28 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{{title}}</title>
+    <title data-i18n="site_title">{{title}}</title>
     <link rel="stylesheet" href="/wiki/style.css" />
   </head>
   <body>
     <div class="page">
       <header class="site-header">
-        <div class="logo"><a href="/wiki/">DJClaw Wiki</a></div>
+        <div class="logo"><a href="/wiki/" data-i18n="site_title">DJClaw Wiki</a></div>
         <nav class="meta">
-          <a href="/wiki/">Home</a>
-          <a href="/wiki/entries/welcome.html">Welcome</a>
+          <a href="/wiki/" data-i18n="nav_home">Home</a>
+          <a href="/wiki/entries/welcome.html" data-i18n="nav_welcome">Welcome</a>
+          <a href="#" data-lang="en">EN</a>
+          <a href="#" data-lang="zh">中文</a>
         </nav>
       </header>
       <main class="content">
         {{content}}
       </main>
-      <footer class="site-footer">Last updated: {{updated_at}}</footer>
+      <footer class="site-footer">
+        <span data-i18n="footer_updated_label">Last updated</span>: {{updated_at}}
+      </footer>
     </div>
+    <script src="/wiki/ui.js"></script>
+    <script src="/wiki/entity.js"></script>
   </body>
 </html>

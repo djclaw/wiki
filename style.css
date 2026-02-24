@@ -70,7 +70,7 @@ h1 {
 }
 
 .search {
-  margin: 20px 0 24px;
+  margin: 20px 0 12px;
 }
 
 .search input {
@@ -80,6 +80,54 @@ h1 {
   border: 1px solid var(--border);
   background: #fff;
   font-size: 14px;
+}
+
+.filters {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid var(--soft);
+  background: #f8f9fa;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  font-size: 13px;
+}
+
+.filters-title {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.filter-block {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.filters select {
+  padding: 4px 6px;
+  border: 1px solid var(--border);
+  background: #fff;
+}
+
+#clear-filters {
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  background: #fff;
+  cursor: pointer;
+}
+
+.entity-related,
+.entity-backlinks {
+  border-top: 1px solid var(--soft);
+  padding-top: 12px;
+  margin-top: 16px;
+}
+
+.entity-related h2,
+.entity-backlinks h2 {
+  margin-top: 0;
 }
 
 .results {
@@ -167,6 +215,12 @@ h1 {
 
 .toc ol {
   margin: 0;
+  padding-left: 18px;
+}
+
+.entity-related ul,
+.entity-backlinks ul {
+  margin: 8px 0 0;
   padding-left: 18px;
 }
 
