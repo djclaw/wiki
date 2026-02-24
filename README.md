@@ -1,6 +1,7 @@
 # Personal Wiki
 
-A lightweight, static personal Wikipedia powered by a local knowledge graph.
+A quiet, local‑first wiki built on a Raspberry Pi.
+Clean pages. Fast search. No noise.
 
 ## Structure
 - `index.html` — entry index + search
