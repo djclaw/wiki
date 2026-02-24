@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import json
 import re
 import sqlite3
 from datetime import datetime
@@ -27,6 +28,9 @@ def build_infobox_rows(entry):
     rows.append(f"<dt>Source ID</dt><dd>{entry['source_id']}</dd>")
     if entry.get("created_at"):
         rows.append(f"<dt>Created</dt><dd>{entry['created_at']}</dd>")
+    categories = entry.get("categories", [])
+    if categories:
+        rows.append(f"<dt>Category</dt><dd>{', '.join(categories)}</dd>")
     return "\n".join(rows)
 
 
@@ -34,17 +38,50 @@ def build_sections(entry):
     summary = entry.get("summary", "").strip()
     if not summary:
         summary = "(No summary yet.)"
+
+    timeline = entry.get("timeline", [])
+    timeline_items = []
+    for item in timeline:
+        timeline_items.append(f"<li>{item}</li>")
+    if not timeline_items:
+        timeline_items.append("<li>(No events yet.)</li>")
+
+    related = entry.get("related", [])
+    related_items = []
+    for item in related:
+        related_items.append(f"<li>{item}</li>")
+    if not related_items:
+        related_items.append("<li>(No related entries yet.)</li>")
+
     sections = [
-        "<section>",
-        "<h2>Summary</h2>",
+        "<section id=\"summary\">",
+        "<h2>Overview</h2>",
         f"<p>{summary}</p>",
+        "</section>",
+        "<section id=\"timeline\">",
+        "<h2>Timeline</h2>",
+        "<ul>",
+        *timeline_items,
+        "</ul>",
+        "</section>",
+        "<section id=\"related\">",
+        "<h2>Related</h2>",
+        "<ul>",
+        *related_items,
+        "</ul>",
         "</section>",
     ]
     return "\n".join(sections)
 
 
 def build_toc_items():
-    return "<li><a href=\"#summary\">Summary</a></li>"
+    return "".join(
+        [
+            "<li><a href=\"#summary\">Overview</a></li>",
+            "<li><a href=\"#timeline\">Timeline</a></li>",
+            "<li><a href=\"#related\">Related</a></li>",
+        ]
+    )
 
 
 def render_entity(entry):
@@ -74,7 +111,7 @@ def main():
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     rows = conn.execute(
-        "SELECT id, title, summary, source, source_id FROM entries ORDER BY id LIMIT ?",
+        "SELECT id, title, summary, timeline, categories, related, source, source_id FROM entries ORDER BY id LIMIT ?",
         (LIMIT,),
     ).fetchall()
     conn.close()
@@ -85,6 +122,9 @@ def main():
         title = row["title"]
         entry = dict(row)
         entry["created_at"] = None
+        entry["timeline"] = json.loads(entry.get("timeline") or "[]")
+        entry["categories"] = json.loads(entry.get("categories") or "[]")
+        entry["related"] = json.loads(entry.get("related") or "[]")
         entity_html = render_entity(entry)
         full_page = render_page(title, entity_html)
 

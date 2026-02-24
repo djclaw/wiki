@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title data-i18n="site_title">Assistant confirmed that the GitHub Skill Bootstrap article’s subtitle was resto</title>
+    <title data-i18n="site_title">npm</title>
     <link rel="stylesheet" href="/wiki/style.css" />
   </head>
   <body>
@@ -18,10 +18,10 @@
         </nav>
       </header>
       <main class="content">
-        <article class="entity" data-title="Assistant confirmed that the GitHub Skill Bootstrap article’s subtitle was resto">
+        <article class="entity" data-title="npm">
   <header class="entity-header">
-    <h1>Assistant confirmed that the GitHub Skill Bootstrap article’s subtitle was resto</h1>
-    <p class="lead">[2026-02-22 16:13] Assistant confirmed that the GitHub Skill Bootstrap article’s subtitle was restored to its original text while other posts retain the mandated “my friend told me if i am sad to eat spicy food, then i am spicy and sad” quote, and noted the change was committed as chore: restore github bootstrap subtitle. The user then requested that the homepage line “小小情绪配方：sad + spicy ramen + shared giggles = warmer hearts.” be replaced with the same spicy-and-sad quote to maintain consistency.</p>
+    <h1>npm</h1>
+    <p class="lead">User explained that npm scripts use a hardcoded `#!/usr/bin/env node`, so when invoking `[REDACTED_PATH] the PATH must include `[REDACTED_PATH] They provided a command to prepend that directory to PATH before running `npm i -g @steipete/summarize` and asked whether this solution had been applied. / Assistant informed the user that [REDACTED_PATH] lacked summarize, implying npm install hadn’t run, and outlined the plan to set PATH before installing</p>
   </header>
 
   <div class="entity-body">
@@ -30,6 +30,7 @@
       <dl>
         <dt>Source</dt><dd>history</dd>
 <dt>Source ID</dt><dd>history_md</dd>
+<dt>Category</dt><dd>Tool</dd>
       </dl>
     </aside>
 
@@ -37,13 +38,43 @@
       <nav class="toc">
         <h2 data-i18n="toc_title">Contents</h2>
         <ol>
-          <li><a href="#summary">Summary</a></li>
+          <li><a href="#summary">Overview</a></li><li><a href="#timeline">Timeline</a></li><li><a href="#related">Related</a></li>
         </ol>
       </nav>
 
-      <section>
-<h2>Summary</h2>
-<p>[2026-02-22 16:13] Assistant confirmed that the GitHub Skill Bootstrap article’s subtitle was restored to its original text while other posts retain the mandated “my friend told me if i am sad to eat spicy food, then i am spicy and sad” quote, and noted the change was committed as chore: restore github bootstrap subtitle. The user then requested that the homepage line “小小情绪配方：sad + spicy ramen + shared giggles = warmer hearts.” be replaced with the same spicy-and-sad quote to maintain consistency.</p>
+      <section id="summary">
+<h2>Overview</h2>
+<p>User explained that npm scripts use a hardcoded `#!/usr/bin/env node`, so when invoking `[REDACTED_PATH] the PATH must include `[REDACTED_PATH] They provided a command to prepend that directory to PATH before running `npm i -g @steipete/summarize` and asked whether this solution had been applied. / Assistant informed the user that [REDACTED_PATH] lacked summarize, implying npm install hadn’t run, and outlined the plan to set PATH before installing</p>
+</section>
+<section id="timeline">
+<h2>Timeline</h2>
+<ul>
+<li>2026-02-22 15:46 — User explained that npm scripts use a hardcoded `#!/usr/bin/env node`, so when invoking `[REDACTED_PATH] the PATH must include `[REDACTED_PATH] They provided a command to prepend that directory to PATH before running `npm i -g @steipete/summarize` and asked whether this solution had been applied.</li>
+<li>2026-02-22 15:49 — Assistant informed the user that [REDACTED_PATH] lacked summarize, implying npm install hadn’t run, and outlined the plan to set PATH before installing</li>
+<li>2026-02-22 16:18 — Confirmed that the Spotify player was embedded at the bottom of the “spicy & sad 🌶” post and pushed via commit feat: embed spotify in spicy poem</li>
+<li>2026-02-22 16:30 — Assistant reported the summarize CLI installation still times out at 60 seconds and offered to retry with a different npm mirror or longer timeout</li>
+<li>2026-02-22 16:34 — Assistant reported switching npm registry to npmmirror, yet installing @steipete/summarize still times out after 60 seconds and suggested downloading the tarball for faster local installation</li>
+<li>2026-02-22 16:41 — The assistant reported that npm’s fetch-timeout is already configured at 180000 ms (180 seconds) and found no 60-second limit within npm’s settings, implying the earlier cutoff likely came from an external system constraint</li>
+<li>2026-02-22 16:44 — The assistant explained that npm’s own timeout isn’t the issue; instead, a 60-second system limit terminates long commands, so it suggested splitting summarize CLI installation into `npm pack` to download the tarball followed by `npm install -g summarize-*.tgz`, or other offline/hand-deploy options</li>
+<li>2026-02-22 16:44 — Reconfirmed the prior npm install limitation: the assistant completed `npm pack @steipete/summarize`, downloading steipete-summarize-0.11.1.tgz to [REDACTED_PATH] but `npm install -g` still fails due to a 60-second command cap rather than npm timeout</li>
+<li>2026-02-22 17:01 — Assistant reported creating and pushing the post posts-2026-summarize-on-armv7.html summarizing the summarize CLI installation journey on the user’s 32-bit ARMv7 host, including failed npm installs, registry switches, manual deployment steps, PATH configuration, and a sample summarize command; the user then asked whether apply_patch was used for those modifications.</li>
+<li>2026-02-22 18:09 — Assistant reported rolling summarize back to version 0.7.1, the first release without any node:sqlite dependency, and recommended reinstalling it (e.g., npm install -g @steipete/summarize@0.7.1) to restore CLI functionality under Node 22.4.1 armv7</li>
+</ul>
+</section>
+<section id="related">
+<h2>Related</h2>
+<ul>
+<li>summarize</li>
+<li>Node.js</li>
+<li>Assistant</li>
+<li>assistant</li>
+<li>Tavily</li>
+<li>user</li>
+<li>SQLite</li>
+<li>Gemini</li>
+<li>Codex</li>
+<li>nanobot</li>
+</ul>
 </section>
 
       <section class="entity-related">
@@ -61,7 +92,7 @@
 
       </main>
       <footer class="site-footer">
-        <span data-i18n="footer_updated_label">Last updated</span>: 2026-02-24 16:16
+        <span data-i18n="footer_updated_label">Last updated</span>: 2026-02-24 16:32
       </footer>
     </div>
     <script src="/wiki/ui.js"></script>

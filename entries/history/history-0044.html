@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title data-i18n="site_title">Confirmed that the Spotify player was embedded at the bottom of the “spicy & sad</title>
+    <title data-i18n="site_title">Node.js</title>
     <link rel="stylesheet" href="/wiki/style.css" />
   </head>
   <body>
@@ -18,10 +18,10 @@
         </nav>
       </header>
       <main class="content">
-        <article class="entity" data-title="Confirmed that the Spotify player was embedded at the bottom of the “spicy & sad">
+        <article class="entity" data-title="Node.js">
   <header class="entity-header">
-    <h1>Confirmed that the Spotify player was embedded at the bottom of the “spicy & sad</h1>
-    <p class="lead">[2026-02-22 16:18] Confirmed that the Spotify player was embedded at the bottom of the “spicy & sad 🌶” post and pushed via commit feat: embed spotify in spicy poem. The user reported that two attempts to install the summarize CLI both timed out at 60 seconds, likely due to slow npm registry access, and asked whether to retry with a longer timeout or mirror.</p>
+    <h1>Node.js</h1>
+    <p class="lead">User explained that npm scripts use a hardcoded `#!/usr/bin/env node`, so when invoking `[REDACTED_PATH] the PATH must include `[REDACTED_PATH] They provided a command to prepend that directory to PATH before running `npm i -g @steipete/summarize` and asked whether this solution had been applied. / The assistant explained that the summarize CLI failures were due to Node requiring the experimental built-in sqlite module and provided an example command that sets PATH and NODE_OPTIONS=--experimental-sqlite before running summarize</p>
   </header>
 
   <div class="entity-body">
@@ -30,6 +30,7 @@
       <dl>
         <dt>Source</dt><dd>history</dd>
 <dt>Source ID</dt><dd>history_md</dd>
+<dt>Category</dt><dd>Project</dd>
       </dl>
     </aside>
 
@@ -37,13 +38,43 @@
       <nav class="toc">
         <h2 data-i18n="toc_title">Contents</h2>
         <ol>
-          <li><a href="#summary">Summary</a></li>
+          <li><a href="#summary">Overview</a></li><li><a href="#timeline">Timeline</a></li><li><a href="#related">Related</a></li>
         </ol>
       </nav>
 
-      <section>
-<h2>Summary</h2>
-<p>[2026-02-22 16:18] Confirmed that the Spotify player was embedded at the bottom of the “spicy & sad 🌶” post and pushed via commit feat: embed spotify in spicy poem. The user reported that two attempts to install the summarize CLI both timed out at 60 seconds, likely due to slow npm registry access, and asked whether to retry with a longer timeout or mirror.</p>
+      <section id="summary">
+<h2>Overview</h2>
+<p>User explained that npm scripts use a hardcoded `#!/usr/bin/env node`, so when invoking `[REDACTED_PATH] the PATH must include `[REDACTED_PATH] They provided a command to prepend that directory to PATH before running `npm i -g @steipete/summarize` and asked whether this solution had been applied. / The assistant explained that the summarize CLI failures were due to Node requiring the experimental built-in sqlite module and provided an example command that sets PATH and NODE_OPTIONS=--experimental-sqlite before running summarize</p>
+</section>
+<section id="timeline">
+<h2>Timeline</h2>
+<ul>
+<li>2026-02-22 15:46 — User explained that npm scripts use a hardcoded `#!/usr/bin/env node`, so when invoking `[REDACTED_PATH] the PATH must include `[REDACTED_PATH] They provided a command to prepend that directory to PATH before running `npm i -g @steipete/summarize` and asked whether this solution had been applied.</li>
+<li>2026-02-22 17:24 — The assistant explained that the summarize CLI failures were due to Node requiring the experimental built-in sqlite module and provided an example command that sets PATH and NODE_OPTIONS=--experimental-sqlite before running summarize</li>
+<li>2026-02-22 17:28 — Reviewed summarize CLI capabilities and usage on the user’s Node 22 environment</li>
+<li>2026-02-22 17:28 — Confirmed PATH and NODE_OPTIONS exports were already present in ~/.bashrc and replicated them in ~/.profile, but a test summarize run still failed because Node 22 rejects --experimental-sqlite in NODE_OPTIONS</li>
+<li>2026-02-22 17:31 — Assistant reported that the summarize CLI fails because [REDACTED_PATH] rejects the required --experimental-sqlite flag, outlining options (skip sqlite requirement, find compatible Node, or patch summarize)</li>
+<li>2026-02-22 17:56 — Assistant explained that attempting to run the summarize CLI under Node 22 (armv7) crashes because the built-in module node:sqlite is unavailable, and suggested either switching to a Node build that includes sqlite or removing the dependency</li>
+<li>2026-02-22 17:59 — User instructed the assistant to completely uninstall the malfunctioning summarize CLI, investigate whether the Node installation needs to be upgraded to a version suitable for their device, perform any necessary upgrade, then reinstall the summarize CLI and restore the summarize skill to working order.</li>
+<li>2026-02-22 18:00 — The assistant confirmed that the previously installed summarize CLI was removed and the current armv7 Node v22.4.1 build lacks the experimental node:sqlite module</li>
+<li>2026-02-22 18:04 — User suggested downgrading Node.js to a version released before SQLite integration was required, as an alternative to compiling or hunting for a community build</li>
+<li>2026-02-22 18:05 — User confirmed they want to downgrade to the most recent Node version whose summarize CLI doesn’t require sqlite, ensuring compatibility with their machine</li>
+</ul>
+</section>
+<section id="related">
+<h2>Related</h2>
+<ul>
+<li>summarize</li>
+<li>SQLite</li>
+<li>npm</li>
+<li>Tavily</li>
+<li>Assistant</li>
+<li>GitHub</li>
+<li>or</li>
+<li>I</li>
+<li>Codex</li>
+<li>assistant</li>
+</ul>
 </section>
 
       <section class="entity-related">
@@ -61,7 +92,7 @@
 
       </main>
       <footer class="site-footer">
-        <span data-i18n="footer_updated_label">Last updated</span>: 2026-02-24 16:16
+        <span data-i18n="footer_updated_label">Last updated</span>: 2026-02-24 16:32
       </footer>
     </div>
     <script src="/wiki/ui.js"></script>

@@ -18,6 +18,7 @@ def ensure_schema(conn: sqlite3.Connection):
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             title TEXT NOT NULL,
             summary TEXT,
+            timeline TEXT,
             tags TEXT,
             categories TEXT,
             aliases TEXT,
@@ -46,16 +47,17 @@ def main():
     for it in items:
         conn.execute(
             """
-            INSERT INTO entries (title, summary, tags, categories, aliases, related, source, source_id)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            INSERT INTO entries (title, summary, timeline, tags, categories, aliases, related, source, source_id)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 it.get("title"),
                 it.get("summary"),
-                it.get("tags"),
-                it.get("categories"),
-                it.get("aliases"),
-                it.get("related"),
+                json.dumps(it.get("timeline") or [], ensure_ascii=False),
+                json.dumps(it.get("tags") or [], ensure_ascii=False),
+                json.dumps(it.get("categories") or [], ensure_ascii=False),
+                json.dumps(it.get("aliases") or [], ensure_ascii=False),
+                json.dumps(it.get("related") or [], ensure_ascii=False),
                 it.get("source"),
                 it.get("source_id"),
             ),
