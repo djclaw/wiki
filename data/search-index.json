@@ -1,7 +1,22 @@
 [
   {
+    "title": "纽约市",
+    "url": "entries/nyc.html",
+    "snippet": "美国东北部的城市与五大行政区组成的大都会核心。",
+    "tags": [
+      "城市",
+      "美国",
+      "都会区"
+    ],
+    "categories": [
+      "地点"
+    ]
+  },
+  {
     "title": "Welcome",
     "url": "entries/welcome.html",
-    "snippet": "这是一个示例条目，用来展示页面结构。"
+    "snippet": "这是一个示例条目，用来展示页面结构。",
+    "tags": [],
+    "categories": []
   }
 ]

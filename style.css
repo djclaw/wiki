@@ -124,14 +124,17 @@ h1 {
 
 .infobox {
   background: #f8f9fa;
-  border: 1px solid var(--border);
-  padding: 12px;
-  font-size: 14px;
+  border: 1px solid #a2a9b1;
+  padding: 10px 12px;
+  font-size: 13px;
+  line-height: 1.4;
 }
 
 .infobox h2 {
-  margin: 0 0 8px;
-  font-size: 16px;
+  margin: 0 0 6px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .infobox dl {
@@ -140,24 +143,26 @@ h1 {
 
 .infobox dt {
   font-weight: bold;
-  margin-top: 8px;
+  margin-top: 6px;
 }
 
 .infobox dd {
-  margin: 4px 0 0;
+  margin: 2px 0 0;
 }
 
 .toc {
-  border: 1px solid var(--soft);
+  border: 1px solid #a2a9b1;
   background: #f8f9fa;
-  padding: 12px 16px;
+  padding: 10px 12px;
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .toc h2 {
-  margin: 0 0 8px;
-  font-size: 16px;
+  margin: 0 0 6px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
 }
 
 .toc ol {

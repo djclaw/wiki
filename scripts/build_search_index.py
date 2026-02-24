@@ -17,8 +17,16 @@ class EntryParser(HTMLParser):
         self.title = None
         self.first_p = None
         self._buf = []
+        self.tags = []
+        self.categories = []
 
     def handle_starttag(self, tag, attrs):
+        attrs_dict = dict(attrs)
+        if tag == "article" and attrs_dict.get("class") == "entity":
+            tags_raw = attrs_dict.get("data-tags", "")
+            categories_raw = attrs_dict.get("data-categories", "")
+            self.tags = [t.strip() for t in tags_raw.split(",") if t.strip()]
+            self.categories = [c.strip() for c in categories_raw.split(",") if c.strip()]
         if tag == "h1":
             self.in_h1 = True
             self._buf = []
@@ -61,6 +69,8 @@ def parse_entry(path: Path):
         "title": title,
         "url": f"entries/{path.name}",
         "snippet": snippet or "",
+        "tags": parser.tags,
+        "categories": parser.categories,
     }
 
 
