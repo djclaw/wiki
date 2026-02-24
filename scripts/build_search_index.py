@@ -19,14 +19,28 @@ class EntryParser(HTMLParser):
         self._buf = []
         self.tags = []
         self.categories = []
+        self.aliases = []
+        self.related = []
+        self.coordinates = None
 
     def handle_starttag(self, tag, attrs):
         attrs_dict = dict(attrs)
         if tag == "article" and attrs_dict.get("class") == "entity":
             tags_raw = attrs_dict.get("data-tags", "")
             categories_raw = attrs_dict.get("data-categories", "")
+            aliases_raw = attrs_dict.get("data-aliases", "")
+            related_raw = attrs_dict.get("data-related", "")
+            lat_raw = attrs_dict.get("data-lat")
+            lon_raw = attrs_dict.get("data-lon")
             self.tags = [t.strip() for t in tags_raw.split(",") if t.strip()]
             self.categories = [c.strip() for c in categories_raw.split(",") if c.strip()]
+            self.aliases = [a.strip() for a in aliases_raw.split(",") if a.strip()]
+            self.related = [r.strip() for r in related_raw.split(",") if r.strip()]
+            if lat_raw and lon_raw:
+                try:
+                    self.coordinates = {"lat": float(lat_raw), "lon": float(lon_raw)}
+                except ValueError:
+                    self.coordinates = None
         if tag == "h1":
             self.in_h1 = True
             self._buf = []
@@ -71,6 +85,9 @@ def parse_entry(path: Path):
         "snippet": snippet or "",
         "tags": parser.tags,
         "categories": parser.categories,
+        "aliases": parser.aliases,
+        "related": parser.related,
+        "coordinates": parser.coordinates,
     }
 
 

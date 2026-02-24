@@ -10,7 +10,19 @@
     ],
     "categories": [
       "Place"
-    ]
+    ],
+    "aliases": [
+      "JC"
+    ],
+    "related": [
+      "PATH",
+      "Newark",
+      "Manhattan"
+    ],
+    "coordinates": {
+      "lat": 40.7178,
+      "lon": -74.0431
+    }
   },
   {
     "title": "纽约市",
@@ -23,7 +35,22 @@
     ],
     "categories": [
       "地点"
-    ]
+    ],
+    "aliases": [
+      "NYC",
+      "New York City"
+    ],
+    "related": [
+      "曼哈顿",
+      "布鲁克林",
+      "皇后区",
+      "布朗克斯",
+      "史泰登岛"
+    ],
+    "coordinates": {
+      "lat": 40.7128,
+      "lon": -74.006
+    }
   },
   {
     "title": "New York University (NYU)",
@@ -36,7 +63,20 @@
     ],
     "categories": [
       "Organization"
-    ]
+    ],
+    "aliases": [
+      "NYU"
+    ],
+    "related": [
+      "Washington Square Park",
+      "Tisch",
+      "Stern",
+      "Tandon"
+    ],
+    "coordinates": {
+      "lat": 40.7295,
+      "lon": -73.9965
+    }
   },
   {
     "title": "PATH",
@@ -50,13 +90,28 @@
     ],
     "categories": [
       "Transportation"
-    ]
+    ],
+    "aliases": [
+      "Port Authority Trans-Hudson"
+    ],
+    "related": [
+      "Jersey City",
+      "Newark",
+      "World Trade Center"
+    ],
+    "coordinates": {
+      "lat": 40.7116,
+      "lon": -74.0119
+    }
   },
   {
     "title": "Welcome",
     "url": "entries/welcome.html",
     "snippet": "这是一个示例条目，用来展示页面结构。",
     "tags": [],
-    "categories": []
+    "categories": [],
+    "aliases": [],
+    "related": [],
+    "coordinates": null
   }
 ]
