@@ -21,7 +21,7 @@
         <article class="entity" data-title="Gemini">
   <header class="entity-header">
     <h1>Gemini</h1>
-    <p class="lead">Assistant explained that summarize’s `--cli codex` mode depends on an external Codex CLI binary, which isn’t available via npm and must already exist in PATH for summarize to use it / Provided a summarize CLI config template using google/gemini-1.5-pro and explained how to store the Gemini API key either in the JSON file or via the [REDACTED] variable, along with the command to run summarize through Gemini</p>
+    <p class="lead">Wiki extraction PoC moved from design into implementation / Wiki extraction PoC work continued</p>
   </header>
 
   <div class="entity-body">
@@ -47,35 +47,29 @@
 
       <section id="summary">
 <h2>Overview</h2>
-<p>Assistant explained that summarize’s `--cli codex` mode depends on an external Codex CLI binary, which isn’t available via npm and must already exist in PATH for summarize to use it / Provided a summarize CLI config template using google/gemini-1.5-pro and explained how to store the Gemini API key either in the JSON file or via the [REDACTED] variable, along with the command to run summarize through Gemini</p>
+<p>Wiki extraction PoC moved from design into implementation / Wiki extraction PoC work continued</p>
 </section>
 <section id="timeline">
 <h2>Timeline</h2>
 <ul>
-<li><strong>2026-02-22 19:15</strong> — 2026-02-22 19:15 — Assistant reported that the Gemma 3 27B backup model’s CLI invocation fails because the environment lacks [REDACTED] a credential required for Gemini/Gemma models, preventing the summarize task; user questioned why the assistant could run earlier but not now.</li>
-<li><strong>2026-02-22 19:13</strong> — 2026-02-22 19:13 — Assistant reported that the current Gemini API key is invalid, preventing access to the gemini-3-flash-preview model, and the user requested trying another model to continue the work toward the skill tests and guide write-up.</li>
-<li><strong>2026-02-22 19:12</strong> — 2026-02-22 19:12 — Assistant reported the summarize CLI failed because the [REDACTED] caused Google to reject the Gemini request, and the user confirmed they saved the key in their .bashrc file to fix the issue</li>
-<li><strong>2026-02-22 19:03</strong> — 2026-02-22 19:03 — Assistant confirmed summarize CLI config now defaults to google/gemini-3-flash-preview (medium length) with backup models gemini-2.5-flash, gemini-2.5-flash-lite, and gemma-3-27b-it, and noted CLI version rolled back to 0.7.1 with summarize skill ready if models/API key set</li>
-<li><strong>2026-02-22 19:03</strong> — 2026-02-22 19:03 — After the assistant reported switching summarize defaults to Gemma-3-27b-it with short length, the user clarified that the defaults should remain google/gemini-3-flash-preview with medium-length summaries and reiterated that the codex CLI integration stays enabled</li>
-<li><strong>2026-02-22 18:57</strong> — 2026-02-22 18:57 — Reviewed ~/.summarize/config.json and confirmed summarize now defaults to google/gemini-3-flash-preview with auto language and medium length options, plus backup aliases for gemini-2.5-flash, gemini-2.5-flash-lite, and gemma-3-27b-it while the CLI codex integration is enabled</li>
-<li><strong>2026-02-22 18:53</strong> — 2026-02-22 18:53 — Discussed how summarize supports multiple model profiles via ~/.summarize/config.json; assistant gave a sample config with Gemini as default and GPT-4o as backup, including API key notes and CLI switching tips</li>
-<li><strong>2026-02-22 18:38</strong> — 2026-02-22 18:38 — Assistant explained that summarize reads configuration solely from ~/.summarize/config.json (JSON/JSON5) and provided example configs for setting the model to google/gemini-1.5-pro</li>
-<li><strong>2026-02-22 18:37</strong> — 2026-02-22 18:37 — Provided a summarize CLI config template using google/gemini-1.5-pro and explained how to store the Gemini API key either in the JSON file or via the [REDACTED] variable, along with the command to run summarize through Gemini</li>
-<li><strong>2026-02-22 18:31</strong> — 2026-02-22 18:31 — Assistant explained that summarize’s `--cli codex` mode depends on an external Codex CLI binary, which isn’t available via npm and must already exist in PATH for summarize to use it</li>
+<li><strong>2026-03-26 00:03</strong> — 2026-03-26 00:03 — Wiki extraction PoC provider/model work advanced and the user selected Groq as the main extraction provider</li>
+<li><strong>2026-03-25 23:22</strong> — 2026-03-25 23:22 — Wiki extraction PoC work continued</li>
+<li><strong>2026-03-25 23:13</strong> — 2026-03-25 23:13 — Wiki extraction PoC moved from design into implementation</li>
 </ul>
 </section>
 <section id="related-manual">
 <h2>Related</h2>
 <ul>
-<li><a href="/wiki/entries/history/assistant.html">Assistant</a> <span class="muted">(related_to)</span></li>
-<li><a href="/wiki/entries/history/claude.html">Claude</a> <span class="muted">(related_to)</span></li>
-<li><a href="/wiki/entries/history/codex.html">Codex</a> <span class="muted">(related_to)</span></li>
-<li><a href="/wiki/entries/history/gemma.html">Gemma</a> <span class="muted">(related_to)</span></li>
+<li><a href="/wiki/entries/history/djclaw.html">DJClaw</a> <span class="muted">(related_to)</span></li>
+<li><a href="/wiki/entries/history/git.html">Git</a> <span class="muted">(related_to)</span></li>
 <li><a href="/wiki/entries/history/github.html">GitHub</a> <span class="muted">(related_to)</span></li>
-<li><a href="/wiki/entries/history/npm.html">npm</a> <span class="muted">(related_to)</span></li>
-<li><a href="/wiki/entries/history/outstanding.html">outstanding</a> <span class="muted">(related_to)</span></li>
-<li><a href="/wiki/entries/history/potential.html">potential</a> <span class="muted">(related_to)</span></li>
-<li><a href="/wiki/entries/history/summarize.html">summarize</a> <span class="muted">(related_to)</span></li>
+<li><a href="/wiki/entries/history/groq.html">Groq</a> <span class="muted">(related_to)</span></li>
+<li><a href="/wiki/entries/history/logseq.html">Logseq</a> <span class="muted">(related_to)</span></li>
+<li><a href="/wiki/entries/history/openai.html">OpenAI</a> <span class="muted">(related_to)</span></li>
+<li><a href="/wiki/entries/history/gemini-25-pro.html">gemini-2.5-pro</a> <span class="muted">(related_to)</span></li>
+<li><a href="/wiki/entries/history/nanobot.html">nanobot</a> <span class="muted">(related_to)</span></li>
+<li><a href="/wiki/entries/history/wikidocsextraction-poc-planmd.html">wiki/docs/EXTRACTION-POC-PLAN.md</a> <span class="muted">(related_to)</span></li>
+<li><a href="/wiki/entries/history/wikiscriptsextractionpocpy.html">wiki/scripts/extraction_poc.py</a> <span class="muted">(related_to)</span></li>
 </ul>
 </section>
 
@@ -94,7 +88,7 @@
 
       </main>
       <footer class="site-footer">
-        <span data-i18n="footer_updated_label">Last updated</span>: 2026-03-25 21:24
+        <span data-i18n="footer_updated_label">Last updated</span>: 2026-03-26 00:12
       </footer>
     </div>
     <script src="/wiki/ui.js"></script>

@@ -21,7 +21,7 @@
         <article class="entity" data-title="SQLite">
   <header class="entity-header">
     <h1>SQLite</h1>
-    <p class="lead">The assistant explained that the summarize CLI failures were due to Node requiring the experimental built-in sqlite module and provided an example command that sets PATH and NODE_OPTIONS=--experimental-sqlite before running summarize / Reviewed summarize CLI capabilities and usage on the user’s Node 22 environment</p>
+    <p class="lead">User approved doing A then B for the wiki overhaul</p>
   </header>
 
   <div class="entity-body">
@@ -47,36 +47,24 @@
 
       <section id="summary">
 <h2>Overview</h2>
-<p>The assistant explained that the summarize CLI failures were due to Node requiring the experimental built-in sqlite module and provided an example command that sets PATH and NODE_OPTIONS=--experimental-sqlite before running summarize / Reviewed summarize CLI capabilities and usage on the user’s Node 22 environment</p>
+<p>User approved doing A then B for the wiki overhaul</p>
 </section>
 <section id="timeline">
 <h2>Timeline</h2>
 <ul>
-<li><strong>2026-02-22 18:05</strong> — 2026-02-22 18:05 — Assistant confirmed that summarize release 0.11.1 still requires node:sqlite, plans to test earlier releases to find the newest version without that dependency, then downgrade Node accordingly; user acknowledged the plan.</li>
-<li><strong>2026-02-22 18:05</strong> — 2026-02-22 18:05 — User confirmed they want to downgrade to the most recent Node version whose summarize CLI doesn’t require sqlite, ensuring compatibility with their machine</li>
-<li><strong>2026-02-22 18:04</strong> — 2026-02-22 18:04 — User suggested downgrading Node.js to a version released before SQLite integration was required, as an alternative to compiling or hunting for a community build</li>
-<li><strong>2026-02-22 18:00</strong> — 2026-02-22 18:00 — The assistant confirmed that the previously installed summarize CLI was removed and the current armv7 Node v22.4.1 build lacks the experimental node:sqlite module</li>
-<li><strong>2026-02-22 17:56</strong> — 2026-02-22 17:56 — Assistant explained that attempting to run the summarize CLI under Node 22 (armv7) crashes because the built-in module node:sqlite is unavailable, and suggested either switching to a Node build that includes sqlite or removing the dependency</li>
-<li><strong>2026-02-22 17:31</strong> — 2026-02-22 17:31 — Assistant reported that the summarize CLI fails because [REDACTED_PATH] rejects the required --experimental-sqlite flag, outlining options (skip sqlite requirement, find compatible Node, or patch summarize)</li>
-<li><strong>2026-02-22 17:30</strong> — 2026-02-22 17:30 — Assistant reported swapping the summarize CLI script for a wrapper that runs [REDACTED_PATH] with --experimental-sqlite, allowing the summarize command to succeed without NODE_OPTIONS errors</li>
-<li><strong>2026-02-22 17:28</strong> — 2026-02-22 17:28 — Confirmed PATH and NODE_OPTIONS exports were already present in ~/.bashrc and replicated them in ~/.profile, but a test summarize run still failed because Node 22 rejects --experimental-sqlite in NODE_OPTIONS</li>
-<li><strong>2026-02-22 17:28</strong> — 2026-02-22 17:28 — Reviewed summarize CLI capabilities and usage on the user’s Node 22 environment</li>
-<li><strong>2026-02-22 17:24</strong> — 2026-02-22 17:24 — The assistant explained that the summarize CLI failures were due to Node requiring the experimental built-in sqlite module and provided an example command that sets PATH and NODE_OPTIONS=--experimental-sqlite before running summarize</li>
+<li><strong>2026-03-25 21:20</strong> — 2026-03-25 21:20 — User approved doing A then B for the wiki overhaul</li>
 </ul>
 </section>
 <section id="related-manual">
 <h2>Related</h2>
 <ul>
-<li><a href="/wiki/entries/history/assistant.html">Assistant</a> <span class="muted">(related_to)</span></li>
-<li><a href="/wiki/entries/history/github.html">GitHub</a> <span class="muted">(related_to)</span></li>
-<li><a href="/wiki/entries/history/nodejs.html">Node.js</a> <span class="muted">(related_to)</span></li>
-<li><a href="/wiki/entries/history/entries.html">entries</a> <span class="muted">(related_to)</span></li>
-<li><a href="/wiki/entries/history/graph.html">graph</a> <span class="muted">(related_to)</span></li>
-<li><a href="/wiki/entries/history/history.html">history</a> <span class="muted">(related_to)</span></li>
-<li><a href="/wiki/entries/history/npm.html">npm</a> <span class="muted">(related_to)</span></li>
-<li><a href="/wiki/entries/history/personal.html">personal</a> <span class="muted">(related_to)</span></li>
-<li><a href="/wiki/entries/history/static.html">static</a> <span class="muted">(related_to)</span></li>
-<li><a href="/wiki/entries/history/summarize.html">summarize</a> <span class="muted">(related_to)</span></li>
+<li><a href="/wiki/entries/history/528314a.html">528314a</a> <span class="muted">(related_to)</span></li>
+<li><a href="/wiki/entries/history/logseq.html">Logseq</a> <span class="muted">(related_to)</span></li>
+<li><a href="/wiki/entries/history/refine.html">Refine</a> <span class="muted">(related_to)</span></li>
+<li><a href="/wiki/entries/history/dd3722f.html">dd3722f</a> <span class="muted">(related_to)</span></li>
+<li><a href="/wiki/entries/history/pushed.html">pushed</a> <span class="muted">(related_to)</span></li>
+<li><a href="/wiki/entries/history/wikidocsarchitecturemd.html">wiki/docs/ARCHITECTURE.md</a> <span class="muted">(related_to)</span></li>
+<li><a href="/wiki/entries/history/wikidocsminimal-schemamd.html">wiki/docs/MINIMAL-SCHEMA.md</a> <span class="muted">(related_to)</span></li>
 </ul>
 </section>
 
@@ -95,7 +83,7 @@
 
       </main>
       <footer class="site-footer">
-        <span data-i18n="footer_updated_label">Last updated</span>: 2026-03-25 21:24
+        <span data-i18n="footer_updated_label">Last updated</span>: 2026-03-26 00:12
       </footer>
     </div>
     <script src="/wiki/ui.js"></script>
