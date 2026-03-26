@@ -283,17 +283,23 @@ def _normalize_label(label: str, node_type: str) -> str:
     s = (label or '').strip().strip('`').strip()
     s = re.sub(r'\s+', ' ', s)
     s = s.strip(' .,:;[](){}<>"\'')
+    s = re.sub(r'^[#\-–—•]+\s*', '', s)
+    s = re.sub(r'\s+[|/]+\s+', ' / ', s)
     low = s.lower()
     mapping = {
         'djclaw article': '',
         'djclaw post': 'DJClaw',
         'djclaw posts': 'DJClaw',
+        'dj claw': 'DJClaw',
         'github project': 'GitHub Projects',
         'github projects': 'GitHub Projects',
         'github pages': 'GitHub Pages',
         'github page': 'GitHub Pages',
         'github repo': 'GitHub',
         'github repository': 'GitHub',
+        'github project board': 'GitHub Projects',
+        'github issue': 'GitHub Issues',
+        'github issues': 'GitHub Issues',
         'djclaw github io': 'DJClaw',
         'djclaw.github.io': 'DJClaw',
         'djclaw site': 'DJClaw',
@@ -303,21 +309,32 @@ def _normalize_label(label: str, node_type: str) -> str:
         'trips project': 'trips',
         'trip project': 'trips',
         'new orleans trip page': 'New Orleans',
+        'new orleans page': 'New Orleans',
         'wiki kernel': 'wiki kernel',
         'personal wiki': 'wiki',
         'wiki project': 'wiki',
+        'wiki repo': 'wiki',
+        'djclaw/wiki': 'wiki',
+        'djclaw wiki': 'wiki',
         'logseq-like framework': 'Logseq',
         'logseq inspired wiki kernel': 'wiki kernel',
         'history.md': 'HISTORY.md',
         'history md': 'HISTORY.md',
-        'github issues': 'GitHub Issues',
-        'github issue': 'GitHub Issues',
-        'github project board': 'GitHub Projects',
-        'djclaw/wiki': 'wiki',
-        'djclaw wiki': 'wiki',
-        'wiki repo': 'wiki',
-        'wiki readme': '',
         'readme': '',
+        'wiki readme': '',
+        'local wiki pipeline': 'wiki',
+        'local wiki': 'wiki',
+        'open street map': 'OpenStreetMap',
+        'osm': 'OpenStreetMap',
+        'gh': 'GitHub',
+        'gpt 4o mini': 'gpt-4o-mini',
+        'gpt-4o mini': 'gpt-4o-mini',
+        'llama 3.3 70b versatile': 'llama-3.3-70b-versatile',
+        'llama-3.3 70b versatile': 'llama-3.3-70b-versatile',
+        'kimi k2 instruct': 'kimi-k2-instruct',
+        'moonshot kimi k2 instruct': 'kimi-k2-instruct',
+        'gemini 2.5 flash': 'gemini-2.5-flash',
+        'gemini 2.5 pro': 'gemini-2.5-pro',
         'extraction pipeline': '',
         'wiki extraction': '',
         'structured extraction': '',
@@ -325,8 +342,6 @@ def _normalize_label(label: str, node_type: str) -> str:
         'recent history sample': '',
         'structured candidates': '',
         'history sample': '',
-        'local wiki pipeline': 'wiki',
-        'local wiki': 'wiki',
     }
     if low in mapping:
         return mapping[low]
@@ -364,20 +379,60 @@ def _keep_node(label: str, node_type: str) -> bool:
     low = s.lower()
     if not s:
         return False
-    if low in {'user', 'assistant', 'article', 'post', 'file', 'page', 'repo', 'script', 'project', 'tool', 'doc', 'mvp1', 'mvp2', 'pages mvp2', 'entry', 'history entry', 'personal history entry', 'markdown file', 'website', 'blog', 'platform', 'system', 'workflow', 'process', 'content', 'note', 'notes', 'planning', 'implementation', 'architecture', 'pipeline', 'extraction pipeline', 'structured extraction', 'extraction poc', 'history sample', 'recent history sample', 'structured candidates', 'readme', 'wiki readme'}:
+
+    hard_block = {
+        'user', 'assistant', 'article', 'post', 'file', 'page', 'repo', 'script', 'project', 'tool', 'doc',
+        'entry', 'history entry', 'personal history entry', 'markdown file', 'website', 'blog', 'platform',
+        'system', 'process', 'content', 'readme', 'wiki readme', 'history sample', 'recent history sample',
+        'structured candidates', 'structured extraction', 'extraction poc', 'extraction pipeline'
+    }
+    if low in hard_block:
         return False
+
     if low.startswith('post ') and low[5:].isdigit():
         return False
     if re.fullmatch(r'[0-9a-f]{7,40}', low):
+        return False
+    if re.fullmatch(r'v?\d+(?:\.\d+){0,3}', low):
         return False
     if s.endswith('.html') or s.endswith('.md') or s.endswith('.json'):
         return False
     if s.startswith('/') and node_type in {'doc', 'other'}:
         return False
-    if node_type in {'topic', 'other'} and len(s.split()) <= 2 and low in {'update', 'task', 'tasks', 'status', 'plan', 'note', 'notes', 'design', 'feature'}:
+    if re.search(r'/home/|\.py$|\.sh$|\.js$', s):
         return False
-    if node_type in {'topic', 'other'} and re.fullmatch(r'(current|latest|recent|future|past|next|more|less)', low):
+    if re.fullmatch(r'djclaw post \d+', low):
         return False
+    if re.fullmatch(r'[A-Z0-9_]{6,}', s):
+        return False
+    if low.endswith('-notes') or low.endswith('_notes') or low.endswith(' notes'):
+        return False
+
+    weak_abstract = {
+        'update', 'status', 'plan', 'note', 'notes', 'design', 'feature', 'comparison', 'listing',
+        'confirmed', 'explained', 'explainer', 'refine', 'personal', 'current', 'latest', 'recent',
+        'future', 'past', 'next', 'more', 'less', 'implementation', 'planning'
+    }
+    if node_type in {'topic', 'other'} and low in weak_abstract:
+        return False
+
+    if node_type in {'topic', 'other'} and len(s.split()) <= 2 and low in {'task', 'tasks'}:
+        return False
+
+    protected = {
+        'wiki', 'wiki kernel', 'DJClaw', 'GitHub', 'GitHub Pages', 'GitHub Projects', 'GitHub Issues',
+        'Logseq', 'SeqLog', 'OpenStreetMap', 'Leaflet', 'Airbnb', 'New Orleans', 'trips', 'HISTORY.md',
+        'gemini-2.5-flash', 'gemini-2.5-pro', 'llama-3.3-70b-versatile', 'kimi-k2-instruct', 'gpt-4o-mini'
+    }
+    if s in protected:
+        return True
+
+    if node_type in {'topic', 'other'}:
+        if len(s) <= 2:
+            return False
+        if len(s.split()) == 1 and low.isalpha() and low in weak_abstract:
+            return False
+
     return True
 
 

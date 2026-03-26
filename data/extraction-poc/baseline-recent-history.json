@@ -136,43 +136,87 @@
         "kernel",
         "wiki"
       ]
+    },
+    {
+      "timestamp": "2026-03-25T23:13",
+      "text": "[2026-03-25 23:13] Wiki extraction PoC moved from design into implementation. User approved using recent 1-week HISTORY samples and current models; assistant created `wiki/docs/EXTRACTION-POC-PLAN.md` and `wiki/scripts/extraction_poc.py`, confirmed recent 7-day sample size (~12–13 entries), verified Gemini HTTP access with `GEMINI_API_KEY`, integrated Gemini 2.5 Flash via direct HTTP (no SDK/pydantic), and produced `wiki/data/extraction-poc/structured-candidates.json`. First Gemini run was too noisy (236 nodes / 247 relations / 60 events across 12 entries), then prompt tightening + local post-processing reduced output to 36 nodes / 24 relations / 16 events across 13 entries with 5 parse errors remaining. User then instructed assistant to do A/B/C in parallel: fix parse errors, add normalization, write a baseline comparison note, and also test Groq with the most advanced available model if possible.",
+      "entities": [
+        "Gemini",
+        "Groq",
+        "wiki"
+      ]
+    },
+    {
+      "timestamp": "2026-03-25T23:22",
+      "text": "[2026-03-25 23:22] Wiki extraction PoC work continued. User asked to do A/B/C together: fix remaining parse errors, add normalization, and write a baseline comparison note, while preferring Gemini or Groq and asking to use the most advanced available model. Assistant edited `wiki/scripts/extraction_poc.py` multiple times, first switching to Gemini Pro priority with 429 retry and stronger normalization, then discovered `gemini-2.5-pro` was unusable on the current free tier (13/13 requests hit HTTP 429 quota errors), so reverted default back to `gemini-2.5-flash`. A new comparison script `wiki/scripts/baseline_recent_history_compare.py` and note `wiki/docs/EXTRACTION-COMPARISON-NOTES.md` were created; baseline recent-window output showed top entities like DJClaw, Git, GitHub, Logseq, trips, wiki, and New Orleans, while Flash PoC only partially succeeded because quota remained the main bottleneck. Assistant concluded the real issue is provider quota rather than parser logic, recommended adding resume/skip-completed plus slow batch execution next, and then investigated the user’s claim that Groq might still be available. Shell env checks showed no `GROQ_API_KEY` in `~/.profile`, `~/.bashrc`, or current env, but the user clarified Groq is in config; assistant verified `~/.nanobot/config.json` and `.bak` contain a `groq` section, confirming Groq credentials/config likely exist in nanobot config rather than shell env. Useful files touched/created: `wiki/scripts/extraction_poc.py`, `wiki/scripts/baseline_recent_history_compare.py`, `wiki/docs/EXTRACTION-COMPARISON-NOTES.md`, `wiki/data/extraction-poc/baseline-recent-history.json`, and refreshed `wiki/data/extraction-poc/structured-candidates.json`.",
+      "entities": [
+        "DJClaw",
+        "Gemini",
+        "Git",
+        "GitHub",
+        "Groq",
+        "Logseq",
+        "New Orleans",
+        "trips",
+        "wiki"
+      ]
+    },
+    {
+      "timestamp": "2026-03-26T00:03",
+      "text": "[2026-03-26 00:03] Wiki extraction PoC provider/model work advanced and the user selected Groq as the main extraction provider. Assistant verified nanobot config contains readable provider keys for Groq/Gemini/OpenAI, rewrote `wiki/scripts/extraction_poc.py` to support env→`~/.nanobot/config.json` fallback plus `--provider/--model/--limit/--days`, and validated Groq/OpenAI while Gemini was blocked by 429 quota. Groq model discovery against the live API showed available text models including `llama-3.3-70b-versatile`, `moonshotai/kimi-k2-instruct`, `openai/gpt-oss-120b`, `qwen/qwen3-32b`, and `meta-llama/llama-4-scout-17b-16e-instruct`; a 5-entry A/B on `llama-3.3-70b-versatile`, `moonshotai/kimi-k2-instruct`, and `openai/gpt-oss-120b` found all three parse-stable, with `llama-3.3-70b-versatile` the most balanced current default for nodes+relations+events, Kimi the backup challenger, and `gpt-oss-120b` weak on relations. User approved continuing with Groq as the default main model and also requested a deeper explanation of the wiki pipeline layers (the 5–6 layer design from extraction through materialization), how the current PoC maps onto those layers, examples, and a cartoon-poster visualization using an OpenAI image model, to be published on DJClaw. Assistant started subagent `wiki-layers-poster-note` for that architecture/poster/article package, confirmed DJClaw repo path `/home/dj/.nanobot/workspace/djclaw.github.io`, corrected an initial post-numbering detection mistake by listing repo files directly, and determined the next DJClaw post number should be 071. Assistant also verified OpenAI/Groq/Gemini keys are readable from config and began checking DJClaw post templates plus possible OpenAI Images API availability for generating the poster asset.",
+      "entities": [
+        "DJClaw",
+        "Gemini",
+        "Git",
+        "GitHub",
+        "Groq",
+        "wiki"
+      ]
     }
   ],
   "entity_counts": [
     [
       "DJClaw",
-      13
+      15
     ],
     [
       "Git",
-      7
+      9
     ],
     [
       "GitHub",
-      6
+      8
+    ],
+    [
+      "wiki",
+      8
     ],
     [
       "Logseq",
-      6
+      7
     ],
     [
       "trips",
-      5
+      6
     ],
     [
       "project",
       5
     ],
     [
-      "wiki",
-      5
-    ],
-    [
       "New Orleans",
-      3
+      4
     ],
     [
       "kernel",
+      3
+    ],
+    [
+      "Gemini",
+      3
+    ],
+    [
+      "Groq",
       3
     ],
     [

@@ -72,3 +72,30 @@ But model-based extraction still needs:
 3. keep tightening parse-error handling and normalization
 4. compare Groq-primary output against the recent-window baseline
 5. only then decide whether to widen beyond 7 days
+
+## D. Normalization v2 + gentle abstraction tightening (13-entry rerun)
+
+A second tightening pass was completed on the same recent 13-entry comparison window.
+
+What changed:
+- broader alias normalization for DJClaw / GitHub / model names / OpenStreetMap variants
+- additional removal of low-value config/doc-name noise such as environment-key-like tokens and note-file labels
+- gentle abstract-node suppression for words like `comparison`, `listing`, `confirmed`, `explained`, `refine`, `personal`
+- explicit protection for still-valuable architecture/project nodes like `wiki`, `wiki pipeline`, `Wiki extraction PoC`
+
+Observed result on the same 13 entries:
+- parse errors: `0`
+- nodes total: `53`
+- unique node labels: `28`
+- events total: `21`
+- relations total: `0`
+
+Interpretation:
+- this pass reduced noise slightly without materially shrinking event coverage
+- the system does **not** appear over-tightened yet
+- remaining output is still a little broad, but more page-worthy than the prior pass
+
+Current judgment:
+- normalization v2 was worth doing
+- one gentle abstraction pass was worth doing
+- do **not** aggressively tighten further until DB-merge behavior and daily-ingestion behavior are tested on live updates

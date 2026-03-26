@@ -50,7 +50,20 @@ PY
   exit 0
 fi
 
-git add data/extracted-history.json data/kernel.json data/search-index.json entries/history scripts/generate_entries_from_db.py scripts/run_recent_daily_refresh.sh scripts/daily_history_ingest.sh
+git add \
+  data/extracted-history.json \
+  data/kernel.json \
+  data/search-index.json \
+  data/state/last_history_sha.txt \
+  data/state/last_daily_refresh_success.json \
+  entries/history \
+  scripts/extract_history_recent.py \
+  scripts/build_kernel_json.py \
+  scripts/build_db.py \
+  scripts/build_search_index.py \
+  scripts/generate_entries_from_db.py \
+  scripts/run_recent_daily_refresh.sh \
+  scripts/daily_history_ingest.sh
 
 if git diff --cached --quiet; then
   log "Nothing staged after git add. Recording new HISTORY state."
