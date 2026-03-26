@@ -1,18 +1,8 @@
 [
   {
-    "title": "Airbnb",
-    "url": "entries/history/airbnb.html",
-    "snippet": "Approved and initialized mobile/desktop travel site repo djclaw/trips, beginning static-site scaffolding for New Orleans trip guide.",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
     "title": "DJClaw",
     "url": "entries/history/djclaw.html",
-    "snippet": "After confirming post 062 live, user approved and assistant created post 063 trilingual lyrics version, updating index.html and sitemap.xml / Approved and initialized mobile/desktop travel site repo djclaw/trips, beginning static-site scaffolding for New Orleans trip guide.",
+    "snippet": "User approved publishing follow-up trilingual lyrics as post 063 and assistant created the post and updated index.html and sitemap.xml / Project MVP1 started for new repo djclaw/trips",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -20,9 +10,9 @@
     "coordinates": null
   },
   {
-    "title": "GitHub",
-    "url": "entries/history/github.html",
-    "snippet": "Switched between Gemini models due to quota issues; created baseline comparison script; verified Groq config location",
+    "title": "GitHub Pages",
+    "url": "entries/history/github-pages.html",
+    "snippet": "GitHub Pages enabled for djclaw/trips at https://djclaw.github.io/trips/ and new GitHub Project 'Trips MVP2' created with six core issues",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -32,17 +22,7 @@
   {
     "title": "Logseq",
     "url": "entries/history/logseq.html",
-    "snippet": "Clarified SeqLog as a macOS-native Logseq-style Markdown note app, corrected external mislabeling as AI logger or generic timeline tool. / Post 065 titled 'SeqLog native Logseq for macOS' was created and published locally",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "Lonely Planet",
-    "url": "entries/history/lonely-planet.html",
-    "snippet": "User requested extracting and structuring a Lonely Planet New Orleans 3-day weekend guide for the Trips project’s destination page",
+    "snippet": "User asked for plain-Chinese explanation of SeqLog, covering its purpose, user base, and personal/small-group use cases. / New Chinese SeqLog explainer article (post 065) created, published, and committed to main branch",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -52,7 +32,7 @@
   {
     "title": "New Orleans",
     "url": "entries/history/new-orleans.html",
-    "snippet": "Approved and initialized mobile/desktop travel site repo djclaw/trips, beginning static-site scaffolding for New Orleans trip guide. / MVP1 finished with homepage upgrade, README expansion, and root commit on master branch",
+    "snippet": "GitHub repo initialized and cloned, static-site scaffolding started for New Orleans trip content. / Project MVP1 started for new repo djclaw/trips",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -62,7 +42,7 @@
   {
     "title": "SeqLog",
     "url": "entries/history/seqlog.html",
-    "snippet": "Clarified SeqLog as a macOS-native Logseq-style Markdown note app, corrected external mislabeling as AI logger or generic timeline tool. / Post 065 titled 'SeqLog native Logseq for macOS' was created and published locally",
+    "snippet": "User asked for plain-Chinese explanation of SeqLog, covering its purpose, user base, and personal/small-group use cases. / New Chinese SeqLog explainer article (post 065) created, published, and committed to main branch",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -72,7 +52,17 @@
   {
     "title": "trips",
     "url": "entries/history/trips.html",
-    "snippet": "Trips project MVP1 is underway for djclaw/trips repo / MVP1 finished with homepage upgrade, README expansion, and root commit on master branch",
+    "snippet": "GitHub Pages enabled for djclaw/trips at https://djclaw.github.io/trips/ and new GitHub Project 'Trips MVP2' created with six core issues / Enabled GitHub Pages for djclaw/trips, finished labels/project organization, and published post 064 on planning the Trips project",
+    "tags": [],
+    "categories": [],
+    "aliases": [],
+    "related": [],
+    "coordinates": null
+  },
+  {
+    "title": "wiki",
+    "url": "entries/history/wiki.html",
+    "snippet": "user pivoted wiki architecture; djclaw/wiki scoped with MVP schema/design option B MVP1/2/3 and updated README / Wiki pipeline ran end-to-end producing wiki.db with metadata and push to djclaw/repo",
     "tags": [],
     "categories": [],
     "aliases": [],

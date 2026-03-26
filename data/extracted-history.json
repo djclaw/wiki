@@ -1,60 +1,18 @@
 [
   {
-    "title": "Airbnb",
-    "summary": "Approved and initialized mobile/desktop travel site repo djclaw/trips, beginning static-site scaffolding for New Orleans trip guide.",
-    "timeline": [
-      "2026-03-20T09:59 — Approved and initialized mobile/desktop travel site repo djclaw/trips, beginning static-site scaffolding for New Orleans trip guide."
-    ],
-    "tags": [],
-    "categories": [
-      "Organization"
-    ],
-    "aliases": [
-      "airbnb"
-    ],
-    "related": [
-      "DJClaw",
-      "djclaw/trips",
-      "New Orleans"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "Craig Adams",
-    "summary": "Post 065 titled 'SeqLog native Logseq for macOS' was created and published locally",
-    "timeline": [
-      "2026-03-24T17:20 — Post 065 titled 'SeqLog native Logseq for macOS' was created and published locally"
-    ],
-    "tags": [],
-    "categories": [
-      "Person"
-    ],
-    "aliases": [
-      "craig adams"
-    ],
-    "related": [
-      "DJClaw",
-      "Logseq",
-      "SeqLog"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
     "title": "DJClaw",
-    "summary": "After confirming post 062 live, user approved and assistant created post 063 trilingual lyrics version, updating index.html and sitemap.xml / Approved and initialized mobile/desktop travel site repo djclaw/trips, beginning static-site scaffolding for New Orleans trip guide.",
+    "summary": "User approved publishing follow-up trilingual lyrics as post 063 and assistant created the post and updated index.html and sitemap.xml / Project MVP1 started for new repo djclaw/trips",
     "timeline": [
-      "2026-03-19T21:53 — After confirming post 062 live, user approved and assistant created post 063 trilingual lyrics version, updating index.html and sitemap.xml",
-      "2026-03-20T09:59 — Approved and initialized mobile/desktop travel site repo djclaw/trips, beginning static-site scaffolding for New Orleans trip guide.",
-      "2026-03-23T19:44 — User requested extracting and structuring a Lonely Planet New Orleans 3-day weekend guide for the Trips project’s destination page",
-      "2026-03-24T17:20 — Post 065 titled 'SeqLog native Logseq for macOS' was created and published locally",
-      "2026-03-25T10:21 — User requested conversion of beginner-friendly Logseq explanation into a DJClaw article",
-      "2026-03-25T14:17 — Post titled 'Logseq 入门：Journal、Block、Page 到底是什么' written and pushed to main branch",
-      "2026-03-25T19:16 — User pivoted wiki toward Logseq-inspired architecture; assistant documented new layered design MVP plan, updated GitHub issues/projects, and refreshed README of djclaw/wiki repo.",
-      "2026-03-25T21:35 — User asked for a concise DJClaw article summarizing the original extraction idea, current implementation, and future extraction options.",
-      "2026-03-26T00:03 — User chose Groq for wiki knowledge extraction after A/B testing showed llama-3.3-70b-versatile as balanced default and Kimi as backup.",
-      "2026-03-26T00:29 — Tightened page filter; nanobot cron + local script chosen for future automation"
+      "2026-03-19T21:53 — User approved publishing follow-up trilingual lyrics as post 063 and assistant created the post and updated index.html and sitemap.xml",
+      "2026-03-20T10:14 — Project MVP1 started for new repo djclaw/trips",
+      "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips at https://djclaw.github.io/trips/ and new GitHub Project 'Trips MVP2' created with six core issues",
+      "2026-03-23T19:44 — Enabled GitHub Pages for djclaw/trips, finished labels/project organization, and published post 064 on planning the Trips project",
+      "2026-03-25T10:21 — User requested transformation of Logseq explanation into DJClaw article for publication",
+      "2026-03-25T14:17 — Post 067 titled 'Logseq 入门：Journal、Block、Page 到底是什么' written and pushed to main",
+      "2026-03-25T19:16 — user pivoted wiki architecture; djclaw/wiki scoped with MVP schema/design option B MVP1/2/3 and updated README",
+      "2026-03-25T21:35 — User requested a concise DJClaw article summarizing the original extraction idea, current implementation, and future options for the wiki extraction system",
+      "2026-03-26T00:03 — Developer selected Groq as the primary provider for the wiki extraction proof-of-concept and validated multiple text models including llama-3.3-70b-versatile as the default and moonshotai/kimi-k2-instruct as backup.",
+      "2026-03-26T00:29 — Assistant tightened the materialization filter in generate_entries_from_db.py to reduce noise and reran page generation and search index validation"
     ],
     "tags": [],
     "categories": [
@@ -64,25 +22,27 @@
       "djclaw"
     ],
     "related": [
+      "djclaw/trips",
       "Logseq",
       "New Orleans",
+      "trips",
       "wiki",
-      "Airbnb",
-      "Craig Adams",
-      "djclaw/trips",
-      "GitHub Project 2",
-      "Groq"
+      "GitHub Pages",
+      "Groq",
+      "Trips MVP2"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "djclaw/trips",
-    "summary": "Approved and initialized mobile/desktop travel site repo djclaw/trips, beginning static-site scaffolding for New Orleans trip guide. / MVP1 finished with homepage upgrade, README expansion, and root commit on master branch",
+    "summary": "GitHub repo initialized and cloned, static-site scaffolding started for New Orleans trip content. / Project MVP1 started for new repo djclaw/trips",
     "timeline": [
-      "2026-03-20T09:59 — Approved and initialized mobile/desktop travel site repo djclaw/trips, beginning static-site scaffolding for New Orleans trip guide.",
-      "2026-03-20T10:28 — MVP1 finished with homepage upgrade, README expansion, and root commit on master branch",
-      "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips on master/root and successfully built"
+      "2026-03-20T09:59 — GitHub repo initialized and cloned, static-site scaffolding started for New Orleans trip content.",
+      "2026-03-20T10:14 — Project MVP1 started for new repo djclaw/trips",
+      "2026-03-20T10:28 — MVP-1 of the trips project completed and pushed to the master branch with commit `Build trips MVP1 for New Orleans`",
+      "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips at https://djclaw.github.io/trips/ and new GitHub Project 'Trips MVP2' created with six core issues",
+      "2026-03-23T19:44 — Enabled GitHub Pages for djclaw/trips, finished labels/project organization, and published post 064 on planning the Trips project"
     ],
     "tags": [],
     "categories": [
@@ -93,19 +53,20 @@
     ],
     "related": [
       "New Orleans",
+      "DJClaw",
       "trips",
-      "Airbnb",
-      "DJClaw"
+      "GitHub Pages",
+      "Trips MVP2"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "Gemini 2.5 Flash",
-    "summary": "Moved from design to implementation using Gemini 2.5 Flash; produced structured candidates JSON / Switched between Gemini models due to quota issues; created baseline comparison script; verified Groq config location",
+    "summary": "User approved using recent 1-week HISTORY samples and current models, assistant created extraction scripts and produced structured candidates. After noisy Gemini run, tightened prompt and post-processed to refine result. User then instructed A/B/C tasks including testing Groq most advanced model. / Assistant edited extraction script to prioritize Gemini Pro with retry logic and improved normalization.",
     "timeline": [
-      "2026-03-25T23:13 — Moved from design to implementation using Gemini 2.5 Flash; produced structured candidates JSON",
-      "2026-03-25T23:22 — Switched between Gemini models due to quota issues; created baseline comparison script; verified Groq config location"
+      "2026-03-25T23:13 — User approved using recent 1-week HISTORY samples and current models, assistant created extraction scripts and produced structured candidates. After noisy Gemini run, tightened prompt and post-processed to refine result. User then instructed A/B/C tasks including testing Groq most advanced model.",
+      "2026-03-25T23:22 — Assistant edited extraction script to prioritize Gemini Pro with retry logic and improved normalization."
     ],
     "tags": [],
     "categories": [
@@ -116,18 +77,38 @@
     ],
     "related": [
       "Groq",
+      "Gemini 2.5 Pro",
+      "Gemini Pro"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "Gemini 2.5 Pro",
+    "summary": "Assistant edited extraction script to prioritize Gemini Pro with retry logic and improved normalization.",
+    "timeline": [
+      "2026-03-25T23:22 — Assistant edited extraction script to prioritize Gemini Pro with retry logic and improved normalization."
+    ],
+    "tags": [],
+    "categories": [
+      "Tool"
+    ],
+    "aliases": [
+      "gemini 2.5 pro"
+    ],
+    "related": [
+      "Gemini 2.5 Flash",
       "Gemini Pro",
-      "GitHub",
-      "Logseq"
+      "Groq"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "Gemini Pro",
-    "summary": "Switched between Gemini models due to quota issues; created baseline comparison script; verified Groq config location",
+    "summary": "Assistant edited extraction script to prioritize Gemini Pro with retry logic and improved normalization.",
     "timeline": [
-      "2026-03-25T23:22 — Switched between Gemini models due to quota issues; created baseline comparison script; verified Groq config location"
+      "2026-03-25T23:22 — Assistant edited extraction script to prioritize Gemini Pro with retry logic and improved normalization."
     ],
     "tags": [],
     "categories": [
@@ -138,51 +119,48 @@
     ],
     "related": [
       "Gemini 2.5 Flash",
-      "GitHub",
-      "Groq",
-      "Logseq"
+      "Gemini 2.5 Pro",
+      "Groq"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
-    "title": "GitHub",
-    "summary": "Switched between Gemini models due to quota issues; created baseline comparison script; verified Groq config location",
+    "title": "GitHub Pages",
+    "summary": "GitHub Pages enabled for djclaw/trips at https://djclaw.github.io/trips/ and new GitHub Project 'Trips MVP2' created with six core issues",
     "timeline": [
-      "2026-03-25T23:22 — Switched between Gemini models due to quota issues; created baseline comparison script; verified Groq config location"
+      "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips at https://djclaw.github.io/trips/ and new GitHub Project 'Trips MVP2' created with six core issues"
     ],
     "tags": [],
     "categories": [
       "Organization"
     ],
     "aliases": [
-      "github"
+      "github pages"
     ],
     "related": [
-      "Gemini 2.5 Flash",
-      "Gemini Pro",
-      "Groq",
-      "Logseq"
+      "DJClaw",
+      "djclaw/trips",
+      "trips",
+      "Trips MVP2"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
-    "title": "GitHub Project 2",
-    "summary": "User pivoted wiki toward Logseq-inspired architecture; assistant documented new layered design MVP plan, updated GitHub issues/projects, and refreshed README of djclaw/wiki repo.",
+    "title": "Glossary",
+    "summary": "",
     "timeline": [
-      "2026-03-25T19:16 — User pivoted wiki toward Logseq-inspired architecture; assistant documented new layered design MVP plan, updated GitHub issues/projects, and refreshed README of djclaw/wiki repo."
+      "2026-03-26T00:13 — [2026-03-26 00:13] User directed wiki extraction hardening and operations follow-up. Assistant tightened `wiki/scripts/extraction_poc.py` in two passes: first m"
     ],
     "tags": [],
     "categories": [
-      "Project"
+      "Tool"
     ],
     "aliases": [
-      "github project 2"
+      "glossary"
     ],
     "related": [
-      "DJClaw",
-      "Logseq",
       "wiki"
     ],
     "source": "history",
@@ -190,11 +168,12 @@
   },
   {
     "title": "Groq",
-    "summary": "Moved from design to implementation using Gemini 2.5 Flash; produced structured candidates JSON / Switched between Gemini models due to quota issues; created baseline comparison script; verified Groq config location",
+    "summary": "User approved using recent 1-week HISTORY samples and current models, assistant created extraction scripts and produced structured candidates. After noisy Gemini run, tightened prompt and post-processed to refine result. User then instructed A/B/C tasks including testing Groq most advanced model. / Assistant edited extraction script to prioritize Gemini Pro with retry logic and improved normalization.",
     "timeline": [
-      "2026-03-25T23:13 — Moved from design to implementation using Gemini 2.5 Flash; produced structured candidates JSON",
-      "2026-03-25T23:22 — Switched between Gemini models due to quota issues; created baseline comparison script; verified Groq config location",
-      "2026-03-26T00:03 — User chose Groq for wiki knowledge extraction after A/B testing showed llama-3.3-70b-versatile as balanced default and Kimi as backup."
+      "2026-03-25T23:13 — User approved using recent 1-week HISTORY samples and current models, assistant created extraction scripts and produced structured candidates. After noisy Gemini run, tightened prompt and post-processed to refine result. User then instructed A/B/C tasks including testing Groq most advanced model.",
+      "2026-03-25T23:22 — Assistant edited extraction script to prioritize Gemini Pro with retry logic and improved normalization.",
+      "2026-03-26T00:03 — Developer selected Groq as the primary provider for the wiki extraction proof-of-concept and validated multiple text models including llama-3.3-70b-versatile as the default and moonshotai/kimi-k2-instruct as backup.",
+      "2026-03-26T07:40 — User approved merging the Kimi-backed extraction PoC into the formal pipeline; assistant had already redirected daily recent-history path and updated tooling to use Groq provider with kimi-k2-instruct model."
     ],
     "tags": [],
     "categories": [
@@ -206,62 +185,21 @@
     "related": [
       "Gemini 2.5 Flash",
       "DJClaw",
-      "Gemini Pro",
-      "GitHub",
-      "Logseq"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "Groq llama-3.3-70b-versatile",
-    "summary": "Tightened extraction logic and alias merging; dropped relations to 0 on test; committed 1555e60 and eba06f0.",
-    "timeline": [
-      "2026-03-26T00:13 — Tightened extraction logic and alias merging; dropped relations to 0 on test; committed 1555e60 and eba06f0."
-    ],
-    "tags": [],
-    "categories": [
-      "Tool"
-    ],
-    "aliases": [
-      "groq llama-3.3-70b-versatile"
-    ],
-    "related": [
-      "wiki"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "Kimi",
-    "summary": "poster rebuilt with full six-column relayout and pushed in commit 5ebf885",
-    "timeline": [
-      "2026-03-26T07:20 — poster rebuilt with full six-column relayout and pushed in commit 5ebf885"
-    ],
-    "tags": [],
-    "categories": [
-      "Tool"
-    ],
-    "aliases": [
-      "kimi"
-    ],
-    "related": [
-      "DJClaw"
+      "Gemini 2.5 Pro",
+      "Gemini Pro"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "Logseq",
-    "summary": "Clarified SeqLog as a macOS-native Logseq-style Markdown note app, corrected external mislabeling as AI logger or generic timeline tool. / Post 065 titled 'SeqLog native Logseq for macOS' was created and published locally",
+    "summary": "User asked for plain-Chinese explanation of SeqLog, covering its purpose, user base, and personal/small-group use cases. / New Chinese SeqLog explainer article (post 065) created, published, and committed to main branch",
     "timeline": [
-      "2026-03-24T12:41 — Clarified SeqLog as a macOS-native Logseq-style Markdown note app, corrected external mislabeling as AI logger or generic timeline tool.",
-      "2026-03-24T17:20 — Post 065 titled 'SeqLog native Logseq for macOS' was created and published locally",
-      "2026-03-25T10:21 — User requested conversion of beginner-friendly Logseq explanation into a DJClaw article",
-      "2026-03-25T14:17 — Post titled 'Logseq 入门：Journal、Block、Page 到底是什么' written and pushed to main branch",
-      "2026-03-25T19:16 — User pivoted wiki toward Logseq-inspired architecture; assistant documented new layered design MVP plan, updated GitHub issues/projects, and refreshed README of djclaw/wiki repo.",
-      "2026-03-25T21:20 — wiki README refined and initial B-phase docs/scripts created",
-      "2026-03-25T23:22 — Switched between Gemini models due to quota issues; created baseline comparison script; verified Groq config location"
+      "2026-03-24T12:41 — User asked for plain-Chinese explanation of SeqLog, covering its purpose, user base, and personal/small-group use cases.",
+      "2026-03-24T17:20 — New Chinese SeqLog explainer article (post 065) created, published, and committed to main branch",
+      "2026-03-25T10:21 — User requested transformation of Logseq explanation into DJClaw article for publication",
+      "2026-03-25T14:17 — Post 067 titled 'Logseq 入门：Journal、Block、Page 到底是什么' written and pushed to main",
+      "2026-03-25T19:16 — user pivoted wiki architecture; djclaw/wiki scoped with MVP schema/design option B MVP1/2/3 and updated README"
     ],
     "tags": [],
     "categories": [
@@ -273,46 +211,20 @@
     "related": [
       "DJClaw",
       "SeqLog",
-      "Craig Adams",
-      "Gemini 2.5 Flash",
-      "Gemini Pro",
-      "GitHub",
-      "GitHub Project 2",
-      "Groq"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "Lonely Planet",
-    "summary": "User requested extracting and structuring a Lonely Planet New Orleans 3-day weekend guide for the Trips project’s destination page",
-    "timeline": [
-      "2026-03-23T19:44 — User requested extracting and structuring a Lonely Planet New Orleans 3-day weekend guide for the Trips project’s destination page"
-    ],
-    "tags": [],
-    "categories": [
-      "Organization"
-    ],
-    "aliases": [
-      "lonely planet"
-    ],
-    "related": [
-      "DJClaw",
-      "New Orleans",
-      "trips"
+      "wiki"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "nanobot-daily-wiki-scheduler",
-    "summary": "Full pipeline run produced wiki.db with 98 evidence, 60 nodes, 421 relations, 98 events and pushed two commits to djclaw/wiki.",
+    "summary": "Wiki pipeline ran end-to-end producing wiki.db with metadata and push to djclaw/repo",
     "timeline": [
-      "2026-03-26T00:20 — Full pipeline run produced wiki.db with 98 evidence, 60 nodes, 421 relations, 98 events and pushed two commits to djclaw/wiki."
+      "2026-03-26T00:20 — Wiki pipeline ran end-to-end producing wiki.db with metadata and push to djclaw/repo"
     ],
     "tags": [],
     "categories": [
-      "Tool"
+      "Project"
     ],
     "aliases": [
       "nanobot-daily-wiki-scheduler"
@@ -325,11 +237,12 @@
   },
   {
     "title": "New Orleans",
-    "summary": "Approved and initialized mobile/desktop travel site repo djclaw/trips, beginning static-site scaffolding for New Orleans trip guide. / MVP1 finished with homepage upgrade, README expansion, and root commit on master branch",
+    "summary": "GitHub repo initialized and cloned, static-site scaffolding started for New Orleans trip content. / Project MVP1 started for new repo djclaw/trips",
     "timeline": [
-      "2026-03-20T09:59 — Approved and initialized mobile/desktop travel site repo djclaw/trips, beginning static-site scaffolding for New Orleans trip guide.",
-      "2026-03-20T10:28 — MVP1 finished with homepage upgrade, README expansion, and root commit on master branch",
-      "2026-03-23T19:44 — User requested extracting and structuring a Lonely Planet New Orleans 3-day weekend guide for the Trips project’s destination page"
+      "2026-03-20T09:59 — GitHub repo initialized and cloned, static-site scaffolding started for New Orleans trip content.",
+      "2026-03-20T10:14 — Project MVP1 started for new repo djclaw/trips",
+      "2026-03-20T10:28 — MVP-1 of the trips project completed and pushed to the master branch with commit `Build trips MVP1 for New Orleans`",
+      "2026-03-23T19:44 — Enabled GitHub Pages for djclaw/trips, finished labels/project organization, and published post 064 on planning the Trips project"
     ],
     "tags": [],
     "categories": [
@@ -339,21 +252,19 @@
       "new orleans"
     ],
     "related": [
-      "DJClaw",
       "djclaw/trips",
-      "trips",
-      "Airbnb",
-      "Lonely Planet"
+      "DJClaw",
+      "trips"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "SeqLog",
-    "summary": "Clarified SeqLog as a macOS-native Logseq-style Markdown note app, corrected external mislabeling as AI logger or generic timeline tool. / Post 065 titled 'SeqLog native Logseq for macOS' was created and published locally",
+    "summary": "User asked for plain-Chinese explanation of SeqLog, covering its purpose, user base, and personal/small-group use cases. / New Chinese SeqLog explainer article (post 065) created, published, and committed to main branch",
     "timeline": [
-      "2026-03-24T12:41 — Clarified SeqLog as a macOS-native Logseq-style Markdown note app, corrected external mislabeling as AI logger or generic timeline tool.",
-      "2026-03-24T17:20 — Post 065 titled 'SeqLog native Logseq for macOS' was created and published locally"
+      "2026-03-24T12:41 — User asked for plain-Chinese explanation of SeqLog, covering its purpose, user base, and personal/small-group use cases.",
+      "2026-03-24T17:20 — New Chinese SeqLog explainer article (post 065) created, published, and committed to main branch"
     ],
     "tags": [],
     "categories": [
@@ -363,21 +274,17 @@
       "seqlog"
     ],
     "related": [
-      "Logseq",
-      "Craig Adams",
-      "DJClaw"
+      "Logseq"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "trips",
-    "summary": "Trips project MVP1 is underway for djclaw/trips repo / MVP1 finished with homepage upgrade, README expansion, and root commit on master branch",
+    "summary": "GitHub Pages enabled for djclaw/trips at https://djclaw.github.io/trips/ and new GitHub Project 'Trips MVP2' created with six core issues / Enabled GitHub Pages for djclaw/trips, finished labels/project organization, and published post 064 on planning the Trips project",
     "timeline": [
-      "2026-03-20T10:14 — Trips project MVP1 is underway for djclaw/trips repo",
-      "2026-03-20T10:28 — MVP1 finished with homepage upgrade, README expansion, and root commit on master branch",
-      "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips on master/root and successfully built",
-      "2026-03-23T19:44 — User requested extracting and structuring a Lonely Planet New Orleans 3-day weekend guide for the Trips project’s destination page"
+      "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips at https://djclaw.github.io/trips/ and new GitHub Project 'Trips MVP2' created with six core issues",
+      "2026-03-23T19:44 — Enabled GitHub Pages for djclaw/trips, finished labels/project organization, and published post 064 on planning the Trips project"
     ],
     "tags": [],
     "categories": [
@@ -387,22 +294,45 @@
       "trips"
     ],
     "related": [
-      "djclaw/trips",
-      "New Orleans",
       "DJClaw",
-      "Lonely Planet"
+      "djclaw/trips",
+      "GitHub Pages",
+      "New Orleans",
+      "Trips MVP2"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "Trips MVP2",
+    "summary": "GitHub Pages enabled for djclaw/trips at https://djclaw.github.io/trips/ and new GitHub Project 'Trips MVP2' created with six core issues",
+    "timeline": [
+      "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips at https://djclaw.github.io/trips/ and new GitHub Project 'Trips MVP2' created with six core issues"
+    ],
+    "tags": [],
+    "categories": [
+      "Project"
+    ],
+    "aliases": [
+      "trips mvp2"
+    ],
+    "related": [
+      "DJClaw",
+      "djclaw/trips",
+      "GitHub Pages",
+      "trips"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "wiki",
-    "summary": "User pivoted wiki toward Logseq-inspired architecture; assistant documented new layered design MVP plan, updated GitHub issues/projects, and refreshed README of djclaw/wiki repo. / Tightened extraction logic and alias merging; dropped relations to 0 on test; committed 1555e60 and eba06f0.",
+    "summary": "user pivoted wiki architecture; djclaw/wiki scoped with MVP schema/design option B MVP1/2/3 and updated README / Wiki pipeline ran end-to-end producing wiki.db with metadata and push to djclaw/repo",
     "timeline": [
-      "2026-03-25T19:16 — User pivoted wiki toward Logseq-inspired architecture; assistant documented new layered design MVP plan, updated GitHub issues/projects, and refreshed README of djclaw/wiki repo.",
-      "2026-03-26T00:13 — Tightened extraction logic and alias merging; dropped relations to 0 on test; committed 1555e60 and eba06f0.",
-      "2026-03-26T00:20 — Full pipeline run produced wiki.db with 98 evidence, 60 nodes, 421 relations, 98 events and pushed two commits to djclaw/wiki.",
-      "2026-03-26T06:57 — [2026-03-26 06:57] Wiki and DJClaw follow-up: in djclaw/wiki, user-visible wiki materialization + daily automation changes were committed and pushed as `8e36ebb"
+      "2026-03-25T19:16 — user pivoted wiki architecture; djclaw/wiki scoped with MVP schema/design option B MVP1/2/3 and updated README",
+      "2026-03-26T00:13 — [2026-03-26 00:13] User directed wiki extraction hardening and operations follow-up. Assistant tightened `wiki/scripts/extraction_poc.py` in two passes: first m",
+      "2026-03-26T00:20 — Wiki pipeline ran end-to-end producing wiki.db with metadata and push to djclaw/repo",
+      "2026-03-26T06:57 — Commit 8e36ebb in djclaw/wiki added user-visible wiki materialization, daily automation, .gitignore cleanup, state tracking, and closed wiki issues #7, #9, #10."
     ],
     "tags": [],
     "categories": [
@@ -413,8 +343,7 @@
     ],
     "related": [
       "DJClaw",
-      "GitHub Project 2",
-      "Groq llama-3.3-70b-versatile",
+      "Glossary",
       "Logseq",
       "nanobot-daily-wiki-scheduler"
     ],
