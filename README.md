@@ -169,6 +169,27 @@ Why:
 
 So the project takes the **concept kernel**, not the whole application burden.
 
+## Key Docs
+
+- `docs/ARCHITECTURE.md` — layered technical architecture
+- `docs/MINIMAL-SCHEMA.md` — minimal schema for the wiki kernel
+- `docs/PROJECT.md` — short project overview
+
+## Current local pipeline
+
+The local kernel pipeline now runs like this:
+
+1. `python3 scripts/extract_history.py`
+2. `python3 scripts/build_kernel_json.py`
+3. `python3 scripts/build_db.py`
+
+This rebuilds the local-only SQLite database using the new kernel schema:
+- `sources`
+- `evidence`
+- `nodes`
+- `relations`
+- `events`
+
 ## Repository Structure
 
 - `index.html` — home / search entry
