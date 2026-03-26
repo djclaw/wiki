@@ -54,9 +54,13 @@ git add \
   data/extracted-history.json \
   data/kernel.json \
   data/search-index.json \
+  data/extraction-pipeline \
   data/state/last_history_sha.txt \
   data/state/last_daily_refresh_success.json \
   entries/history \
+  scripts/history_extraction.py \
+  scripts/extraction_poc.py \
+  scripts/extract_history.py \
   scripts/extract_history_recent.py \
   scripts/build_kernel_json.py \
   scripts/build_db.py \

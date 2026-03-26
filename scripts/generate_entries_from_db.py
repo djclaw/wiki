@@ -14,10 +14,24 @@ STOPWORDS = {
     'how', 'i', 'if', 'in', 'into', 'is', 'it', 'new', 'of', 'on', 'or', 'the', 'to', 'with', 'we', 'you',
     'comparison', 'confirmed', 'current', 'destination', 'directed', 'explained', 'explainer', 'listing',
     'master', 'notes', 'personal', 'public', 'pushed', 'refine', 'requested', 'shows', 'switched',
-    'travel', 'update'
+    'travel', 'update', 'daily', 'refresh', 'garden', 'kernel', 'project', 'tool', 'page', 'repo', 'script',
 }
 ALLOW_SHORT = {'AI', 'UI', 'DB', 'CLI', 'MCP', 'BJJ', 'Git', 'npm'}
 ALLOW_NODE_TYPES = {'project', 'tool', 'person', 'place', 'concept', 'event', 'organization'}
+ALLOWED_TITLES = {
+    'DJClaw', 'wiki', 'trips', 'New Orleans', 'New York', 'New Jersey', 'GitHub', 'GitHub Pages',
+    'Logseq', 'SeqLog', 'Airbnb', 'Leaflet', 'OpenStreetMap', 'Lonely Planet', 'Javits Center'
+}
+ALLOW_SHORT = ALLOW_SHORT | {'wiki'}
+BLOCKLIST_EXACT = {
+    'Git', 'Groq', 'Gemini', 'OpenAI', 'Telegram', 'WeChat', 'nanobot', 'Node.js', 'SQLite',
+    'Kimi', 'Gemini 2.5 Flash', 'Gemini 2.5 Pro', 'GitHub Project 2 Wiki', 'homepageUrl', 'sitemap.xml',
+    '7-day', 'MVP2', 'Craig Adams'
+}
+BLOCKLIST_CONTAINS = {
+    'mvp', 'daily refresh', 'github-worthy', 'llm-assisted', 'structured', 'extraction', 'pipeline',
+    'recent history', 'sample', 'candidate', 'feature', 'comparison', 'architecture', 'workflow', 'poster'
+}
 
 
 def slugify(text: str) -> str:
@@ -63,6 +77,10 @@ def is_publishable_node(node, timeline_count=0, related_count=0):
         return False, 'empty'
     if node_type and node_type not in ALLOW_NODE_TYPES:
         return False, 'node-type'
+    if title in BLOCKLIST_EXACT:
+        return False, 'blocked-exact'
+    if any(token in lower for token in BLOCKLIST_CONTAINS):
+        return False, 'blocked-contains'
     if lower in STOPWORDS:
         return False, 'stopword'
     if title.startswith(('#', '.', '-', '(', '/', '[')):
@@ -73,6 +91,8 @@ def is_publishable_node(node, timeline_count=0, related_count=0):
         return False, 'ip-or-version'
     if re.fullmatch(r'\d+(\.\d+)+', title):
         return False, 'section-number'
+    if re.search(r'\d', title) and title not in ALLOWED_TITLES:
+        return False, 'numeric-title'
     if '/' in title or '\\' in title:
         return False, 'path-like'
     if title.endswith(('.html', '.md', '.json', '.py', '.sh', '.png', '.jpg', '.jpeg')):
@@ -87,10 +107,13 @@ def is_publishable_node(node, timeline_count=0, related_count=0):
         return False, 'slug-like'
     if len(title) <= 2 and title not in ALLOW_SHORT:
         return False, 'too-short'
-    if signal_count < 2:
-        return False, 'low-signal'
-    if timeline_count == 0 and related_count < 2:
-        return False, 'too-thin'
+    if title not in ALLOWED_TITLES:
+        if node_type not in {'place', 'project'}:
+            return False, 'type-not-whitelisted'
+        if signal_count < 3:
+            return False, 'low-signal'
+        if timeline_count == 0 or related_count < 2:
+            return False, 'too-thin'
     return True, 'ok'
 
 

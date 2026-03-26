@@ -1,222 +1,137 @@
 #!/usr/bin/env python3
 """
-Extracts tool/project entities from HISTORY.md into a JSON list.
-Rule-based only (no LLM). Includes privacy redaction.
+Extract stable history entities into extracted-history.json using the canonical
+LLM-backed history extraction pipeline (Groq + Kimi by default), then convert
+structured candidates into the entry-shaped JSON expected by the current wiki
+kernel builder.
 """
+from __future__ import annotations
+
+import argparse
 import json
-import re
-from collections import Counter, defaultdict
+from collections import defaultdict
 from pathlib import Path
+
+from history_extraction import OUTPUT_JSON as STRUCTURED_OUTPUT_JSON
+from history_extraction import choose_default_model, load_recent_entries, run_structured_extraction
 
 HISTORY_PATH = Path('/home/dj/.nanobot/workspace/memory/HISTORY.md')
 OUTPUT_JSON = Path('/home/dj/.nanobot/workspace/wiki/data/extracted-history.json')
 
-TOOL_KEYWORDS = {
-    'git', 'github', 'gh', 'sqlite', 'python', 'node', 'npm', 'telegram', 'email', 'imap', 'smtp',
-    'cron', 'tavily', 'humanizer', 'summarize', 'clawhub', 'nanobot', 'codex', 'gemini', 'gemma',
-    'groq', 'openai', 'mcp', 'langgraph', 'autogen', 'claude', 'logseq', 'seqlog', 'notion', 'leaflet'
+CATEGORY_BY_TYPE = {
+    'tool': 'Tool',
+    'project': 'Project',
+    'place': 'Place',
+    'org': 'Organization',
+    'person': 'Person',
 }
 
-CANONICAL = {
-    'djclaw.github.io': 'djclaw.github.io',
-    'github': 'GitHub',
-    'gh': 'GitHub CLI',
-    'git': 'Git',
-    'npm': 'npm',
-    'node': 'Node.js',
-    'sqlite': 'SQLite',
-    'telegram': 'Telegram',
-    'email': 'Email',
-    'imap': 'IMAP',
-    'smtp': 'SMTP',
-    'cron': 'cron',
-    'tavily': 'Tavily',
-    'humanizer': 'humanizer',
-    'summarize': 'summarize',
-    'clawhub': 'ClawHub',
-    'nanobot': 'nanobot',
-    'codex': 'Codex',
-    'gemini': 'Gemini',
-    'gemma': 'Gemma',
-    'groq': 'Groq',
-    'openai': 'OpenAI',
-    'mcp': 'MCP',
-    'langgraph': 'LangGraph',
-    'autogen': 'AutoGen',
-    'claude': 'Claude',
-    'logseq': 'Logseq',
-    'seqlog': 'SeqLog',
-    'notion': 'Notion',
-    'leaflet': 'Leaflet',
-}
 
-STOPWORDS = {
-    'a', 'an', 'and', 'all', 'are', 'as', 'at', 'about', 'after', 'around', 'be', 'by', 'for', 'from',
-    'how', 'i', 'if', 'in', 'into', 'is', 'it', 'new', 'of', 'on', 'or', 'the', 'to', 'with', 'we', 'you',
-    'api', 'bot', 'checked', 'building', 'applypatch', 'all', 'welcome'
-}
-
-SENSITIVE_PATTERNS = [
-    r'(?i)\b(api[_-]?key|access[_-]?token|token|secret|password|passwd|pat)\b\s*[:=]\s*\S+',
-    r'(?i)\b(GITHUB_API_KEY|OPENAI_API_KEY|GEMINI_API_KEY|TAVILY_API_KEY|GROQ_API_KEY)\b\s*[:=]?\s*\S+',
-    r'(?i)\bbearer\s+[a-z0-9\-\._]{10,}',
-    r'(?i)[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}',
-    r'(?i)\b(ssh-rsa|ssh-ed25519)\s+[A-Za-z0-9+/=]+',
-    r'\b[A-Za-z0-9+/=]{32,}\b',
-]
-
-PATH_PATTERN = re.compile(r'/home/[^\s]+')
+def _load_structured_candidates() -> list[dict]:
+    if not STRUCTURED_OUTPUT_JSON.exists():
+        return []
+    return json.loads(STRUCTURED_OUTPUT_JSON.read_text(encoding='utf-8'))
 
 
-def redact(text: str) -> str:
-    text = PATH_PATTERN.sub('[REDACTED_PATH]', text)
-    for pat in SENSITIVE_PATTERNS:
-        text = re.sub(pat, '[REDACTED]', text)
-    return text
+def _timeline_line(entry: dict, event: dict | None) -> str:
+    ts = entry.get('timestamp') or ''
+    if event and event.get('summary'):
+        return f"{ts} — {event['summary'].strip()}"
+    evidence = ((entry.get('evidence') or {}).get('text') or '').strip()
+    return f"{ts} — {evidence[:160]}"
 
 
-def first_sentence(text: str) -> str:
-    text = text.strip()
-    if not text:
-        return ''
-    parts = re.split(r'[。！？.!?]\s+', text, maxsplit=1)
-    return parts[0].strip()
+def build_entities_from_candidates(rows: list[dict]) -> list[dict]:
+    grouped: dict[str, dict] = {}
+    related_counts: dict[str, defaultdict[str, int]] = {}
 
+    for entry in rows:
+        nodes = entry.get('nodes') or []
+        events = entry.get('events') or []
+        primary_event = events[0] if events else None
+        labels_in_entry = []
 
-def normalize_entity(name: str) -> str:
-    raw = name.strip().strip("`'\"“”")
-    raw = re.sub(r'[\.,;:!\)\]]+$', '', raw)
-    key = raw.lower()
-    if key in CANONICAL:
-        return CANONICAL[key]
-    return raw
+        for node in nodes:
+            title = (node.get('label') or '').strip()
+            node_type = (node.get('type') or 'project').strip().lower()
+            if not title:
+                continue
+            labels_in_entry.append(title)
+            bucket = grouped.setdefault(title, {
+                'title': title,
+                'summary_parts': [],
+                'timeline': [],
+                'tags': [],
+                'categories': [CATEGORY_BY_TYPE.get(node_type, 'Project')],
+                'aliases': [title.lower()],
+                'related': [],
+                'source': 'history',
+                'source_id': 'history_md',
+            })
+            line = _timeline_line(entry, primary_event)
+            if line not in bucket['timeline']:
+                bucket['timeline'].append(line)
+            if primary_event and primary_event.get('summary'):
+                summary = primary_event['summary'].strip()
+                if summary and summary not in bucket['summary_parts']:
+                    bucket['summary_parts'].append(summary)
 
-
-def is_good_candidate(token: str) -> bool:
-    token = token.strip().strip("`'\"")
-    if not token:
-        return False
-    lower = token.lower()
-    if lower in STOPWORDS:
-        return False
-    if token.startswith('/') or '/home/' in token:
-        return False
-    if len(token) <= 2 and lower not in {'ai', 'ui', 'db'}:
-        return False
-    if re.fullmatch(r'[a-z]+', token) and len(token) <= 4 and lower not in TOOL_KEYWORDS:
-        return False
-    if re.fullmatch(r'\d+', token):
-        return False
-    return True
-
-
-def classify_entity(name: str) -> str:
-    key = name.lower()
-    if key in TOOL_KEYWORDS or key in {v.lower() for v in CANONICAL.values()}:
-        return 'tool'
-    return 'project'
-
-
-def extract_entities(text: str):
-    entities = []
-    lower = text.lower()
-
-    for m in re.findall(r'\b[\w\-]+\.github\.io\b', lower):
-        entities.append(normalize_entity(m))
-
-    for kw in TOOL_KEYWORDS:
-        if re.search(rf'\b{re.escape(kw)}\b', lower):
-            entities.append(normalize_entity(kw))
-
-    pattern = re.compile(r'([A-Za-z0-9\._\-]+)\s+(skill|repo|repository|project|site|blog|wiki|page|article)', re.I)
-    for m in pattern.finditer(text):
-        candidate = m.group(1)
-        if is_good_candidate(candidate):
-            entities.append(normalize_entity(candidate))
-
-    for m in re.findall(r'`([^`]+)`', text):
-        token = m.strip()
-        if len(token) > 60 or re.search(r'\s', token):
-            continue
-        if is_good_candidate(token):
-            entities.append(normalize_entity(token))
-
-    seen = set()
-    clean = []
-    for e in entities:
-        key = e.lower()
-        if not e or key in seen or not is_good_candidate(e):
-            continue
-        seen.add(key)
-        clean.append(e)
-
-    return clean[:8]
-
-
-def extract_blocks(history_text: str):
-    blocks = re.split(r'\n\s*\n', history_text.strip())
-    ts_pattern = re.compile(r'^\[(\d{4}-\d{2}-\d{2} \d{2}:\d{2})\]\s*(.*)')
-    for block in blocks:
-        block = block.strip()
-        if not block or block.startswith('#'):
-            continue
-        first_line = block.splitlines()[0].strip()
-        match = ts_pattern.match(first_line)
-        if not match:
-            continue
-        ts, rest = match.groups()
-        body_lines = block.splitlines()[1:]
-        body = (rest + '\n' + '\n'.join(body_lines)).strip()
-        yield ts, body
-
-
-def build_entities(history_text: str):
-    entity_events = defaultdict(list)
-    related_counts = defaultdict(Counter)
-    entity_type = {}
-
-    for ts, body in extract_blocks(history_text):
-        body = redact(body)
-        entities = extract_entities(body)
-        if not entities:
-            continue
-        sentence = first_sentence(body) or body[:120].strip()
-        event = f'{ts} — {sentence}'
-
-        for e in entities:
-            entity_events[e].append(event)
-            entity_type[e] = classify_entity(e)
-            for other in entities:
-                if other != e:
-                    related_counts[e][other] += 1
+        uniq_labels = []
+        seen = set()
+        for label in labels_in_entry:
+            k = label.lower()
+            if k in seen:
+                continue
+            seen.add(k)
+            uniq_labels.append(label)
+        for src in uniq_labels:
+            rel_bucket = related_counts.setdefault(src, defaultdict(int))
+            for dst in uniq_labels:
+                if src != dst:
+                    rel_bucket[dst] += 1
 
     items = []
-    for title, events in entity_events.items():
-        overview = ' / '.join([e.split(' — ', 1)[-1] for e in events[:2] if e])
-        related = [name for name, _ in related_counts[title].most_common(10)]
-        category = 'Tool' if entity_type.get(title) == 'tool' else 'Project'
+    for title, payload in grouped.items():
+        related = [name for name, _ in sorted(related_counts.get(title, {}).items(), key=lambda kv: (-kv[1], kv[0].lower()))[:8]]
         items.append({
-            'title': title,
-            'summary': overview,
-            'timeline': events[:10],
-            'tags': [],
-            'categories': [category],
-            'aliases': [title.lower()],
+            'title': payload['title'],
+            'summary': ' / '.join(payload['summary_parts'][:2]),
+            'timeline': payload['timeline'][:10],
+            'tags': payload['tags'],
+            'categories': payload['categories'],
+            'aliases': payload['aliases'],
             'related': related,
-            'source': 'history',
-            'source_id': 'history_md',
+            'source': payload['source'],
+            'source_id': payload['source_id'],
         })
 
     items.sort(key=lambda x: x['title'].lower())
     return items
 
 
+def build_entities(days: int = 7, limit: int = 0, provider: str = 'groq', model: str = '') -> list[dict]:
+    model = (model or choose_default_model(provider)).strip()
+    run_structured_extraction(provider=provider, model=model, days=days, limit=limit)
+    rows = _load_structured_candidates()
+    return build_entities_from_candidates(rows)
+
+
 def main():
-    history_text = HISTORY_PATH.read_text(encoding='utf-8')
-    items = build_entities(history_text)
-    OUTPUT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_JSON.write_text(json.dumps(items, ensure_ascii=False, indent=2), encoding='utf-8')
-    print(f'Wrote {len(items)} items to {OUTPUT_JSON}')
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--days', type=int, default=7)
+    parser.add_argument('--limit', type=int, default=0)
+    parser.add_argument('--provider', choices=['gemini', 'groq', 'openai'], default='groq')
+    parser.add_argument('--model', default='')
+    parser.add_argument('--output', default=str(OUTPUT_JSON))
+    args = parser.parse_args()
+
+    _ = load_recent_entries(days=args.days)
+    items = build_entities(days=args.days, limit=args.limit, provider=args.provider, model=args.model)
+
+    out = Path(args.output)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(json.dumps(items, ensure_ascii=False, indent=2), encoding='utf-8')
+    print(f'Wrote {len(items)} items to {out}')
 
 
 if __name__ == '__main__':

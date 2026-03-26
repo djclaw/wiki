@@ -8,27 +8,26 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 HISTORY_PATH = Path('/home/dj/.nanobot/workspace/memory/HISTORY.md')
-OUT_PATH = Path('/home/dj/.nanobot/workspace/wiki/data/extraction-poc/baseline-recent-history.json')
+OUT_PATH = Path('/home/dj/.nanobot/workspace/wiki/data/extraction-pipeline/baseline-recent-history.json')
 ENTRY_RE = re.compile(r'^\[(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2})\]\s*(.*)$')
 
 KEYWORDS = {
+    'github pages': 'GitHub Pages',
     'github': 'GitHub',
     'git': 'Git',
-    'telegram': 'Telegram',
-    'gemini': 'Gemini',
-    'groq': 'Groq',
     'logseq': 'Logseq',
     'seqlog': 'SeqLog',
     'wiki': 'wiki',
-    'kernel': 'kernel',
     'trips': 'trips',
     'new orleans': 'New Orleans',
+    'new york': 'New York',
+    'new jersey': 'New Jersey',
     'airbnb': 'Airbnb',
     'leaflet': 'Leaflet',
     'openstreetmap': 'OpenStreetMap',
     'djclaw': 'DJClaw',
-    'github pages': 'GitHub Pages',
-    'project': 'project',
+    'lonely planet': 'Lonely Planet',
+    'javits center': 'Javits Center',
 }
 
 

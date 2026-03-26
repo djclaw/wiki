@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
-Bridge current extracted entry-shaped JSON into a minimal kernel-shaped JSON.
-This does not replace the current pipeline yet.
-It creates a second normalized artifact for MVP2/MVP3 evolution.
+Build kernel-shaped JSON from the current extracted entry-shaped history data.
+This is the canonical normalization step for the current wiki pipeline.
 """
 import json
 import re
@@ -38,6 +37,12 @@ def node_type_from_categories(categories):
         return 'tool'
     if 'project' in cats:
         return 'project'
+    if 'place' in cats:
+        return 'place'
+    if 'organization' in cats:
+        return 'organization'
+    if 'person' in cats:
+        return 'person'
     return 'topic'
 
 
@@ -140,22 +145,10 @@ def main():
                 'status': 'candidate'
             })
 
-    payload = {
-        'sources': sources,
-        'evidence': evidence,
-        'nodes': nodes,
-        'relations': relations,
-        'events': events,
-    }
+    payload = {'sources': sources, 'evidence': evidence, 'nodes': nodes, 'relations': relations, 'events': events}
     OUTPUT_JSON.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding='utf-8')
     print(f'Wrote kernel JSON to {OUTPUT_JSON}')
-    print(json.dumps({
-        'sources': len(sources),
-        'nodes': len(nodes),
-        'relations': len(relations),
-        'events': len(events),
-        'evidence': len(evidence),
-    }, ensure_ascii=False, indent=2))
+    print(json.dumps({'sources': len(sources), 'nodes': len(nodes), 'relations': len(relations), 'events': len(events), 'evidence': len(evidence)}, ensure_ascii=False, indent=2))
 
 
 if __name__ == '__main__':

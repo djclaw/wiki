@@ -1,18 +1,8 @@
 [
   {
-    "title": "7-day",
-    "url": "entries/history/7-day.html",
-    "snippet": "Wiki recent-window refresh and scheduler investigation advanced",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "daily",
-    "url": "entries/history/daily.html",
-    "snippet": "Wiki recent-window refresh and scheduler investigation advanced",
+    "title": "Airbnb",
+    "url": "entries/history/airbnb.html",
+    "snippet": "Approved and initialized mobile/desktop travel site repo djclaw/trips, beginning static-site scaffolding for New Orleans trip guide.",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -22,67 +12,7 @@
   {
     "title": "DJClaw",
     "url": "entries/history/djclaw.html",
-    "snippet": "DJClaw publishing continued after post 062 / Trips project MVP1 is underway for new repo `djclaw/trips` in `[REDACTED_PATH] User asked that after MVP1 ends, a DJClaw article be published based on the trips planning conversation, and separately that after MVP1 ends a GitHub Project linked to the new trips repo be created for MVP2 with MVP2 tasks added",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "djclaw.github.io",
-    "url": "entries/history/djclawgithubio.html",
-    "snippet": "Trips project post-MVP1 setup progressed: GitHub Pages for djclaw/trips was enabled on master/root and built successfully at https://djclaw.github.io/trips/",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "Garden",
-    "url": "entries/history/garden.html",
-    "snippet": "User had a beginner Logseq discussion and then requested publication work",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "gemini-2.5-pro",
-    "url": "entries/history/gemini-25-pro.html",
-    "snippet": "Wiki extraction PoC work continued",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "Gemini",
-    "url": "entries/history/gemini.html",
-    "snippet": "Wiki extraction PoC moved from design into implementation / Wiki extraction PoC work continued",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "Git",
-    "url": "entries/history/git.html",
-    "snippet": "Wiki extraction PoC work continued",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "GitHub-worthy",
-    "url": "entries/history/github-worthy.html",
-    "snippet": "User directed wiki extraction hardening and operations follow-up",
+    "snippet": "After confirming post 062 live, user approved and assistant created post 063 trilingual lyrics version, updating index.html and sitemap.xml / Approved and initialized mobile/desktop travel site repo djclaw/trips, beginning static-site scaffolding for New Orleans trip guide.",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -92,37 +22,7 @@
   {
     "title": "GitHub",
     "url": "entries/history/github.html",
-    "snippet": "User approved the default plan to start a new GitHub repo `djclaw/trips` for a mobile/desktop travel site inspired by Airbnb, with a trip picker homepage and an initial New Orleans trip page showing map + list, star ratings, and structured travel content / Trips project MVP1 is underway for new repo `djclaw/trips` in `[REDACTED_PATH] User asked that after MVP1 ends, a DJClaw article be published based on the trips planning conversation, and separately that after MVP1 ends a GitHub Project linked to the new trips repo be created for MVP2 with MVP2 tasks added",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "Groq",
-    "url": "entries/history/groq.html",
-    "snippet": "Wiki extraction PoC moved from design into implementation / Wiki extraction PoC work continued",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "homepageUrl",
-    "url": "entries/history/homepageurl.html",
-    "snippet": "Trips project MVP1 was completed and pushed",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "LLM-assisted",
-    "url": "entries/history/llm-assisted.html",
-    "snippet": "Wiki extraction work reached a new kernel milestone, then paused for broader extraction research and a DJClaw article request",
+    "snippet": "Switched between Gemini models due to quota issues; created baseline comparison script; verified Groq config location",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -132,7 +32,7 @@
   {
     "title": "Logseq",
     "url": "entries/history/logseq.html",
-    "snippet": "User asked to research seqlog.com and explain SeqLog in plain Chinese, including what it is for, who uses it, and use cases for personal and small-group users / DJClaw site work continued: a new Chinese SeqLog explainer article was created and published locally as post 065 `posts-2026-03-24-065-seqlog-native-logseq-for-macos.html`, with `index.html` and `sitemap.xml` updated",
+    "snippet": "Clarified SeqLog as a macOS-native Logseq-style Markdown note app, corrected external mislabeling as AI logger or generic timeline tool. / Post 065 titled 'SeqLog native Logseq for macOS' was created and published locally",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -140,9 +40,9 @@
     "coordinates": null
   },
   {
-    "title": "MVP2",
-    "url": "entries/history/mvp2.html",
-    "snippet": "Trips project progressed: after enabling GitHub Pages for djclaw/trips and creating the MVP2 project/issues, labels/project organization were completed and a new DJClaw article was published as post 064 `posts-2026-03-20-064-planning-the-trips-project.html` in commit `16134d2` (`Publish post 064 on trips project planning`)",
+    "title": "Lonely Planet",
+    "url": "entries/history/lonely-planet.html",
+    "snippet": "User requested extracting and structuring a Lonely Planet New Orleans 3-day weekend guide for the Trips project’s destination page",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -150,39 +50,9 @@
     "coordinates": null
   },
   {
-    "title": "nanobot",
-    "url": "entries/history/nanobot.html",
-    "snippet": "Wiki extraction PoC work continued / Wiki extraction PoC provider/model work advanced and the user selected Groq as the main extraction provider",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "Node.js",
-    "url": "entries/history/nodejs.html",
-    "snippet": "Wiki extraction work reached a new kernel milestone, then paused for broader extraction research and a DJClaw article request / User directed wiki extraction hardening and operations follow-up",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "OpenAI",
-    "url": "entries/history/openai.html",
-    "snippet": "Wiki extraction PoC provider/model work advanced and the user selected Groq as the main extraction provider",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "Refresh",
-    "url": "entries/history/refresh.html",
-    "snippet": "Wiki recent-window refresh and scheduler investigation advanced",
+    "title": "New Orleans",
+    "url": "entries/history/new-orleans.html",
+    "snippet": "Approved and initialized mobile/desktop travel site repo djclaw/trips, beginning static-site scaffolding for New Orleans trip guide. / MVP1 finished with homepage upgrade, README expansion, and root commit on master branch",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -192,37 +62,7 @@
   {
     "title": "SeqLog",
     "url": "entries/history/seqlog.html",
-    "snippet": "User asked to research seqlog.com and explain SeqLog in plain Chinese, including what it is for, who uses it, and use cases for personal and small-group users / DJClaw site work continued: a new Chinese SeqLog explainer article was created and published locally as post 065 `posts-2026-03-24-065-seqlog-native-logseq-for-macos.html`, with `index.html` and `sitemap.xml` updated",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "sitemap.xml",
-    "url": "entries/history/sitemapxml.html",
-    "snippet": "DJClaw publishing continued after post 062 / DJClaw site work continued: a new Chinese SeqLog explainer article was created and published locally as post 065 `posts-2026-03-24-065-seqlog-native-logseq-for-macos.html`, with `index.html` and `sitemap.xml` updated",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "SQLite",
-    "url": "entries/history/sqlite.html",
-    "snippet": "User approved doing A then B for the wiki overhaul",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "summarize",
-    "url": "entries/history/summarize.html",
-    "snippet": "User had a beginner Logseq discussion and then requested publication work",
+    "snippet": "Clarified SeqLog as a macOS-native Logseq-style Markdown note app, corrected external mislabeling as AI logger or generic timeline tool. / Post 065 titled 'SeqLog native Logseq for macOS' was created and published locally",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -232,17 +72,7 @@
   {
     "title": "trips",
     "url": "entries/history/trips.html",
-    "snippet": "User approved the default plan to start a new GitHub repo `djclaw/trips` for a mobile/desktop travel site inspired by Airbnb, with a trip picker homepage and an initial New Orleans trip page showing map + list, star ratings, and structured travel content",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "WeChat",
-    "url": "entries/history/wechat.html",
-    "snippet": "User had a beginner Logseq discussion and then requested publication work",
+    "snippet": "Trips project MVP1 is underway for djclaw/trips repo / MVP1 finished with homepage upgrade, README expansion, and root commit on master branch",
     "tags": [],
     "categories": [],
     "aliases": [],
