@@ -173,6 +173,7 @@ So the project takes the **concept kernel**, not the whole application burden.
 
 - `docs/ARCHITECTURE.md` — layered technical architecture
 - `docs/MINIMAL-SCHEMA.md` — minimal schema for the wiki kernel
+- `docs/EXTRACTION-DESIGN.md` — extraction strategy, tool options, MVP path, and PoC plan
 - `docs/PROJECT.md` — short project overview
 
 ## Current local pipeline

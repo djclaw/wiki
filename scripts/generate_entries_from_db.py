@@ -5,134 +5,200 @@ import sqlite3
 from datetime import datetime
 from pathlib import Path
 
-DB_PATH = Path("/home/dj/.nanobot/workspace/memory/wiki.db")
-OUTPUT_DIR = Path("/home/dj/.nanobot/workspace/wiki/entries/history")
-TEMPLATES_DIR = Path("/home/dj/.nanobot/workspace/wiki/templates")
-LIMIT = 50
+DB_PATH = Path('/home/dj/.nanobot/workspace/memory/wiki.db')
+OUTPUT_DIR = Path('/home/dj/.nanobot/workspace/wiki/entries/history')
+TEMPLATES_DIR = Path('/home/dj/.nanobot/workspace/wiki/templates')
+LIMIT = 200
+STOPWORDS = {
+    'a', 'an', 'and', 'all', 'are', 'as', 'at', 'about', 'after', 'around', 'be', 'by', 'for', 'from',
+    'how', 'i', 'if', 'in', 'into', 'is', 'it', 'new', 'of', 'on', 'or', 'the', 'to', 'with', 'we', 'you'
+}
+ALLOW_SHORT = {'AI', 'UI', 'DB', 'CLI', 'MCP', 'BJJ', 'Git', 'npm'}
 
 
 def slugify(text: str) -> str:
-    text = text.strip().lower()
-    text = re.sub(r"\s+", "-", text)
-    text = re.sub(r"[^a-z0-9\-\u4e00-\u9fff]", "", text)
-    return text[:60] or "entry"
+    text = (text or '').strip().lower()
+    text = re.sub(r'\s+', '-', text)
+    text = re.sub(r'[^a-z0-9\-\u4e00-\u9fff]', '', text)
+    return text[:80] or 'entry'
 
 
 def load_template(name: str) -> str:
-    return (TEMPLATES_DIR / name).read_text(encoding="utf-8")
+    return (TEMPLATES_DIR / name).read_text(encoding='utf-8')
 
 
-def build_infobox_rows(entry):
+def html_escape(text: str) -> str:
+    return ((text or '')
+        .replace('&', '&amp;')
+        .replace('<', '&lt;')
+        .replace('>', '&gt;'))
+
+
+def is_publishable_node(node, timeline_count=0, related_count=0):
+    title = (node.get('title') or '').strip()
+    lower = title.lower()
+
+    if not title:
+        return False, 'empty'
+    if lower in STOPWORDS:
+        return False, 'stopword'
+    if title.startswith(('#', '.', '-', '(', '/', '[')):
+        return False, 'punct-start'
+    if re.fullmatch(r'[0-9a-f]{7,40}', lower):
+        return False, 'commit-hash'
+    if re.fullmatch(r'\d+(\.\d+){1,4}(:\d+)?', title):
+        return False, 'ip-or-version'
+    if '/' in title or '\\' in title:
+        return False, 'path-like'
+    if '@' in title:
+        return False, 'handle-or-address'
+    if re.fullmatch(r'[a-z]+', lower) and len(title) <= 4 and title not in ALLOW_SHORT:
+        return False, 'short-lowercase-word'
+    if len(title) <= 2 and title not in ALLOW_SHORT:
+        return False, 'too-short'
+    if timeline_count == 0 and related_count < 2:
+        return False, 'too-thin'
+    return True, 'ok'
+
+
+def build_infobox_rows(node):
     rows = []
-    rows.append(f"<dt>Source</dt><dd>{entry['source']}</dd>")
-    rows.append(f"<dt>Source ID</dt><dd>{entry['source_id']}</dd>")
-    if entry.get("created_at"):
-        rows.append(f"<dt>Created</dt><dd>{entry['created_at']}</dd>")
-    categories = entry.get("categories", [])
+    rows.append(f"<dt>Type</dt><dd>{html_escape(node.get('node_type') or 'topic')}</dd>")
+    rows.append(f"<dt>Node ID</dt><dd>{html_escape(node['node_id'])}</dd>")
+    if node.get('status'):
+        rows.append(f"<dt>Status</dt><dd>{html_escape(node['status'])}</dd>")
+    if node.get('visibility'):
+        rows.append(f"<dt>Visibility</dt><dd>{html_escape(node['visibility'])}</dd>")
+    categories = node.get('categories', [])
     if categories:
-        rows.append(f"<dt>Category</dt><dd>{', '.join(categories)}</dd>")
-    return "\n".join(rows)
+        rows.append(f"<dt>Categories</dt><dd>{html_escape(', '.join(categories))}</dd>")
+    tags = node.get('tags', [])
+    if tags:
+        rows.append(f"<dt>Tags</dt><dd>{html_escape(', '.join(tags))}</dd>")
+    aliases = node.get('aliases', [])
+    if aliases:
+        rows.append(f"<dt>Aliases</dt><dd>{html_escape(', '.join(aliases))}</dd>")
+    return '\n'.join(rows)
 
 
-def build_sections(entry):
-    summary = entry.get("summary", "").strip()
-    if not summary:
-        summary = "(No summary yet.)"
-
-    timeline = entry.get("timeline", [])
+def build_sections(node, timeline, related):
+    summary = (node.get('summary') or '').strip() or '(No summary yet.)'
     timeline_items = []
     for item in timeline:
-        timeline_items.append(f"<li>{item}</li>")
+        label = html_escape(item.get('timestamp') or 'Unknown time')
+        summary_text = html_escape(item.get('summary') or '')
+        timeline_items.append(f'<li><strong>{label}</strong> — {summary_text}</li>')
     if not timeline_items:
-        timeline_items.append("<li>(No events yet.)</li>")
+        timeline_items.append('<li>(No events yet.)</li>')
 
-    related = entry.get("related", [])
     related_items = []
     for item in related:
-        related_items.append(f"<li>{item}</li>")
+        href = f"/wiki/entries/history/{item['to_node']}.html"
+        title = html_escape(item.get('title') or item['to_node'])
+        rtype = html_escape(item.get('relation_type') or 'related_to')
+        related_items.append(f'<li><a href="{href}">{title}</a> <span class="muted">({rtype})</span></li>')
     if not related_items:
-        related_items.append("<li>(No related entries yet.)</li>")
+        related_items.append('<li>(No related entries yet.)</li>')
 
     sections = [
-        "<section id=\"summary\">",
-        "<h2>Overview</h2>",
-        f"<p>{summary}</p>",
-        "</section>",
-        "<section id=\"timeline\">",
-        "<h2>Timeline</h2>",
-        "<ul>",
-        *timeline_items,
-        "</ul>",
-        "</section>",
-        "<section id=\"related\">",
-        "<h2>Related</h2>",
-        "<ul>",
-        *related_items,
-        "</ul>",
-        "</section>",
+        '<section id="summary">', '<h2>Overview</h2>', f'<p>{html_escape(summary)}</p>', '</section>',
+        '<section id="timeline">', '<h2>Timeline</h2>', '<ul>', *timeline_items, '</ul>', '</section>',
+        '<section id="related-manual">', '<h2>Related</h2>', '<ul>', *related_items, '</ul>', '</section>',
     ]
-    return "\n".join(sections)
+    return '\n'.join(sections)
 
 
 def build_toc_items():
-    return "".join(
-        [
-            "<li><a href=\"#summary\">Overview</a></li>",
-            "<li><a href=\"#timeline\">Timeline</a></li>",
-            "<li><a href=\"#related\">Related</a></li>",
-        ]
-    )
+    return ''.join([
+        '<li><a href="#summary">Overview</a></li>',
+        '<li><a href="#timeline">Timeline</a></li>',
+        '<li><a href="#related-manual">Related</a></li>',
+    ])
 
 
-def render_entity(entry):
-    entity_tpl = load_template("entity.html")
-    infobox_rows = build_infobox_rows(entry)
-    toc_items = build_toc_items()
-    sections = build_sections(entry)
-    entity = entity_tpl
-    entity = entity.replace("{{title}}", entry["title"])
-    entity = entity.replace("{{summary}}", entry.get("summary", "") or "")
-    entity = entity.replace("{{infobox_rows}}", infobox_rows)
-    entity = entity.replace("{{toc_items}}", toc_items)
-    entity = entity.replace("{{sections}}", sections)
+def render_entity(node, timeline, related):
+    entity_tpl = load_template('entity.html')
+    entity = entity_tpl.replace('{{title}}', html_escape(node['title']))
+    entity = entity.replace('{{summary}}', html_escape(node.get('summary', '') or ''))
+    entity = entity.replace('{{infobox_rows}}', build_infobox_rows(node))
+    entity = entity.replace('{{toc_items}}', build_toc_items())
+    entity = entity.replace('{{sections}}', build_sections(node, timeline, related))
     return entity
 
 
 def render_page(title: str, content: str):
-    layout = load_template("layout.html")
-    updated_at = datetime.now().strftime("%Y-%m-%d %H:%M")
-    page = layout.replace("{{title}}", title)
-    page = page.replace("{{content}}", content)
-    page = page.replace("{{updated_at}}", updated_at)
+    layout = load_template('layout.html')
+    updated_at = datetime.now().strftime('%Y-%m-%d %H:%M')
+    page = layout.replace('{{title}}', html_escape(title))
+    page = page.replace('{{content}}', content)
+    page = page.replace('{{updated_at}}', updated_at)
     return page
+
+
+def fetch_nodes(conn):
+    conn.row_factory = sqlite3.Row
+    return conn.execute(
+        'SELECT node_id, node_type, title, summary, aliases_json, tags_json, categories_json, status, visibility FROM nodes ORDER BY title LIMIT ?',
+        (LIMIT,),
+    ).fetchall()
+
+
+def fetch_timeline(conn, node_id):
+    conn.row_factory = sqlite3.Row
+    rows = conn.execute(
+        "SELECT event_id, timestamp, summary FROM events WHERE node_ids_json LIKE ? ORDER BY timestamp DESC, event_id DESC LIMIT 40",
+        (f'%\"{node_id}\"%',),
+    ).fetchall()
+    return [dict(r) for r in rows]
+
+
+def fetch_related(conn, node_id):
+    conn.row_factory = sqlite3.Row
+    rows = conn.execute(
+        '''
+        SELECT r.to_node, r.relation_type, n.title
+        FROM relations r
+        LEFT JOIN nodes n ON n.node_id = r.to_node
+        WHERE r.from_node = ?
+        ORDER BY COALESCE(n.title, r.to_node)
+        LIMIT 40
+        ''',
+        (node_id,),
+    ).fetchall()
+    return [dict(r) for r in rows]
 
 
 def main():
     conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
-    rows = conn.execute(
-        "SELECT id, title, summary, timeline, categories, related, source, source_id FROM entries ORDER BY id LIMIT ?",
-        (LIMIT,),
-    ).fetchall()
-    conn.close()
-
+    rows = fetch_nodes(conn)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    for idx, row in enumerate(rows, start=1):
-        title = row["title"]
-        entry = dict(row)
-        entry["created_at"] = None
-        entry["timeline"] = json.loads(entry.get("timeline") or "[]")
-        entry["categories"] = json.loads(entry.get("categories") or "[]")
-        entry["related"] = json.loads(entry.get("related") or "[]")
-        entity_html = render_entity(entry)
-        full_page = render_page(title, entity_html)
+    generated = []
+    skipped = []
+    for row in rows:
+        node = dict(row)
+        node['aliases'] = json.loads(node.get('aliases_json') or '[]')
+        node['tags'] = json.loads(node.get('tags_json') or '[]')
+        node['categories'] = json.loads(node.get('categories_json') or '[]')
+        timeline = fetch_timeline(conn, node['node_id'])
+        related = fetch_related(conn, node['node_id'])
+        ok, reason = is_publishable_node(node, len(timeline), len(related))
+        if not ok:
+            skipped.append((node['title'], reason))
+            continue
+        full_page = render_page(node['title'], render_entity(node, timeline, related))
+        filename = f"{slugify(node['node_id'])}.html"
+        (OUTPUT_DIR / filename).write_text(full_page, encoding='utf-8')
+        generated.append(filename)
 
-        filename = f"history-{idx:04d}.html"
-        (OUTPUT_DIR / filename).write_text(full_page, encoding="utf-8")
+    conn.close()
+    print(f'Generated {len(generated)} node pages in {OUTPUT_DIR}')
+    print(f'Skipped {len(skipped)} nodes')
+    for name in generated[:20]:
+        print('OK ', name)
+    for title, reason in skipped[:20]:
+        print('SKIP', reason, '::', title)
 
-    print(f"Generated {len(rows)} history entries in {OUTPUT_DIR}")
 
-
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

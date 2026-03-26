@@ -1,0 +1,257 @@
+[
+  {
+    "entry_id": "entry-001",
+    "timestamp": "2026-03-25T14:17",
+    "evidence": {
+      "evidence_id": "evidence-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-25T14:17",
+      "text": "[2026-03-25 14:17] User had a beginner Logseq discussion and then requested publication work. Assistant explained Page vs Backlink, Flashcard, and advised minimal plugins first. User chose title 1 and approved direct publish; DJClaw post 067 `posts-2026-03-25-067-logseq-basics-macbook-android.html` titled `Logseq 入门：Journal、Block、Page 到底是什么` was written, added to `index.html` and `sitemap.xml`, and pushed to `main` in commit `1414384` (`Publish post 067 on Logseq basics`). User then asked how Logseq data sync works between Android and MacBook; preserve the explanation that Logseq syncs the graph/data folder (journals/pages/logseq/assets) rather than an abstract account database, with two main approaches: official Logseq Sync or third-party file sync, and with Mac as main editor + Android as lightweight companion recommended. Later the user asked to read a WeChat article and a Digital Garden page, summarize them, write a DJClaw article in a Craig Adams-like style, and publish it. Retrieval failed: the WeChat page yielded only generic shell text via readability and the `tothegarden.vercel.app/page/数字花园` URL returned 404, so article writing/publishing could not proceed yet."
+    },
+    "nodes": [
+      {
+        "label": "Logseq",
+        "type": "tool",
+        "confidence": 0.96
+      },
+      {
+        "label": "DJClaw",
+        "type": "project",
+        "confidence": 0.95
+      },
+      {
+        "label": "Craig Adams",
+        "type": "person",
+        "confidence": 0.94
+      },
+      {
+        "label": "Logseq Sync",
+        "type": "topic",
+        "confidence": 0.93
+      },
+      {
+        "label": "Android",
+        "type": "other",
+        "confidence": 0.9
+      }
+    ],
+    "relations": [],
+    "events": [
+      {
+        "title": "DJClaw publishes Logseq basics post 067",
+        "timestamp": "2026-03-25T14:17",
+        "summary": "DJClaw wrote and published post 067 titled \"Logseq 入门：Journal、Block、Page 到底是什么\", added it to index.html and sitemap.xml, and pushed the changes to the main branch.",
+        "confidence": 0.95
+      },
+      {
+        "title": "Explanation of Logseq data sync between Android and MacBook",
+        "timestamp": "2026-03-25T14:17",
+        "summary": "Assistant explained that Logseq syncs the graph/data folder, not an abstract account, describing official Logseq Sync and third‑party file sync, recommending Mac as the primary editor and Android as a lightweight companion.",
+        "confidence": 0.94
+      }
+    ],
+    "raw_response": "{\"nodes\":[{\"label\":\"Logseq\",\"type\":\"tool\",\"confidence\":0.96},{\"label\":\"DJClaw\",\"type\":\"person\",\"confidence\":0.95},{\"label\":\"Craig Adams\",\"type\":\"person\",\"confidence\":0.94},{\"label\":\"Logseq Sync\",\"type\":\"topic\",\"confidence\":0.93},{\"label\":\"Android\",\"type\":\"other\",\"confidence\":0.90}],\"relations\":[{\"source_label\":\"DJClaw\",\"relation_type\":\"related_to\",\"confidence\":0.94},{\"source_label\":\"Logseq\",\"relation_type\":\"uses\",\"confidence\":0.93},{\"source_label\":\"Craig Adams\",\"relation_type\":\"mentioned_with\",\"confidence\":0.92},{\"source_label\":\"Android\",\"relation_type\":\"related_to\",\"confidence\":0.88}],\"events\":[{\"title\":\"DJClaw publishes Logseq basics post 067\",\"timestamp\":\"2026-03-25T14:17\",\"summary\":\"DJClaw wrote and published post 067 titled \\\"Logseq 入门：Journal、Block、Page 到底是什么\\\", added it to index.html and sitemap.xml, and pushed the changes to the main branch.\",\"confidence\":0.95},{\"title\":\"Explanation of Logseq data sync between Android and MacBook\",\"timestamp\":\"2026-03-25T14:17\",\"summary\":\"Assistant explained that Logseq syncs the graph/data folder, not an abstract account, describing official Logseq Sync and third‑party file sync, recommending Mac as the primary editor and Android as a lightweight companion.\",\"confidence\":0.94}]}",
+    "parse_error": null
+  },
+  {
+    "entry_id": "entry-002",
+    "timestamp": "2026-03-25T19:16",
+    "evidence": {
+      "evidence_id": "evidence-002",
+      "source_id": "history_md",
+      "timestamp": "2026-03-25T19:16",
+      "text": "[2026-03-25 19:16] User pivoted the wiki project toward a Logseq-inspired architecture. Assistant concluded Logseq is suitable as a concept/kernel for the personal wiki (page/block/journal/backlink/graph-ready ideas) but should not be adopted wholesale as the product engine; the missing core is an extraction pipeline from HISTORY/chat/posts/commits into structured entities, events, relations, evidence, and timeline. User then requested: publish a clear technical architecture / layered design document to DJClaw, execute schema/design option B as the MVP basis, update the wiki GitHub repo issues/project to reflect MVP1/MVP2/MVP3 plus existing progress, and update the wiki README. During follow-up, assistant inspected /home/dj/.nanobot/workspace/wiki, confirmed repo djclaw/wiki with existing MVP4-labeled issues and GitHub Project 2 'Wiki', reviewed README/scripts/docs, and wrote a new README.md in the wiki repo. Also preserve that earlier on 2026-03-25 14:17, because Brave search was unavailable and source retrieval was partial (WeChat blocked by verification, Digital Garden SPA only partially parsable), DJClaw post 068 'A Small Digital Garden' was nevertheless published from accessible material in commit 778c069 with explicit caveat that no WeChat details were fabricated."
+    },
+    "nodes": [
+      {
+        "label": "personal wiki",
+        "type": "project",
+        "confidence": 0.9
+      },
+      {
+        "label": "Logseq",
+        "type": "tool",
+        "confidence": 0.9
+      },
+      {
+        "label": "extraction pipeline",
+        "type": "tool",
+        "confidence": 0.9
+      },
+      {
+        "label": "DJClaw",
+        "type": "project",
+        "confidence": 0.9
+      },
+      {
+        "label": "post 068 \"A Small Digital Garden\"",
+        "type": "doc",
+        "confidence": 0.9
+      }
+    ],
+    "relations": [],
+    "events": [
+      {
+        "title": "Pivot wiki project toward Logseq-inspired architecture",
+        "timestamp": "2026-03-25T19:16",
+        "summary": "User shifted the wiki project to a Logseq-inspired design, noting Logseq as a conceptual kernel but not the full product engine; identified need for an extraction pipeline.",
+        "confidence": 0.9
+      },
+      {
+        "title": "DJClaw published post 068 \"A Small Digital Garden\"",
+        "timestamp": "2026-03-25T14:17",
+        "summary": "Despite Brave search being unavailable and partial source retrieval, DJClaw posted the article with a caveat about missing WeChat details, referencing commit 778c069.",
+        "confidence": 0.9
+      }
+    ],
+    "raw_response": "{\"nodes\":[{\"label\":\"personal wiki\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"Logseq\",\"type\":\"tool\",\"confidence\":0.9},{\"label\":\"extraction pipeline\",\"type\":\"tool\",\"confidence\":0.9},{\"label\":\"DJClaw\",\"type\":\"person\",\"confidence\":0.9},{\"label\":\"post 068 \\\"A Small Digital Garden\\\"\",\"type\":\"doc\",\"confidence\":0.9}],\"relations\":[{\"source_label\":\"personal wiki\",\"relation_type\":\"related_to\",\"confidence\":0.85},{\"source_label\":\"personal wiki\",\"relation_type\":\"uses\",\"confidence\":0.85},{\"source_label\":\"DJClaw\",\"relation_type\":\"works_on\",\"confidence\":0.85},{\"source_label\":\"DJClaw\",\"relation_type\":\"published_to\",\"confidence\":0.85}],\"events\":[{\"title\":\"Pivot wiki project toward Logseq-inspired architecture\",\"timestamp\":\"2026-03-25T19:16\",\"summary\":\"User shifted the wiki project to a Logseq-inspired design, noting Logseq as a conceptual kernel but not the full product engine; identified need for an extraction pipeline.\",\"confidence\":0.9},{\"title\":\"DJClaw published post 068 \\\"A Small Digital Garden\\\"\",\"timestamp\":\"2026-03-25T14:17\",\"summary\":\"Despite Brave search being unavailable and partial source retrieval, DJClaw posted the article with a caveat about missing WeChat details, referencing commit 778c069.\",\"confidence\":0.9}]}",
+    "parse_error": null
+  },
+  {
+    "entry_id": "entry-003",
+    "timestamp": "2026-03-25T21:20",
+    "evidence": {
+      "evidence_id": "evidence-003",
+      "source_id": "history_md",
+      "timestamp": "2026-03-25T21:20",
+      "text": "[2026-03-25 21:20] User approved doing A then B for the wiki overhaul. Assistant pushed wiki README commit `528314a` (`Refine wiki README around Logseq-inspired kernel`) and DJClaw post 069 commit `dd3722f` (`Publish post 069 on wiki architecture`), then began B by adding `wiki/docs/ARCHITECTURE.md`, `wiki/docs/MINIMAL-SCHEMA.md`, `wiki/scripts/build_kernel_json.py`, linking them from README, generating `data/kernel.json`, and posting progress comments to wiki issues #6/#8/#9. Later user approved replacing the old local SQLite contents entirely; assistant rewrote `wiki/scripts/build_db.py` to rebuild from the new kernel schema, fixed duplicate-ID collisions in `build_kernel_json.py` caused by repeated titles, regenerated `data/kernel.json`, and successfully rebuilt `/home/dj/.nanobot/workspace/memory/wiki.db` with tables `sources`, `evidence`, `nodes`, `relations`, and `events` (counts: 1 / 407 / 126 / 578 / 407), replacing the old `entries` table."
+    },
+    "nodes": [
+      {
+        "label": "DJClaw",
+        "type": "project",
+        "confidence": 0.95
+      },
+      {
+        "label": "wiki overhaul",
+        "type": "project",
+        "confidence": 0.9
+      },
+      {
+        "label": "build_kernel_json.py",
+        "type": "tool",
+        "confidence": 0.9
+      },
+      {
+        "label": "Logseq-inspired kernel",
+        "type": "topic",
+        "confidence": 0.85
+      }
+    ],
+    "relations": [],
+    "events": [
+      {
+        "title": "Refine wiki README and add architecture docs",
+        "timestamp": "2026-03-25T21:20",
+        "summary": "User approved tasks A and B for the wiki overhaul; assistant committed a README refinement, published post 069, added ARCHITECTURE.md and MINIMAL-SCHEMA.md, introduced build_kernel_json.py, linked them from the README, generated data/kernel.json, and posted progress comments to wiki issues #6, #8, #9.",
+        "confidence": 0.9
+      },
+      {
+        "title": "Rebuild wiki SQLite database with new kernel schema",
+        "timestamp": "2026-03-25T21:20",
+        "summary": "User approved replacing the old local SQLite contents; assistant rewrote build_db.py to rebuild from the new kernel schema, fixed duplicate-ID collisions in build_kernel_json.py, regenerated data/kernel.json, and successfully rebuilt /home/dj/.nanobot/workspace/memory/wiki.db with updated tables.",
+        "confidence": 0.9
+      }
+    ],
+    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"person\",\"confidence\":0.95},{\"label\":\"wiki overhaul\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"build_kernel_json.py\",\"type\":\"tool\",\"confidence\":0.9},{\"label\":\"ARCHITECTURE.md\",\"type\":\"doc\",\"confidence\":0.9},{\"label\":\"Logseq-inspired kernel\",\"type\":\"topic\",\"confidence\":0.85}],\"relations\":[{\"source_label\":\"DJClaw\",\"relation_type\":\"works_on\",\"confidence\":0.9},{\"source_label\":\"wiki overhaul\",\"relation_type\":\"uses\",\"confidence\":0.9},{\"source_label\":\"wiki overhaul\",\"relation_type\":\"about\",\"confidence\":0.85},{\"source_label\":\"ARCHITECTURE.md\",\"relation_type\":\"related_to\",\"confidence\":0.8}],\"events\":[{\"title\":\"Refine wiki README and add architecture docs\",\"timestamp\":\"2026-03-25T21:20\",\"summary\":\"User approved tasks A and B for the wiki overhaul; assistant committed a README refinement, published post 069, added ARCHITECTURE.md and MINIMAL-SCHEMA.md, introduced build_kernel_json.py, linked them from the README, generated data/kernel.json, and posted progress comments to wiki issues #6, #8, #9.\",\"confidence\":0.9},{\"title\":\"Rebuild wiki SQLite database with new kernel schema\",\"timestamp\":\"2026-03-25T21:20\",\"summary\":\"User approved replacing the old local SQLite contents; assistant rewrote build_db.py to rebuild from the new kernel schema, fixed duplicate-ID collisions in build_kernel_json.py, regenerated data/kernel.json, and successfully rebuilt /home/dj/.nanobot/workspace/memory/wiki.db with updated tables.\",\"confidence\":0.9}]}",
+    "parse_error": null
+  },
+  {
+    "entry_id": "entry-004",
+    "timestamp": "2026-03-25T21:35",
+    "evidence": {
+      "evidence_id": "evidence-004",
+      "source_id": "history_md",
+      "timestamp": "2026-03-25T21:35",
+      "text": "[2026-03-25 21:35] Wiki extraction work reached a new kernel milestone, then paused for broader extraction research and a DJClaw article request. The assistant had already switched wiki page generation to the new kernel DB (`nodes/events/relations`), added first-pass publish filters, cleared stale `entries/history/*.html`, and regenerated a cleaner set of 146 node pages while skipping 54 noisy nodes. Before proceeding with extraction-rule improvements (`2.1` tighter entity extraction, `2.2` canonicalization/alias merge), the user asked for external research on existing extraction tools, LLM-assisted skills/plugins, and a more comprehensive future extraction strategy. Brave search was unavailable, so the assistant used direct fetches of official docs/repos and summarized a layered recommendation: Instructor for structured extraction, LlamaIndex property-graph ideas for graph-shaped design, BAML / DSPy for later engineering/eval optimization, and GraphRAG as long-term architecture reference. The user then requested a concise DJClaw article summarizing the original extraction idea, what had actually been implemented so far, and the future options; assistant checked the DJClaw repo, confirmed latest post number 069, inspected `index.html`, `sitemap.xml`, and recent post templates, and began drafting/publishing the new article as post 070."
+    },
+    "nodes": [
+      {
+        "label": "Wiki extraction work",
+        "type": "project",
+        "confidence": 0.9
+      },
+      {
+        "label": "LlamaIndex",
+        "type": "tool",
+        "confidence": 0.9
+      },
+      {
+        "label": "GraphRAG",
+        "type": "tool",
+        "confidence": 0.9
+      },
+      {
+        "label": "DJClaw",
+        "type": "project",
+        "confidence": 0.9
+      },
+      {
+        "label": "DJClaw article post 070",
+        "type": "doc",
+        "confidence": 0.9
+      }
+    ],
+    "relations": [],
+    "events": [
+      {
+        "title": "New kernel DB milestone reached",
+        "timestamp": "2026-03-25T21:35",
+        "summary": "Wiki extraction work reached a new kernel milestone by switching wiki page generation to the new kernel DB (nodes/events/relations) and regenerating cleaned node pages.",
+        "confidence": 0.9
+      },
+      {
+        "title": "DJClaw article post 070 published",
+        "timestamp": "2026-03-25T21:35",
+        "summary": "Assistant drafted and published a concise DJClaw article (post 070) summarizing the original extraction idea, implemented work, and future options.",
+        "confidence": 0.9
+      }
+    ],
+    "raw_response": "{\"nodes\":[{\"label\":\"Wiki extraction work\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"LlamaIndex\",\"type\":\"tool\",\"confidence\":0.9},{\"label\":\"GraphRAG\",\"type\":\"tool\",\"confidence\":0.9},{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"DJClaw article post 070\",\"type\":\"doc\",\"confidence\":0.9}],\"relations\":[{\"source_label\":\"Wiki extraction work\",\"relation_type\":\"uses\",\"confidence\":0.85},{\"source_label\":\"Wiki extraction work\",\"relation_type\":\"uses\",\"confidence\":0.85},{\"source_label\":\"DJClaw article post 070\",\"relation_type\":\"about\",\"confidence\":0.9}],\"events\":[{\"title\":\"New kernel DB milestone reached\",\"timestamp\":\"2026-03-25T21:35\",\"summary\":\"Wiki extraction work reached a new kernel milestone by switching wiki page generation to the new kernel DB (nodes/events/relations) and regenerating cleaned node pages.\",\"confidence\":0.9},{\"title\":\"DJClaw article post 070 published\",\"timestamp\":\"2026-03-25T21:35\",\"summary\":\"Assistant drafted and published a concise DJClaw article (post 070) summarizing the original extraction idea, implemented work, and future options.\",\"confidence\":0.9}]}",
+    "parse_error": null
+  },
+  {
+    "entry_id": "entry-005",
+    "timestamp": "2026-03-25T23:13",
+    "evidence": {
+      "evidence_id": "evidence-005",
+      "source_id": "history_md",
+      "timestamp": "2026-03-25T23:13",
+      "text": "[2026-03-25 23:13] Wiki extraction PoC moved from design into implementation. User approved using recent 1-week HISTORY samples and current models; assistant created `wiki/docs/EXTRACTION-POC-PLAN.md` and `wiki/scripts/extraction_poc.py`, confirmed recent 7-day sample size (~12–13 entries), verified Gemini HTTP access with `GEMINI_API_KEY`, integrated Gemini 2.5 Flash via direct HTTP (no SDK/pydantic), and produced `wiki/data/extraction-poc/structured-candidates.json`. First Gemini run was too noisy (236 nodes / 247 relations / 60 events across 12 entries), then prompt tightening + local post-processing reduced output to 36 nodes / 24 relations / 16 events across 13 entries with 5 parse errors remaining. User then instructed assistant to do A/B/C in parallel: fix parse errors, add normalization, write a baseline comparison note, and also test Groq with the most advanced available model if possible."
+    },
+    "nodes": [
+      {
+        "label": "Wiki extraction PoC",
+        "type": "project",
+        "confidence": 0.92
+      },
+      {
+        "label": "Gemini 2.5 Flash",
+        "type": "tool",
+        "confidence": 0.9
+      },
+      {
+        "label": "Groq",
+        "type": "org",
+        "confidence": 0.88
+      }
+    ],
+    "relations": [],
+    "events": [
+      {
+        "title": "Wiki extraction PoC implementation",
+        "timestamp": "2026-03-25T23:13",
+        "summary": "Moved from design into implementation, created plan document and extraction script, integrated Gemini 2.5 Flash via direct HTTP, generated structured candidates JSON, and reduced output size after prompt tightening and post‑processing.",
+        "confidence": 0.93
+      },
+      {
+        "title": "Groq model test",
+        "timestamp": "2026-03-25T23:13",
+        "summary": "User instructed assistant to test Groq with the most advanced available model in parallel with other tasks.",
+        "confidence": 0.9
+      }
+    ],
+    "raw_response": "{\"nodes\":[{\"label\":\"Wiki extraction PoC\",\"type\":\"project\",\"confidence\":0.92},{\"label\":\"Gemini 2.5 Flash\",\"type\":\"tool\",\"confidence\":0.9},{\"label\":\"Groq\",\"type\":\"org\",\"confidence\":0.88},{\"label\":\"EXTRACTION-POC-PLAN.md\",\"type\":\"doc\",\"confidence\":0.85}],\"relations\":[{\"source_label\":\"Wiki extraction PoC\",\"relation_type\":\"uses\",\"confidence\":0.86},{\"source_label\":\"Wiki extraction PoC\",\"relation_type\":\"uses\",\"confidence\":0.81}],\"events\":[{\"title\":\"Wiki extraction PoC implementation\",\"timestamp\":\"2026-03-25T23:13\",\"summary\":\"Moved from design into implementation, created plan document and extraction script, integrated Gemini 2.5 Flash via direct HTTP, generated structured candidates JSON, and reduced output size after prompt tightening and post‑processing.\",\"confidence\":0.93},{\"title\":\"Groq model test\",\"timestamp\":\"2026-03-25T23:13\",\"summary\":\"User instructed assistant to test Groq with the most advanced available model in parallel with other tasks.\",\"confidence\":0.9}]}",
+    "parse_error": null
+  }
+]

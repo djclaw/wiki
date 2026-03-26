@@ -1,0 +1,297 @@
+[
+  {
+    "entry_id": "entry-001",
+    "timestamp": "2026-03-25T19:16",
+    "evidence": {
+      "evidence_id": "evidence-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-25T19:16",
+      "text": "[2026-03-25 19:16] User pivoted the wiki project toward a Logseq-inspired architecture. Assistant concluded Logseq is suitable as a concept/kernel for the personal wiki (page/block/journal/backlink/graph-ready ideas) but should not be adopted wholesale as the product engine; the missing core is an extraction pipeline from HISTORY/chat/posts/commits into structured entities, events, relations, evidence, and timeline. User then requested: publish a clear technical architecture / layered design document to DJClaw, execute schema/design option B as the MVP basis, update the wiki GitHub repo issues/project to reflect MVP1/MVP2/MVP3 plus existing progress, and update the wiki README. During follow-up, assistant inspected /home/dj/.nanobot/workspace/wiki, confirmed repo djclaw/wiki with existing MVP4-labeled issues and GitHub Project 2 'Wiki', reviewed README/scripts/docs, and wrote a new README.md in the wiki repo. Also preserve that earlier on 2026-03-25 14:17, because Brave search was unavailable and source retrieval was partial (WeChat blocked by verification, Digital Garden SPA only partially parsable), DJClaw post 068 'A Small Digital Garden' was nevertheless published from accessible material in commit 778c069 with explicit caveat that no WeChat details were fabricated."
+    },
+    "nodes": [
+      {
+        "label": "Logseq",
+        "type": "tool",
+        "confidence": 0.9
+      },
+      {
+        "label": "DJClaw",
+        "type": "project",
+        "confidence": 0.9
+      },
+      {
+        "label": "wiki",
+        "type": "project",
+        "confidence": 0.9
+      },
+      {
+        "label": "extraction pipeline",
+        "type": "tool",
+        "confidence": 0.8
+      },
+      {
+        "label": "DJClaw/wiki",
+        "type": "doc",
+        "confidence": 0.8
+      }
+    ],
+    "relations": [
+      {
+        "source_label": "DJClaw",
+        "relation_type": "published_to",
+        "target_label": "DJClaw/wiki",
+        "confidence": 0.8
+      }
+    ],
+    "events": [
+      {
+        "title": "Pivoted wiki project toward Logseq-inspired architecture",
+        "timestamp": "2026-03-25T19:16",
+        "summary": "User pivoted the wiki project and requested a technical architecture document",
+        "confidence": 0.9
+      },
+      {
+        "title": "Published DJClaw post 068",
+        "timestamp": "2026-03-25T14:17",
+        "summary": "DJClaw post 068 was published with explicit caveat",
+        "confidence": 0.8
+      }
+    ],
+    "raw_response": "{\n  \"nodes\":[\n      {\n         \"label\":\"Logseq\",\n         \"type\":\"project\",\n         \"confidence\":0.9\n      },\n      {\n         \"label\":\"DJClaw\",\n         \"type\":\"org\",\n         \"confidence\":0.9\n      },\n      {\n         \"label\":\"wiki project\",\n         \"type\":\"project\",\n         \"confidence\":0.9\n      },\n      {\n         \"label\":\"extraction pipeline\",\n         \"type\":\"tool\",\n         \"confidence\":0.8\n      },\n      {\n         \"label\":\"DJClaw/wiki\",\n         \"type\":\"doc\",\n         \"confidence\":0.8\n      }\n   ],\n   \"relations\":[\n      {\n         \"source_label\":\"wiki project\",\n         \"relation_type\":\"uses\",\n         \"target_label\":\"Logseq\",\n         \"confidence\":0.8\n      },\n      {\n         \"source_label\":\"DJClaw\",\n         \"relation_type\":\"published_to\",\n         \"target_label\":\"DJClaw/wiki\",\n         \"confidence\":0.8\n      }\n   ],\n   \"events\":[\n      {\n         \"title\":\"Pivoted wiki project toward Logseq-inspired architecture\",\n         \"timestamp\":\"2026-03-25T19:16\",\n         \"summary\":\"User pivoted the wiki project and requested a technical architecture document\",\n         \"confidence\":0.9\n      },\n      {\n         \"title\":\"Published DJClaw post 068\",\n         \"timestamp\":\"2026-03-25T14:17\",\n         \"summary\":\"DJClaw post 068 was published with explicit caveat\",\n         \"confidence\":0.8\n      }\n   ]\n}",
+    "parse_error": null
+  },
+  {
+    "entry_id": "entry-002",
+    "timestamp": "2026-03-25T21:20",
+    "evidence": {
+      "evidence_id": "evidence-002",
+      "source_id": "history_md",
+      "timestamp": "2026-03-25T21:20",
+      "text": "[2026-03-25 21:20] User approved doing A then B for the wiki overhaul. Assistant pushed wiki README commit `528314a` (`Refine wiki README around Logseq-inspired kernel`) and DJClaw post 069 commit `dd3722f` (`Publish post 069 on wiki architecture`), then began B by adding `wiki/docs/ARCHITECTURE.md`, `wiki/docs/MINIMAL-SCHEMA.md`, `wiki/scripts/build_kernel_json.py`, linking them from README, generating `data/kernel.json`, and posting progress comments to wiki issues #6/#8/#9. Later user approved replacing the old local SQLite contents entirely; assistant rewrote `wiki/scripts/build_db.py` to rebuild from the new kernel schema, fixed duplicate-ID collisions in `build_kernel_json.py` caused by repeated titles, regenerated `data/kernel.json`, and successfully rebuilt `/home/dj/.nanobot/workspace/memory/wiki.db` with tables `sources`, `evidence`, `nodes`, `relations`, and `events` (counts: 1 / 407 / 126 / 578 / 407), replacing the old `entries` table."
+    },
+    "nodes": [
+      {
+        "label": "wiki",
+        "type": "project",
+        "confidence": 0.9
+      },
+      {
+        "label": "Logseq",
+        "type": "tool",
+        "confidence": 0.8
+      },
+      {
+        "label": "DJClaw",
+        "type": "project",
+        "confidence": 0.8
+      },
+      {
+        "label": "SQLite",
+        "type": "tool",
+        "confidence": 0.8
+      },
+      {
+        "label": "wiki README",
+        "type": "doc",
+        "confidence": 0.7
+      }
+    ],
+    "relations": [
+      {
+        "source_label": "wiki",
+        "relation_type": "about",
+        "target_label": "Logseq",
+        "confidence": 0.6
+      },
+      {
+        "source_label": "DJClaw",
+        "relation_type": "works_on",
+        "target_label": "wiki",
+        "confidence": 0.7
+      }
+    ],
+    "events": [
+      {
+        "title": "Wiki Overhaul",
+        "timestamp": "2026-03-25T21:20",
+        "summary": "Approved doing A then B for the wiki overhaul and rebuilt wiki database",
+        "confidence": 0.8
+      }
+    ],
+    "raw_response": "{\n  \"nodes\":[\n      {\n         \"label\":\"wiki\",\n         \"type\":\"project\",\n         \"confidence\":0.9\n      },\n      {\n         \"label\":\"Logseq\",\n         \"type\":\"project\",\n         \"confidence\":0.8\n      },\n      {\n         \"label\":\"DJClaw\",\n         \"type\":\"person\",\n         \"confidence\":0.8\n      },\n      {\n         \"label\":\"SQLite\",\n         \"type\":\"tool\",\n         \"confidence\":0.8\n      },\n      {\n         \"label\":\"wiki README\",\n         \"type\":\"doc\",\n         \"confidence\":0.7\n      }\n   ],\n   \"relations\":[\n      {\n         \"source_label\":\"wiki\",\n         \"relation_type\":\"about\",\n         \"target_label\":\"Logseq\",\n         \"confidence\":0.6\n      },\n      {\n         \"source_label\":\"DJClaw\",\n         \"relation_type\":\"works_on\",\n         \"target_label\":\"wiki\",\n         \"confidence\":0.7\n      }\n   ],\n   \"events\":[\n      {\n         \"title\":\"Wiki Overhaul\",\n         \"timestamp\":\"2026-03-25T21:20\",\n         \"summary\":\"Approved doing A then B for the wiki overhaul and rebuilt wiki database\",\n         \"confidence\":0.8\n      }\n   ]\n}",
+    "parse_error": null
+  },
+  {
+    "entry_id": "entry-003",
+    "timestamp": "2026-03-25T21:35",
+    "evidence": {
+      "evidence_id": "evidence-003",
+      "source_id": "history_md",
+      "timestamp": "2026-03-25T21:35",
+      "text": "[2026-03-25 21:35] Wiki extraction work reached a new kernel milestone, then paused for broader extraction research and a DJClaw article request. The assistant had already switched wiki page generation to the new kernel DB (`nodes/events/relations`), added first-pass publish filters, cleared stale `entries/history/*.html`, and regenerated a cleaner set of 146 node pages while skipping 54 noisy nodes. Before proceeding with extraction-rule improvements (`2.1` tighter entity extraction, `2.2` canonicalization/alias merge), the user asked for external research on existing extraction tools, LLM-assisted skills/plugins, and a more comprehensive future extraction strategy. Brave search was unavailable, so the assistant used direct fetches of official docs/repos and summarized a layered recommendation: Instructor for structured extraction, LlamaIndex property-graph ideas for graph-shaped design, BAML / DSPy for later engineering/eval optimization, and GraphRAG as long-term architecture reference. The user then requested a concise DJClaw article summarizing the original extraction idea, what had actually been implemented so far, and the future options; assistant checked the DJClaw repo, confirmed latest post number 069, inspected `index.html`, `sitemap.xml`, and recent post templates, and began drafting/publishing the new article as post 070."
+    },
+    "nodes": [
+      {
+        "label": "Wiki extraction",
+        "type": "project",
+        "confidence": 0.9
+      },
+      {
+        "label": "DJClaw",
+        "type": "project",
+        "confidence": 0.9
+      },
+      {
+        "label": "Instructor",
+        "type": "tool",
+        "confidence": 0.8
+      },
+      {
+        "label": "LlamaIndex",
+        "type": "tool",
+        "confidence": 0.8
+      },
+      {
+        "label": "BAML",
+        "type": "tool",
+        "confidence": 0.8
+      }
+    ],
+    "relations": [
+      {
+        "source_label": "Wiki extraction",
+        "relation_type": "uses",
+        "target_label": "Instructor",
+        "confidence": 0.7
+      },
+      {
+        "source_label": "Wiki extraction",
+        "relation_type": "uses",
+        "target_label": "LlamaIndex",
+        "confidence": 0.7
+      }
+    ],
+    "events": [
+      {
+        "title": "Wiki extraction milestone",
+        "timestamp": "2026-03-25T21:35",
+        "summary": "Reached a new kernel milestone and paused for broader extraction research",
+        "confidence": 0.9
+      },
+      {
+        "title": "DJClaw article publication",
+        "timestamp": "2026-03-25T21:35",
+        "summary": "Published a new article summarizing the original extraction idea and future options",
+        "confidence": 0.9
+      }
+    ],
+    "raw_response": "{\n  \"nodes\":[\n      {\n         \"label\":\"Wiki extraction\",\n         \"type\":\"project\",\n         \"confidence\":0.9\n      },\n      {\n         \"label\":\"DJClaw\",\n         \"type\":\"project\",\n         \"confidence\":0.9\n      },\n      {\n         \"label\":\"Instructor\",\n         \"type\":\"tool\",\n         \"confidence\":0.8\n      },\n      {\n         \"label\":\"LlamaIndex\",\n         \"type\":\"tool\",\n         \"confidence\":0.8\n      },\n      {\n         \"label\":\"BAML\",\n         \"type\":\"tool\",\n         \"confidence\":0.8\n      },\n      {\n         \"label\":\"DSPy\",\n         \"type\":\"tool\",\n         \"confidence\":0.8\n      },\n      {\n         \"label\":\"GraphRAG\",\n         \"type\":\"tool\",\n         \"confidence\":0.8\n      }\n   ],\n   \"relations\":[\n      {\n         \"source_label\":\"Wiki extraction\",\n         \"relation_type\":\"uses\",\n         \"target_label\":\"Instructor\",\n         \"confidence\":0.7\n      },\n      {\n         \"source_label\":\"Wiki extraction\",\n         \"relation_type\":\"uses\",\n         \"target_label\":\"LlamaIndex\",\n         \"confidence\":0.7\n      }\n   ],\n   \"events\":[\n      {\n         \"title\":\"Wiki extraction milestone\",\n         \"timestamp\":\"2026-03-25T21:35\",\n         \"summary\":\"Reached a new kernel milestone and paused for broader extraction research\",\n         \"confidence\":0.9\n      },\n      {\n         \"title\":\"DJClaw article publication\",\n         \"timestamp\":\"2026-03-25T21:35\",\n         \"summary\":\"Published a new article summarizing the original extraction idea and future options\",\n         \"confidence\":0.9\n      }\n   ]\n}",
+    "parse_error": null
+  },
+  {
+    "entry_id": "entry-004",
+    "timestamp": "2026-03-25T23:13",
+    "evidence": {
+      "evidence_id": "evidence-004",
+      "source_id": "history_md",
+      "timestamp": "2026-03-25T23:13",
+      "text": "[2026-03-25 23:13] Wiki extraction PoC moved from design into implementation. User approved using recent 1-week HISTORY samples and current models; assistant created `wiki/docs/EXTRACTION-POC-PLAN.md` and `wiki/scripts/extraction_poc.py`, confirmed recent 7-day sample size (~12–13 entries), verified Gemini HTTP access with `GEMINI_API_KEY`, integrated Gemini 2.5 Flash via direct HTTP (no SDK/pydantic), and produced `wiki/data/extraction-poc/structured-candidates.json`. First Gemini run was too noisy (236 nodes / 247 relations / 60 events across 12 entries), then prompt tightening + local post-processing reduced output to 36 nodes / 24 relations / 16 events across 13 entries with 5 parse errors remaining. User then instructed assistant to do A/B/C in parallel: fix parse errors, add normalization, write a baseline comparison note, and also test Groq with the most advanced available model if possible."
+    },
+    "nodes": [
+      {
+        "label": "Wiki extraction PoC",
+        "type": "project",
+        "confidence": 0.9
+      },
+      {
+        "label": "Gemini",
+        "type": "tool",
+        "confidence": 0.9
+      },
+      {
+        "label": "Gemini 2.5 Flash",
+        "type": "tool",
+        "confidence": 0.8
+      },
+      {
+        "label": "Groq",
+        "type": "tool",
+        "confidence": 0.8
+      }
+    ],
+    "relations": [
+      {
+        "source_label": "Wiki extraction PoC",
+        "relation_type": "uses",
+        "target_label": "Gemini",
+        "confidence": 0.8
+      }
+    ],
+    "events": [
+      {
+        "title": "Wiki extraction PoC implementation started",
+        "timestamp": "2026-03-25T23:13",
+        "summary": "Moved from design into implementation",
+        "confidence": 0.9
+      }
+    ],
+    "raw_response": "{\n  \"nodes\":[\n      {\n         \"label\":\"Wiki extraction PoC\",\n         \"type\":\"project\",\n         \"confidence\":0.9\n      },\n      {\n         \"label\":\"Gemini\",\n         \"type\":\"tool\",\n         \"confidence\":0.9\n      },\n      {\n         \"label\":\"Gemini 2.5 Flash\",\n         \"type\":\"tool\",\n         \"confidence\":0.8\n      },\n      {\n         \"label\":\"Groq\",\n         \"type\":\"tool\",\n         \"confidence\":0.8\n      }\n   ],\n   \"relations\":[\n      {\n         \"source_label\":\"Wiki extraction PoC\",\n         \"relation_type\":\"uses\",\n         \"target_label\":\"Gemini\",\n         \"confidence\":0.8\n      }\n   ],\n   \"events\":[\n      {\n         \"title\":\"Wiki extraction PoC implementation started\",\n         \"timestamp\":\"2026-03-25T23:13\",\n         \"summary\":\"Moved from design into implementation\",\n         \"confidence\":0.9\n      }\n   ]\n}",
+    "parse_error": null
+  },
+  {
+    "entry_id": "entry-005",
+    "timestamp": "2026-03-25T23:22",
+    "evidence": {
+      "evidence_id": "evidence-005",
+      "source_id": "history_md",
+      "timestamp": "2026-03-25T23:22",
+      "text": "[2026-03-25 23:22] Wiki extraction PoC work continued. User asked to do A/B/C together: fix remaining parse errors, add normalization, and write a baseline comparison note, while preferring Gemini or Groq and asking to use the most advanced available model. Assistant edited `wiki/scripts/extraction_poc.py` multiple times, first switching to Gemini Pro priority with 429 retry and stronger normalization, then discovered `gemini-2.5-pro` was unusable on the current free tier (13/13 requests hit HTTP 429 quota errors), so reverted default back to `gemini-2.5-flash`. A new comparison script `wiki/scripts/baseline_recent_history_compare.py` and note `wiki/docs/EXTRACTION-COMPARISON-NOTES.md` were created; baseline recent-window output showed top entities like DJClaw, Git, GitHub, Logseq, trips, wiki, and New Orleans, while Flash PoC only partially succeeded because quota remained the main bottleneck. Assistant concluded the real issue is provider quota rather than parser logic, recommended adding resume/skip-completed plus slow batch execution next, and then investigated the user’s claim that Groq might still be available. Shell env checks showed no `GROQ_API_KEY` in `~/.profile`, `~/.bashrc`, or current env, but the user clarified Groq is in config; assistant verified `~/.nanobot/config.json` and `.bak` contain a `groq` section, confirming Groq credentials/config likely exist in nanobot config rather than shell env. Useful files touched/created: `wiki/scripts/extraction_poc.py`, `wiki/scripts/baseline_recent_history_compare.py`, `wiki/docs/EXTRACTION-COMPARISON-NOTES.md`, `wiki/data/extraction-poc/baseline-recent-history.json`, and refreshed `wiki/data/extraction-poc/structured-candidates.json`."
+    },
+    "nodes": [
+      {
+        "label": "Gemini",
+        "type": "tool",
+        "confidence": 0.9
+      },
+      {
+        "label": "Groq",
+        "type": "tool",
+        "confidence": 0.9
+      },
+      {
+        "label": "Wiki extraction PoC",
+        "type": "project",
+        "confidence": 0.9
+      },
+      {
+        "label": "EXTRACTION-COMPARISON-NOTES",
+        "type": "doc",
+        "confidence": 0.8
+      }
+    ],
+    "relations": [
+      {
+        "source_label": "Wiki extraction PoC",
+        "relation_type": "uses",
+        "target_label": "Gemini",
+        "confidence": 0.8
+      },
+      {
+        "source_label": "EXTRACTION-COMPARISON-NOTES",
+        "relation_type": "about",
+        "target_label": "Wiki extraction PoC",
+        "confidence": 0.8
+      }
+    ],
+    "events": [
+      {
+        "title": "Wiki extraction PoC work continued",
+        "timestamp": "2026-03-25T23:22",
+        "summary": "Continued work on Wiki extraction PoC, including fixing parse errors, adding normalization, and writing a baseline comparison note",
+        "confidence": 0.9
+      }
+    ],
+    "raw_response": "{\n  \"nodes\":[\n      {\n         \"label\":\"Gemini\",\n         \"type\":\"tool\",\n         \"confidence\":0.9\n      },\n      {\n         \"label\":\"Groq\",\n         \"type\":\"tool\",\n         \"confidence\":0.9\n      },\n      {\n         \"label\":\"Wiki extraction PoC\",\n         \"type\":\"project\",\n         \"confidence\":0.9\n      },\n      {\n         \"label\":\"EXTRACTION-COMPARISON-NOTES\",\n         \"type\":\"doc\",\n         \"confidence\":0.8\n      }\n   ],\n   \"relations\":[\n      {\n         \"source_label\":\"Wiki extraction PoC\",\n         \"relation_type\":\"uses\",\n         \"target_label\":\"Gemini\",\n         \"confidence\":0.8\n      },\n      {\n         \"source_label\":\"EXTRACTION-COMPARISON-NOTES\",\n         \"relation_type\":\"about\",\n         \"target_label\":\"Wiki extraction PoC\",\n         \"confidence\":0.8\n      }\n   ],\n   \"events\":[\n      {\n         \"title\":\"Wiki extraction PoC work continued\",\n         \"timestamp\":\"2026-03-25T23:22\",\n         \"summary\":\"Continued work on Wiki extraction PoC, including fixing parse errors, adding normalization, and writing a baseline comparison note\",\n         \"confidence\":0.9\n      }\n   ]\n}",
+    "parse_error": null
+  }
+]

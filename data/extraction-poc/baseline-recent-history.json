@@ -1,0 +1,191 @@
+{
+  "entries": [
+    {
+      "timestamp": "2026-03-19T21:53",
+      "text": "[2026-03-19 21:53] DJClaw publishing continued after post 062. The previously published trilingual short story inspired by Siddhartha was confirmed live as post 062 `posts-2026-03-19-062-i-heard-a-river-in-the-subway.html` in commit `0b44405` (`Publish post 062 on an ordinary man and the river`). User then approved publishing the follow-up trilingual lyrics version as a new DJClaw article; assistant created post 063 `posts-2026-03-19-063-three-versions-of-the-same-river-song.html` and updated `index.html` and `sitemap.xml`, with commit/push in progress at the end of the conversation.",
+      "entities": [
+        "DJClaw"
+      ]
+    },
+    {
+      "timestamp": "2026-03-20T09:59",
+      "text": "[2026-03-20 09:59] User approved the default plan to start a new GitHub repo `djclaw/trips` for a mobile/desktop travel site inspired by Airbnb, with a trip picker homepage and an initial New Orleans trip page showing map + list, star ratings, and structured travel content. Main session began execution while delegating IA/UI/map planning to subagents (`trips-ia-spec`, `trips-ui-brief`, `trips-map-model`); GitHub auth for account `djclaw` was confirmed, TASKS.md was updated with an active `trips repo MVP for New Orleans travel guide` item, the `djclaw/trips` repository was created and cloned into workspace, and initial static-site scaffolding began with a README written. Also preserve that earlier on 2026-03-19 21:53, DJClaw post 063 `posts-2026-03-19-063-three-versions-of-the-same-river-song.html` was published with homepage and sitemap updates in commit `80ab06c` (`Publish post 063 with three river-song lyrics`).",
+      "entities": [
+        "Airbnb",
+        "DJClaw",
+        "Git",
+        "GitHub",
+        "New Orleans",
+        "trips"
+      ]
+    },
+    {
+      "timestamp": "2026-03-20T10:14",
+      "text": "[2026-03-20 10:14] Trips project MVP1 is underway for new repo `djclaw/trips` in `/home/dj/.nanobot/workspace/trips`. User asked that after MVP1 ends, a DJClaw article be published based on the trips planning conversation, and separately that after MVP1 ends a GitHub Project linked to the new trips repo be created for MVP2 with MVP2 tasks added. During execution, local static preview worked for `/` and `/trips/new-orleans.html`; assistant discovered subagent outputs were not in session output files and noted sessions dir only showed jsonl logs. Three planning outputs were summarized for user: IA/spec defines a trip-first static travel-guide structure with homepage trip picker and richer trip page sections; map model defines synced list↔map behavior, filters, starred items, and desktop/mobile interaction; UI brief defines an Airbnb-inspired but original design direction. A draft DJClaw article for the trips planning conversation was prepared at `/home/dj/.nanobot/workspace/docs/draft-trips-project-planning-djclaw-article.md` and is not yet published. Latest user instruction: continue MVP1.",
+      "entities": [
+        "Airbnb",
+        "DJClaw",
+        "Git",
+        "GitHub",
+        "project",
+        "trips"
+      ]
+    },
+    {
+      "timestamp": "2026-03-20T10:28",
+      "text": "[2026-03-20 10:28] Trips project MVP1 was completed and pushed. User approved following the proposed MVP1 closeout steps; homepage was upgraded into a more formal trip picker and README expanded with goal/scope/stack/structure/content model/design direction/MVP2 notes. Repo `djclaw/trips` was committed and pushed on branch `master` with root commit `221628c` (`Build trips MVP1 for New Orleans`). User then asked to proceed with `pages mvp2`; current checked state shows repo `trips` has default branch `master`, empty `homepageUrl`, and an existing GitHub Project item visible (`2 Wiki open PVT_kwHOD6GtIc4BQEzw`).",
+      "entities": [
+        "DJClaw",
+        "Git",
+        "GitHub",
+        "New Orleans",
+        "project",
+        "trips",
+        "wiki"
+      ]
+    },
+    {
+      "timestamp": "2026-03-20T10:34",
+      "text": "[2026-03-20 10:34] Trips project post-MVP1 setup progressed: GitHub Pages for djclaw/trips was enabled on master/root and built successfully at https://djclaw.github.io/trips/. A new GitHub Project `Trips MVP2` was created, and six core MVP2 issues were created and added: reusable homepage trip cards, multi-trip data model refactor, map/list sync + filter behavior, saved places/shortlist, richer place detail presentation, and second destination proof. User then approved doing all three next actions: add labels, fill out the project with Now/Next/Later items, and prepare/publish a DJClaw article about the trips planning conversation. Current work then moved into checking existing labels and the DJClaw site repo before proceeding.",
+      "entities": [
+        "DJClaw",
+        "Git",
+        "GitHub",
+        "GitHub Pages",
+        "project",
+        "trips"
+      ]
+    },
+    {
+      "timestamp": "2026-03-23T19:44",
+      "text": "[2026-03-23 19:44] Trips project progressed: after enabling GitHub Pages for djclaw/trips and creating the MVP2 project/issues, labels/project organization were completed and a new DJClaw article was published as post 064 `posts-2026-03-20-064-planning-the-trips-project.html` in commit `16134d2` (`Publish post 064 on trips project planning`). Latest user request on 2026-03-23: process a Lonely Planet New Orleans 3-day weekend link by first extracting/summarizing the content and then converting it into structured source material for the `trips` project’s New Orleans destination page.",
+      "entities": [
+        "DJClaw",
+        "Git",
+        "GitHub",
+        "GitHub Pages",
+        "New Orleans",
+        "project",
+        "trips"
+      ]
+    },
+    {
+      "timestamp": "2026-03-24T12:41",
+      "text": "[2026-03-24 12:41] User asked to research seqlog.com and explain SeqLog in plain Chinese, including what it is for, who uses it, and use cases for personal and small-group users. Assistant established from the public site that SeqLog is a real macOS-native Logseq-style knowledge app focused on local-first Markdown files, wikilinks/backlinks, daily notes, and Apple-native SwiftUI + Rust/ripgrep performance positioning. During the conversation, two externally provided summaries were identified as incorrect: one falsely described SeqLog as an AI/agent logging 'black box' tool, and another treated SeqLog as an uncertain or generic timeline-log product rather than the actual macOS-native Logseq alternative. Useful future follow-up: provide a brief, plain-language DJClaw Chinese post and a 'SeqLog vs Logseq' comparison grounded in the real product.",
+      "entities": [
+        "DJClaw",
+        "Logseq",
+        "SeqLog",
+        "wiki"
+      ]
+    },
+    {
+      "timestamp": "2026-03-24T17:20",
+      "text": "[2026-03-24 17:20] DJClaw site work continued: a new Chinese SeqLog explainer article was created and published locally as post 065 `posts-2026-03-24-065-seqlog-native-logseq-for-macos.html`, with `index.html` and `sitemap.xml` updated. The user then requested commit/push, which was completed to `main` in commit `7d5f7bb` with message `Publish post 065 on SeqLog`. Latest new user request: write and publish a Logseq vs SeqLog comparison article in the user’s preferred Craig Adams–style voice (user typed `kriag amdas`).",
+      "entities": [
+        "DJClaw",
+        "Logseq",
+        "SeqLog"
+      ]
+    },
+    {
+      "timestamp": "2026-03-25T10:21",
+      "text": "[2026-03-25 10:21] User asked to turn the earlier beginner-friendly Logseq explanation into a DJClaw article for publication. The requested article should be based on the assistant’s introduction covering core concepts like Journal, Block, Page, Link, Backlink, and practical MacBook + Android joint usage, following the user’s established DJClaw publishing workflow with draft/update of index.html and sitemap.xml before publish confirmation.",
+      "entities": [
+        "DJClaw",
+        "Logseq"
+      ]
+    },
+    {
+      "timestamp": "2026-03-25T14:17",
+      "text": "[2026-03-25 14:17] User had a beginner Logseq discussion and then requested publication work. Assistant explained Page vs Backlink, Flashcard, and advised minimal plugins first. User chose title 1 and approved direct publish; DJClaw post 067 `posts-2026-03-25-067-logseq-basics-macbook-android.html` titled `Logseq 入门：Journal、Block、Page 到底是什么` was written, added to `index.html` and `sitemap.xml`, and pushed to `main` in commit `1414384` (`Publish post 067 on Logseq basics`). User then asked how Logseq data sync works between Android and MacBook; preserve the explanation that Logseq syncs the graph/data folder (journals/pages/logseq/assets) rather than an abstract account database, with two main approaches: official Logseq Sync or third-party file sync, and with Mac as main editor + Android as lightweight companion recommended. Later the user asked to read a WeChat article and a Digital Garden page, summarize them, write a DJClaw article in a Craig Adams-like style, and publish it. Retrieval failed: the WeChat page yielded only generic shell text via readability and the `tothegarden.vercel.app/page/数字花园` URL returned 404, so article writing/publishing could not proceed yet.",
+      "entities": [
+        "DJClaw",
+        "Git",
+        "Logseq"
+      ]
+    },
+    {
+      "timestamp": "2026-03-25T19:16",
+      "text": "[2026-03-25 19:16] User pivoted the wiki project toward a Logseq-inspired architecture. Assistant concluded Logseq is suitable as a concept/kernel for the personal wiki (page/block/journal/backlink/graph-ready ideas) but should not be adopted wholesale as the product engine; the missing core is an extraction pipeline from HISTORY/chat/posts/commits into structured entities, events, relations, evidence, and timeline. User then requested: publish a clear technical architecture / layered design document to DJClaw, execute schema/design option B as the MVP basis, update the wiki GitHub repo issues/project to reflect MVP1/MVP2/MVP3 plus existing progress, and update the wiki README. During follow-up, assistant inspected /home/dj/.nanobot/workspace/wiki, confirmed repo djclaw/wiki with existing MVP4-labeled issues and GitHub Project 2 'Wiki', reviewed README/scripts/docs, and wrote a new README.md in the wiki repo. Also preserve that earlier on 2026-03-25 14:17, because Brave search was unavailable and source retrieval was partial (WeChat blocked by verification, Digital Garden SPA only partially parsable), DJClaw post 068 'A Small Digital Garden' was nevertheless published from accessible material in commit 778c069 with explicit caveat that no WeChat details were fabricated.",
+      "entities": [
+        "DJClaw",
+        "Git",
+        "GitHub",
+        "Logseq",
+        "kernel",
+        "project",
+        "wiki"
+      ]
+    },
+    {
+      "timestamp": "2026-03-25T21:20",
+      "text": "[2026-03-25 21:20] User approved doing A then B for the wiki overhaul. Assistant pushed wiki README commit `528314a` (`Refine wiki README around Logseq-inspired kernel`) and DJClaw post 069 commit `dd3722f` (`Publish post 069 on wiki architecture`), then began B by adding `wiki/docs/ARCHITECTURE.md`, `wiki/docs/MINIMAL-SCHEMA.md`, `wiki/scripts/build_kernel_json.py`, linking them from README, generating `data/kernel.json`, and posting progress comments to wiki issues #6/#8/#9. Later user approved replacing the old local SQLite contents entirely; assistant rewrote `wiki/scripts/build_db.py` to rebuild from the new kernel schema, fixed duplicate-ID collisions in `build_kernel_json.py` caused by repeated titles, regenerated `data/kernel.json`, and successfully rebuilt `/home/dj/.nanobot/workspace/memory/wiki.db` with tables `sources`, `evidence`, `nodes`, `relations`, and `events` (counts: 1 / 407 / 126 / 578 / 407), replacing the old `entries` table.",
+      "entities": [
+        "DJClaw",
+        "Logseq",
+        "kernel",
+        "wiki"
+      ]
+    },
+    {
+      "timestamp": "2026-03-25T21:35",
+      "text": "[2026-03-25 21:35] Wiki extraction work reached a new kernel milestone, then paused for broader extraction research and a DJClaw article request. The assistant had already switched wiki page generation to the new kernel DB (`nodes/events/relations`), added first-pass publish filters, cleared stale `entries/history/*.html`, and regenerated a cleaner set of 146 node pages while skipping 54 noisy nodes. Before proceeding with extraction-rule improvements (`2.1` tighter entity extraction, `2.2` canonicalization/alias merge), the user asked for external research on existing extraction tools, LLM-assisted skills/plugins, and a more comprehensive future extraction strategy. Brave search was unavailable, so the assistant used direct fetches of official docs/repos and summarized a layered recommendation: Instructor for structured extraction, LlamaIndex property-graph ideas for graph-shaped design, BAML / DSPy for later engineering/eval optimization, and GraphRAG as long-term architecture reference. The user then requested a concise DJClaw article summarizing the original extraction idea, what had actually been implemented so far, and the future options; assistant checked the DJClaw repo, confirmed latest post number 069, inspected `index.html`, `sitemap.xml`, and recent post templates, and began drafting/publishing the new article as post 070.",
+      "entities": [
+        "DJClaw",
+        "kernel",
+        "wiki"
+      ]
+    }
+  ],
+  "entity_counts": [
+    [
+      "DJClaw",
+      13
+    ],
+    [
+      "Git",
+      7
+    ],
+    [
+      "GitHub",
+      6
+    ],
+    [
+      "Logseq",
+      6
+    ],
+    [
+      "trips",
+      5
+    ],
+    [
+      "project",
+      5
+    ],
+    [
+      "wiki",
+      5
+    ],
+    [
+      "New Orleans",
+      3
+    ],
+    [
+      "kernel",
+      3
+    ],
+    [
+      "Airbnb",
+      2
+    ],
+    [
+      "GitHub Pages",
+      2
+    ],
+    [
+      "SeqLog",
+      2
+    ]
+  ]
+}
