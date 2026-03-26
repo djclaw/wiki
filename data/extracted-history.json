@@ -134,13 +134,38 @@
       "528314a"
     ],
     "related": [
-      "SQLite",
       "Logseq",
+      "SQLite",
       "pushed",
       "Refine",
       "dd3722f",
       "wiki/docs/ARCHITECTURE.md",
       "wiki/docs/MINIMAL-SCHEMA.md"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "7-day",
+    "summary": "Wiki recent-window refresh and scheduler investigation advanced",
+    "timeline": [
+      "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced"
+    ],
+    "tags": [],
+    "categories": [
+      "Project"
+    ],
+    "aliases": [
+      "7-day"
+    ],
+    "related": [
+      "nanobot",
+      "GitHub",
+      "Node.js",
+      "cron",
+      "Refresh",
+      "daily",
+      "nanobot-daily-wiki-scheduler"
     ],
     "source": "history",
     "source_id": "history_md"
@@ -192,6 +217,85 @@
     "source_id": "history_md"
   },
   {
+    "title": "cron",
+    "summary": "User directed wiki extraction hardening and operations follow-up / Wiki recent-window refresh and scheduler investigation advanced",
+    "timeline": [
+      "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced"
+    ],
+    "tags": [],
+    "categories": [
+      "Tool"
+    ],
+    "aliases": [
+      "cron"
+    ],
+    "related": [
+      "GitHub",
+      "Node.js",
+      "Groq",
+      "directed",
+      "update",
+      "GitHub-worthy",
+      "current",
+      "nanobot",
+      "7-day",
+      "Refresh"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "current",
+    "summary": "User directed wiki extraction hardening and operations follow-up",
+    "timeline": [
+      "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up"
+    ],
+    "tags": [],
+    "categories": [
+      "Project"
+    ],
+    "aliases": [
+      "current"
+    ],
+    "related": [
+      "GitHub",
+      "Groq",
+      "Node.js",
+      "cron",
+      "directed",
+      "update",
+      "GitHub-worthy"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "daily",
+    "summary": "Wiki recent-window refresh and scheduler investigation advanced",
+    "timeline": [
+      "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced"
+    ],
+    "tags": [],
+    "categories": [
+      "Project"
+    ],
+    "aliases": [
+      "daily"
+    ],
+    "related": [
+      "nanobot",
+      "GitHub",
+      "Node.js",
+      "cron",
+      "7-day",
+      "Refresh",
+      "nanobot-daily-wiki-scheduler"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
     "title": "dd3722f",
     "summary": "User approved doing A then B for the wiki overhaul",
     "timeline": [
@@ -205,8 +309,8 @@
       "dd3722f"
     ],
     "related": [
-      "SQLite",
       "Logseq",
+      "SQLite",
       "pushed",
       "Refine",
       "528314a",
@@ -236,6 +340,31 @@
       "DJClaw",
       "posts-2026-03-20-064-planning-the-trips-project.html",
       "16134d2"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "directed",
+    "summary": "User directed wiki extraction hardening and operations follow-up",
+    "timeline": [
+      "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up"
+    ],
+    "tags": [],
+    "categories": [
+      "Project"
+    ],
+    "aliases": [
+      "directed"
+    ],
+    "related": [
+      "GitHub",
+      "Groq",
+      "Node.js",
+      "cron",
+      "update",
+      "GitHub-worthy",
+      "current"
     ],
     "source": "history",
     "source_id": "history_md"
@@ -472,8 +601,8 @@
       "wiki/scripts/extraction_poc.py",
       "nanobot",
       "wiki/docs/EXTRACTION-POC-PLAN.md",
-      "Git",
       "Logseq",
+      "Git",
       "GitHub",
       "gemini-2.5-pro",
       "OpenAI",
@@ -497,11 +626,11 @@
     ],
     "related": [
       "nanobot",
-      "Git",
-      "Gemini",
       "Logseq",
+      "Git",
       "GitHub",
       "Groq",
+      "Gemini",
       "wiki/scripts/extraction_poc.py"
     ],
     "source": "history",
@@ -522,10 +651,10 @@
     ],
     "related": [
       "nanobot",
-      "Gemini",
       "Logseq",
       "GitHub",
       "Groq",
+      "Gemini",
       "wiki/scripts/extraction_poc.py",
       "gemini-2.5-pro"
     ],
@@ -542,7 +671,9 @@
       "2026-03-20 10:34 — Trips project post-MVP1 setup progressed: GitHub Pages for djclaw/trips was enabled on master/root and built successfully at https://djclaw.github.io/trips/",
       "2026-03-23 19:44 — Trips project progressed: after enabling GitHub Pages for djclaw/trips and creating the MVP2 project/issues, labels/project organization were completed and a new DJClaw article was published as post 064 `posts-2026-03-20-064-planning-the-trips-project.html` in commit `16134d2` (`Publish post 064 on trips project planning`)",
       "2026-03-25 19:16 — User pivoted the wiki project toward a Logseq-inspired architecture",
-      "2026-03-25 23:22 — Wiki extraction PoC work continued"
+      "2026-03-25 23:22 — Wiki extraction PoC work continued",
+      "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced"
     ],
     "tags": [],
     "categories": [
@@ -556,12 +687,37 @@
       "djclaw/trips",
       "DJClaw",
       "Logseq",
+      "nanobot",
+      "Groq",
+      "Node.js",
+      "cron",
       "travel",
-      "trips",
-      "trips-ia-spec",
-      "trips-ui-brief",
-      "trips-map-model",
-      "djclaw"
+      "trips"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "GitHub-worthy",
+    "summary": "User directed wiki extraction hardening and operations follow-up",
+    "timeline": [
+      "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up"
+    ],
+    "tags": [],
+    "categories": [
+      "Project"
+    ],
+    "aliases": [
+      "github-worthy"
+    ],
+    "related": [
+      "GitHub",
+      "Groq",
+      "Node.js",
+      "cron",
+      "directed",
+      "update",
+      "current"
     ],
     "source": "history",
     "source_id": "history_md"
@@ -572,7 +728,8 @@
     "timeline": [
       "2026-03-25 23:13 — Wiki extraction PoC moved from design into implementation",
       "2026-03-25 23:22 — Wiki extraction PoC work continued",
-      "2026-03-26 00:03 — Wiki extraction PoC provider/model work advanced and the user selected Groq as the main extraction provider"
+      "2026-03-26 00:03 — Wiki extraction PoC provider/model work advanced and the user selected Groq as the main extraction provider",
+      "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up"
     ],
     "tags": [],
     "categories": [
@@ -585,10 +742,10 @@
       "Gemini",
       "wiki/scripts/extraction_poc.py",
       "nanobot",
-      "wiki/docs/EXTRACTION-POC-PLAN.md",
-      "Git",
-      "Logseq",
       "GitHub",
+      "wiki/docs/EXTRACTION-POC-PLAN.md",
+      "Logseq",
+      "Git",
       "gemini-2.5-pro",
       "OpenAI",
       "DJClaw"
@@ -666,9 +823,9 @@
     ],
     "related": [
       "nanobot",
-      "Gemini",
       "OpenAI",
       "Groq",
+      "Gemini",
       "DJClaw",
       "wiki/scripts/extraction_poc.py",
       "~/.nanobot/config.json"
@@ -789,7 +946,8 @@
     "summary": "Wiki extraction PoC work continued / Wiki extraction PoC provider/model work advanced and the user selected Groq as the main extraction provider",
     "timeline": [
       "2026-03-25 23:22 — Wiki extraction PoC work continued",
-      "2026-03-26 00:03 — Wiki extraction PoC provider/model work advanced and the user selected Groq as the main extraction provider"
+      "2026-03-26 00:03 — Wiki extraction PoC provider/model work advanced and the user selected Groq as the main extraction provider",
+      "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced"
     ],
     "tags": [],
     "categories": [
@@ -799,12 +957,12 @@
       "nanobot"
     ],
     "related": [
-      "Gemini",
-      "Groq",
-      "wiki/scripts/extraction_poc.py",
-      "Git",
-      "Logseq",
       "GitHub",
+      "Groq",
+      "Gemini",
+      "wiki/scripts/extraction_poc.py",
+      "Logseq",
+      "Git",
       "gemini-2.5-pro",
       "OpenAI",
       "DJClaw",
@@ -814,10 +972,37 @@
     "source_id": "history_md"
   },
   {
-    "title": "Node.js",
-    "summary": "Wiki extraction work reached a new kernel milestone, then paused for broader extraction research and a DJClaw article request",
+    "title": "nanobot-daily-wiki-scheduler",
+    "summary": "Wiki recent-window refresh and scheduler investigation advanced",
     "timeline": [
-      "2026-03-25 21:35 — Wiki extraction work reached a new kernel milestone, then paused for broader extraction research and a DJClaw article request"
+      "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced"
+    ],
+    "tags": [],
+    "categories": [
+      "Project"
+    ],
+    "aliases": [
+      "nanobot-daily-wiki-scheduler"
+    ],
+    "related": [
+      "nanobot",
+      "GitHub",
+      "Node.js",
+      "cron",
+      "7-day",
+      "Refresh",
+      "daily"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "Node.js",
+    "summary": "Wiki extraction work reached a new kernel milestone, then paused for broader extraction research and a DJClaw article request / User directed wiki extraction hardening and operations follow-up",
+    "timeline": [
+      "2026-03-25 21:35 — Wiki extraction work reached a new kernel milestone, then paused for broader extraction research and a DJClaw article request",
+      "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced"
     ],
     "tags": [],
     "categories": [
@@ -827,13 +1012,16 @@
       "node.js"
     ],
     "related": [
+      "GitHub",
+      "cron",
       "DJClaw",
       "switched",
       "LLM-assisted",
       "nodes/events/relations",
       "entries/history/*.html",
       "2.1",
-      "2.2"
+      "2.2",
+      "Groq"
     ],
     "source": "history",
     "source_id": "history_md"
@@ -903,8 +1091,8 @@
     ],
     "related": [
       "nanobot",
-      "Gemini",
       "Groq",
+      "Gemini",
       "DJClaw",
       "listing",
       "wiki/scripts/extraction_poc.py",
@@ -1064,8 +1252,8 @@
       "pushed"
     ],
     "related": [
-      "SQLite",
       "Logseq",
+      "SQLite",
       "Refine",
       "528314a",
       "dd3722f",
@@ -1089,13 +1277,38 @@
       "refine"
     ],
     "related": [
-      "SQLite",
       "Logseq",
+      "SQLite",
       "pushed",
       "528314a",
       "dd3722f",
       "wiki/docs/ARCHITECTURE.md",
       "wiki/docs/MINIMAL-SCHEMA.md"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "Refresh",
+    "summary": "Wiki recent-window refresh and scheduler investigation advanced",
+    "timeline": [
+      "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced"
+    ],
+    "tags": [],
+    "categories": [
+      "Project"
+    ],
+    "aliases": [
+      "refresh"
+    ],
+    "related": [
+      "nanobot",
+      "GitHub",
+      "Node.js",
+      "cron",
+      "7-day",
+      "daily",
+      "nanobot-daily-wiki-scheduler"
     ],
     "source": "history",
     "source_id": "history_md"
@@ -1432,6 +1645,31 @@
     "source_id": "history_md"
   },
   {
+    "title": "update",
+    "summary": "User directed wiki extraction hardening and operations follow-up",
+    "timeline": [
+      "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up"
+    ],
+    "tags": [],
+    "categories": [
+      "Project"
+    ],
+    "aliases": [
+      "update"
+    ],
+    "related": [
+      "GitHub",
+      "Groq",
+      "Node.js",
+      "cron",
+      "directed",
+      "GitHub-worthy",
+      "current"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
     "title": "WeChat",
     "summary": "User had a beginner Logseq discussion and then requested publication work",
     "timeline": [
@@ -1470,8 +1708,8 @@
       "wiki/docs/architecture.md"
     ],
     "related": [
-      "SQLite",
       "Logseq",
+      "SQLite",
       "pushed",
       "Refine",
       "528314a",
@@ -1495,8 +1733,8 @@
       "wiki/docs/extraction-poc-plan.md"
     ],
     "related": [
-      "Gemini",
       "Groq",
+      "Gemini",
       "wiki/scripts/extraction_poc.py"
     ],
     "source": "history",
@@ -1516,8 +1754,8 @@
       "wiki/docs/minimal-schema.md"
     ],
     "related": [
-      "SQLite",
       "Logseq",
+      "SQLite",
       "pushed",
       "Refine",
       "528314a",
@@ -1543,12 +1781,12 @@
       "wiki/scripts/extraction_poc.py"
     ],
     "related": [
-      "Gemini",
       "Groq",
+      "Gemini",
       "nanobot",
       "wiki/docs/EXTRACTION-POC-PLAN.md",
-      "Git",
       "Logseq",
+      "Git",
       "GitHub",
       "gemini-2.5-pro",
       "OpenAI",
@@ -1572,9 +1810,9 @@
     ],
     "related": [
       "nanobot",
-      "Gemini",
       "OpenAI",
       "Groq",
+      "Gemini",
       "DJClaw",
       "listing",
       "wiki/scripts/extraction_poc.py"

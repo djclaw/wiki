@@ -11,9 +11,13 @@ TEMPLATES_DIR = Path('/home/dj/.nanobot/workspace/wiki/templates')
 LIMIT = 200
 STOPWORDS = {
     'a', 'an', 'and', 'all', 'are', 'as', 'at', 'about', 'after', 'around', 'be', 'by', 'for', 'from',
-    'how', 'i', 'if', 'in', 'into', 'is', 'it', 'new', 'of', 'on', 'or', 'the', 'to', 'with', 'we', 'you'
+    'how', 'i', 'if', 'in', 'into', 'is', 'it', 'new', 'of', 'on', 'or', 'the', 'to', 'with', 'we', 'you',
+    'comparison', 'confirmed', 'current', 'destination', 'directed', 'explained', 'explainer', 'listing',
+    'master', 'notes', 'personal', 'public', 'pushed', 'refine', 'requested', 'shows', 'switched',
+    'travel', 'update'
 }
 ALLOW_SHORT = {'AI', 'UI', 'DB', 'CLI', 'MCP', 'BJJ', 'Git', 'npm'}
+ALLOW_NODE_TYPES = {'project', 'tool', 'person', 'place', 'concept', 'event', 'organization'}
 
 
 def slugify(text: str) -> str:
@@ -37,9 +41,28 @@ def html_escape(text: str) -> str:
 def is_publishable_node(node, timeline_count=0, related_count=0):
     title = (node.get('title') or '').strip()
     lower = title.lower()
+    node_type = (node.get('node_type') or '').strip().lower()
+    summary = (node.get('summary') or '').strip()
+    aliases = node.get('aliases') or []
+    tags = node.get('tags') or []
+    categories = node.get('categories') or []
+
+    signal_count = 0
+    if timeline_count > 0:
+        signal_count += 1
+    if related_count >= 2:
+        signal_count += 1
+    if aliases:
+        signal_count += 1
+    if tags or categories:
+        signal_count += 1
+    if summary and summary.lower() not in {'(no summary yet.)', 'no summary yet.', 'unknown'}:
+        signal_count += 1
 
     if not title:
         return False, 'empty'
+    if node_type and node_type not in ALLOW_NODE_TYPES:
+        return False, 'node-type'
     if lower in STOPWORDS:
         return False, 'stopword'
     if title.startswith(('#', '.', '-', '(', '/', '[')):
@@ -48,14 +71,24 @@ def is_publishable_node(node, timeline_count=0, related_count=0):
         return False, 'commit-hash'
     if re.fullmatch(r'\d+(\.\d+){1,4}(:\d+)?', title):
         return False, 'ip-or-version'
+    if re.fullmatch(r'\d+(\.\d+)+', title):
+        return False, 'section-number'
     if '/' in title or '\\' in title:
         return False, 'path-like'
+    if title.endswith(('.html', '.md', '.json', '.py', '.sh', '.png', '.jpg', '.jpeg')):
+        return False, 'file-like'
     if '@' in title:
         return False, 'handle-or-address'
-    if re.fullmatch(r'[a-z]+', lower) and len(title) <= 4 and title not in ALLOW_SHORT:
+    if re.search(r'\.html\b|\.md\b|\.json\b|\.py\b|\.sh\b', lower):
+        return False, 'file-like'
+    if title.islower() and re.fullmatch(r'[a-z]+', lower) and len(title) <= 4 and title not in ALLOW_SHORT:
         return False, 'short-lowercase-word'
+    if re.fullmatch(r'[a-z\-]+', lower) and '-' in lower and title == lower:
+        return False, 'slug-like'
     if len(title) <= 2 and title not in ALLOW_SHORT:
         return False, 'too-short'
+    if signal_count < 2:
+        return False, 'low-signal'
     if timeline_count == 0 and related_count < 2:
         return False, 'too-thin'
     return True, 'ok'
@@ -173,6 +206,9 @@ def main():
     rows = fetch_nodes(conn)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
+    for old in OUTPUT_DIR.glob('*.html'):
+        old.unlink()
+
     generated = []
     skipped = []
     for row in rows:
@@ -194,9 +230,13 @@ def main():
     conn.close()
     print(f'Generated {len(generated)} node pages in {OUTPUT_DIR}')
     print(f'Skipped {len(skipped)} nodes')
+    reason_counts = {}
+    for _, reason in skipped:
+        reason_counts[reason] = reason_counts.get(reason, 0) + 1
+    print('Skip reasons:', json.dumps(reason_counts, ensure_ascii=False, sort_keys=True))
     for name in generated[:20]:
         print('OK ', name)
-    for title, reason in skipped[:20]:
+    for title, reason in skipped[:30]:
         print('SKIP', reason, '::', title)
 
 

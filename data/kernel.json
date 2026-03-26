@@ -57,6 +57,14 @@
       "publishable": true
     },
     {
+      "evidence_id": "ev-7-day-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26 00:20",
+      "raw_text": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "redacted_text": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "publishable": true
+    },
+    {
       "evidence_id": "ev-comparison-001",
       "source_id": "history_md",
       "timestamp": "2026-03-24 17:20",
@@ -73,6 +81,38 @@
       "publishable": true
     },
     {
+      "evidence_id": "ev-cron-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26 00:13",
+      "raw_text": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "redacted_text": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-cron-002",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26 00:20",
+      "raw_text": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "redacted_text": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-current-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26 00:13",
+      "raw_text": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "redacted_text": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-daily-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26 00:20",
+      "raw_text": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "redacted_text": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "publishable": true
+    },
+    {
       "evidence_id": "ev-dd3722f-001",
       "source_id": "history_md",
       "timestamp": "2026-03-25 21:20",
@@ -86,6 +126,14 @@
       "timestamp": "2026-03-23 19:44",
       "raw_text": "2026-03-23 19:44 — Trips project progressed: after enabling GitHub Pages for djclaw/trips and creating the MVP2 project/issues, labels/project organization were completed and a new DJClaw article was published as post 064 `posts-2026-03-20-064-planning-the-trips-project.html` in commit `16134d2` (`Publish post 064 on trips project planning`)",
       "redacted_text": "2026-03-23 19:44 — Trips project progressed: after enabling GitHub Pages for djclaw/trips and creating the MVP2 project/issues, labels/project organization were completed and a new DJClaw article was published as post 064 `posts-2026-03-20-064-planning-the-trips-project.html` in commit `16134d2` (`Publish post 064 on trips project planning`)",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-directed-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26 00:13",
+      "raw_text": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "redacted_text": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
       "publishable": true
     },
     {
@@ -329,6 +377,30 @@
       "publishable": true
     },
     {
+      "evidence_id": "ev-github-008",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26 00:13",
+      "raw_text": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "redacted_text": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-github-009",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26 00:20",
+      "raw_text": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "redacted_text": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-github-worthy-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26 00:13",
+      "raw_text": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "redacted_text": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "publishable": true
+    },
+    {
       "evidence_id": "ev-groq-001",
       "source_id": "history_md",
       "timestamp": "2026-03-25 23:13",
@@ -350,6 +422,14 @@
       "timestamp": "2026-03-26 00:03",
       "raw_text": "2026-03-26 00:03 — Wiki extraction PoC provider/model work advanced and the user selected Groq as the main extraction provider",
       "redacted_text": "2026-03-26 00:03 — Wiki extraction PoC provider/model work advanced and the user selected Groq as the main extraction provider",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-groq-004",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26 00:13",
+      "raw_text": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "redacted_text": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
       "publishable": true
     },
     {
@@ -489,11 +569,43 @@
       "publishable": true
     },
     {
+      "evidence_id": "ev-nanobot-003",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26 00:20",
+      "raw_text": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "redacted_text": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-nanobot-daily-wiki-scheduler-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26 00:20",
+      "raw_text": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "redacted_text": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "publishable": true
+    },
+    {
       "evidence_id": "ev-nodejs-001",
       "source_id": "history_md",
       "timestamp": "2026-03-25 21:35",
       "raw_text": "2026-03-25 21:35 — Wiki extraction work reached a new kernel milestone, then paused for broader extraction research and a DJClaw article request",
       "redacted_text": "2026-03-25 21:35 — Wiki extraction work reached a new kernel milestone, then paused for broader extraction research and a DJClaw article request",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-nodejs-002",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26 00:13",
+      "raw_text": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "redacted_text": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-nodejs-003",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26 00:20",
+      "raw_text": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "redacted_text": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
       "publishable": true
     },
     {
@@ -582,6 +694,14 @@
       "timestamp": "2026-03-25 21:20",
       "raw_text": "2026-03-25 21:20 — User approved doing A then B for the wiki overhaul",
       "redacted_text": "2026-03-25 21:20 — User approved doing A then B for the wiki overhaul",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-refresh-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26 00:20",
+      "raw_text": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "redacted_text": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
       "publishable": true
     },
     {
@@ -726,6 +846,14 @@
       "timestamp": "2026-03-20 09:59",
       "raw_text": "2026-03-20 09:59 — User approved the default plan to start a new GitHub repo `djclaw/trips` for a mobile/desktop travel site inspired by Airbnb, with a trip picker homepage and an initial New Orleans trip page showing map + list, star ratings, and structured travel content",
       "redacted_text": "2026-03-20 09:59 — User approved the default plan to start a new GitHub repo `djclaw/trips` for a mobile/desktop travel site inspired by Airbnb, with a trip picker homepage and an initial New Orleans trip page showing map + list, star ratings, and structured travel content",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-update-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26 00:13",
+      "raw_text": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "redacted_text": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
       "publishable": true
     },
     {
@@ -885,6 +1013,21 @@
       "visibility": "review"
     },
     {
+      "node_id": "7-day",
+      "node_type": "project",
+      "title": "7-day",
+      "summary": "Wiki recent-window refresh and scheduler investigation advanced",
+      "aliases": [
+        "7-day"
+      ],
+      "tags": [],
+      "categories": [
+        "Project"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
       "node_id": "comparison",
       "node_type": "project",
       "title": "comparison",
@@ -915,6 +1058,51 @@
       "visibility": "review"
     },
     {
+      "node_id": "cron",
+      "node_type": "tool",
+      "title": "cron",
+      "summary": "User directed wiki extraction hardening and operations follow-up / Wiki recent-window refresh and scheduler investigation advanced",
+      "aliases": [
+        "cron"
+      ],
+      "tags": [],
+      "categories": [
+        "Tool"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
+      "node_id": "current",
+      "node_type": "project",
+      "title": "current",
+      "summary": "User directed wiki extraction hardening and operations follow-up",
+      "aliases": [
+        "current"
+      ],
+      "tags": [],
+      "categories": [
+        "Project"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
+      "node_id": "daily",
+      "node_type": "project",
+      "title": "daily",
+      "summary": "Wiki recent-window refresh and scheduler investigation advanced",
+      "aliases": [
+        "daily"
+      ],
+      "tags": [],
+      "categories": [
+        "Project"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
       "node_id": "dd3722f",
       "node_type": "project",
       "title": "dd3722f",
@@ -936,6 +1124,21 @@
       "summary": "Trips project progressed: after enabling GitHub Pages for djclaw/trips and creating the MVP2 project/issues, labels/project organization were completed and a new DJClaw article was published as post 064 `posts-2026-03-20-064-planning-the-trips-project.html` in commit `16134d2` (`Publish post 064 on trips project planning`)",
       "aliases": [
         "destination"
+      ],
+      "tags": [],
+      "categories": [
+        "Project"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
+      "node_id": "directed",
+      "node_type": "project",
+      "title": "directed",
+      "summary": "User directed wiki extraction hardening and operations follow-up",
+      "aliases": [
+        "directed"
       ],
       "tags": [],
       "categories": [
@@ -1110,6 +1313,21 @@
       "visibility": "review"
     },
     {
+      "node_id": "github-worthy",
+      "node_type": "project",
+      "title": "GitHub-worthy",
+      "summary": "User directed wiki extraction hardening and operations follow-up",
+      "aliases": [
+        "github-worthy"
+      ],
+      "tags": [],
+      "categories": [
+        "Project"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
       "node_id": "groq",
       "node_type": "tool",
       "title": "Groq",
@@ -1245,10 +1463,25 @@
       "visibility": "review"
     },
     {
+      "node_id": "nanobot-daily-wiki-scheduler",
+      "node_type": "project",
+      "title": "nanobot-daily-wiki-scheduler",
+      "summary": "Wiki recent-window refresh and scheduler investigation advanced",
+      "aliases": [
+        "nanobot-daily-wiki-scheduler"
+      ],
+      "tags": [],
+      "categories": [
+        "Project"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
       "node_id": "nodejs",
       "node_type": "tool",
       "title": "Node.js",
-      "summary": "Wiki extraction work reached a new kernel milestone, then paused for broader extraction research and a DJClaw article request",
+      "summary": "Wiki extraction work reached a new kernel milestone, then paused for broader extraction research and a DJClaw article request / User directed wiki extraction hardening and operations follow-up",
       "aliases": [
         "node.js"
       ],
@@ -1416,6 +1649,21 @@
       "summary": "User approved doing A then B for the wiki overhaul",
       "aliases": [
         "refine"
+      ],
+      "tags": [],
+      "categories": [
+        "Project"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
+      "node_id": "refresh",
+      "node_type": "project",
+      "title": "Refresh",
+      "summary": "Wiki recent-window refresh and scheduler investigation advanced",
+      "aliases": [
+        "refresh"
       ],
       "tags": [],
       "categories": [
@@ -1596,6 +1844,21 @@
       "summary": "User approved the default plan to start a new GitHub repo `djclaw/trips` for a mobile/desktop travel site inspired by Airbnb, with a trip picker homepage and an initial New Orleans trip page showing map + list, star ratings, and structured travel content",
       "aliases": [
         "trips-ui-brief"
+      ],
+      "tags": [],
+      "categories": [
+        "Project"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
+      "node_id": "update",
+      "node_type": "project",
+      "title": "update",
+      "summary": "User directed wiki extraction hardening and operations follow-up",
+      "aliases": [
+        "update"
       ],
       "tags": [],
       "categories": [
@@ -1976,18 +2239,18 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-528314a-sqlite-related",
+      "relation_id": "rel-528314a-logseq-related",
       "from_node": "528314a",
-      "to_node": "sqlite",
+      "to_node": "logseq",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-528314a-logseq-related",
+      "relation_id": "rel-528314a-sqlite-related",
       "from_node": "528314a",
-      "to_node": "logseq",
+      "to_node": "sqlite",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -2033,6 +2296,69 @@
       "relation_id": "rel-528314a-wikidocsminimal-schemamd-related",
       "from_node": "528314a",
       "to_node": "wikidocsminimal-schemamd",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-7-day-nanobot-related",
+      "from_node": "7-day",
+      "to_node": "nanobot",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-7-day-github-related",
+      "from_node": "7-day",
+      "to_node": "github",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-7-day-nodejs-related",
+      "from_node": "7-day",
+      "to_node": "nodejs",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-7-day-cron-related",
+      "from_node": "7-day",
+      "to_node": "cron",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-7-day-refresh-related",
+      "from_node": "7-day",
+      "to_node": "refresh",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-7-day-daily-related",
+      "from_node": "7-day",
+      "to_node": "daily",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-7-day-nanobot-daily-wiki-scheduler-related",
+      "from_node": "7-day",
+      "to_node": "nanobot-daily-wiki-scheduler",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -2129,9 +2455,216 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-dd3722f-sqlite-related",
-      "from_node": "dd3722f",
-      "to_node": "sqlite",
+      "relation_id": "rel-cron-github-related",
+      "from_node": "cron",
+      "to_node": "github",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-cron-nodejs-related",
+      "from_node": "cron",
+      "to_node": "nodejs",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-cron-groq-related",
+      "from_node": "cron",
+      "to_node": "groq",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-cron-directed-related",
+      "from_node": "cron",
+      "to_node": "directed",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-cron-update-related",
+      "from_node": "cron",
+      "to_node": "update",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-cron-github-worthy-related",
+      "from_node": "cron",
+      "to_node": "github-worthy",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-cron-current-related",
+      "from_node": "cron",
+      "to_node": "current",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-cron-nanobot-related",
+      "from_node": "cron",
+      "to_node": "nanobot",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-cron-7-day-related",
+      "from_node": "cron",
+      "to_node": "7-day",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-cron-refresh-related",
+      "from_node": "cron",
+      "to_node": "refresh",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-current-github-related",
+      "from_node": "current",
+      "to_node": "github",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-current-groq-related",
+      "from_node": "current",
+      "to_node": "groq",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-current-nodejs-related",
+      "from_node": "current",
+      "to_node": "nodejs",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-current-cron-related",
+      "from_node": "current",
+      "to_node": "cron",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-current-directed-related",
+      "from_node": "current",
+      "to_node": "directed",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-current-update-related",
+      "from_node": "current",
+      "to_node": "update",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-current-github-worthy-related",
+      "from_node": "current",
+      "to_node": "github-worthy",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-daily-nanobot-related",
+      "from_node": "daily",
+      "to_node": "nanobot",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-daily-github-related",
+      "from_node": "daily",
+      "to_node": "github",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-daily-nodejs-related",
+      "from_node": "daily",
+      "to_node": "nodejs",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-daily-cron-related",
+      "from_node": "daily",
+      "to_node": "cron",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-daily-7-day-related",
+      "from_node": "daily",
+      "to_node": "7-day",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-daily-refresh-related",
+      "from_node": "daily",
+      "to_node": "refresh",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-daily-nanobot-daily-wiki-scheduler-related",
+      "from_node": "daily",
+      "to_node": "nanobot-daily-wiki-scheduler",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -2141,6 +2674,15 @@
       "relation_id": "rel-dd3722f-logseq-related",
       "from_node": "dd3722f",
       "to_node": "logseq",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-dd3722f-sqlite-related",
+      "from_node": "dd3722f",
+      "to_node": "sqlite",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -2240,6 +2782,69 @@
       "relation_id": "rel-destination-16134d2-related",
       "from_node": "destination",
       "to_node": "16134d2",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-directed-github-related",
+      "from_node": "directed",
+      "to_node": "github",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-directed-groq-related",
+      "from_node": "directed",
+      "to_node": "groq",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-directed-nodejs-related",
+      "from_node": "directed",
+      "to_node": "nodejs",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-directed-cron-related",
+      "from_node": "directed",
+      "to_node": "cron",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-directed-update-related",
+      "from_node": "directed",
+      "to_node": "update",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-directed-github-worthy-related",
+      "from_node": "directed",
+      "to_node": "github-worthy",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-directed-current-related",
+      "from_node": "directed",
+      "to_node": "current",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -2759,18 +3364,18 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-gemini-git-related",
+      "relation_id": "rel-gemini-logseq-related",
       "from_node": "gemini",
-      "to_node": "git",
+      "to_node": "logseq",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-gemini-logseq-related",
+      "relation_id": "rel-gemini-git-related",
       "from_node": "gemini",
-      "to_node": "logseq",
+      "to_node": "git",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -2822,27 +3427,18 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-gemini-25-pro-git-related",
-      "from_node": "gemini-25-pro",
-      "to_node": "git",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-gemini-25-pro-gemini-related",
-      "from_node": "gemini-25-pro",
-      "to_node": "gemini",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
       "relation_id": "rel-gemini-25-pro-logseq-related",
       "from_node": "gemini-25-pro",
       "to_node": "logseq",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-gemini-25-pro-git-related",
+      "from_node": "gemini-25-pro",
+      "to_node": "git",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -2867,6 +3463,15 @@
       "status": "candidate"
     },
     {
+      "relation_id": "rel-gemini-25-pro-gemini-related",
+      "from_node": "gemini-25-pro",
+      "to_node": "gemini",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
       "relation_id": "rel-gemini-25-pro-wikiscriptsextractionpocpy-related",
       "from_node": "gemini-25-pro",
       "to_node": "wikiscriptsextractionpocpy",
@@ -2879,15 +3484,6 @@
       "relation_id": "rel-git-nanobot-related",
       "from_node": "git",
       "to_node": "nanobot",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-git-gemini-related",
-      "from_node": "git",
-      "to_node": "gemini",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -2915,6 +3511,15 @@
       "relation_id": "rel-git-groq-related",
       "from_node": "git",
       "to_node": "groq",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-git-gemini-related",
+      "from_node": "git",
+      "to_node": "gemini",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -2975,6 +3580,42 @@
       "status": "candidate"
     },
     {
+      "relation_id": "rel-github-nanobot-related",
+      "from_node": "github",
+      "to_node": "nanobot",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-github-groq-related",
+      "from_node": "github",
+      "to_node": "groq",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-github-nodejs-related",
+      "from_node": "github",
+      "to_node": "nodejs",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-github-cron-related",
+      "from_node": "github",
+      "to_node": "cron",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
       "relation_id": "rel-github-travel-related",
       "from_node": "github",
       "to_node": "travel",
@@ -2984,27 +3625,63 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-github-trips-ia-spec-related",
-      "from_node": "github",
-      "to_node": "trips-ia-spec",
+      "relation_id": "rel-github-worthy-github-related",
+      "from_node": "github-worthy",
+      "to_node": "github",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-github-trips-ui-brief-related",
-      "from_node": "github",
-      "to_node": "trips-ui-brief",
+      "relation_id": "rel-github-worthy-groq-related",
+      "from_node": "github-worthy",
+      "to_node": "groq",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-github-trips-map-model-related",
-      "from_node": "github",
-      "to_node": "trips-map-model",
+      "relation_id": "rel-github-worthy-nodejs-related",
+      "from_node": "github-worthy",
+      "to_node": "nodejs",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-github-worthy-cron-related",
+      "from_node": "github-worthy",
+      "to_node": "cron",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-github-worthy-directed-related",
+      "from_node": "github-worthy",
+      "to_node": "directed",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-github-worthy-update-related",
+      "from_node": "github-worthy",
+      "to_node": "update",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-github-worthy-current-related",
+      "from_node": "github-worthy",
+      "to_node": "current",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -3038,18 +3715,18 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-groq-wikidocsextraction-poc-planmd-related",
+      "relation_id": "rel-groq-github-related",
       "from_node": "groq",
-      "to_node": "wikidocsextraction-poc-planmd",
+      "to_node": "github",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-groq-git-related",
+      "relation_id": "rel-groq-wikidocsextraction-poc-planmd-related",
       "from_node": "groq",
-      "to_node": "git",
+      "to_node": "wikidocsextraction-poc-planmd",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -3065,9 +3742,9 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-groq-github-related",
+      "relation_id": "rel-groq-git-related",
       "from_node": "groq",
-      "to_node": "github",
+      "to_node": "git",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -3263,15 +3940,6 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-listing-gemini-related",
-      "from_node": "listing",
-      "to_node": "gemini",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
       "relation_id": "rel-listing-openai-related",
       "from_node": "listing",
       "to_node": "openai",
@@ -3284,6 +3952,15 @@
       "relation_id": "rel-listing-groq-related",
       "from_node": "listing",
       "to_node": "groq",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-listing-gemini-related",
+      "from_node": "listing",
+      "to_node": "gemini",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -3587,9 +4264,9 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-nanobot-gemini-related",
+      "relation_id": "rel-nanobot-github-related",
       "from_node": "nanobot",
-      "to_node": "gemini",
+      "to_node": "github",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -3605,18 +4282,18 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-nanobot-wikiscriptsextractionpocpy-related",
+      "relation_id": "rel-nanobot-gemini-related",
       "from_node": "nanobot",
-      "to_node": "wikiscriptsextractionpocpy",
+      "to_node": "gemini",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-nanobot-git-related",
+      "relation_id": "rel-nanobot-wikiscriptsextractionpocpy-related",
       "from_node": "nanobot",
-      "to_node": "git",
+      "to_node": "wikiscriptsextractionpocpy",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -3632,9 +4309,9 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-nanobot-github-related",
+      "relation_id": "rel-nanobot-git-related",
       "from_node": "nanobot",
-      "to_node": "github",
+      "to_node": "git",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -3671,6 +4348,87 @@
       "relation_id": "rel-nanobot-listing-related",
       "from_node": "nanobot",
       "to_node": "listing",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-nanobot-daily-wiki-scheduler-nanobot-related",
+      "from_node": "nanobot-daily-wiki-scheduler",
+      "to_node": "nanobot",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-nanobot-daily-wiki-scheduler-github-related",
+      "from_node": "nanobot-daily-wiki-scheduler",
+      "to_node": "github",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-nanobot-daily-wiki-scheduler-nodejs-related",
+      "from_node": "nanobot-daily-wiki-scheduler",
+      "to_node": "nodejs",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-nanobot-daily-wiki-scheduler-cron-related",
+      "from_node": "nanobot-daily-wiki-scheduler",
+      "to_node": "cron",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-nanobot-daily-wiki-scheduler-7-day-related",
+      "from_node": "nanobot-daily-wiki-scheduler",
+      "to_node": "7-day",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-nanobot-daily-wiki-scheduler-refresh-related",
+      "from_node": "nanobot-daily-wiki-scheduler",
+      "to_node": "refresh",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-nanobot-daily-wiki-scheduler-daily-related",
+      "from_node": "nanobot-daily-wiki-scheduler",
+      "to_node": "daily",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-nodejs-github-related",
+      "from_node": "nodejs",
+      "to_node": "github",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-nodejs-cron-related",
+      "from_node": "nodejs",
+      "to_node": "cron",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -3734,6 +4492,15 @@
       "relation_id": "rel-nodejs-22-related",
       "from_node": "nodejs",
       "to_node": "22",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-nodejs-groq-related",
+      "from_node": "nodejs",
+      "to_node": "groq",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -3875,18 +4642,18 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-openai-gemini-related",
+      "relation_id": "rel-openai-groq-related",
       "from_node": "openai",
-      "to_node": "gemini",
+      "to_node": "groq",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-openai-groq-related",
+      "relation_id": "rel-openai-gemini-related",
       "from_node": "openai",
-      "to_node": "groq",
+      "to_node": "gemini",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -4190,18 +4957,18 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-pushed-sqlite-related",
+      "relation_id": "rel-pushed-logseq-related",
       "from_node": "pushed",
-      "to_node": "sqlite",
+      "to_node": "logseq",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-pushed-logseq-related",
+      "relation_id": "rel-pushed-sqlite-related",
       "from_node": "pushed",
-      "to_node": "logseq",
+      "to_node": "sqlite",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -4253,18 +5020,18 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-refine-sqlite-related",
+      "relation_id": "rel-refine-logseq-related",
       "from_node": "refine",
-      "to_node": "sqlite",
+      "to_node": "logseq",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-refine-logseq-related",
+      "relation_id": "rel-refine-sqlite-related",
       "from_node": "refine",
-      "to_node": "logseq",
+      "to_node": "sqlite",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -4310,6 +5077,69 @@
       "relation_id": "rel-refine-wikidocsminimal-schemamd-related",
       "from_node": "refine",
       "to_node": "wikidocsminimal-schemamd",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-refresh-nanobot-related",
+      "from_node": "refresh",
+      "to_node": "nanobot",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-refresh-github-related",
+      "from_node": "refresh",
+      "to_node": "github",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-refresh-nodejs-related",
+      "from_node": "refresh",
+      "to_node": "nodejs",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-refresh-cron-related",
+      "from_node": "refresh",
+      "to_node": "cron",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-refresh-7-day-related",
+      "from_node": "refresh",
+      "to_node": "7-day",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-refresh-daily-related",
+      "from_node": "refresh",
+      "to_node": "daily",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-refresh-nanobot-daily-wiki-scheduler-related",
+      "from_node": "refresh",
+      "to_node": "nanobot-daily-wiki-scheduler",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -5117,6 +5947,69 @@
       "status": "candidate"
     },
     {
+      "relation_id": "rel-update-github-related",
+      "from_node": "update",
+      "to_node": "github",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-update-groq-related",
+      "from_node": "update",
+      "to_node": "groq",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-update-nodejs-related",
+      "from_node": "update",
+      "to_node": "nodejs",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-update-cron-related",
+      "from_node": "update",
+      "to_node": "cron",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-update-directed-related",
+      "from_node": "update",
+      "to_node": "directed",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-update-github-worthy-related",
+      "from_node": "update",
+      "to_node": "github-worthy",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-update-current-related",
+      "from_node": "update",
+      "to_node": "current",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
       "relation_id": "rel-wechat-logseq-related",
       "from_node": "wechat",
       "to_node": "logseq",
@@ -5180,18 +6073,18 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-wikidocsarchitecturemd-sqlite-related",
+      "relation_id": "rel-wikidocsarchitecturemd-logseq-related",
       "from_node": "wikidocsarchitecturemd",
-      "to_node": "sqlite",
+      "to_node": "logseq",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-wikidocsarchitecturemd-logseq-related",
+      "relation_id": "rel-wikidocsarchitecturemd-sqlite-related",
       "from_node": "wikidocsarchitecturemd",
-      "to_node": "logseq",
+      "to_node": "sqlite",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -5243,18 +6136,18 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-wikidocsextraction-poc-planmd-gemini-related",
+      "relation_id": "rel-wikidocsextraction-poc-planmd-groq-related",
       "from_node": "wikidocsextraction-poc-planmd",
-      "to_node": "gemini",
+      "to_node": "groq",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-wikidocsextraction-poc-planmd-groq-related",
+      "relation_id": "rel-wikidocsextraction-poc-planmd-gemini-related",
       "from_node": "wikidocsextraction-poc-planmd",
-      "to_node": "groq",
+      "to_node": "gemini",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -5270,18 +6163,18 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-wikidocsminimal-schemamd-sqlite-related",
+      "relation_id": "rel-wikidocsminimal-schemamd-logseq-related",
       "from_node": "wikidocsminimal-schemamd",
-      "to_node": "sqlite",
+      "to_node": "logseq",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-wikidocsminimal-schemamd-logseq-related",
+      "relation_id": "rel-wikidocsminimal-schemamd-sqlite-related",
       "from_node": "wikidocsminimal-schemamd",
-      "to_node": "logseq",
+      "to_node": "sqlite",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -5333,18 +6226,18 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-wikiscriptsextractionpocpy-gemini-related",
+      "relation_id": "rel-wikiscriptsextractionpocpy-groq-related",
       "from_node": "wikiscriptsextractionpocpy",
-      "to_node": "gemini",
+      "to_node": "groq",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-wikiscriptsextractionpocpy-groq-related",
+      "relation_id": "rel-wikiscriptsextractionpocpy-gemini-related",
       "from_node": "wikiscriptsextractionpocpy",
-      "to_node": "groq",
+      "to_node": "gemini",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -5369,18 +6262,18 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-wikiscriptsextractionpocpy-git-related",
+      "relation_id": "rel-wikiscriptsextractionpocpy-logseq-related",
       "from_node": "wikiscriptsextractionpocpy",
-      "to_node": "git",
+      "to_node": "logseq",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-wikiscriptsextractionpocpy-logseq-related",
+      "relation_id": "rel-wikiscriptsextractionpocpy-git-related",
       "from_node": "wikiscriptsextractionpocpy",
-      "to_node": "logseq",
+      "to_node": "git",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -5432,15 +6325,6 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-nanobotconfigjson-gemini-related",
-      "from_node": "nanobotconfigjson",
-      "to_node": "gemini",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
       "relation_id": "rel-nanobotconfigjson-openai-related",
       "from_node": "nanobotconfigjson",
       "to_node": "openai",
@@ -5453,6 +6337,15 @@
       "relation_id": "rel-nanobotconfigjson-groq-related",
       "from_node": "nanobotconfigjson",
       "to_node": "groq",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-nanobotconfigjson-gemini-related",
+      "from_node": "nanobotconfigjson",
+      "to_node": "gemini",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -5548,6 +6441,16 @@
       "source_id": "history_md"
     },
     {
+      "event_id": "event-7-day-001",
+      "timestamp": "2026-03-26 00:20",
+      "summary": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "node_ids": [
+        "7-day"
+      ],
+      "evidence_id": "ev-7-day-001",
+      "source_id": "history_md"
+    },
+    {
       "event_id": "event-comparison-001",
       "timestamp": "2026-03-24 17:20",
       "summary": "2026-03-24 17:20 — DJClaw site work continued: a new Chinese SeqLog explainer article was created and published locally as post 065 `posts-2026-03-24-065-seqlog-native-logseq-for-macos.html`, with `index.html` and `sitemap.xml` updated",
@@ -5568,6 +6471,46 @@
       "source_id": "history_md"
     },
     {
+      "event_id": "event-cron-001",
+      "timestamp": "2026-03-26 00:13",
+      "summary": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "node_ids": [
+        "cron"
+      ],
+      "evidence_id": "ev-cron-001",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-cron-002",
+      "timestamp": "2026-03-26 00:20",
+      "summary": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "node_ids": [
+        "cron"
+      ],
+      "evidence_id": "ev-cron-002",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-current-001",
+      "timestamp": "2026-03-26 00:13",
+      "summary": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "node_ids": [
+        "current"
+      ],
+      "evidence_id": "ev-current-001",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-daily-001",
+      "timestamp": "2026-03-26 00:20",
+      "summary": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "node_ids": [
+        "daily"
+      ],
+      "evidence_id": "ev-daily-001",
+      "source_id": "history_md"
+    },
+    {
       "event_id": "event-dd3722f-001",
       "timestamp": "2026-03-25 21:20",
       "summary": "2026-03-25 21:20 — User approved doing A then B for the wiki overhaul",
@@ -5585,6 +6528,16 @@
         "destination"
       ],
       "evidence_id": "ev-destination-001",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-directed-001",
+      "timestamp": "2026-03-26 00:13",
+      "summary": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "node_ids": [
+        "directed"
+      ],
+      "evidence_id": "ev-directed-001",
       "source_id": "history_md"
     },
     {
@@ -5888,6 +6841,36 @@
       "source_id": "history_md"
     },
     {
+      "event_id": "event-github-008",
+      "timestamp": "2026-03-26 00:13",
+      "summary": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "node_ids": [
+        "github"
+      ],
+      "evidence_id": "ev-github-008",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-github-009",
+      "timestamp": "2026-03-26 00:20",
+      "summary": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "node_ids": [
+        "github"
+      ],
+      "evidence_id": "ev-github-009",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-github-worthy-001",
+      "timestamp": "2026-03-26 00:13",
+      "summary": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "node_ids": [
+        "github-worthy"
+      ],
+      "evidence_id": "ev-github-worthy-001",
+      "source_id": "history_md"
+    },
+    {
       "event_id": "event-groq-001",
       "timestamp": "2026-03-25 23:13",
       "summary": "2026-03-25 23:13 — Wiki extraction PoC moved from design into implementation",
@@ -5915,6 +6898,16 @@
         "groq"
       ],
       "evidence_id": "ev-groq-003",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-groq-004",
+      "timestamp": "2026-03-26 00:13",
+      "summary": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "node_ids": [
+        "groq"
+      ],
+      "evidence_id": "ev-groq-004",
       "source_id": "history_md"
     },
     {
@@ -6088,6 +7081,26 @@
       "source_id": "history_md"
     },
     {
+      "event_id": "event-nanobot-003",
+      "timestamp": "2026-03-26 00:20",
+      "summary": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "node_ids": [
+        "nanobot"
+      ],
+      "evidence_id": "ev-nanobot-003",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-nanobot-daily-wiki-scheduler-001",
+      "timestamp": "2026-03-26 00:20",
+      "summary": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "node_ids": [
+        "nanobot-daily-wiki-scheduler"
+      ],
+      "evidence_id": "ev-nanobot-daily-wiki-scheduler-001",
+      "source_id": "history_md"
+    },
+    {
       "event_id": "event-nodejs-001",
       "timestamp": "2026-03-25 21:35",
       "summary": "2026-03-25 21:35 — Wiki extraction work reached a new kernel milestone, then paused for broader extraction research and a DJClaw article request",
@@ -6095,6 +7108,26 @@
         "nodejs"
       ],
       "evidence_id": "ev-nodejs-001",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-nodejs-002",
+      "timestamp": "2026-03-26 00:13",
+      "summary": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "node_ids": [
+        "nodejs"
+      ],
+      "evidence_id": "ev-nodejs-002",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-nodejs-003",
+      "timestamp": "2026-03-26 00:20",
+      "summary": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "node_ids": [
+        "nodejs"
+      ],
+      "evidence_id": "ev-nodejs-003",
       "source_id": "history_md"
     },
     {
@@ -6205,6 +7238,16 @@
         "refine"
       ],
       "evidence_id": "ev-refine-001",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-refresh-001",
+      "timestamp": "2026-03-26 00:20",
+      "summary": "2026-03-26 00:20 — Wiki recent-window refresh and scheduler investigation advanced",
+      "node_ids": [
+        "refresh"
+      ],
+      "evidence_id": "ev-refresh-001",
       "source_id": "history_md"
     },
     {
@@ -6385,6 +7428,16 @@
         "trips-ui-brief"
       ],
       "evidence_id": "ev-trips-ui-brief-001",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-update-001",
+      "timestamp": "2026-03-26 00:13",
+      "summary": "2026-03-26 00:13 — User directed wiki extraction hardening and operations follow-up",
+      "node_ids": [
+        "update"
+      ],
+      "evidence_id": "ev-update-001",
       "source_id": "history_md"
     },
     {

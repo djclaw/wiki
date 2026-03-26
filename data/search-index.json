@@ -1,8 +1,8 @@
 [
   {
-    "title": "GitHub CLI",
-    "url": "entries/history/history-0001.html",
-    "snippet": "dj asked for a detailed comparison between nanobot and openclaw, how web search, spawn sub-agents, GitHub skills, and the various Markdown docs work, so I explained each item while reinforcing his preference for short mixed Chinese-English replies and noting he is learning Spanish / Assistant confirmed gh CLI login to GitHub account djclaw with repo/workflow/admin scopes and proposed enabling the GitHub skill next",
+    "title": "7-day",
+    "url": "entries/history/7-day.html",
+    "snippet": "Wiki recent-window refresh and scheduler investigation advanced",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -10,9 +10,9 @@
     "coordinates": null
   },
   {
-    "title": "Email",
-    "url": "entries/history/history-0002.html",
-    "snippet": "dj asked for a detailed comparison between nanobot and openclaw, how web search, spawn sub-agents, GitHub skills, and the various Markdown docs work, so I explained each item while reinforcing his preference for short mixed Chinese-English replies and noting he is learning Spanish / User detailed a Kraig Adams style operating memo that emphasizes leverage-driven storytelling, binary contrasts, and minimal systems",
+    "title": "daily",
+    "url": "entries/history/daily.html",
+    "snippet": "Wiki recent-window refresh and scheduler investigation advanced",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -20,179 +20,9 @@
     "coordinates": null
   },
   {
-    "title": "GitHub",
-    "url": "entries/history/history-0003.html",
-    "snippet": "dj asked for a detailed comparison between nanobot and openclaw, how web search, spawn sub-agents, GitHub skills, and the various Markdown docs work, so I explained each item while reinforcing his preference for short mixed Chinese-English replies and noting he is learning Spanish / Assistant confirmed gh CLI login to GitHub account djclaw with repo/workflow/admin scopes and proposed enabling the GitHub skill next",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "nanobot",
-    "url": "entries/history/history-0004.html",
-    "snippet": "dj asked for a detailed comparison between nanobot and openclaw, how web search, spawn sub-agents, GitHub skills, and the various Markdown docs work, so I explained each item while reinforcing his preference for short mixed Chinese-English replies and noting he is learning Spanish / Reported that Homebrew installation failed because the machine is 32-bit ARMv7 (`armv7l`), which Homebrew does not support, suggesting alternative approaches for summarize CLI installation; user then asked about how tmux benefits nanobot.",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "IMAP",
-    "url": "entries/history/history-0005.html",
-    "snippet": "dj asked for a detailed comparison between nanobot and openclaw, how web search, spawn sub-agents, GitHub skills, and the various Markdown docs work, so I explained each item while reinforcing his preference for short mixed Chinese-English replies and noting he is learning Spanish / User asked to inspect configuration; assistant confirmed email channel IMAP/SMTP setup and polling interval 30s with auto-reply and mark-seen enabled, and proposed a Telegram forwarder",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "with",
-    "url": "entries/history/history-0006.html",
-    "snippet": "Assistant confirmed gh CLI login to GitHub account djclaw with repo/workflow/admin scopes and proposed enabling the GitHub skill next / djclaw reviewed how Skills work, covering GitHub Skill installation via gh CLI, config toggles, updating, and publishing or building custom skills with skill-creator",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "what",
-    "url": "entries/history/history-0007.html",
-    "snippet": "Assistant confirmed gh CLI login to GitHub account djclaw with repo/workflow/admin scopes and proposed enabling the GitHub skill next",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "how",
-    "url": "entries/history/history-0008.html",
-    "snippet": "djclaw reviewed how Skills work, covering GitHub Skill installation via gh CLI, config toggles, updating, and publishing or building custom skills with skill-creator",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "custom",
-    "url": "entries/history/history-0009.html",
-    "snippet": "djclaw reviewed how Skills work, covering GitHub Skill installation via gh CLI, config toggles, updating, and publishing or building custom skills with skill-creator / Assistant clarified that the `skills/` directory is empty because no custom skills have been added, and only built-in skills like weather, cron, memory, and github are available; the user questioned the assistant about a prior claim of installing GitHub skills.",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "managing",
-    "url": "entries/history/history-0010.html",
-    "snippet": "djclaw reviewed how Skills work, covering GitHub Skill installation via gh CLI, config toggles, updating, and publishing or building custom skills with skill-creator",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "ClawHub",
-    "url": "entries/history/history-0011.html",
-    "snippet": "User confirmed preference for mixed Chinese/English replies without Spanish and asked about differences between GitHub skill and GitHub CLI, plus whether publishing a skill requires creating a GitHub repo and pushing to Clashub, and if Clawhub is the main skill-sharing platform. / Assistant listed available system skills (weather, memory, cron, github, skill-creator, clawhub) and noted others like tmux and summarize require missing CLIs; user then asked what “summarize” is.",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "a",
-    "url": "entries/history/history-0012.html",
-    "snippet": "User confirmed preference for mixed Chinese/English replies without Spanish and asked about differences between GitHub skill and GitHub CLI, plus whether publishing a skill requires creating a GitHub repo and pushing to Clashub, and if Clawhub is the main skill-sharing platform. / User asked which skills are currently installed and whether converting most recurring tasks into skills is recommended",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "main",
-    "url": "entries/history/history-0013.html",
-    "snippet": "User confirmed preference for mixed Chinese/English replies without Spanish and asked about differences between GitHub skill and GitHub CLI, plus whether publishing a skill requires creating a GitHub repo and pushing to Clashub, and if Clawhub is the main skill-sharing platform.",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "which",
-    "url": "entries/history/history-0014.html",
-    "snippet": "User asked which skills are currently installed and whether converting most recurring tasks into skills is recommended",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "into",
-    "url": "entries/history/history-0015.html",
-    "snippet": "User asked which skills are currently installed and whether converting most recurring tasks into skills is recommended / User asked whether writing a CLI, exposing a direct backend API, or using MCP are essentially the same by providing endpoints/ports and composing flows into skills, and whether skill information retrieval via CLI/API/MCP is fundamentally equivalent.",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "around",
-    "url": "entries/history/history-0016.html",
-    "snippet": "User asked which skills are currently installed and whether converting most recurring tasks into skills is recommended",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "cron",
-    "url": "entries/history/history-0017.html",
-    "snippet": "djclaw explained that the skills directory is currently empty (only built-in skills like weather/memory/cron are available) and reiterated the plan to suggest packaging high-frequency workflows into reusable skills / Assistant clarified that the `skills/` directory is empty because no custom skills have been added, and only built-in skills like weather, cron, memory, and github are available; the user questioned the assistant about a prior claim of installing GitHub skills.",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "the",
-    "url": "entries/history/history-0018.html",
-    "snippet": "djclaw explained that the skills directory is currently empty (only built-in skills like weather/memory/cron are available) and reiterated the plan to suggest packaging high-frequency workflows into reusable skills / djclaw reported the GitHub skill bootstrap article was completed, added to the repo, and deployed with updated index links",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "built-in",
-    "url": "entries/history/history-0019.html",
-    "snippet": "djclaw explained that the skills directory is currently empty (only built-in skills like weather/memory/cron are available) and reiterated the plan to suggest packaging high-frequency workflows into reusable skills / Assistant clarified that the `skills/` directory is empty because no custom skills have been added, and only built-in skills like weather, cron, memory, and github are available; the user questioned the assistant about a prior claim of installing GitHub skills.",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "reusable",
-    "url": "entries/history/history-0020.html",
-    "snippet": "djclaw explained that the skills directory is currently empty (only built-in skills like weather/memory/cron are available) and reiterated the plan to suggest packaging high-frequency workflows into reusable skills",
+    "title": "DJClaw",
+    "url": "entries/history/djclaw.html",
+    "snippet": "DJClaw publishing continued after post 062 / Trips project MVP1 is underway for new repo `djclaw/trips` in `[REDACTED_PATH] User asked that after MVP1 ends, a DJClaw article be published based on the trips planning conversation, and separately that after MVP1 ends a GitHub Project linked to the new trips repo be created for MVP2 with MVP2 tasks added",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -201,8 +31,8 @@
   },
   {
     "title": "djclaw.github.io",
-    "url": "entries/history/history-0021.html",
-    "snippet": "djclaw asked the user to specify a repository for testing, noting a format like djclaw/test / Checked repo djclaw/djclaw.github.io for open GitHub issues via exec command; output confirmed none are open and gh CLI works",
+    "url": "entries/history/djclawgithubio.html",
+    "snippet": "Trips project post-MVP1 setup progressed: GitHub Pages for djclaw/trips was enabled on master/root and built successfully at https://djclaw.github.io/trips/",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -210,9 +40,9 @@
     "coordinates": null
   },
   {
-    "title": "existing",
-    "url": "entries/history/history-0022.html",
-    "snippet": "djclaw asked the user to specify a repository for testing, noting a format like djclaw/test / User requested adding an About page with a homepage entry alongside about/GitHub/email",
+    "title": "Garden",
+    "url": "entries/history/garden.html",
+    "snippet": "User had a beginner Logseq discussion and then requested publication work",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -220,9 +50,9 @@
     "coordinates": null
   },
   {
-    "title": "Checked",
-    "url": "entries/history/history-0023.html",
-    "snippet": "Checked repo djclaw/djclaw.github.io for open GitHub issues via exec command; output confirmed none are open and gh CLI works",
+    "title": "gemini-2.5-pro",
+    "url": "entries/history/gemini-25-pro.html",
+    "snippet": "Wiki extraction PoC work continued",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -230,9 +60,9 @@
     "coordinates": null
   },
   {
-    "title": "Assistant",
-    "url": "entries/history/history-0024.html",
-    "snippet": "Assistant reported Substack article inaccessible beyond login wall, so user pasted the full text of Kraig Adams’ “I Stopped Thinking in Public,” detailing his shift from public ideation to private ChatGPT processing, pros/cons of visibility versus privacy, and a tiered exposure strategy culminating in monetized Field Notes / Assistant reported that the djclaw.github.io homepage was refreshed to mirror haoluo.io’s centered narrow layout with Space Grotesk, intro section, links, and tag filtering, and that the changes were committed with message “style: refresh home layout in hai luo vibe.” The user shared a poem titled “spicy & sad” (with emojis and references to spicy food and shared soup) and asked for it to be published to djclaw.",
+    "title": "Gemini",
+    "url": "entries/history/gemini.html",
+    "snippet": "Wiki extraction PoC moved from design into implementation / Wiki extraction PoC work continued",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -240,9 +70,9 @@
     "coordinates": null
   },
   {
-    "title": "djclaw",
-    "url": "entries/history/history-0025.html",
-    "snippet": "djclaw reported the GitHub skill bootstrap article was completed, added to the repo, and deployed with updated index links",
+    "title": "Git",
+    "url": "entries/history/git.html",
+    "snippet": "Wiki extraction PoC work continued",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -250,9 +80,9 @@
     "coordinates": null
   },
   {
-    "title": "new",
-    "url": "entries/history/history-0026.html",
-    "snippet": "djclaw reported the GitHub skill bootstrap article was completed, added to the repo, and deployed with updated index links / Assistant reported being unable to draft the new blog post because the environment lacks the apply_patch utility and asked the user whether to enable it or use another method like write_file",
+    "title": "GitHub-worthy",
+    "url": "entries/history/github-worthy.html",
+    "snippet": "User directed wiki extraction hardening and operations follow-up",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -260,9 +90,9 @@
     "coordinates": null
   },
   {
-    "title": "future",
-    "url": "entries/history/history-0027.html",
-    "snippet": "Assistant cleaned the repo by removing older posts, introduced a tag filtering system with buttons, badges, and JS, and pushed the changes to main",
+    "title": "GitHub",
+    "url": "entries/history/github.html",
+    "snippet": "User approved the default plan to start a new GitHub repo `djclaw/trips` for a mobile/desktop travel site inspired by Airbnb, with a trip picker homepage and an initial New Orleans trip page showing map + list, star ratings, and structured travel content / Trips project MVP1 is underway for new repo `djclaw/trips` in `[REDACTED_PATH] User asked that after MVP1 ends, a DJClaw article be published based on the trips planning conversation, and separately that after MVP1 ends a GitHub Project linked to the new trips repo be created for MVP2 with MVP2 tasks added",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -270,9 +100,9 @@
     "coordinates": null
   },
   {
-    "title": "steipete-inspired",
-    "url": "entries/history/history-0028.html",
-    "snippet": "After confirming the steipete-inspired site refresh was committed and pushed, the user reported disliking the new post styling and requested returning the posts to their earlier style",
+    "title": "Groq",
+    "url": "entries/history/groq.html",
+    "snippet": "Wiki extraction PoC moved from design into implementation / Wiki extraction PoC work continued",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -280,9 +110,9 @@
     "coordinates": null
   },
   {
-    "title": "user",
-    "url": "entries/history/history-0029.html",
-    "snippet": "After confirming the steipete-inspired site refresh was committed and pushed, the user reported disliking the new post styling and requested returning the posts to their earlier style / Confirmed that the Spotify player was embedded at the bottom of the “spicy & sad 🌶” post and pushed via commit feat: embed spotify in spicy poem",
+    "title": "homepageUrl",
+    "url": "entries/history/homepageurl.html",
+    "snippet": "Trips project MVP1 was completed and pushed",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -290,9 +120,9 @@
     "coordinates": null
   },
   {
-    "title": "git",
-    "url": "entries/history/history-0030.html",
-    "snippet": "User chose to roll back only the steipete-style changes while keeping the previously added tag system, clarifying the desired Git workflow state for the djclaw.github.io repo / Reviewed completed work on the Tavily search field note: minimal Craig Adams-style post added (posts-2026-tavily-search.html), homepage updated, and Git push (Add Tavily search field note) confirmed",
+    "title": "LLM-assisted",
+    "url": "entries/history/llm-assisted.html",
+    "snippet": "Wiki extraction work reached a new kernel milestone, then paused for broader extraction research and a DJClaw article request",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -300,9 +130,9 @@
     "coordinates": null
   },
   {
-    "title": "personal",
-    "url": "entries/history/history-0031.html",
-    "snippet": "After confirming the repo was rolled back to the pre-Steipete commit with only the GitHub Skill post and tags working, the user remarked they like the current personal blog style / Asked the user to clarify the “personal blog style” they wanted for djclaw.github.io, specifically requesting a link or example",
+    "title": "Logseq",
+    "url": "entries/history/logseq.html",
+    "snippet": "User asked to research seqlog.com and explain SeqLog in plain Chinese, including what it is for, who uses it, and use cases for personal and small-group users / DJClaw site work continued: a new Chinese SeqLog explainer article was created and published locally as post 065 `posts-2026-03-24-065-seqlog-native-logseq-for-macos.html`, with `index.html` and `sitemap.xml` updated",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -310,9 +140,9 @@
     "coordinates": null
   },
   {
-    "title": "skills/",
-    "url": "entries/history/history-0032.html",
-    "snippet": "Assistant clarified that the `skills/` directory is empty because no custom skills have been added, and only built-in skills like weather, cron, memory, and github are available; the user questioned the assistant about a prior claim of installing GitHub skills. / Assistant clarified that the GitHub skill is a system-provided tool located in the global tools directory (`~/.local/.../skills/github`) rather than the workspace `skills/` folder, which remains empty for user-added or third-party skills",
+    "title": "MVP2",
+    "url": "entries/history/mvp2.html",
+    "snippet": "Trips project progressed: after enabling GitHub Pages for djclaw/trips and creating the MVP2 project/issues, labels/project organization were completed and a new DJClaw article was published as post 064 `posts-2026-03-20-064-planning-the-trips-project.html` in commit `16134d2` (`Publish post 064 on trips project planning`)",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -320,109 +150,9 @@
     "coordinates": null
   },
   {
-    "title": "third-party",
-    "url": "entries/history/history-0033.html",
-    "snippet": "Assistant clarified that the GitHub skill is a system-provided tool located in the global tools directory (`~/.local/.../skills/github`) rather than the workspace `skills/` folder, which remains empty for user-added or third-party skills",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "other",
-    "url": "entries/history/history-0034.html",
-    "snippet": "Assistant clarified that the GitHub skill is a system-provided tool located in the global tools directory (`~/.local/.../skills/github`) rather than the workspace `skills/` folder, which remains empty for user-added or third-party skills",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "~/.local/.../skills/github",
-    "url": "entries/history/history-0035.html",
-    "snippet": "Assistant clarified that the GitHub skill is a system-provided tool located in the global tools directory (`~/.local/.../skills/github`) rather than the workspace `skills/` folder, which remains empty for user-added or third-party skills",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "summarize",
-    "url": "entries/history/history-0036.html",
-    "snippet": "Assistant listed available system skills (weather, memory, cron, github, skill-creator, clawhub) and noted others like tmux and summarize require missing CLIs; user then asked what “summarize” is. / Assistant explained that the summarize skill requires an external summarize CLI dependency which is not yet installed",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "system",
-    "url": "entries/history/history-0037.html",
-    "snippet": "Assistant listed available system skills (weather, memory, cron, github, skill-creator, clawhub) and noted others like tmux and summarize require missing CLIs; user then asked what “summarize” is. / User revised the About page skill emoji rules: only preinstalled system skills should use the gear emoji (e.g., cron, skill-creator), skills the user built from scratch should use the brain emoji (🧠, e.g., focus), and skills downloaded from clawhub should use the crab emoji (🦀, e.g., humanizer)",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "armv7l",
-    "url": "entries/history/history-0038.html",
-    "snippet": "Reported that Homebrew installation failed because the machine is 32-bit ARMv7 (`armv7l`), which Homebrew does not support, suggesting alternative approaches for summarize CLI installation; user then asked about how tmux benefits nanobot.",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "tmux",
-    "url": "entries/history/history-0039.html",
-    "snippet": "Assistant explained the tmux skill, noting it allows maintaining interactive sessions but requires the tmux CLI, which is currently not installed",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "static",
-    "url": "entries/history/history-0040.html",
-    "snippet": "Assistant advised that tmux isn’t necessary for the current static site editing tasks, suggesting installation only if the user later needs long-running CLI sessions / Discussed personal knowledge graph presentation",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "User",
-    "url": "entries/history/history-0041.html",
-    "snippet": "User reported that blog posts on djclaw.github.io are displaying with incorrect formatting, prompting investigation into layout issues affecting the site’s posts. / User reported that the newly published post posts-2026-summarize-downgrade-guide.html is not yet visible, suggesting the homepage index might not have been updated despite previous assurances to synchronize new posts immediately.",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "that",
-    "url": "entries/history/history-0042.html",
-    "snippet": "User reported that blog posts on djclaw.github.io are displaying with incorrect formatting, prompting investigation into layout issues affecting the site’s posts.",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "npm",
-    "url": "entries/history/history-0043.html",
-    "snippet": "User explained that npm scripts use a hardcoded `#!/usr/bin/env node`, so when invoking `[REDACTED_PATH] the PATH must include `[REDACTED_PATH] They provided a command to prepend that directory to PATH before running `npm i -g @steipete/summarize` and asked whether this solution had been applied. / Assistant informed the user that [REDACTED_PATH] lacked summarize, implying npm install hadn’t run, and outlined the plan to set PATH before installing",
+    "title": "nanobot",
+    "url": "entries/history/nanobot.html",
+    "snippet": "Wiki extraction PoC work continued / Wiki extraction PoC provider/model work advanced and the user selected Groq as the main extraction provider",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -431,8 +161,8 @@
   },
   {
     "title": "Node.js",
-    "url": "entries/history/history-0044.html",
-    "snippet": "User explained that npm scripts use a hardcoded `#!/usr/bin/env node`, so when invoking `[REDACTED_PATH] the PATH must include `[REDACTED_PATH] They provided a command to prepend that directory to PATH before running `npm i -g @steipete/summarize` and asked whether this solution had been applied. / The assistant explained that the summarize CLI failures were due to Node requiring the experimental built-in sqlite module and provided an example command that sets PATH and NODE_OPTIONS=--experimental-sqlite before running summarize",
+    "url": "entries/history/nodejs.html",
+    "snippet": "Wiki extraction work reached a new kernel milestone, then paused for broader extraction research and a DJClaw article request / User directed wiki extraction hardening and operations follow-up",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -440,9 +170,9 @@
     "coordinates": null
   },
   {
-    "title": "recent",
-    "url": "entries/history/history-0045.html",
-    "snippet": "Installation attempts for the summarize CLI both timed out at 60 seconds, so the tool remains uninstalled; assistant asked whether to retry with a longer timeout or alternate mirror",
+    "title": "OpenAI",
+    "url": "entries/history/openai.html",
+    "snippet": "Wiki extraction PoC provider/model work advanced and the user selected Groq as the main extraction provider",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -450,9 +180,9 @@
     "coordinates": null
   },
   {
-    "title": "all",
-    "url": "entries/history/history-0046.html",
-    "snippet": "Assistant reiterated the user’s requirement that all blog post subtitles read “my friend told me if i am sad to eat spicy food, then i am spicy and sad” and offered to update existing posts, asking whether to apply the change to all / Assistant reported that all blog post subtitles were unified to the phrase “my friend told me if i am sad to eat spicy food, then i am spicy and sad” and pushed as commit style: unify post subtitles",
+    "title": "Refresh",
+    "url": "entries/history/refresh.html",
+    "snippet": "Wiki recent-window refresh and scheduler investigation advanced",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -460,9 +190,9 @@
     "coordinates": null
   },
   {
-    "title": "assistant",
-    "url": "entries/history/history-0047.html",
-    "snippet": "The assistant reported that npm’s fetch-timeout is already configured at 180000 ms (180 seconds) and found no 60-second limit within npm’s settings, implying the earlier cutoff likely came from an external system constraint / After the assistant reported switching summarize defaults to Gemma-3-27b-it with short length, the user clarified that the defaults should remain google/gemini-3-flash-preview with medium-length summaries and reiterated that the codex CLI integration stays enabled",
+    "title": "SeqLog",
+    "url": "entries/history/seqlog.html",
+    "snippet": "User asked to research seqlog.com and explain SeqLog in plain Chinese, including what it is for, who uses it, and use cases for personal and small-group users / DJClaw site work continued: a new Chinese SeqLog explainer article was created and published locally as post 065 `posts-2026-03-24-065-seqlog-native-logseq-for-macos.html`, with `index.html` and `sitemap.xml` updated",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -470,9 +200,9 @@
     "coordinates": null
   },
   {
-    "title": "exec",
-    "url": "entries/history/history-0048.html",
-    "snippet": "User revealed their config showing `exec` timeout increased from 60 to 300 seconds and asked whether an `apply_patch` tool needs to be added",
+    "title": "sitemap.xml",
+    "url": "entries/history/sitemapxml.html",
+    "snippet": "DJClaw publishing continued after post 062 / DJClaw site work continued: a new Chinese SeqLog explainer article was created and published locally as post 065 `posts-2026-03-24-065-seqlog-native-logseq-for-macos.html`, with `index.html` and `sitemap.xml` updated",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -480,9 +210,9 @@
     "coordinates": null
   },
   {
-    "title": "apply_patch",
-    "url": "entries/history/history-0049.html",
-    "snippet": "User revealed their config showing `exec` timeout increased from 60 to 300 seconds and asked whether an `apply_patch` tool needs to be added",
+    "title": "SQLite",
+    "url": "entries/history/sqlite.html",
+    "snippet": "User approved doing A then B for the wiki overhaul",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -490,9 +220,29 @@
     "coordinates": null
   },
   {
-    "title": "MCP",
-    "url": "entries/history/history-0050.html",
-    "snippet": "Assistant reported that the homepage now includes the “Getting summarize CLI running on 32-bit ARMv7” post in both the latest post link and the posts list, with changes committed and pushed as `chore: link summarize install post on homepage`, affirming future posts will be linked on the homepage / The assistant explained that, with the exec timeout raised to 300 seconds, using existing shell tools like patch or heredoc is sufficient for editing files, eliminating the need to set up an MCP server",
+    "title": "summarize",
+    "url": "entries/history/summarize.html",
+    "snippet": "User had a beginner Logseq discussion and then requested publication work",
+    "tags": [],
+    "categories": [],
+    "aliases": [],
+    "related": [],
+    "coordinates": null
+  },
+  {
+    "title": "trips",
+    "url": "entries/history/trips.html",
+    "snippet": "User approved the default plan to start a new GitHub repo `djclaw/trips` for a mobile/desktop travel site inspired by Airbnb, with a trip picker homepage and an initial New Orleans trip page showing map + list, star ratings, and structured travel content",
+    "tags": [],
+    "categories": [],
+    "aliases": [],
+    "related": [],
+    "coordinates": null
+  },
+  {
+    "title": "WeChat",
+    "url": "entries/history/wechat.html",
+    "snippet": "User had a beginner Logseq discussion and then requested publication work",
     "tags": [],
     "categories": [],
     "aliases": [],
