@@ -97,7 +97,7 @@ Return JSON only. No markdown. No explanation.
 Rules:
 - Be conservative.
 - Keep only useful candidates.
-- Prefer 1 to 5 nodes, 0 to 2 relations, and 1 to 2 events per entry.
+- Prefer 1 to 5 nodes, 0 to 1 relations, and 1 to 2 events per entry.
 - Preserve the entry timestamp for events unless the text clearly implies a different time.
 - Prefer stable entities that are useful as wiki pages: projects, tools, places, orgs, topics, notable docs.
 - Avoid low-value fragments like raw filenames, commit hashes, generic words like User, article, post, file, page, repo, script unless they are clearly the meaningful entity.
@@ -114,8 +114,10 @@ Relation guidance:
 - `works_on`: only when a person or org is clearly working on a project/task.
 - `uses`: only when the text clearly says one entity uses another tool/service.
 - `published_to`: only when content is clearly published to a named destination/platform.
-- `about`: only when a doc/article/post is clearly about a retained topic/entity.
-- `mentioned_with` should be rare; use it only when the pairing itself is meaningful.
+- `about`: use rarely; only when a retained doc/page/note is explicitly about a retained topic/entity.
+- `mentioned_with` should be extremely rare; use it only when the pairing itself is the important fact.
+- Avoid relations between broad containers and their own docs/pages unless the link is central and explicit.
+- If either side is a weak or borderline node, prefer no relation.
 - Otherwise prefer no relation.
 
 Target schema example:
@@ -311,6 +313,20 @@ def _normalize_label(label: str, node_type: str) -> str:
         'github issues': 'GitHub Issues',
         'github issue': 'GitHub Issues',
         'github project board': 'GitHub Projects',
+        'djclaw/wiki': 'wiki',
+        'djclaw wiki': 'wiki',
+        'wiki repo': 'wiki',
+        'wiki readme': '',
+        'readme': '',
+        'extraction pipeline': '',
+        'wiki extraction': '',
+        'structured extraction': '',
+        'extraction poc': '',
+        'recent history sample': '',
+        'structured candidates': '',
+        'history sample': '',
+        'local wiki pipeline': 'wiki',
+        'local wiki': 'wiki',
     }
     if low in mapping:
         return mapping[low]
@@ -336,6 +352,10 @@ def _normalize_label(label: str, node_type: str) -> str:
         return 'trips'
     s = re.sub(r'\bgithub pages site\b', 'GitHub Pages', s, flags=re.I)
     s = re.sub(r'\bdjclaw website\b', 'DJClaw', s, flags=re.I)
+    s = re.sub(r'\bdjclaw/?wiki\b', 'wiki', s, flags=re.I)
+    s = re.sub(r'\bwiki repo\b', 'wiki', s, flags=re.I)
+    s = re.sub(r'\bwiki project\b', 'wiki', s, flags=re.I)
+    s = re.sub(r'\bpersonal wiki project\b', 'wiki', s, flags=re.I)
     return s
 
 
@@ -344,7 +364,7 @@ def _keep_node(label: str, node_type: str) -> bool:
     low = s.lower()
     if not s:
         return False
-    if low in {'user', 'assistant', 'article', 'post', 'file', 'page', 'repo', 'script', 'project', 'tool', 'doc', 'mvp1', 'mvp2', 'pages mvp2', 'entry', 'history entry', 'personal history entry', 'markdown file', 'website', 'blog', 'platform', 'system', 'workflow', 'process', 'content', 'note', 'notes', 'planning', 'implementation', 'architecture'}:
+    if low in {'user', 'assistant', 'article', 'post', 'file', 'page', 'repo', 'script', 'project', 'tool', 'doc', 'mvp1', 'mvp2', 'pages mvp2', 'entry', 'history entry', 'personal history entry', 'markdown file', 'website', 'blog', 'platform', 'system', 'workflow', 'process', 'content', 'note', 'notes', 'planning', 'implementation', 'architecture', 'pipeline', 'extraction pipeline', 'structured extraction', 'extraction poc', 'history sample', 'recent history sample', 'structured candidates', 'readme', 'wiki readme'}:
         return False
     if low.startswith('post ') and low[5:].isdigit():
         return False
@@ -400,18 +420,33 @@ def parse_response(raw: str) -> tuple[list[NodeCandidate], list[RelationCandidat
         t = item.get('target_label', '')
         if s in allowed_labels and t in allowed_labels:
             rel_rows.append(item)
+    node_type_by_label = {row['label']: row.get('type', 'other') for row in node_rows}
     filtered_rel_rows = []
     for item in rel_rows:
         rt = (item.get('relation_type') or '').strip()
         conf = float(item.get('confidence') or 0)
-        if rt == 'mentioned_with' and conf < 0.85:
+        s = (item.get('source_label') or '').strip()
+        t = (item.get('target_label') or '').strip()
+        st = node_type_by_label.get(s, 'other')
+        tt = node_type_by_label.get(t, 'other')
+        if rt in {'mentioned_with', 'related_to', 'about', 'located_in', 'other'}:
             continue
-        if rt == 'related_to' and conf < 0.8:
+        if rt == 'works_on' and conf < 0.85:
             continue
-        if rt == 'other':
+        if rt == 'uses' and conf < 0.85:
+            continue
+        if rt == 'published_to' and conf < 0.9:
+            continue
+        if rt == 'works_on' and st not in {'person', 'org'}:
+            continue
+        if rt == 'uses' and st not in {'person', 'org', 'project'}:
+            continue
+        if rt == 'published_to' and tt not in {'org', 'project'}:
+            continue
+        if s == t:
             continue
         filtered_rel_rows.append(item)
-    rel_rows = _dedupe_dict_rows(filtered_rel_rows, ('source_label', 'relation_type', 'target_label'))[:2]
+    rel_rows = _dedupe_dict_rows(filtered_rel_rows, ('source_label', 'relation_type', 'target_label'))[:1]
 
     event_rows = []
     for item in data.get('events', []):
