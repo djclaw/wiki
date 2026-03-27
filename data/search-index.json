@@ -1,8 +1,8 @@
 [
   {
-    "title": "DJClaw",
-    "url": "entries/history/djclaw.html",
-    "snippet": "User approved publishing follow-up trilingual lyrics as post 063 and assistant created the post and updated index.html and sitemap.xml / Project MVP1 started for new repo djclaw/trips",
+    "title": "Airbnb",
+    "url": "entries/history/airbnb.html",
+    "snippet": "Approved default plan, created GitHub repo, began static-site scaffolding",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -10,9 +10,19 @@
     "coordinates": null
   },
   {
-    "title": "GitHub Pages",
-    "url": "entries/history/github-pages.html",
-    "snippet": "GitHub Pages enabled for djclaw/trips at https://djclaw.github.io/trips/ and new GitHub Project 'Trips MVP2' created with six core issues",
+    "title": "DJClaw",
+    "url": "entries/history/djclaw.html",
+    "snippet": "Approved default plan, created GitHub repo, began static-site scaffolding / The trips project (repo djclaw/trips) is in MVP1 phase with static preview working for homepage and New Orleans trip page",
+    "tags": [],
+    "categories": [],
+    "aliases": [],
+    "related": [],
+    "coordinates": null
+  },
+  {
+    "title": "GitHub",
+    "url": "entries/history/github.html",
+    "snippet": "DJClaw wiki shifted toward Logseq-inspired architecture, extracted from chat history / Unified extraction paths, tightened filtering rules, and pushed strict-v3-related changes to main branch",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -22,7 +32,7 @@
   {
     "title": "Logseq",
     "url": "entries/history/logseq.html",
-    "snippet": "User asked for plain-Chinese explanation of SeqLog, covering its purpose, user base, and personal/small-group use cases. / New Chinese SeqLog explainer article (post 065) created, published, and committed to main branch",
+    "snippet": "User requested turning a Logseq beginner explanation into a DJClaw article for publication / DJClaw wiki shifted toward Logseq-inspired architecture, extracted from chat history",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -32,7 +42,7 @@
   {
     "title": "New Orleans",
     "url": "entries/history/new-orleans.html",
-    "snippet": "GitHub repo initialized and cloned, static-site scaffolding started for New Orleans trip content. / Project MVP1 started for new repo djclaw/trips",
+    "snippet": "Approved default plan, created GitHub repo, began static-site scaffolding / New Orleans destination page content ingestion",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -42,7 +52,7 @@
   {
     "title": "SeqLog",
     "url": "entries/history/seqlog.html",
-    "snippet": "User asked for plain-Chinese explanation of SeqLog, covering its purpose, user base, and personal/small-group use cases. / New Chinese SeqLog explainer article (post 065) created, published, and committed to main branch",
+    "snippet": "A Chinese SeqLog explainer article was published as post 065 on DJClaw",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -52,7 +62,7 @@
   {
     "title": "trips",
     "url": "entries/history/trips.html",
-    "snippet": "GitHub Pages enabled for djclaw/trips at https://djclaw.github.io/trips/ and new GitHub Project 'Trips MVP2' created with six core issues / Enabled GitHub Pages for djclaw/trips, finished labels/project organization, and published post 064 on planning the Trips project",
+    "snippet": "The trips project (repo djclaw/trips) is in MVP1 phase with static preview working for homepage and New Orleans trip page / MVP1 of the Trips project completed, homepage upgraded, README expanded, repo djclaw/trips committed on master branch.",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -62,7 +72,7 @@
   {
     "title": "wiki",
     "url": "entries/history/wiki.html",
-    "snippet": "user pivoted wiki architecture; djclaw/wiki scoped with MVP schema/design option B MVP1/2/3 and updated README / Wiki pipeline ran end-to-end producing wiki.db with metadata and push to djclaw/repo",
+    "snippet": "Assistant tightened extraction logic, validated with llama-3.3-70b-versatile, and created extract_history_recent.py to process last 7 days / End-to-end run produced 98 nodes, 421 relations, 98 events, and 44 generated pages; results pushed to djclaw/wiki",
     "tags": [],
     "categories": [],
     "aliases": [],
