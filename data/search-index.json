@@ -1,8 +1,8 @@
 [
   {
-    "title": "Airbnb",
-    "url": "entries/history/airbnb.html",
-    "snippet": "Approved default plan, created GitHub repo, began static-site scaffolding",
+    "title": "DJClaw",
+    "url": "entries/history/djclaw.html",
+    "snippet": "Trilingual short story (post 062) and follow-up lyrics version (post 063) published on DJClaw / Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -10,9 +10,9 @@
     "coordinates": null
   },
   {
-    "title": "DJClaw",
-    "url": "entries/history/djclaw.html",
-    "snippet": "Approved default plan, created GitHub repo, began static-site scaffolding / The trips project (repo djclaw/trips) is in MVP1 phase with static preview working for homepage and New Orleans trip page",
+    "title": "GitHub Pages",
+    "url": "entries/history/github-pages.html",
+    "snippet": "GitHub Pages enabled for djclaw/trips, new GitHub Project 'Trips MVP2' created with six MVP2 issues, and user approved next actions including publishing a DJClaw article.",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -22,7 +22,7 @@
   {
     "title": "GitHub",
     "url": "entries/history/github.html",
-    "snippet": "DJClaw wiki shifted toward Logseq-inspired architecture, extracted from chat history / Unified extraction paths, tightened filtering rules, and pushed strict-v3-related changes to main branch",
+    "snippet": "Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -32,7 +32,17 @@
   {
     "title": "Logseq",
     "url": "entries/history/logseq.html",
-    "snippet": "User requested turning a Logseq beginner explanation into a DJClaw article for publication / DJClaw wiki shifted toward Logseq-inspired architecture, extracted from chat history",
+    "snippet": "SeqLog, a macOS-native Logseq-alternative Markdown knowledge app, was researched and explained in plain Chinese. / A new Chinese SeqLog explainer article was created and published locally on DJClaw site.",
+    "tags": [],
+    "categories": [],
+    "aliases": [],
+    "related": [],
+    "coordinates": null
+  },
+  {
+    "title": "New Jersey",
+    "url": "entries/history/new-jersey.html",
+    "snippet": "(No summary yet.)",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -42,7 +52,17 @@
   {
     "title": "New Orleans",
     "url": "entries/history/new-orleans.html",
-    "snippet": "Approved default plan, created GitHub repo, began static-site scaffolding / New Orleans destination page content ingestion",
+    "snippet": "Approved and initialized GitHub repo djclaw/trips for Airbnb-inspired travel site; scaffolding, README, and MVP work began / Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
+    "tags": [],
+    "categories": [],
+    "aliases": [],
+    "related": [],
+    "coordinates": null
+  },
+  {
+    "title": "New York",
+    "url": "entries/history/new-york.html",
+    "snippet": "(No summary yet.)",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -52,7 +72,7 @@
   {
     "title": "SeqLog",
     "url": "entries/history/seqlog.html",
-    "snippet": "A Chinese SeqLog explainer article was published as post 065 on DJClaw",
+    "snippet": "SeqLog, a macOS-native Logseq-alternative Markdown knowledge app, was researched and explained in plain Chinese. / A new Chinese SeqLog explainer article was created and published locally on DJClaw site.",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -62,7 +82,7 @@
   {
     "title": "trips",
     "url": "entries/history/trips.html",
-    "snippet": "The trips project (repo djclaw/trips) is in MVP1 phase with static preview working for homepage and New Orleans trip page / MVP1 of the Trips project completed, homepage upgraded, README expanded, repo djclaw/trips committed on master branch.",
+    "snippet": "MVP1 of the Trips project was completed, pushed to repo djclaw/trips, and approved by user following closeout steps. / GitHub Pages enabled for djclaw/trips, new GitHub Project 'Trips MVP2' created with six MVP2 issues, and user approved next actions including publishing a DJClaw article.",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -72,7 +92,7 @@
   {
     "title": "wiki",
     "url": "entries/history/wiki.html",
-    "snippet": "Assistant tightened extraction logic, validated with llama-3.3-70b-versatile, and created extract_history_recent.py to process last 7 days / End-to-end run produced 98 nodes, 421 relations, 98 events, and 44 generated pages; results pushed to djclaw/wiki",
+    "snippet": "Wiki architecture shift toward Logseq inspiration with extraction pipeline plan and repo updates / Script hardened, commits pushed, daily refresh pipeline set to run",
     "tags": [],
     "categories": [],
     "aliases": [],

@@ -9,338 +9,434 @@
   ],
   "evidence": [
     {
-      "evidence_id": "ev-airbnb-001",
+      "evidence_id": "ev-craig-adams-001",
       "source_id": "history_md",
-      "timestamp": "2026-03-20T09:59",
-      "raw_text": "2026-03-20T09:59 — Approved default plan, created GitHub repo, began static-site scaffolding",
-      "redacted_text": "2026-03-20T09:59 — Approved default plan, created GitHub repo, began static-site scaffolding",
+      "timestamp": "2026-03-24T17:20",
+      "raw_text": "2026-03-24T17:20 — A new Chinese SeqLog explainer article was created and published locally on DJClaw site.",
+      "redacted_text": "2026-03-24T17:20 — A new Chinese SeqLog explainer article was created and published locally on DJClaw site.",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-001",
       "source_id": "history_md",
       "timestamp": "2026-03-19T21:53",
-      "raw_text": "2026-03-19T21:53 — [2026-03-19 21:53] DJClaw publishing continued after post 062. The previously published trilingual short story inspired by Siddhartha was confirmed live as post",
-      "redacted_text": "2026-03-19T21:53 — [2026-03-19 21:53] DJClaw publishing continued after post 062. The previously published trilingual short story inspired by Siddhartha was confirmed live as post",
+      "raw_text": "2026-03-19T21:53 — Trilingual short story (post 062) and follow-up lyrics version (post 063) published on DJClaw",
+      "redacted_text": "2026-03-19T21:53 — Trilingual short story (post 062) and follow-up lyrics version (post 063) published on DJClaw",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-002",
       "source_id": "history_md",
-      "timestamp": "2026-03-20T09:59",
-      "raw_text": "2026-03-20T09:59 — Approved default plan, created GitHub repo, began static-site scaffolding",
-      "redacted_text": "2026-03-20T09:59 — Approved default plan, created GitHub repo, began static-site scaffolding",
+      "timestamp": "2026-03-20T10:14",
+      "raw_text": "2026-03-20T10:14 — Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
+      "redacted_text": "2026-03-20T10:14 — Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-003",
       "source_id": "history_md",
-      "timestamp": "2026-03-20T10:14",
-      "raw_text": "2026-03-20T10:14 — The trips project (repo djclaw/trips) is in MVP1 phase with static preview working for homepage and New Orleans trip page",
-      "redacted_text": "2026-03-20T10:14 — The trips project (repo djclaw/trips) is in MVP1 phase with static preview working for homepage and New Orleans trip page",
+      "timestamp": "2026-03-20T10:34",
+      "raw_text": "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips, new GitHub Project 'Trips MVP2' created with six MVP2 issues, and user approved next actions including publishing a DJClaw article.",
+      "redacted_text": "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips, new GitHub Project 'Trips MVP2' created with six MVP2 issues, and user approved next actions including publishing a DJClaw article.",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-004",
       "source_id": "history_md",
-      "timestamp": "2026-03-24T12:41",
-      "raw_text": "2026-03-24T12:41 — [2026-03-24 12:41] User asked to research seqlog.com and explain SeqLog in plain Chinese, including what it is for, who uses it, and use cases for personal and ",
-      "redacted_text": "2026-03-24T12:41 — [2026-03-24 12:41] User asked to research seqlog.com and explain SeqLog in plain Chinese, including what it is for, who uses it, and use cases for personal and ",
+      "timestamp": "2026-03-23T19:44",
+      "raw_text": "2026-03-23T19:44 — Process a Lonely Planet New Orleans 3-day weekend link to extract content and structure for the trips project’s New Orleans page",
+      "redacted_text": "2026-03-23T19:44 — Process a Lonely Planet New Orleans 3-day weekend link to extract content and structure for the trips project’s New Orleans page",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-005",
       "source_id": "history_md",
-      "timestamp": "2026-03-24T17:20",
-      "raw_text": "2026-03-24T17:20 — A Chinese SeqLog explainer article was published as post 065 on DJClaw",
-      "redacted_text": "2026-03-24T17:20 — A Chinese SeqLog explainer article was published as post 065 on DJClaw",
+      "timestamp": "2026-03-25T10:21",
+      "raw_text": "2026-03-25T10:21 — User asked to turn a beginner-friendly Logseq explanation into a DJClaw article for publication, covering core concepts and MacBook+Android usage.",
+      "redacted_text": "2026-03-25T10:21 — User asked to turn a beginner-friendly Logseq explanation into a DJClaw article for publication, covering core concepts and MacBook+Android usage.",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-006",
       "source_id": "history_md",
-      "timestamp": "2026-03-25T10:21",
-      "raw_text": "2026-03-25T10:21 — User requested turning a Logseq beginner explanation into a DJClaw article for publication",
-      "redacted_text": "2026-03-25T10:21 — User requested turning a Logseq beginner explanation into a DJClaw article for publication",
+      "timestamp": "2026-03-25T14:17",
+      "raw_text": "2026-03-25T14:17 — User approved direct publish of Logseq basics post; file added to index.html and sitemap.xml and pushed to main branch.",
+      "redacted_text": "2026-03-25T14:17 — User approved direct publish of Logseq basics post; file added to index.html and sitemap.xml and pushed to main branch.",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-007",
       "source_id": "history_md",
       "timestamp": "2026-03-25T19:16",
-      "raw_text": "2026-03-25T19:16 — DJClaw wiki shifted toward Logseq-inspired architecture, extracted from chat history",
-      "redacted_text": "2026-03-25T19:16 — DJClaw wiki shifted toward Logseq-inspired architecture, extracted from chat history",
+      "raw_text": "2026-03-25T19:16 — Wiki architecture shift toward Logseq inspiration with extraction pipeline plan and repo updates",
+      "redacted_text": "2026-03-25T19:16 — Wiki architecture shift toward Logseq inspiration with extraction pipeline plan and repo updates",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-008",
       "source_id": "history_md",
       "timestamp": "2026-03-25T21:20",
-      "raw_text": "2026-03-25T21:20 — Replaced SQLite wiki.db with new schema: sources, evidence, nodes, relations, events tables.",
-      "redacted_text": "2026-03-25T21:20 — Replaced SQLite wiki.db with new schema: sources, evidence, nodes, relations, events tables.",
+      "raw_text": "2026-03-25T21:20 — Assistant pushed commit dd3722f publishing post 069 on wiki architecture and began wiki overhaul step B by adding architecture docs and scripts.",
+      "redacted_text": "2026-03-25T21:20 — Assistant pushed commit dd3722f publishing post 069 on wiki architecture and began wiki overhaul step B by adding architecture docs and scripts.",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-009",
       "source_id": "history_md",
       "timestamp": "2026-03-25T21:35",
-      "raw_text": "2026-03-25T21:35 — Assistant drafted and published DJClaw article 070 summarizing wiki extraction progress and future options.",
-      "redacted_text": "2026-03-25T21:35 — Assistant drafted and published DJClaw article 070 summarizing wiki extraction progress and future options.",
+      "raw_text": "2026-03-25T21:35 — Assistant drafts and publishes new DJClaw post 070 summarizing wiki extraction progress and future options",
+      "redacted_text": "2026-03-25T21:35 — Assistant drafts and publishes new DJClaw post 070 summarizing wiki extraction progress and future options",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-010",
       "source_id": "history_md",
-      "timestamp": "2026-03-25T23:22",
-      "raw_text": "2026-03-25T23:22 — Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
-      "redacted_text": "2026-03-25T23:22 — Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
+      "timestamp": "2026-03-26T00:03",
+      "raw_text": "2026-03-26T00:03 — User approved Groq as the default main model for the wiki extraction PoC after evaluating several text models, with DJClaw post #071 planned to explain the pipeline architecture and poster visualization.",
+      "redacted_text": "2026-03-26T00:03 — User approved Groq as the default main model for the wiki extraction PoC after evaluating several text models, with DJClaw post #071 planned to explain the pipeline architecture and poster visualization.",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclawtrips-001",
       "source_id": "history_md",
       "timestamp": "2026-03-20T09:59",
-      "raw_text": "2026-03-20T09:59 — Approved default plan, created GitHub repo, began static-site scaffolding",
-      "redacted_text": "2026-03-20T09:59 — Approved default plan, created GitHub repo, began static-site scaffolding",
+      "raw_text": "2026-03-20T09:59 — Approved and initialized GitHub repo djclaw/trips for Airbnb-inspired travel site; scaffolding, README, and MVP work began",
+      "redacted_text": "2026-03-20T09:59 — Approved and initialized GitHub repo djclaw/trips for Airbnb-inspired travel site; scaffolding, README, and MVP work began",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclawtrips-002",
       "source_id": "history_md",
+      "timestamp": "2026-03-20T10:14",
+      "raw_text": "2026-03-20T10:14 — Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
+      "redacted_text": "2026-03-20T10:14 — Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-djclawtrips-003",
+      "source_id": "history_md",
+      "timestamp": "2026-03-20T10:28",
+      "raw_text": "2026-03-20T10:28 — MVP1 of the Trips project was completed, pushed to repo djclaw/trips, and approved by user following closeout steps.",
+      "redacted_text": "2026-03-20T10:28 — MVP1 of the Trips project was completed, pushed to repo djclaw/trips, and approved by user following closeout steps.",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-djclawtrips-004",
+      "source_id": "history_md",
       "timestamp": "2026-03-20T10:34",
-      "raw_text": "2026-03-20T10:34 — GitHub Pages enabled and built successfully; new GitHub Project Trips MVP2 created with six core issues",
-      "redacted_text": "2026-03-20T10:34 — GitHub Pages enabled and built successfully; new GitHub Project Trips MVP2 created with six core issues",
+      "raw_text": "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips, new GitHub Project 'Trips MVP2' created with six MVP2 issues, and user approved next actions including publishing a DJClaw article.",
+      "redacted_text": "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips, new GitHub Project 'Trips MVP2' created with six MVP2 issues, and user approved next actions including publishing a DJClaw article.",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-djclawtrips-005",
+      "source_id": "history_md",
+      "timestamp": "2026-03-23T19:44",
+      "raw_text": "2026-03-23T19:44 — Process a Lonely Planet New Orleans 3-day weekend link to extract content and structure for the trips project’s New Orleans page",
+      "redacted_text": "2026-03-23T19:44 — Process a Lonely Planet New Orleans 3-day weekend link to extract content and structure for the trips project’s New Orleans page",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-gemini-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-25T23:13",
+      "raw_text": "2026-03-25T23:13 — Project transitioned to implementation phase with user approval",
+      "redacted_text": "2026-03-25T23:13 — Project transitioned to implementation phase with user approval",
       "publishable": true
     },
     {
       "evidence_id": "ev-gemini-25-flash-001",
       "source_id": "history_md",
       "timestamp": "2026-03-25T23:13",
-      "raw_text": "2026-03-25T23:13 — User approved design; assistant created plan doc and script, integrated Gemini 2.5 Flash, and produced initial structured candidates; prompt tuning reduced noise, then tasked parallel fixes and optional Groq test.",
-      "redacted_text": "2026-03-25T23:13 — User approved design; assistant created plan doc and script, integrated Gemini 2.5 Flash, and produced initial structured candidates; prompt tuning reduced noise, then tasked parallel fixes and optional Groq test.",
+      "raw_text": "2026-03-25T23:13 — Project transitioned to implementation phase with user approval",
+      "redacted_text": "2026-03-25T23:13 — Project transitioned to implementation phase with user approval",
       "publishable": true
     },
     {
       "evidence_id": "ev-gemini-25-flash-002",
       "source_id": "history_md",
       "timestamp": "2026-03-25T23:22",
-      "raw_text": "2026-03-25T23:22 — Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
-      "redacted_text": "2026-03-25T23:22 — Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
+      "raw_text": "2026-03-25T23:22 — Assistant reverted default from gemini-2.5-pro to gemini-2.5-flash due to free-tier quota limits",
+      "redacted_text": "2026-03-25T23:22 — Assistant reverted default from gemini-2.5-pro to gemini-2.5-flash due to free-tier quota limits",
       "publishable": true
     },
     {
       "evidence_id": "ev-gemini-25-pro-001",
       "source_id": "history_md",
       "timestamp": "2026-03-25T23:22",
-      "raw_text": "2026-03-25T23:22 — Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
-      "redacted_text": "2026-03-25T23:22 — Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
+      "raw_text": "2026-03-25T23:22 — Assistant reverted default from gemini-2.5-pro to gemini-2.5-flash due to free-tier quota limits",
+      "redacted_text": "2026-03-25T23:22 — Assistant reverted default from gemini-2.5-pro to gemini-2.5-flash due to free-tier quota limits",
       "publishable": true
     },
     {
       "evidence_id": "ev-gemini-pro-001",
       "source_id": "history_md",
       "timestamp": "2026-03-25T23:22",
-      "raw_text": "2026-03-25T23:22 — Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
-      "redacted_text": "2026-03-25T23:22 — Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
+      "raw_text": "2026-03-25T23:22 — Assistant reverted default from gemini-2.5-pro to gemini-2.5-flash due to free-tier quota limits",
+      "redacted_text": "2026-03-25T23:22 — Assistant reverted default from gemini-2.5-pro to gemini-2.5-flash due to free-tier quota limits",
       "publishable": true
     },
     {
       "evidence_id": "ev-github-001",
       "source_id": "history_md",
-      "timestamp": "2026-03-25T19:16",
-      "raw_text": "2026-03-25T19:16 — DJClaw wiki shifted toward Logseq-inspired architecture, extracted from chat history",
-      "redacted_text": "2026-03-25T19:16 — DJClaw wiki shifted toward Logseq-inspired architecture, extracted from chat history",
+      "timestamp": "2026-03-20T10:14",
+      "raw_text": "2026-03-20T10:14 — Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
+      "redacted_text": "2026-03-20T10:14 — Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
       "publishable": true
     },
     {
-      "evidence_id": "ev-github-002",
+      "evidence_id": "ev-github-pages-001",
       "source_id": "history_md",
-      "timestamp": "2026-03-26T07:48",
-      "raw_text": "2026-03-26T07:48 — Unified extraction paths, tightened filtering rules, and pushed strict-v3-related changes to main branch",
-      "redacted_text": "2026-03-26T07:48 — Unified extraction paths, tightened filtering rules, and pushed strict-v3-related changes to main branch",
+      "timestamp": "2026-03-20T10:34",
+      "raw_text": "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips, new GitHub Project 'Trips MVP2' created with six MVP2 issues, and user approved next actions including publishing a DJClaw article.",
+      "redacted_text": "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips, new GitHub Project 'Trips MVP2' created with six MVP2 issues, and user approved next actions including publishing a DJClaw article.",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-github-project-2-wiki-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-25T19:16",
+      "raw_text": "2026-03-25T19:16 — Wiki architecture shift toward Logseq inspiration with extraction pipeline plan and repo updates",
+      "redacted_text": "2026-03-25T19:16 — Wiki architecture shift toward Logseq inspiration with extraction pipeline plan and repo updates",
       "publishable": true
     },
     {
       "evidence_id": "ev-groq-001",
       "source_id": "history_md",
       "timestamp": "2026-03-25T23:13",
-      "raw_text": "2026-03-25T23:13 — User approved design; assistant created plan doc and script, integrated Gemini 2.5 Flash, and produced initial structured candidates; prompt tuning reduced noise, then tasked parallel fixes and optional Groq test.",
-      "redacted_text": "2026-03-25T23:13 — User approved design; assistant created plan doc and script, integrated Gemini 2.5 Flash, and produced initial structured candidates; prompt tuning reduced noise, then tasked parallel fixes and optional Groq test.",
+      "raw_text": "2026-03-25T23:13 — Project transitioned to implementation phase with user approval",
+      "redacted_text": "2026-03-25T23:13 — Project transitioned to implementation phase with user approval",
       "publishable": true
     },
     {
       "evidence_id": "ev-groq-002",
       "source_id": "history_md",
       "timestamp": "2026-03-25T23:22",
-      "raw_text": "2026-03-25T23:22 — Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
-      "redacted_text": "2026-03-25T23:22 — Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
+      "raw_text": "2026-03-25T23:22 — Assistant reverted default from gemini-2.5-pro to gemini-2.5-flash due to free-tier quota limits",
+      "redacted_text": "2026-03-25T23:22 — Assistant reverted default from gemini-2.5-pro to gemini-2.5-flash due to free-tier quota limits",
       "publishable": true
     },
     {
       "evidence_id": "ev-groq-003",
       "source_id": "history_md",
       "timestamp": "2026-03-26T00:03",
-      "raw_text": "2026-03-26T00:03 — User selected Groq as the main extraction provider after A/B testing showed llama-3.3-70b-versatile most balanced for nodes+relations+events.",
-      "redacted_text": "2026-03-26T00:03 — User selected Groq as the main extraction provider after A/B testing showed llama-3.3-70b-versatile most balanced for nodes+relations+events.",
+      "raw_text": "2026-03-26T00:03 — User approved Groq as the default main model for the wiki extraction PoC after evaluating several text models, with DJClaw post #071 planned to explain the pipeline architecture and poster visualization.",
+      "redacted_text": "2026-03-26T00:03 — User approved Groq as the default main model for the wiki extraction PoC after evaluating several text models, with DJClaw post #071 planned to explain the pipeline architecture and poster visualization.",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-groq-004",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26T07:40",
+      "raw_text": "2026-03-26T07:40 — Wiki extraction PoC approved and merged into formal extraction pipeline, completing migration to Kimi-backed flow",
+      "redacted_text": "2026-03-26T07:40 — Wiki extraction PoC approved and merged into formal extraction pipeline, completing migration to Kimi-backed flow",
       "publishable": true
     },
     {
       "evidence_id": "ev-kimi-001",
       "source_id": "history_md",
       "timestamp": "2026-03-26T07:20",
-      "raw_text": "2026-03-26T07:20 — Assistant tightened wiki extraction logic via Kimi model, filtering to stable entities like places, projects, tools, orgs, people.",
-      "redacted_text": "2026-03-26T07:20 — Assistant tightened wiki extraction logic via Kimi model, filtering to stable entities like places, projects, tools, orgs, people.",
+      "raw_text": "2026-03-26T07:20 — [2026-03-26 07:20] User reported wiki extraction logic still felt too loose after reviewing several extracted entities, and asked to use a stricter logic plus t",
+      "redacted_text": "2026-03-26T07:20 — [2026-03-26 07:20] User reported wiki extraction logic still felt too loose after reviewing several extracted entities, and asked to use a stricter logic plus t",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-kimi-002",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26T07:40",
+      "raw_text": "2026-03-26T07:40 — Wiki extraction PoC approved and merged into formal extraction pipeline, completing migration to Kimi-backed flow",
+      "redacted_text": "2026-03-26T07:40 — Wiki extraction PoC approved and merged into formal extraction pipeline, completing migration to Kimi-backed flow",
       "publishable": true
     },
     {
       "evidence_id": "ev-logseq-001",
       "source_id": "history_md",
       "timestamp": "2026-03-24T12:41",
-      "raw_text": "2026-03-24T12:41 — [2026-03-24 12:41] User asked to research seqlog.com and explain SeqLog in plain Chinese, including what it is for, who uses it, and use cases for personal and ",
-      "redacted_text": "2026-03-24T12:41 — [2026-03-24 12:41] User asked to research seqlog.com and explain SeqLog in plain Chinese, including what it is for, who uses it, and use cases for personal and ",
+      "raw_text": "2026-03-24T12:41 — SeqLog, a macOS-native Logseq-alternative Markdown knowledge app, was researched and explained in plain Chinese.",
+      "redacted_text": "2026-03-24T12:41 — SeqLog, a macOS-native Logseq-alternative Markdown knowledge app, was researched and explained in plain Chinese.",
       "publishable": true
     },
     {
       "evidence_id": "ev-logseq-002",
       "source_id": "history_md",
-      "timestamp": "2026-03-25T10:21",
-      "raw_text": "2026-03-25T10:21 — User requested turning a Logseq beginner explanation into a DJClaw article for publication",
-      "redacted_text": "2026-03-25T10:21 — User requested turning a Logseq beginner explanation into a DJClaw article for publication",
+      "timestamp": "2026-03-24T17:20",
+      "raw_text": "2026-03-24T17:20 — A new Chinese SeqLog explainer article was created and published locally on DJClaw site.",
+      "redacted_text": "2026-03-24T17:20 — A new Chinese SeqLog explainer article was created and published locally on DJClaw site.",
       "publishable": true
     },
     {
       "evidence_id": "ev-logseq-003",
       "source_id": "history_md",
-      "timestamp": "2026-03-25T19:16",
-      "raw_text": "2026-03-25T19:16 — DJClaw wiki shifted toward Logseq-inspired architecture, extracted from chat history",
-      "redacted_text": "2026-03-25T19:16 — DJClaw wiki shifted toward Logseq-inspired architecture, extracted from chat history",
+      "timestamp": "2026-03-25T10:21",
+      "raw_text": "2026-03-25T10:21 — User asked to turn a beginner-friendly Logseq explanation into a DJClaw article for publication, covering core concepts and MacBook+Android usage.",
+      "redacted_text": "2026-03-25T10:21 — User asked to turn a beginner-friendly Logseq explanation into a DJClaw article for publication, covering core concepts and MacBook+Android usage.",
       "publishable": true
     },
     {
       "evidence_id": "ev-logseq-004",
       "source_id": "history_md",
-      "timestamp": "2026-03-25T21:20",
-      "raw_text": "2026-03-25T21:20 — Replaced SQLite wiki.db with new schema: sources, evidence, nodes, relations, events tables.",
-      "redacted_text": "2026-03-25T21:20 — Replaced SQLite wiki.db with new schema: sources, evidence, nodes, relations, events tables.",
+      "timestamp": "2026-03-25T14:17",
+      "raw_text": "2026-03-25T14:17 — User approved direct publish of Logseq basics post; file added to index.html and sitemap.xml and pushed to main branch.",
+      "redacted_text": "2026-03-25T14:17 — User approved direct publish of Logseq basics post; file added to index.html and sitemap.xml and pushed to main branch.",
       "publishable": true
     },
     {
       "evidence_id": "ev-logseq-005",
       "source_id": "history_md",
-      "timestamp": "2026-03-26T07:48",
-      "raw_text": "2026-03-26T07:48 — Unified extraction paths, tightened filtering rules, and pushed strict-v3-related changes to main branch",
-      "redacted_text": "2026-03-26T07:48 — Unified extraction paths, tightened filtering rules, and pushed strict-v3-related changes to main branch",
+      "timestamp": "2026-03-25T19:16",
+      "raw_text": "2026-03-25T19:16 — Wiki architecture shift toward Logseq inspiration with extraction pipeline plan and repo updates",
+      "redacted_text": "2026-03-25T19:16 — Wiki architecture shift toward Logseq inspiration with extraction pipeline plan and repo updates",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-nanobanand-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26T10:18",
+      "raw_text": "2026-03-26T10:18 — User rejected two prior Pillow-based poster versions and requested comic/manga-style generation with nanobanand instead of flow-diagram approach.",
+      "redacted_text": "2026-03-26T10:18 — User rejected two prior Pillow-based poster versions and requested comic/manga-style generation with nanobanand instead of flow-diagram approach.",
       "publishable": true
     },
     {
       "evidence_id": "ev-nanobot-daily-wiki-scheduler-001",
       "source_id": "history_md",
       "timestamp": "2026-03-26T00:20",
-      "raw_text": "2026-03-26T00:20 — End-to-end run produced 98 nodes, 421 relations, 98 events, and 44 generated pages; results pushed to djclaw/wiki",
-      "redacted_text": "2026-03-26T00:20 — End-to-end run produced 98 nodes, 421 relations, 98 events, and 44 generated pages; results pushed to djclaw/wiki",
+      "raw_text": "2026-03-26T00:20 — Full 7-day wiki pipeline run producing wiki.db with 60 nodes, 421 relations, 98 events; results pushed to djclaw/wiki in commits 022c165 and 67c0e01",
+      "redacted_text": "2026-03-26T00:20 — Full 7-day wiki pipeline run producing wiki.db with 60 nodes, 421 relations, 98 events; results pushed to djclaw/wiki in commits 022c165 and 67c0e01",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-new-jersey-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26T07:20",
+      "raw_text": "2026-03-26T07:20 — [2026-03-26 07:20] User reported wiki extraction logic still felt too loose after reviewing several extracted entities, and asked to use a stricter logic plus t",
+      "redacted_text": "2026-03-26T07:20 — [2026-03-26 07:20] User reported wiki extraction logic still felt too loose after reviewing several extracted entities, and asked to use a stricter logic plus t",
       "publishable": true
     },
     {
       "evidence_id": "ev-new-orleans-001",
       "source_id": "history_md",
       "timestamp": "2026-03-20T09:59",
-      "raw_text": "2026-03-20T09:59 — Approved default plan, created GitHub repo, began static-site scaffolding",
-      "redacted_text": "2026-03-20T09:59 — Approved default plan, created GitHub repo, began static-site scaffolding",
+      "raw_text": "2026-03-20T09:59 — Approved and initialized GitHub repo djclaw/trips for Airbnb-inspired travel site; scaffolding, README, and MVP work began",
+      "redacted_text": "2026-03-20T09:59 — Approved and initialized GitHub repo djclaw/trips for Airbnb-inspired travel site; scaffolding, README, and MVP work began",
       "publishable": true
     },
     {
       "evidence_id": "ev-new-orleans-002",
       "source_id": "history_md",
+      "timestamp": "2026-03-20T10:14",
+      "raw_text": "2026-03-20T10:14 — Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
+      "redacted_text": "2026-03-20T10:14 — Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-new-orleans-003",
+      "source_id": "history_md",
+      "timestamp": "2026-03-20T10:28",
+      "raw_text": "2026-03-20T10:28 — MVP1 of the Trips project was completed, pushed to repo djclaw/trips, and approved by user following closeout steps.",
+      "redacted_text": "2026-03-20T10:28 — MVP1 of the Trips project was completed, pushed to repo djclaw/trips, and approved by user following closeout steps.",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-new-orleans-004",
+      "source_id": "history_md",
       "timestamp": "2026-03-23T19:44",
-      "raw_text": "2026-03-23T19:44 — New Orleans destination page content ingestion",
-      "redacted_text": "2026-03-23T19:44 — New Orleans destination page content ingestion",
+      "raw_text": "2026-03-23T19:44 — Process a Lonely Planet New Orleans 3-day weekend link to extract content and structure for the trips project’s New Orleans page",
+      "redacted_text": "2026-03-23T19:44 — Process a Lonely Planet New Orleans 3-day weekend link to extract content and structure for the trips project’s New Orleans page",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-new-york-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26T07:20",
+      "raw_text": "2026-03-26T07:20 — [2026-03-26 07:20] User reported wiki extraction logic still felt too loose after reviewing several extracted entities, and asked to use a stricter logic plus t",
+      "redacted_text": "2026-03-26T07:20 — [2026-03-26 07:20] User reported wiki extraction logic still felt too loose after reviewing several extracted entities, and asked to use a stricter logic plus t",
       "publishable": true
     },
     {
       "evidence_id": "ev-seqlog-001",
       "source_id": "history_md",
       "timestamp": "2026-03-24T12:41",
-      "raw_text": "2026-03-24T12:41 — [2026-03-24 12:41] User asked to research seqlog.com and explain SeqLog in plain Chinese, including what it is for, who uses it, and use cases for personal and ",
-      "redacted_text": "2026-03-24T12:41 — [2026-03-24 12:41] User asked to research seqlog.com and explain SeqLog in plain Chinese, including what it is for, who uses it, and use cases for personal and ",
+      "raw_text": "2026-03-24T12:41 — SeqLog, a macOS-native Logseq-alternative Markdown knowledge app, was researched and explained in plain Chinese.",
+      "redacted_text": "2026-03-24T12:41 — SeqLog, a macOS-native Logseq-alternative Markdown knowledge app, was researched and explained in plain Chinese.",
       "publishable": true
     },
     {
       "evidence_id": "ev-seqlog-002",
       "source_id": "history_md",
       "timestamp": "2026-03-24T17:20",
-      "raw_text": "2026-03-24T17:20 — A Chinese SeqLog explainer article was published as post 065 on DJClaw",
-      "redacted_text": "2026-03-24T17:20 — A Chinese SeqLog explainer article was published as post 065 on DJClaw",
+      "raw_text": "2026-03-24T17:20 — A new Chinese SeqLog explainer article was created and published locally on DJClaw site.",
+      "redacted_text": "2026-03-24T17:20 — A new Chinese SeqLog explainer article was created and published locally on DJClaw site.",
       "publishable": true
     },
     {
       "evidence_id": "ev-trips-001",
       "source_id": "history_md",
-      "timestamp": "2026-03-20T10:14",
-      "raw_text": "2026-03-20T10:14 — The trips project (repo djclaw/trips) is in MVP1 phase with static preview working for homepage and New Orleans trip page",
-      "redacted_text": "2026-03-20T10:14 — The trips project (repo djclaw/trips) is in MVP1 phase with static preview working for homepage and New Orleans trip page",
+      "timestamp": "2026-03-20T10:28",
+      "raw_text": "2026-03-20T10:28 — MVP1 of the Trips project was completed, pushed to repo djclaw/trips, and approved by user following closeout steps.",
+      "redacted_text": "2026-03-20T10:28 — MVP1 of the Trips project was completed, pushed to repo djclaw/trips, and approved by user following closeout steps.",
       "publishable": true
     },
     {
       "evidence_id": "ev-trips-002",
       "source_id": "history_md",
-      "timestamp": "2026-03-20T10:28",
-      "raw_text": "2026-03-20T10:28 — MVP1 of the Trips project completed, homepage upgraded, README expanded, repo djclaw/trips committed on master branch.",
-      "redacted_text": "2026-03-20T10:28 — MVP1 of the Trips project completed, homepage upgraded, README expanded, repo djclaw/trips committed on master branch.",
+      "timestamp": "2026-03-20T10:34",
+      "raw_text": "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips, new GitHub Project 'Trips MVP2' created with six MVP2 issues, and user approved next actions including publishing a DJClaw article.",
+      "redacted_text": "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips, new GitHub Project 'Trips MVP2' created with six MVP2 issues, and user approved next actions including publishing a DJClaw article.",
       "publishable": true
     },
     {
       "evidence_id": "ev-trips-003",
       "source_id": "history_md",
-      "timestamp": "2026-03-20T10:34",
-      "raw_text": "2026-03-20T10:34 — GitHub Pages enabled and built successfully; new GitHub Project Trips MVP2 created with six core issues",
-      "redacted_text": "2026-03-20T10:34 — GitHub Pages enabled and built successfully; new GitHub Project Trips MVP2 created with six core issues",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-trips-004",
-      "source_id": "history_md",
       "timestamp": "2026-03-23T19:44",
-      "raw_text": "2026-03-23T19:44 — New Orleans destination page content ingestion",
-      "redacted_text": "2026-03-23T19:44 — New Orleans destination page content ingestion",
+      "raw_text": "2026-03-23T19:44 — Process a Lonely Planet New Orleans 3-day weekend link to extract content and structure for the trips project’s New Orleans page",
+      "redacted_text": "2026-03-23T19:44 — Process a Lonely Planet New Orleans 3-day weekend link to extract content and structure for the trips project’s New Orleans page",
       "publishable": true
     },
     {
       "evidence_id": "ev-wiki-001",
       "source_id": "history_md",
-      "timestamp": "2026-03-26T00:13",
-      "raw_text": "2026-03-26T00:13 — Assistant tightened extraction logic, validated with llama-3.3-70b-versatile, and created extract_history_recent.py to process last 7 days",
-      "redacted_text": "2026-03-26T00:13 — Assistant tightened extraction logic, validated with llama-3.3-70b-versatile, and created extract_history_recent.py to process last 7 days",
+      "timestamp": "2026-03-25T19:16",
+      "raw_text": "2026-03-25T19:16 — Wiki architecture shift toward Logseq inspiration with extraction pipeline plan and repo updates",
+      "redacted_text": "2026-03-25T19:16 — Wiki architecture shift toward Logseq inspiration with extraction pipeline plan and repo updates",
       "publishable": true
     },
     {
       "evidence_id": "ev-wiki-002",
       "source_id": "history_md",
-      "timestamp": "2026-03-26T00:20",
-      "raw_text": "2026-03-26T00:20 — End-to-end run produced 98 nodes, 421 relations, 98 events, and 44 generated pages; results pushed to djclaw/wiki",
-      "redacted_text": "2026-03-26T00:20 — End-to-end run produced 98 nodes, 421 relations, 98 events, and 44 generated pages; results pushed to djclaw/wiki",
+      "timestamp": "2026-03-26T00:13",
+      "raw_text": "2026-03-26T00:13 — Script hardened, commits pushed, daily refresh pipeline set to run",
+      "redacted_text": "2026-03-26T00:13 — Script hardened, commits pushed, daily refresh pipeline set to run",
       "publishable": true
     },
     {
       "evidence_id": "ev-wiki-003",
       "source_id": "history_md",
-      "timestamp": "2026-03-26T07:48",
-      "raw_text": "2026-03-26T07:48 — Unified extraction paths, tightened filtering rules, and pushed strict-v3-related changes to main branch",
-      "redacted_text": "2026-03-26T07:48 — Unified extraction paths, tightened filtering rules, and pushed strict-v3-related changes to main branch",
+      "timestamp": "2026-03-26T00:20",
+      "raw_text": "2026-03-26T00:20 — Full 7-day wiki pipeline run producing wiki.db with 60 nodes, 421 relations, 98 events; results pushed to djclaw/wiki in commits 022c165 and 67c0e01",
+      "redacted_text": "2026-03-26T00:20 — Full 7-day wiki pipeline run producing wiki.db with 60 nodes, 421 relations, 98 events; results pushed to djclaw/wiki in commits 022c165 and 67c0e01",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-wiki-004",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26T06:57",
+      "raw_text": "2026-03-26T06:57 — Commit 8e36ebb pushed to djclaw/wiki with user-visible wiki materialization, daily automation, .gitignore cleanup, state tracking, and incremental ingest script",
+      "redacted_text": "2026-03-26T06:57 — Commit 8e36ebb pushed to djclaw/wiki with user-visible wiki materialization, daily automation, .gitignore cleanup, state tracking, and incremental ingest script",
       "publishable": true
     }
   ],
   "nodes": [
     {
-      "node_id": "airbnb",
-      "node_type": "organization",
-      "title": "Airbnb",
-      "summary": "Approved default plan, created GitHub repo, began static-site scaffolding",
+      "node_id": "craig-adams",
+      "node_type": "person",
+      "title": "Craig Adams",
+      "summary": "A new Chinese SeqLog explainer article was created and published locally on DJClaw site.",
       "aliases": [
-        "airbnb"
+        "craig adams"
       ],
       "tags": [],
       "categories": [
-        "Organization"
+        "Person"
       ],
       "status": "candidate",
       "visibility": "review"
@@ -349,7 +445,7 @@
       "node_id": "djclaw",
       "node_type": "project",
       "title": "DJClaw",
-      "summary": "Approved default plan, created GitHub repo, began static-site scaffolding / The trips project (repo djclaw/trips) is in MVP1 phase with static preview working for homepage and New Orleans trip page",
+      "summary": "Trilingual short story (post 062) and follow-up lyrics version (post 063) published on DJClaw / Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
       "aliases": [
         "djclaw"
       ],
@@ -364,7 +460,7 @@
       "node_id": "djclawtrips",
       "node_type": "project",
       "title": "djclaw/trips",
-      "summary": "Approved default plan, created GitHub repo, began static-site scaffolding / GitHub Pages enabled and built successfully; new GitHub Project Trips MVP2 created with six core issues",
+      "summary": "Approved and initialized GitHub repo djclaw/trips for Airbnb-inspired travel site; scaffolding, README, and MVP work began / Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
       "aliases": [
         "djclaw/trips"
       ],
@@ -376,10 +472,25 @@
       "visibility": "review"
     },
     {
+      "node_id": "gemini",
+      "node_type": "tool",
+      "title": "Gemini",
+      "summary": "Project transitioned to implementation phase with user approval",
+      "aliases": [
+        "gemini"
+      ],
+      "tags": [],
+      "categories": [
+        "Tool"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
       "node_id": "gemini-25-flash",
       "node_type": "tool",
       "title": "Gemini 2.5 Flash",
-      "summary": "User approved design; assistant created plan doc and script, integrated Gemini 2.5 Flash, and produced initial structured candidates; prompt tuning reduced noise, then tasked parallel fixes and optional Groq test. / Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
+      "summary": "Project transitioned to implementation phase with user approval / Assistant reverted default from gemini-2.5-pro to gemini-2.5-flash due to free-tier quota limits",
       "aliases": [
         "gemini 2.5 flash"
       ],
@@ -394,7 +505,7 @@
       "node_id": "gemini-25-pro",
       "node_type": "tool",
       "title": "Gemini 2.5 Pro",
-      "summary": "Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
+      "summary": "Assistant reverted default from gemini-2.5-pro to gemini-2.5-flash due to free-tier quota limits",
       "aliases": [
         "gemini 2.5 pro"
       ],
@@ -409,7 +520,7 @@
       "node_id": "gemini-pro",
       "node_type": "tool",
       "title": "Gemini Pro",
-      "summary": "Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
+      "summary": "Assistant reverted default from gemini-2.5-pro to gemini-2.5-flash due to free-tier quota limits",
       "aliases": [
         "gemini pro"
       ],
@@ -424,7 +535,7 @@
       "node_id": "github",
       "node_type": "organization",
       "title": "GitHub",
-      "summary": "DJClaw wiki shifted toward Logseq-inspired architecture, extracted from chat history / Unified extraction paths, tightened filtering rules, and pushed strict-v3-related changes to main branch",
+      "summary": "Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
       "aliases": [
         "github"
       ],
@@ -436,10 +547,40 @@
       "visibility": "review"
     },
     {
+      "node_id": "github-pages",
+      "node_type": "organization",
+      "title": "GitHub Pages",
+      "summary": "GitHub Pages enabled for djclaw/trips, new GitHub Project 'Trips MVP2' created with six MVP2 issues, and user approved next actions including publishing a DJClaw article.",
+      "aliases": [
+        "github pages"
+      ],
+      "tags": [],
+      "categories": [
+        "Organization"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
+      "node_id": "github-project-2-wiki",
+      "node_type": "project",
+      "title": "GitHub Project 2 \"Wiki",
+      "summary": "Wiki architecture shift toward Logseq inspiration with extraction pipeline plan and repo updates",
+      "aliases": [
+        "github project 2 \"wiki"
+      ],
+      "tags": [],
+      "categories": [
+        "Project"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
       "node_id": "groq",
       "node_type": "organization",
       "title": "Groq",
-      "summary": "User approved design; assistant created plan doc and script, integrated Gemini 2.5 Flash, and produced initial structured candidates; prompt tuning reduced noise, then tasked parallel fixes and optional Groq test. / Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
+      "summary": "Project transitioned to implementation phase with user approval / Assistant reverted default from gemini-2.5-pro to gemini-2.5-flash due to free-tier quota limits",
       "aliases": [
         "groq"
       ],
@@ -454,7 +595,7 @@
       "node_id": "kimi",
       "node_type": "tool",
       "title": "Kimi",
-      "summary": "Assistant tightened wiki extraction logic via Kimi model, filtering to stable entities like places, projects, tools, orgs, people.",
+      "summary": "Wiki extraction PoC approved and merged into formal extraction pipeline, completing migration to Kimi-backed flow",
       "aliases": [
         "kimi"
       ],
@@ -469,9 +610,24 @@
       "node_id": "logseq",
       "node_type": "tool",
       "title": "Logseq",
-      "summary": "User requested turning a Logseq beginner explanation into a DJClaw article for publication / DJClaw wiki shifted toward Logseq-inspired architecture, extracted from chat history",
+      "summary": "SeqLog, a macOS-native Logseq-alternative Markdown knowledge app, was researched and explained in plain Chinese. / A new Chinese SeqLog explainer article was created and published locally on DJClaw site.",
       "aliases": [
         "logseq"
+      ],
+      "tags": [],
+      "categories": [
+        "Tool"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
+      "node_id": "nanobanand",
+      "node_type": "tool",
+      "title": "nanobanand",
+      "summary": "User rejected two prior Pillow-based poster versions and requested comic/manga-style generation with nanobanand instead of flow-diagram approach.",
+      "aliases": [
+        "nanobanand"
       ],
       "tags": [],
       "categories": [
@@ -484,7 +640,7 @@
       "node_id": "nanobot-daily-wiki-scheduler",
       "node_type": "project",
       "title": "nanobot-daily-wiki-scheduler",
-      "summary": "End-to-end run produced 98 nodes, 421 relations, 98 events, and 44 generated pages; results pushed to djclaw/wiki",
+      "summary": "Full 7-day wiki pipeline run producing wiki.db with 60 nodes, 421 relations, 98 events; results pushed to djclaw/wiki in commits 022c165 and 67c0e01",
       "aliases": [
         "nanobot-daily-wiki-scheduler"
       ],
@@ -496,12 +652,42 @@
       "visibility": "review"
     },
     {
+      "node_id": "new-jersey",
+      "node_type": "place",
+      "title": "New Jersey",
+      "summary": "",
+      "aliases": [
+        "new jersey"
+      ],
+      "tags": [],
+      "categories": [
+        "Place"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
       "node_id": "new-orleans",
       "node_type": "place",
       "title": "New Orleans",
-      "summary": "Approved default plan, created GitHub repo, began static-site scaffolding / New Orleans destination page content ingestion",
+      "summary": "Approved and initialized GitHub repo djclaw/trips for Airbnb-inspired travel site; scaffolding, README, and MVP work began / Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
       "aliases": [
         "new orleans"
+      ],
+      "tags": [],
+      "categories": [
+        "Place"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
+      "node_id": "new-york",
+      "node_type": "place",
+      "title": "New York",
+      "summary": "",
+      "aliases": [
+        "new york"
       ],
       "tags": [],
       "categories": [
@@ -514,7 +700,7 @@
       "node_id": "seqlog",
       "node_type": "tool",
       "title": "SeqLog",
-      "summary": "A Chinese SeqLog explainer article was published as post 065 on DJClaw",
+      "summary": "SeqLog, a macOS-native Logseq-alternative Markdown knowledge app, was researched and explained in plain Chinese. / A new Chinese SeqLog explainer article was created and published locally on DJClaw site.",
       "aliases": [
         "seqlog"
       ],
@@ -529,7 +715,7 @@
       "node_id": "trips",
       "node_type": "project",
       "title": "trips",
-      "summary": "The trips project (repo djclaw/trips) is in MVP1 phase with static preview working for homepage and New Orleans trip page / MVP1 of the Trips project completed, homepage upgraded, README expanded, repo djclaw/trips committed on master branch.",
+      "summary": "MVP1 of the Trips project was completed, pushed to repo djclaw/trips, and approved by user following closeout steps. / GitHub Pages enabled for djclaw/trips, new GitHub Project 'Trips MVP2' created with six MVP2 issues, and user approved next actions including publishing a DJClaw article.",
       "aliases": [
         "trips"
       ],
@@ -544,7 +730,7 @@
       "node_id": "wiki",
       "node_type": "project",
       "title": "wiki",
-      "summary": "Assistant tightened extraction logic, validated with llama-3.3-70b-versatile, and created extract_history_recent.py to process last 7 days / End-to-end run produced 98 nodes, 421 relations, 98 events, and 44 generated pages; results pushed to djclaw/wiki",
+      "summary": "Wiki architecture shift toward Logseq inspiration with extraction pipeline plan and repo updates / Script hardened, commits pushed, daily refresh pipeline set to run",
       "aliases": [
         "wiki"
       ],
@@ -558,35 +744,8 @@
   ],
   "relations": [
     {
-      "relation_id": "rel-airbnb-djclaw-related",
-      "from_node": "airbnb",
-      "to_node": "djclaw",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-airbnb-djclawtrips-related",
-      "from_node": "airbnb",
-      "to_node": "djclawtrips",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-airbnb-new-orleans-related",
-      "from_node": "airbnb",
-      "to_node": "new-orleans",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-djclaw-logseq-related",
-      "from_node": "djclaw",
+      "relation_id": "rel-craig-adams-logseq-related",
+      "from_node": "craig-adams",
       "to_node": "logseq",
       "relation_type": "related_to",
       "weight": 1,
@@ -594,36 +753,9 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-djclaw-github-related",
-      "from_node": "djclaw",
-      "to_node": "github",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-djclaw-groq-related",
-      "from_node": "djclaw",
-      "to_node": "groq",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-djclaw-seqlog-related",
-      "from_node": "djclaw",
+      "relation_id": "rel-craig-adams-seqlog-related",
+      "from_node": "craig-adams",
       "to_node": "seqlog",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-djclaw-airbnb-related",
-      "from_node": "djclaw",
-      "to_node": "airbnb",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -639,36 +771,63 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-djclaw-gemini-25-flash-related",
+      "relation_id": "rel-djclaw-logseq-related",
       "from_node": "djclaw",
-      "to_node": "gemini-25-flash",
+      "to_node": "logseq",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-djclaw-gemini-25-pro-related",
+      "relation_id": "rel-djclaw-new-orleans-related",
       "from_node": "djclaw",
-      "to_node": "gemini-25-pro",
+      "to_node": "new-orleans",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-djclawtrips-airbnb-related",
-      "from_node": "djclawtrips",
-      "to_node": "airbnb",
+      "relation_id": "rel-djclaw-trips-related",
+      "from_node": "djclaw",
+      "to_node": "trips",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-djclawtrips-djclaw-related",
-      "from_node": "djclawtrips",
-      "to_node": "djclaw",
+      "relation_id": "rel-djclaw-github-related",
+      "from_node": "djclaw",
+      "to_node": "github",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-djclaw-github-pages-related",
+      "from_node": "djclaw",
+      "to_node": "github-pages",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-djclaw-github-project-2-wiki-related",
+      "from_node": "djclaw",
+      "to_node": "github-project-2-wiki",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-djclaw-groq-related",
+      "from_node": "djclaw",
+      "to_node": "groq",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -684,9 +843,54 @@
       "status": "candidate"
     },
     {
+      "relation_id": "rel-djclawtrips-djclaw-related",
+      "from_node": "djclawtrips",
+      "to_node": "djclaw",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
       "relation_id": "rel-djclawtrips-trips-related",
       "from_node": "djclawtrips",
       "to_node": "trips",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-djclawtrips-github-related",
+      "from_node": "djclawtrips",
+      "to_node": "github",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-djclawtrips-github-pages-related",
+      "from_node": "djclawtrips",
+      "to_node": "github-pages",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-gemini-gemini-25-flash-related",
+      "from_node": "gemini",
+      "to_node": "gemini-25-flash",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-gemini-groq-related",
+      "from_node": "gemini",
+      "to_node": "groq",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -702,9 +906,9 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-gemini-25-flash-djclaw-related",
+      "relation_id": "rel-gemini-25-flash-gemini-related",
       "from_node": "gemini-25-flash",
-      "to_node": "djclaw",
+      "to_node": "gemini",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -723,15 +927,6 @@
       "relation_id": "rel-gemini-25-flash-gemini-pro-related",
       "from_node": "gemini-25-flash",
       "to_node": "gemini-pro",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-gemini-25-pro-djclaw-related",
-      "from_node": "gemini-25-pro",
-      "to_node": "djclaw",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -759,15 +954,6 @@
       "relation_id": "rel-gemini-25-pro-groq-related",
       "from_node": "gemini-25-pro",
       "to_node": "groq",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-gemini-pro-djclaw-related",
-      "from_node": "gemini-pro",
-      "to_node": "djclaw",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -810,8 +996,62 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-github-logseq-related",
+      "relation_id": "rel-github-djclawtrips-related",
       "from_node": "github",
+      "to_node": "djclawtrips",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-github-new-orleans-related",
+      "from_node": "github",
+      "to_node": "new-orleans",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-github-pages-djclaw-related",
+      "from_node": "github-pages",
+      "to_node": "djclaw",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-github-pages-djclawtrips-related",
+      "from_node": "github-pages",
+      "to_node": "djclawtrips",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-github-pages-trips-related",
+      "from_node": "github-pages",
+      "to_node": "trips",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-github-project-2-wiki-djclaw-related",
+      "from_node": "github-project-2-wiki",
+      "to_node": "djclaw",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-github-project-2-wiki-logseq-related",
+      "from_node": "github-project-2-wiki",
       "to_node": "logseq",
       "relation_type": "related_to",
       "weight": 1,
@@ -819,9 +1059,18 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-github-wiki-related",
-      "from_node": "github",
+      "relation_id": "rel-github-project-2-wiki-wiki-related",
+      "from_node": "github-project-2-wiki",
       "to_node": "wiki",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-groq-gemini-25-flash-related",
+      "from_node": "groq",
+      "to_node": "gemini-25-flash",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -837,9 +1086,9 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-groq-gemini-25-flash-related",
+      "relation_id": "rel-groq-gemini-related",
       "from_node": "groq",
-      "to_node": "gemini-25-flash",
+      "to_node": "gemini",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -864,9 +1113,36 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-kimi-djclaw-related",
+      "relation_id": "rel-groq-kimi-related",
+      "from_node": "groq",
+      "to_node": "kimi",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-kimi-groq-related",
       "from_node": "kimi",
-      "to_node": "djclaw",
+      "to_node": "groq",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-kimi-new-jersey-related",
+      "from_node": "kimi",
+      "to_node": "new-jersey",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-kimi-new-york-related",
+      "from_node": "kimi",
+      "to_node": "new-york",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -882,18 +1158,27 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-logseq-github-related",
+      "relation_id": "rel-logseq-seqlog-related",
       "from_node": "logseq",
-      "to_node": "github",
+      "to_node": "seqlog",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-logseq-seqlog-related",
+      "relation_id": "rel-logseq-craig-adams-related",
       "from_node": "logseq",
-      "to_node": "seqlog",
+      "to_node": "craig-adams",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-logseq-github-project-2-wiki-related",
+      "from_node": "logseq",
+      "to_node": "github-project-2-wiki",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -909,6 +1194,15 @@
       "status": "candidate"
     },
     {
+      "relation_id": "rel-nanobanand-djclaw-related",
+      "from_node": "nanobanand",
+      "to_node": "djclaw",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
       "relation_id": "rel-nanobot-daily-wiki-scheduler-wiki-related",
       "from_node": "nanobot-daily-wiki-scheduler",
       "to_node": "wiki",
@@ -918,18 +1212,18 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-new-orleans-airbnb-related",
-      "from_node": "new-orleans",
-      "to_node": "airbnb",
+      "relation_id": "rel-new-jersey-kimi-related",
+      "from_node": "new-jersey",
+      "to_node": "kimi",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-new-orleans-djclaw-related",
-      "from_node": "new-orleans",
-      "to_node": "djclaw",
+      "relation_id": "rel-new-jersey-new-york-related",
+      "from_node": "new-jersey",
+      "to_node": "new-york",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -945,6 +1239,15 @@
       "status": "candidate"
     },
     {
+      "relation_id": "rel-new-orleans-djclaw-related",
+      "from_node": "new-orleans",
+      "to_node": "djclaw",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
       "relation_id": "rel-new-orleans-trips-related",
       "from_node": "new-orleans",
       "to_node": "trips",
@@ -954,9 +1257,27 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-seqlog-djclaw-related",
-      "from_node": "seqlog",
-      "to_node": "djclaw",
+      "relation_id": "rel-new-orleans-github-related",
+      "from_node": "new-orleans",
+      "to_node": "github",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-new-york-kimi-related",
+      "from_node": "new-york",
+      "to_node": "kimi",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-new-york-new-jersey-related",
+      "from_node": "new-york",
+      "to_node": "new-jersey",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -972,9 +1293,9 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-trips-djclaw-related",
-      "from_node": "trips",
-      "to_node": "djclaw",
+      "relation_id": "rel-seqlog-craig-adams-related",
+      "from_node": "seqlog",
+      "to_node": "craig-adams",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -990,9 +1311,27 @@
       "status": "candidate"
     },
     {
+      "relation_id": "rel-trips-djclaw-related",
+      "from_node": "trips",
+      "to_node": "djclaw",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
       "relation_id": "rel-trips-new-orleans-related",
       "from_node": "trips",
       "to_node": "new-orleans",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-trips-github-pages-related",
+      "from_node": "trips",
+      "to_node": "github-pages",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -1008,9 +1347,9 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-wiki-github-related",
+      "relation_id": "rel-wiki-github-project-2-wiki-related",
       "from_node": "wiki",
-      "to_node": "github",
+      "to_node": "github-project-2-wiki",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -1037,19 +1376,19 @@
   ],
   "events": [
     {
-      "event_id": "event-airbnb-001",
-      "timestamp": "2026-03-20T09:59",
-      "summary": "2026-03-20T09:59 — Approved default plan, created GitHub repo, began static-site scaffolding",
+      "event_id": "event-craig-adams-001",
+      "timestamp": "2026-03-24T17:20",
+      "summary": "2026-03-24T17:20 — A new Chinese SeqLog explainer article was created and published locally on DJClaw site.",
       "node_ids": [
-        "airbnb"
+        "craig-adams"
       ],
-      "evidence_id": "ev-airbnb-001",
+      "evidence_id": "ev-craig-adams-001",
       "source_id": "history_md"
     },
     {
       "event_id": "event-djclaw-001",
       "timestamp": "2026-03-19T21:53",
-      "summary": "2026-03-19T21:53 — [2026-03-19 21:53] DJClaw publishing continued after post 062. The previously published trilingual short story inspired by Siddhartha was confirmed live as post",
+      "summary": "2026-03-19T21:53 — Trilingual short story (post 062) and follow-up lyrics version (post 063) published on DJClaw",
       "node_ids": [
         "djclaw"
       ],
@@ -1058,8 +1397,8 @@
     },
     {
       "event_id": "event-djclaw-002",
-      "timestamp": "2026-03-20T09:59",
-      "summary": "2026-03-20T09:59 — Approved default plan, created GitHub repo, began static-site scaffolding",
+      "timestamp": "2026-03-20T10:14",
+      "summary": "2026-03-20T10:14 — Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
       "node_ids": [
         "djclaw"
       ],
@@ -1068,8 +1407,8 @@
     },
     {
       "event_id": "event-djclaw-003",
-      "timestamp": "2026-03-20T10:14",
-      "summary": "2026-03-20T10:14 — The trips project (repo djclaw/trips) is in MVP1 phase with static preview working for homepage and New Orleans trip page",
+      "timestamp": "2026-03-20T10:34",
+      "summary": "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips, new GitHub Project 'Trips MVP2' created with six MVP2 issues, and user approved next actions including publishing a DJClaw article.",
       "node_ids": [
         "djclaw"
       ],
@@ -1078,8 +1417,8 @@
     },
     {
       "event_id": "event-djclaw-004",
-      "timestamp": "2026-03-24T12:41",
-      "summary": "2026-03-24T12:41 — [2026-03-24 12:41] User asked to research seqlog.com and explain SeqLog in plain Chinese, including what it is for, who uses it, and use cases for personal and ",
+      "timestamp": "2026-03-23T19:44",
+      "summary": "2026-03-23T19:44 — Process a Lonely Planet New Orleans 3-day weekend link to extract content and structure for the trips project’s New Orleans page",
       "node_ids": [
         "djclaw"
       ],
@@ -1088,8 +1427,8 @@
     },
     {
       "event_id": "event-djclaw-005",
-      "timestamp": "2026-03-24T17:20",
-      "summary": "2026-03-24T17:20 — A Chinese SeqLog explainer article was published as post 065 on DJClaw",
+      "timestamp": "2026-03-25T10:21",
+      "summary": "2026-03-25T10:21 — User asked to turn a beginner-friendly Logseq explanation into a DJClaw article for publication, covering core concepts and MacBook+Android usage.",
       "node_ids": [
         "djclaw"
       ],
@@ -1098,8 +1437,8 @@
     },
     {
       "event_id": "event-djclaw-006",
-      "timestamp": "2026-03-25T10:21",
-      "summary": "2026-03-25T10:21 — User requested turning a Logseq beginner explanation into a DJClaw article for publication",
+      "timestamp": "2026-03-25T14:17",
+      "summary": "2026-03-25T14:17 — User approved direct publish of Logseq basics post; file added to index.html and sitemap.xml and pushed to main branch.",
       "node_ids": [
         "djclaw"
       ],
@@ -1109,7 +1448,7 @@
     {
       "event_id": "event-djclaw-007",
       "timestamp": "2026-03-25T19:16",
-      "summary": "2026-03-25T19:16 — DJClaw wiki shifted toward Logseq-inspired architecture, extracted from chat history",
+      "summary": "2026-03-25T19:16 — Wiki architecture shift toward Logseq inspiration with extraction pipeline plan and repo updates",
       "node_ids": [
         "djclaw"
       ],
@@ -1119,7 +1458,7 @@
     {
       "event_id": "event-djclaw-008",
       "timestamp": "2026-03-25T21:20",
-      "summary": "2026-03-25T21:20 — Replaced SQLite wiki.db with new schema: sources, evidence, nodes, relations, events tables.",
+      "summary": "2026-03-25T21:20 — Assistant pushed commit dd3722f publishing post 069 on wiki architecture and began wiki overhaul step B by adding architecture docs and scripts.",
       "node_ids": [
         "djclaw"
       ],
@@ -1129,7 +1468,7 @@
     {
       "event_id": "event-djclaw-009",
       "timestamp": "2026-03-25T21:35",
-      "summary": "2026-03-25T21:35 — Assistant drafted and published DJClaw article 070 summarizing wiki extraction progress and future options.",
+      "summary": "2026-03-25T21:35 — Assistant drafts and publishes new DJClaw post 070 summarizing wiki extraction progress and future options",
       "node_ids": [
         "djclaw"
       ],
@@ -1138,8 +1477,8 @@
     },
     {
       "event_id": "event-djclaw-010",
-      "timestamp": "2026-03-25T23:22",
-      "summary": "2026-03-25T23:22 — Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
+      "timestamp": "2026-03-26T00:03",
+      "summary": "2026-03-26T00:03 — User approved Groq as the default main model for the wiki extraction PoC after evaluating several text models, with DJClaw post #071 planned to explain the pipeline architecture and poster visualization.",
       "node_ids": [
         "djclaw"
       ],
@@ -1149,7 +1488,7 @@
     {
       "event_id": "event-djclawtrips-001",
       "timestamp": "2026-03-20T09:59",
-      "summary": "2026-03-20T09:59 — Approved default plan, created GitHub repo, began static-site scaffolding",
+      "summary": "2026-03-20T09:59 — Approved and initialized GitHub repo djclaw/trips for Airbnb-inspired travel site; scaffolding, README, and MVP work began",
       "node_ids": [
         "djclawtrips"
       ],
@@ -1158,8 +1497,8 @@
     },
     {
       "event_id": "event-djclawtrips-002",
-      "timestamp": "2026-03-20T10:34",
-      "summary": "2026-03-20T10:34 — GitHub Pages enabled and built successfully; new GitHub Project Trips MVP2 created with six core issues",
+      "timestamp": "2026-03-20T10:14",
+      "summary": "2026-03-20T10:14 — Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
       "node_ids": [
         "djclawtrips"
       ],
@@ -1167,9 +1506,49 @@
       "source_id": "history_md"
     },
     {
+      "event_id": "event-djclawtrips-003",
+      "timestamp": "2026-03-20T10:28",
+      "summary": "2026-03-20T10:28 — MVP1 of the Trips project was completed, pushed to repo djclaw/trips, and approved by user following closeout steps.",
+      "node_ids": [
+        "djclawtrips"
+      ],
+      "evidence_id": "ev-djclawtrips-003",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-djclawtrips-004",
+      "timestamp": "2026-03-20T10:34",
+      "summary": "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips, new GitHub Project 'Trips MVP2' created with six MVP2 issues, and user approved next actions including publishing a DJClaw article.",
+      "node_ids": [
+        "djclawtrips"
+      ],
+      "evidence_id": "ev-djclawtrips-004",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-djclawtrips-005",
+      "timestamp": "2026-03-23T19:44",
+      "summary": "2026-03-23T19:44 — Process a Lonely Planet New Orleans 3-day weekend link to extract content and structure for the trips project’s New Orleans page",
+      "node_ids": [
+        "djclawtrips"
+      ],
+      "evidence_id": "ev-djclawtrips-005",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-gemini-001",
+      "timestamp": "2026-03-25T23:13",
+      "summary": "2026-03-25T23:13 — Project transitioned to implementation phase with user approval",
+      "node_ids": [
+        "gemini"
+      ],
+      "evidence_id": "ev-gemini-001",
+      "source_id": "history_md"
+    },
+    {
       "event_id": "event-gemini-25-flash-001",
       "timestamp": "2026-03-25T23:13",
-      "summary": "2026-03-25T23:13 — User approved design; assistant created plan doc and script, integrated Gemini 2.5 Flash, and produced initial structured candidates; prompt tuning reduced noise, then tasked parallel fixes and optional Groq test.",
+      "summary": "2026-03-25T23:13 — Project transitioned to implementation phase with user approval",
       "node_ids": [
         "gemini-25-flash"
       ],
@@ -1179,7 +1558,7 @@
     {
       "event_id": "event-gemini-25-flash-002",
       "timestamp": "2026-03-25T23:22",
-      "summary": "2026-03-25T23:22 — Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
+      "summary": "2026-03-25T23:22 — Assistant reverted default from gemini-2.5-pro to gemini-2.5-flash due to free-tier quota limits",
       "node_ids": [
         "gemini-25-flash"
       ],
@@ -1189,7 +1568,7 @@
     {
       "event_id": "event-gemini-25-pro-001",
       "timestamp": "2026-03-25T23:22",
-      "summary": "2026-03-25T23:22 — Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
+      "summary": "2026-03-25T23:22 — Assistant reverted default from gemini-2.5-pro to gemini-2.5-flash due to free-tier quota limits",
       "node_ids": [
         "gemini-25-pro"
       ],
@@ -1199,7 +1578,7 @@
     {
       "event_id": "event-gemini-pro-001",
       "timestamp": "2026-03-25T23:22",
-      "summary": "2026-03-25T23:22 — Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
+      "summary": "2026-03-25T23:22 — Assistant reverted default from gemini-2.5-pro to gemini-2.5-flash due to free-tier quota limits",
       "node_ids": [
         "gemini-pro"
       ],
@@ -1208,8 +1587,8 @@
     },
     {
       "event_id": "event-github-001",
-      "timestamp": "2026-03-25T19:16",
-      "summary": "2026-03-25T19:16 — DJClaw wiki shifted toward Logseq-inspired architecture, extracted from chat history",
+      "timestamp": "2026-03-20T10:14",
+      "summary": "2026-03-20T10:14 — Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
       "node_ids": [
         "github"
       ],
@@ -1217,19 +1596,29 @@
       "source_id": "history_md"
     },
     {
-      "event_id": "event-github-002",
-      "timestamp": "2026-03-26T07:48",
-      "summary": "2026-03-26T07:48 — Unified extraction paths, tightened filtering rules, and pushed strict-v3-related changes to main branch",
+      "event_id": "event-github-pages-001",
+      "timestamp": "2026-03-20T10:34",
+      "summary": "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips, new GitHub Project 'Trips MVP2' created with six MVP2 issues, and user approved next actions including publishing a DJClaw article.",
       "node_ids": [
-        "github"
+        "github-pages"
       ],
-      "evidence_id": "ev-github-002",
+      "evidence_id": "ev-github-pages-001",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-github-project-2-wiki-001",
+      "timestamp": "2026-03-25T19:16",
+      "summary": "2026-03-25T19:16 — Wiki architecture shift toward Logseq inspiration with extraction pipeline plan and repo updates",
+      "node_ids": [
+        "github-project-2-wiki"
+      ],
+      "evidence_id": "ev-github-project-2-wiki-001",
       "source_id": "history_md"
     },
     {
       "event_id": "event-groq-001",
       "timestamp": "2026-03-25T23:13",
-      "summary": "2026-03-25T23:13 — User approved design; assistant created plan doc and script, integrated Gemini 2.5 Flash, and produced initial structured candidates; prompt tuning reduced noise, then tasked parallel fixes and optional Groq test.",
+      "summary": "2026-03-25T23:13 — Project transitioned to implementation phase with user approval",
       "node_ids": [
         "groq"
       ],
@@ -1239,7 +1628,7 @@
     {
       "event_id": "event-groq-002",
       "timestamp": "2026-03-25T23:22",
-      "summary": "2026-03-25T23:22 — Switched to Gemini Pro with 429 retry, hit quota, reverted to gemini-2.5-flash; confirmed Groq config in nanobot",
+      "summary": "2026-03-25T23:22 — Assistant reverted default from gemini-2.5-pro to gemini-2.5-flash due to free-tier quota limits",
       "node_ids": [
         "groq"
       ],
@@ -1249,7 +1638,7 @@
     {
       "event_id": "event-groq-003",
       "timestamp": "2026-03-26T00:03",
-      "summary": "2026-03-26T00:03 — User selected Groq as the main extraction provider after A/B testing showed llama-3.3-70b-versatile most balanced for nodes+relations+events.",
+      "summary": "2026-03-26T00:03 — User approved Groq as the default main model for the wiki extraction PoC after evaluating several text models, with DJClaw post #071 planned to explain the pipeline architecture and poster visualization.",
       "node_ids": [
         "groq"
       ],
@@ -1257,9 +1646,19 @@
       "source_id": "history_md"
     },
     {
+      "event_id": "event-groq-004",
+      "timestamp": "2026-03-26T07:40",
+      "summary": "2026-03-26T07:40 — Wiki extraction PoC approved and merged into formal extraction pipeline, completing migration to Kimi-backed flow",
+      "node_ids": [
+        "groq"
+      ],
+      "evidence_id": "ev-groq-004",
+      "source_id": "history_md"
+    },
+    {
       "event_id": "event-kimi-001",
       "timestamp": "2026-03-26T07:20",
-      "summary": "2026-03-26T07:20 — Assistant tightened wiki extraction logic via Kimi model, filtering to stable entities like places, projects, tools, orgs, people.",
+      "summary": "2026-03-26T07:20 — [2026-03-26 07:20] User reported wiki extraction logic still felt too loose after reviewing several extracted entities, and asked to use a stricter logic plus t",
       "node_ids": [
         "kimi"
       ],
@@ -1267,9 +1666,19 @@
       "source_id": "history_md"
     },
     {
+      "event_id": "event-kimi-002",
+      "timestamp": "2026-03-26T07:40",
+      "summary": "2026-03-26T07:40 — Wiki extraction PoC approved and merged into formal extraction pipeline, completing migration to Kimi-backed flow",
+      "node_ids": [
+        "kimi"
+      ],
+      "evidence_id": "ev-kimi-002",
+      "source_id": "history_md"
+    },
+    {
       "event_id": "event-logseq-001",
       "timestamp": "2026-03-24T12:41",
-      "summary": "2026-03-24T12:41 — [2026-03-24 12:41] User asked to research seqlog.com and explain SeqLog in plain Chinese, including what it is for, who uses it, and use cases for personal and ",
+      "summary": "2026-03-24T12:41 — SeqLog, a macOS-native Logseq-alternative Markdown knowledge app, was researched and explained in plain Chinese.",
       "node_ids": [
         "logseq"
       ],
@@ -1278,8 +1687,8 @@
     },
     {
       "event_id": "event-logseq-002",
-      "timestamp": "2026-03-25T10:21",
-      "summary": "2026-03-25T10:21 — User requested turning a Logseq beginner explanation into a DJClaw article for publication",
+      "timestamp": "2026-03-24T17:20",
+      "summary": "2026-03-24T17:20 — A new Chinese SeqLog explainer article was created and published locally on DJClaw site.",
       "node_ids": [
         "logseq"
       ],
@@ -1288,8 +1697,8 @@
     },
     {
       "event_id": "event-logseq-003",
-      "timestamp": "2026-03-25T19:16",
-      "summary": "2026-03-25T19:16 — DJClaw wiki shifted toward Logseq-inspired architecture, extracted from chat history",
+      "timestamp": "2026-03-25T10:21",
+      "summary": "2026-03-25T10:21 — User asked to turn a beginner-friendly Logseq explanation into a DJClaw article for publication, covering core concepts and MacBook+Android usage.",
       "node_ids": [
         "logseq"
       ],
@@ -1298,8 +1707,8 @@
     },
     {
       "event_id": "event-logseq-004",
-      "timestamp": "2026-03-25T21:20",
-      "summary": "2026-03-25T21:20 — Replaced SQLite wiki.db with new schema: sources, evidence, nodes, relations, events tables.",
+      "timestamp": "2026-03-25T14:17",
+      "summary": "2026-03-25T14:17 — User approved direct publish of Logseq basics post; file added to index.html and sitemap.xml and pushed to main branch.",
       "node_ids": [
         "logseq"
       ],
@@ -1308,8 +1717,8 @@
     },
     {
       "event_id": "event-logseq-005",
-      "timestamp": "2026-03-26T07:48",
-      "summary": "2026-03-26T07:48 — Unified extraction paths, tightened filtering rules, and pushed strict-v3-related changes to main branch",
+      "timestamp": "2026-03-25T19:16",
+      "summary": "2026-03-25T19:16 — Wiki architecture shift toward Logseq inspiration with extraction pipeline plan and repo updates",
       "node_ids": [
         "logseq"
       ],
@@ -1317,9 +1726,19 @@
       "source_id": "history_md"
     },
     {
+      "event_id": "event-nanobanand-001",
+      "timestamp": "2026-03-26T10:18",
+      "summary": "2026-03-26T10:18 — User rejected two prior Pillow-based poster versions and requested comic/manga-style generation with nanobanand instead of flow-diagram approach.",
+      "node_ids": [
+        "nanobanand"
+      ],
+      "evidence_id": "ev-nanobanand-001",
+      "source_id": "history_md"
+    },
+    {
       "event_id": "event-nanobot-daily-wiki-scheduler-001",
       "timestamp": "2026-03-26T00:20",
-      "summary": "2026-03-26T00:20 — End-to-end run produced 98 nodes, 421 relations, 98 events, and 44 generated pages; results pushed to djclaw/wiki",
+      "summary": "2026-03-26T00:20 — Full 7-day wiki pipeline run producing wiki.db with 60 nodes, 421 relations, 98 events; results pushed to djclaw/wiki in commits 022c165 and 67c0e01",
       "node_ids": [
         "nanobot-daily-wiki-scheduler"
       ],
@@ -1327,9 +1746,19 @@
       "source_id": "history_md"
     },
     {
+      "event_id": "event-new-jersey-001",
+      "timestamp": "2026-03-26T07:20",
+      "summary": "2026-03-26T07:20 — [2026-03-26 07:20] User reported wiki extraction logic still felt too loose after reviewing several extracted entities, and asked to use a stricter logic plus t",
+      "node_ids": [
+        "new-jersey"
+      ],
+      "evidence_id": "ev-new-jersey-001",
+      "source_id": "history_md"
+    },
+    {
       "event_id": "event-new-orleans-001",
       "timestamp": "2026-03-20T09:59",
-      "summary": "2026-03-20T09:59 — Approved default plan, created GitHub repo, began static-site scaffolding",
+      "summary": "2026-03-20T09:59 — Approved and initialized GitHub repo djclaw/trips for Airbnb-inspired travel site; scaffolding, README, and MVP work began",
       "node_ids": [
         "new-orleans"
       ],
@@ -1338,8 +1767,8 @@
     },
     {
       "event_id": "event-new-orleans-002",
-      "timestamp": "2026-03-23T19:44",
-      "summary": "2026-03-23T19:44 — New Orleans destination page content ingestion",
+      "timestamp": "2026-03-20T10:14",
+      "summary": "2026-03-20T10:14 — Active development on the djclaw/trips repository; static preview successful for index and New Orleans trip page; planning docs finalized for IA/spec, map model, and UI brief; draft DJClaw article prepared but not yet published",
       "node_ids": [
         "new-orleans"
       ],
@@ -1347,9 +1776,39 @@
       "source_id": "history_md"
     },
     {
+      "event_id": "event-new-orleans-003",
+      "timestamp": "2026-03-20T10:28",
+      "summary": "2026-03-20T10:28 — MVP1 of the Trips project was completed, pushed to repo djclaw/trips, and approved by user following closeout steps.",
+      "node_ids": [
+        "new-orleans"
+      ],
+      "evidence_id": "ev-new-orleans-003",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-new-orleans-004",
+      "timestamp": "2026-03-23T19:44",
+      "summary": "2026-03-23T19:44 — Process a Lonely Planet New Orleans 3-day weekend link to extract content and structure for the trips project’s New Orleans page",
+      "node_ids": [
+        "new-orleans"
+      ],
+      "evidence_id": "ev-new-orleans-004",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-new-york-001",
+      "timestamp": "2026-03-26T07:20",
+      "summary": "2026-03-26T07:20 — [2026-03-26 07:20] User reported wiki extraction logic still felt too loose after reviewing several extracted entities, and asked to use a stricter logic plus t",
+      "node_ids": [
+        "new-york"
+      ],
+      "evidence_id": "ev-new-york-001",
+      "source_id": "history_md"
+    },
+    {
       "event_id": "event-seqlog-001",
       "timestamp": "2026-03-24T12:41",
-      "summary": "2026-03-24T12:41 — [2026-03-24 12:41] User asked to research seqlog.com and explain SeqLog in plain Chinese, including what it is for, who uses it, and use cases for personal and ",
+      "summary": "2026-03-24T12:41 — SeqLog, a macOS-native Logseq-alternative Markdown knowledge app, was researched and explained in plain Chinese.",
       "node_ids": [
         "seqlog"
       ],
@@ -1359,7 +1818,7 @@
     {
       "event_id": "event-seqlog-002",
       "timestamp": "2026-03-24T17:20",
-      "summary": "2026-03-24T17:20 — A Chinese SeqLog explainer article was published as post 065 on DJClaw",
+      "summary": "2026-03-24T17:20 — A new Chinese SeqLog explainer article was created and published locally on DJClaw site.",
       "node_ids": [
         "seqlog"
       ],
@@ -1368,8 +1827,8 @@
     },
     {
       "event_id": "event-trips-001",
-      "timestamp": "2026-03-20T10:14",
-      "summary": "2026-03-20T10:14 — The trips project (repo djclaw/trips) is in MVP1 phase with static preview working for homepage and New Orleans trip page",
+      "timestamp": "2026-03-20T10:28",
+      "summary": "2026-03-20T10:28 — MVP1 of the Trips project was completed, pushed to repo djclaw/trips, and approved by user following closeout steps.",
       "node_ids": [
         "trips"
       ],
@@ -1378,8 +1837,8 @@
     },
     {
       "event_id": "event-trips-002",
-      "timestamp": "2026-03-20T10:28",
-      "summary": "2026-03-20T10:28 — MVP1 of the Trips project completed, homepage upgraded, README expanded, repo djclaw/trips committed on master branch.",
+      "timestamp": "2026-03-20T10:34",
+      "summary": "2026-03-20T10:34 — GitHub Pages enabled for djclaw/trips, new GitHub Project 'Trips MVP2' created with six MVP2 issues, and user approved next actions including publishing a DJClaw article.",
       "node_ids": [
         "trips"
       ],
@@ -1388,8 +1847,8 @@
     },
     {
       "event_id": "event-trips-003",
-      "timestamp": "2026-03-20T10:34",
-      "summary": "2026-03-20T10:34 — GitHub Pages enabled and built successfully; new GitHub Project Trips MVP2 created with six core issues",
+      "timestamp": "2026-03-23T19:44",
+      "summary": "2026-03-23T19:44 — Process a Lonely Planet New Orleans 3-day weekend link to extract content and structure for the trips project’s New Orleans page",
       "node_ids": [
         "trips"
       ],
@@ -1397,19 +1856,9 @@
       "source_id": "history_md"
     },
     {
-      "event_id": "event-trips-004",
-      "timestamp": "2026-03-23T19:44",
-      "summary": "2026-03-23T19:44 — New Orleans destination page content ingestion",
-      "node_ids": [
-        "trips"
-      ],
-      "evidence_id": "ev-trips-004",
-      "source_id": "history_md"
-    },
-    {
       "event_id": "event-wiki-001",
-      "timestamp": "2026-03-26T00:13",
-      "summary": "2026-03-26T00:13 — Assistant tightened extraction logic, validated with llama-3.3-70b-versatile, and created extract_history_recent.py to process last 7 days",
+      "timestamp": "2026-03-25T19:16",
+      "summary": "2026-03-25T19:16 — Wiki architecture shift toward Logseq inspiration with extraction pipeline plan and repo updates",
       "node_ids": [
         "wiki"
       ],
@@ -1418,8 +1867,8 @@
     },
     {
       "event_id": "event-wiki-002",
-      "timestamp": "2026-03-26T00:20",
-      "summary": "2026-03-26T00:20 — End-to-end run produced 98 nodes, 421 relations, 98 events, and 44 generated pages; results pushed to djclaw/wiki",
+      "timestamp": "2026-03-26T00:13",
+      "summary": "2026-03-26T00:13 — Script hardened, commits pushed, daily refresh pipeline set to run",
       "node_ids": [
         "wiki"
       ],
@@ -1428,12 +1877,22 @@
     },
     {
       "event_id": "event-wiki-003",
-      "timestamp": "2026-03-26T07:48",
-      "summary": "2026-03-26T07:48 — Unified extraction paths, tightened filtering rules, and pushed strict-v3-related changes to main branch",
+      "timestamp": "2026-03-26T00:20",
+      "summary": "2026-03-26T00:20 — Full 7-day wiki pipeline run producing wiki.db with 60 nodes, 421 relations, 98 events; results pushed to djclaw/wiki in commits 022c165 and 67c0e01",
       "node_ids": [
         "wiki"
       ],
       "evidence_id": "ev-wiki-003",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-wiki-004",
+      "timestamp": "2026-03-26T06:57",
+      "summary": "2026-03-26T06:57 — Commit 8e36ebb pushed to djclaw/wiki with user-visible wiki materialization, daily automation, .gitignore cleanup, state tracking, and incremental ingest script",
+      "node_ids": [
+        "wiki"
+      ],
+      "evidence_id": "ev-wiki-004",
       "source_id": "history_md"
     }
   ]
