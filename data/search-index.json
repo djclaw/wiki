@@ -2,7 +2,7 @@
   {
     "title": "DJClaw",
     "url": "entries/history/djclaw.html",
-    "snippet": "User asked to turn a prior beginner-friendly Logseq explanation into a publishable DJClaw article covering core concepts and MacBook+Android usage. / Published `Logseq 入门：Journal、Block、Page 到底是什么` to DJClaw site",
+    "snippet": "User requested converting a beginner-friendly Logseq explanation into a DJClaw article for publication / Post 067 titled 'Logseq 入门：Journal、Block、Page 到底是什么' was written and pushed to main",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -12,7 +12,7 @@
   {
     "title": "GitHub",
     "url": "entries/history/github.html",
-    "snippet": "Unified extraction scripts, updated data paths, filtered noisy entities, verified final page set.",
+    "snippet": "Unified extraction path, moved outputs to data/extraction-pipeline/, tightened filtering, verified results",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -22,57 +22,7 @@
   {
     "title": "Logseq",
     "url": "entries/history/logseq.html",
-    "snippet": "User requested and received explanation of SeqLog as macOS-native Logseq-style knowledge app / A new Chinese SeqLog explainer article was created and published locally as post 065.",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "Lonely Planet",
-    "url": "entries/history/lonely-planet.html",
-    "snippet": "Enabled GitHub Pages for djclaw/trips, finalized MVP2 project/issuing labels/organization, and published DJClaw post 064 `posts-2026-03-20-064-planning-the-trips-project.html` in commit 16134d2",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "New Orleans",
-    "url": "entries/history/new-orleans.html",
-    "snippet": "Enabled GitHub Pages for djclaw/trips, finalized MVP2 project/issuing labels/organization, and published DJClaw post 064 `posts-2026-03-20-064-planning-the-trips-project.html` in commit 16134d2",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "SeqLog",
-    "url": "entries/history/seqlog.html",
-    "snippet": "User requested and received explanation of SeqLog as macOS-native Logseq-style knowledge app / A new Chinese SeqLog explainer article was created and published locally as post 065.",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "tothegarden.vercel.app",
-    "url": "entries/history/tothegardenvercelapp.html",
-    "snippet": "Published `Logseq 入门：Journal、Block、Page 到底是什么` to DJClaw site",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "trips",
-    "url": "entries/history/trips.html",
-    "snippet": "Enabled GitHub Pages for djclaw/trips, finalized MVP2 project/issuing labels/organization, and published DJClaw post 064 `posts-2026-03-20-064-planning-the-trips-project.html` in commit 16134d2",
+    "snippet": "User requested converting a beginner-friendly Logseq explanation into a DJClaw article for publication / Post 067 titled 'Logseq 入门：Journal、Block、Page 到底是什么' was written and pushed to main",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -82,7 +32,7 @@
   {
     "title": "wiki",
     "url": "entries/history/wiki.html",
-    "snippet": "Published with caveat after partial source retrieval due to WeChat block / Tightened extraction logic, dropped relations to 0, created extract_history_recent.py for 7-day window, wrote 62 items",
+    "snippet": "Published 'A Small Digital Garden' to DJClaw despite limited source access and WeChat block / kernel.json regenerated, scripts updated, old entries replaced, new nodes/relations/events schema in place",
     "tags": [],
     "categories": [],
     "aliases": [],

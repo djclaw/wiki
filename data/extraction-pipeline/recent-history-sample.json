@@ -1,17 +1,5 @@
 [
   {
-    "timestamp": "2026-03-23T19:44",
-    "text": "[2026-03-23 19:44] Trips project progressed: after enabling GitHub Pages for djclaw/trips and creating the MVP2 project/issues, labels/project organization were completed and a new DJClaw article was published as post 064 `posts-2026-03-20-064-planning-the-trips-project.html` in commit `16134d2` (`Publish post 064 on trips project planning`). Latest user request on 2026-03-23: process a Lonely Planet New Orleans 3-day weekend link by first extracting/summarizing the content and then converting it into structured source material for the `trips` project’s New Orleans destination page."
-  },
-  {
-    "timestamp": "2026-03-24T12:41",
-    "text": "[2026-03-24 12:41] User asked to research seqlog.com and explain SeqLog in plain Chinese, including what it is for, who uses it, and use cases for personal and small-group users. Assistant established from the public site that SeqLog is a real macOS-native Logseq-style knowledge app focused on local-first Markdown files, wikilinks/backlinks, daily notes, and Apple-native SwiftUI + Rust/ripgrep performance positioning. During the conversation, two externally provided summaries were identified as incorrect: one falsely described SeqLog as an AI/agent logging 'black box' tool, and another treated SeqLog as an uncertain or generic timeline-log product rather than the actual macOS-native Logseq alternative. Useful future follow-up: provide a brief, plain-language DJClaw Chinese post and a 'SeqLog vs Logseq' comparison grounded in the real product."
-  },
-  {
-    "timestamp": "2026-03-24T17:20",
-    "text": "[2026-03-24 17:20] DJClaw site work continued: a new Chinese SeqLog explainer article was created and published locally as post 065 `posts-2026-03-24-065-seqlog-native-logseq-for-macos.html`, with `index.html` and `sitemap.xml` updated. The user then requested commit/push, which was completed to `main` in commit `7d5f7bb` with message `Publish post 065 on SeqLog`. Latest new user request: write and publish a Logseq vs SeqLog comparison article in the user’s preferred Craig Adams–style voice (user typed `kriag amdas`)."
-  },
-  {
     "timestamp": "2026-03-25T10:21",
     "text": "[2026-03-25 10:21] User asked to turn the earlier beginner-friendly Logseq explanation into a DJClaw article for publication. The requested article should be based on the assistant’s introduction covering core concepts like Journal, Block, Page, Link, Backlink, and practical MacBook + Android joint usage, following the user’s established DJClaw publishing workflow with draft/update of index.html and sitemap.xml before publish confirmation."
   },
@@ -90,5 +78,17 @@
   {
     "timestamp": "2026-03-29T20:44",
     "text": "[2026-03-29 20:44] User approved the two new DJClaw article titles `When Building Gets Cheap` (post 072) and `Bounded Emergence` (post 073) after asking why those names were chosen. User then requested that each article end with a short note explaining the title choice before publishing. The two posts were updated accordingly, and DJClaw repo changes (`index.html`, `sitemap.xml`, the two new post files) were committed and pushed in commit `e06929f` with message `Publish posts 072 and 073 on AI product judgment`."
+  },
+  {
+    "timestamp": "2026-03-30T14:41",
+    "text": "[2026-03-30 14:41] DJClaw post 075 `posts-2026-03-30-075-saint-peter-a-quiet-note.html` was first published as a quiet Saint Peter note with an embedded 30-second read-aloud script, then upgraded at user request to include a real Chinese audio file and inline HTML5 player replacing the script. Audio asset `/assets/audio/saint-peter-quiet-note-075-zh.mp3` was generated via a lightweight online TTS path after local Chinese TTS tools were unavailable, a short transcript was retained, and the update was pushed in commit `9234b3c` (`Add audio player to post 075`). Later the user asked for a short summary of why the post works; assistant framed the article as emphasizing Peter as an ordinary, fearful, fallible person who is still loved and entrusted after failure."
+  },
+  {
+    "timestamp": "2026-03-31T12:51",
+    "text": "[2026-03-31 12:51] User requested a DJClaw article summarizing Sahil Lavingia’s The Minimalist Entrepreneur. Because Brave Search was unavailable and several direct book/product pages failed (Amazon/PenguinRandomHouse/Google Books/Gumroad 404s, Goodreads mismatch, one SSL error), assistant switched to direct public-source retrieval via DuckDuckGo result pages plus reliable sources including the Mixergy interview with Sahil Lavingia and a structured 7-step summary page. Assistant drafted DJClaw post 078 `posts-2026-03-31-078-the-minimalist-entrepreneur-step-by-step.html`, updated `index.html` and `sitemap.xml`, and published/pushed to `main` in commit `2653c4d` (`Publish post 078 on The Minimalist Entrepreneur`)."
+  },
+  {
+    "timestamp": "2026-04-01T00:21",
+    "text": "[2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user asked general questions about Bosnia’s use of `canton` and why people like the film `Trainspotting`; then the user requested turning the Trainspotting explanation into a new DJClaw article with the opening `Choose Life` quote at the very start. Work began by locating the DJClaw repo, confirming next post number `080`, and reading existing post/index/sitemap structure, but no completion/publish confirmation for post 080 appears in this conversation. Later, the user asked `你在用什么model`; the assistant answered that it cannot see the exact underlying model ID in this nanobot/API environment, but could help inspect provider/config exposure or write a command for the user to check available model configuration."
   }
 ]
