@@ -9,6 +9,30 @@
   ],
   "evidence": [
     {
+      "evidence_id": "ev-airbnb-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-26T07:48",
+      "raw_text": "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
+      "redacted_text": "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-brave-search-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-29T20:34",
+      "raw_text": "2026-03-29T20:34 — [2026-03-29 20:34] User asked to start three subagents to summarize three pieces (Thariq/X on Claude Code skills, Mike Krieger video/X thread, and Every article",
+      "redacted_text": "2026-03-29T20:34 — [2026-03-29 20:34] User asked to start three subagents to summarize three pieces (Thariq/X on Claude Code skills, Mike Krieger video/X thread, and Every article",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-claude-code-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-29T20:33",
+      "raw_text": "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper ",
+      "redacted_text": "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper ",
+      "publishable": true
+    },
+    {
       "evidence_id": "ev-dan-shipper-001",
       "source_id": "history_md",
       "timestamp": "2026-03-29T20:33",
@@ -19,217 +43,209 @@
     {
       "evidence_id": "ev-djclaw-001",
       "source_id": "history_md",
-      "timestamp": "2026-03-25T10:21",
-      "raw_text": "2026-03-25T10:21 — User requested converting a beginner-friendly Logseq explanation into a DJClaw article for publication",
-      "redacted_text": "2026-03-25T10:21 — User requested converting a beginner-friendly Logseq explanation into a DJClaw article for publication",
+      "timestamp": "2026-03-25T21:35",
+      "raw_text": "2026-03-25T21:35 — Began drafting new DJClaw article summarizing extraction pipeline progress",
+      "redacted_text": "2026-03-25T21:35 — Began drafting new DJClaw article summarizing extraction pipeline progress",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-002",
       "source_id": "history_md",
-      "timestamp": "2026-03-25T14:17",
-      "raw_text": "2026-03-25T14:17 — Post 067 titled 'Logseq 入门：Journal、Block、Page 到底是什么' was written and pushed to main",
-      "redacted_text": "2026-03-25T14:17 — Post 067 titled 'Logseq 入门：Journal、Block、Page 到底是什么' was written and pushed to main",
+      "timestamp": "2026-03-26T00:03",
+      "raw_text": "2026-03-26T00:03 — User selected Groq as the primary provider for wiki extraction PoC",
+      "redacted_text": "2026-03-26T00:03 — User selected Groq as the primary provider for wiki extraction PoC",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-003",
       "source_id": "history_md",
-      "timestamp": "2026-03-25T19:16",
-      "raw_text": "2026-03-25T19:16 — Published 'A Small Digital Garden' to DJClaw despite limited source access and WeChat block",
-      "redacted_text": "2026-03-25T19:16 — Published 'A Small Digital Garden' to DJClaw despite limited source access and WeChat block",
+      "timestamp": "2026-03-26T06:57",
+      "raw_text": "2026-03-26T06:57 — 8e36ebb commit pushed: user-visible wiki materialization, daily automation, .gitignore cleanup, state tracking, scripts, wiki issue updates #7/#9/#10",
+      "redacted_text": "2026-03-26T06:57 — 8e36ebb commit pushed: user-visible wiki materialization, daily automation, .gitignore cleanup, state tracking, scripts, wiki issue updates #7/#9/#10",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-004",
       "source_id": "history_md",
-      "timestamp": "2026-03-25T21:35",
-      "raw_text": "2026-03-25T21:35 — Wiki extraction kernel milestone reached; external tool research identified Instructor, LlamaIndex, GraphRAG for future extraction strategy",
-      "redacted_text": "2026-03-25T21:35 — Wiki extraction kernel milestone reached; external tool research identified Instructor, LlamaIndex, GraphRAG for future extraction strategy",
+      "timestamp": "2026-03-26T07:20",
+      "raw_text": "2026-03-26T07:20 — Adjusted extraction_poc.py to restrict candidates to stable entities like places, projects, tools, orgs, person, dropping abstract or transient items",
+      "redacted_text": "2026-03-26T07:20 — Adjusted extraction_poc.py to restrict candidates to stable entities like places, projects, tools, orgs, person, dropping abstract or transient items",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-005",
       "source_id": "history_md",
-      "timestamp": "2026-03-26T00:03",
-      "raw_text": "2026-03-26T00:03 — User selected Groq as the main extraction provider for the wiki pipeline PoC.",
-      "redacted_text": "2026-03-26T00:03 — User selected Groq as the main extraction provider for the wiki pipeline PoC.",
+      "timestamp": "2026-03-26T07:48",
+      "raw_text": "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
+      "redacted_text": "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-006",
       "source_id": "history_md",
-      "timestamp": "2026-03-26T00:29",
-      "raw_text": "2026-03-26T00:29 — Post 071 on wiki layers published with cleaned assets",
-      "redacted_text": "2026-03-26T00:29 — Post 071 on wiki layers published with cleaned assets",
+      "timestamp": "2026-03-29T20:44",
+      "raw_text": "2026-03-29T20:44 — User approved two new DJClaw article titles and requested added notes explaining title choice before publication.",
+      "redacted_text": "2026-03-29T20:44 — User approved two new DJClaw article titles and requested added notes explaining title choice before publication.",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-007",
       "source_id": "history_md",
-      "timestamp": "2026-03-26T06:57",
-      "raw_text": "2026-03-26T06:57 — Changes including .gitignore cleanup, tracked state files, daily incremental script, and issue updates for wiki issues #7, #9, and #10 were committed and pushed as 8e36ebb.",
-      "redacted_text": "2026-03-26T06:57 — Changes including .gitignore cleanup, tracked state files, daily incremental script, and issue updates for wiki issues #7, #9, and #10 were committed and pushed as 8e36ebb.",
+      "timestamp": "2026-03-30T14:41",
+      "raw_text": "2026-03-30T14:41 — Published quiet Saint Peter note and later added Chinese audio via online TTS",
+      "redacted_text": "2026-03-30T14:41 — Published quiet Saint Peter note and later added Chinese audio via online TTS",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-008",
       "source_id": "history_md",
-      "timestamp": "2026-03-26T07:48",
-      "raw_text": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, tightened filtering, verified results",
-      "redacted_text": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, tightened filtering, verified results",
+      "timestamp": "2026-03-31T12:51",
+      "raw_text": "2026-03-31T12:51 — DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
+      "redacted_text": "2026-03-31T12:51 — DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-009",
       "source_id": "history_md",
-      "timestamp": "2026-03-26T10:18",
-      "raw_text": "2026-03-26T10:18 — Rejected two Pillow-based poster attempts; user requests comic/manga-style via nanobanand instead.",
-      "redacted_text": "2026-03-26T10:18 — Rejected two Pillow-based poster attempts; user requests comic/manga-style via nanobanand instead.",
+      "timestamp": "2026-04-01T00:21",
+      "raw_text": "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as",
+      "redacted_text": "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-010",
       "source_id": "history_md",
-      "timestamp": "2026-03-26T11:14",
-      "raw_text": "2026-03-26T11:14 — User selected version B (editorial newsroom comic) for DJClaw post 071 and instructed to publish only that variant.",
-      "redacted_text": "2026-03-26T11:14 — User selected version B (editorial newsroom comic) for DJClaw post 071 and instructed to publish only that variant.",
+      "timestamp": "2026-04-01T19:33",
+      "raw_text": "2026-04-01T19:33 — Started a new djclaw article on knee-protection advice",
+      "redacted_text": "2026-04-01T19:33 — Started a new djclaw article on knee-protection advice",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-duckduckgo-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-31T12:51",
+      "raw_text": "2026-03-31T12:51 — DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
+      "redacted_text": "2026-03-31T12:51 — DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
       "publishable": true
     },
     {
       "evidence_id": "ev-every-001",
       "source_id": "history_md",
-      "timestamp": "2026-03-29T20:33",
-      "raw_text": "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper ",
-      "redacted_text": "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper ",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-every-002",
-      "source_id": "history_md",
       "timestamp": "2026-03-29T20:34",
-      "raw_text": "2026-03-29T20:34 — Retrieved Every article on product difficulty and Every transcript of Mike Krieger conversation",
-      "redacted_text": "2026-03-29T20:34 — Retrieved Every article on product difficulty and Every transcript of Mike Krieger conversation",
+      "raw_text": "2026-03-29T20:34 — [2026-03-29 20:34] User asked to start three subagents to summarize three pieces (Thariq/X on Claude Code skills, Mike Krieger video/X thread, and Every article",
+      "redacted_text": "2026-03-29T20:34 — [2026-03-29 20:34] User asked to start three subagents to summarize three pieces (Thariq/X on Claude Code skills, Mike Krieger video/X thread, and Every article",
       "publishable": true
     },
     {
       "evidence_id": "ev-gemini-25-flash-001",
       "source_id": "history_md",
       "timestamp": "2026-03-25T23:13",
-      "raw_text": "2026-03-25T23:13 — Moved from design to implementation; user approved 1-week HISTORY samples, assistant created extraction scripts and data files, tuned prompt to reduce noise, and planned parallel tasks including testing Groq",
-      "redacted_text": "2026-03-25T23:13 — Moved from design to implementation; user approved 1-week HISTORY samples, assistant created extraction scripts and data files, tuned prompt to reduce noise, and planned parallel tasks including testing Groq",
+      "raw_text": "2026-03-25T23:13 — Moved from design to implementation; Gemini 2.5 Flash integrated via HTTP; output reduced from 236 nodes to 36 nodes after prompt tightening",
+      "redacted_text": "2026-03-25T23:13 — Moved from design to implementation; Gemini 2.5 Flash integrated via HTTP; output reduced from 236 nodes to 36 nodes after prompt tightening",
       "publishable": true
     },
     {
       "evidence_id": "ev-gemini-25-flash-002",
       "source_id": "history_md",
       "timestamp": "2026-03-25T23:22",
-      "raw_text": "2026-03-25T23:22 — Reverted default model from gemini-2.5-pro to gemini-2.5-flash due to 429 quota errors on free tier, created baseline comparison script and notes",
-      "redacted_text": "2026-03-25T23:22 — Reverted default model from gemini-2.5-pro to gemini-2.5-flash due to 429 quota errors on free tier, created baseline comparison script and notes",
+      "raw_text": "2026-03-25T23:22 — Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
+      "redacted_text": "2026-03-25T23:22 — Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-gemini-25-pro-001",
+      "source_id": "history_md",
+      "timestamp": "2026-03-25T23:22",
+      "raw_text": "2026-03-25T23:22 — Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
+      "redacted_text": "2026-03-25T23:22 — Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
       "publishable": true
     },
     {
       "evidence_id": "ev-gemini-pro-001",
       "source_id": "history_md",
       "timestamp": "2026-03-25T23:22",
-      "raw_text": "2026-03-25T23:22 — Reverted default model from gemini-2.5-pro to gemini-2.5-flash due to 429 quota errors on free tier, created baseline comparison script and notes",
-      "redacted_text": "2026-03-25T23:22 — Reverted default model from gemini-2.5-pro to gemini-2.5-flash due to 429 quota errors on free tier, created baseline comparison script and notes",
+      "raw_text": "2026-03-25T23:22 — Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
+      "redacted_text": "2026-03-25T23:22 — Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
       "publishable": true
     },
     {
       "evidence_id": "ev-github-001",
       "source_id": "history_md",
       "timestamp": "2026-03-26T07:48",
-      "raw_text": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, tightened filtering, verified results",
-      "redacted_text": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, tightened filtering, verified results",
+      "raw_text": "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
+      "redacted_text": "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
       "publishable": true
     },
     {
       "evidence_id": "ev-groq-001",
       "source_id": "history_md",
       "timestamp": "2026-03-25T23:13",
-      "raw_text": "2026-03-25T23:13 — Moved from design to implementation; user approved 1-week HISTORY samples, assistant created extraction scripts and data files, tuned prompt to reduce noise, and planned parallel tasks including testing Groq",
-      "redacted_text": "2026-03-25T23:13 — Moved from design to implementation; user approved 1-week HISTORY samples, assistant created extraction scripts and data files, tuned prompt to reduce noise, and planned parallel tasks including testing Groq",
+      "raw_text": "2026-03-25T23:13 — Moved from design to implementation; Gemini 2.5 Flash integrated via HTTP; output reduced from 236 nodes to 36 nodes after prompt tightening",
+      "redacted_text": "2026-03-25T23:13 — Moved from design to implementation; Gemini 2.5 Flash integrated via HTTP; output reduced from 236 nodes to 36 nodes after prompt tightening",
       "publishable": true
     },
     {
       "evidence_id": "ev-groq-002",
       "source_id": "history_md",
       "timestamp": "2026-03-25T23:22",
-      "raw_text": "2026-03-25T23:22 — Reverted default model from gemini-2.5-pro to gemini-2.5-flash due to 429 quota errors on free tier, created baseline comparison script and notes",
-      "redacted_text": "2026-03-25T23:22 — Reverted default model from gemini-2.5-pro to gemini-2.5-flash due to 429 quota errors on free tier, created baseline comparison script and notes",
+      "raw_text": "2026-03-25T23:22 — Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
+      "redacted_text": "2026-03-25T23:22 — Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
       "publishable": true
     },
     {
       "evidence_id": "ev-groq-003",
       "source_id": "history_md",
       "timestamp": "2026-03-26T00:03",
-      "raw_text": "2026-03-26T00:03 — User selected Groq as the main extraction provider for the wiki pipeline PoC.",
-      "redacted_text": "2026-03-26T00:03 — User selected Groq as the main extraction provider for the wiki pipeline PoC.",
+      "raw_text": "2026-03-26T00:03 — User selected Groq as the primary provider for wiki extraction PoC",
+      "redacted_text": "2026-03-26T00:03 — User selected Groq as the primary provider for wiki extraction PoC",
       "publishable": true
     },
     {
       "evidence_id": "ev-groq-004",
       "source_id": "history_md",
-      "timestamp": "2026-03-26T00:13",
-      "raw_text": "2026-03-26T00:13 — [2026-03-26 00:13] User directed wiki extraction hardening and operations follow-up. Assistant tightened `wiki/scripts/extraction_poc.py` in two passes: first m",
-      "redacted_text": "2026-03-26T00:13 — [2026-03-26 00:13] User directed wiki extraction hardening and operations follow-up. Assistant tightened `wiki/scripts/extraction_poc.py` in two passes: first m",
+      "timestamp": "2026-03-26T07:40",
+      "raw_text": "2026-03-26T07:40 — PoC for wiki extraction accepted and integrated into the formal pipeline; old extract_history.py wrapper logic and supporting scripts updated accordingly.",
+      "redacted_text": "2026-03-26T07:40 — PoC for wiki extraction accepted and integrated into the formal pipeline; old extract_history.py wrapper logic and supporting scripts updated accordingly.",
       "publishable": true
     },
     {
-      "evidence_id": "ev-groq-005",
+      "evidence_id": "ev-instagram-001",
       "source_id": "history_md",
-      "timestamp": "2026-03-26T07:40",
-      "raw_text": "2026-03-26T07:40 — Wiki extraction PoC accepted and merged into official extraction pipeline; old rule-based logic retired",
-      "redacted_text": "2026-03-26T07:40 — Wiki extraction PoC accepted and merged into official extraction pipeline; old rule-based logic retired",
+      "timestamp": "2026-03-29T20:34",
+      "raw_text": "2026-03-29T20:34 — [2026-03-29 20:34] User asked to start three subagents to summarize three pieces (Thariq/X on Claude Code skills, Mike Krieger video/X thread, and Every article",
+      "redacted_text": "2026-03-29T20:34 — [2026-03-29 20:34] User asked to start three subagents to summarize three pieces (Thariq/X on Claude Code skills, Mike Krieger video/X thread, and Every article",
       "publishable": true
     },
     {
       "evidence_id": "ev-kimi-001",
       "source_id": "history_md",
       "timestamp": "2026-03-26T07:20",
-      "raw_text": "2026-03-26T07:20 — Assistant refined extraction_poc.py to favor only stable entities like places, projects, tools, orgs, and people, cutting abstract nodes.",
-      "redacted_text": "2026-03-26T07:20 — Assistant refined extraction_poc.py to favor only stable entities like places, projects, tools, orgs, and people, cutting abstract nodes.",
+      "raw_text": "2026-03-26T07:20 — Adjusted extraction_poc.py to restrict candidates to stable entities like places, projects, tools, orgs, person, dropping abstract or transient items",
+      "redacted_text": "2026-03-26T07:20 — Adjusted extraction_poc.py to restrict candidates to stable entities like places, projects, tools, orgs, person, dropping abstract or transient items",
       "publishable": true
     },
     {
       "evidence_id": "ev-kimi-002",
       "source_id": "history_md",
       "timestamp": "2026-03-26T07:40",
-      "raw_text": "2026-03-26T07:40 — Wiki extraction PoC accepted and merged into official extraction pipeline; old rule-based logic retired",
-      "redacted_text": "2026-03-26T07:40 — Wiki extraction PoC accepted and merged into official extraction pipeline; old rule-based logic retired",
+      "raw_text": "2026-03-26T07:40 — PoC for wiki extraction accepted and integrated into the formal pipeline; old extract_history.py wrapper logic and supporting scripts updated accordingly.",
+      "redacted_text": "2026-03-26T07:40 — PoC for wiki extraction accepted and integrated into the formal pipeline; old extract_history.py wrapper logic and supporting scripts updated accordingly.",
       "publishable": true
     },
     {
       "evidence_id": "ev-logseq-001",
       "source_id": "history_md",
-      "timestamp": "2026-03-25T10:21",
-      "raw_text": "2026-03-25T10:21 — User requested converting a beginner-friendly Logseq explanation into a DJClaw article for publication",
-      "redacted_text": "2026-03-25T10:21 — User requested converting a beginner-friendly Logseq explanation into a DJClaw article for publication",
+      "timestamp": "2026-03-25T21:20",
+      "raw_text": "2026-03-25T21:20 — Assistant began task B for wiki overhaul by adding key docs, scripts, and rebuilding the local database from new kernel schema.",
+      "redacted_text": "2026-03-25T21:20 — Assistant began task B for wiki overhaul by adding key docs, scripts, and rebuilding the local database from new kernel schema.",
       "publishable": true
     },
     {
       "evidence_id": "ev-logseq-002",
       "source_id": "history_md",
-      "timestamp": "2026-03-25T14:17",
-      "raw_text": "2026-03-25T14:17 — Post 067 titled 'Logseq 入门：Journal、Block、Page 到底是什么' was written and pushed to main",
-      "redacted_text": "2026-03-25T14:17 — Post 067 titled 'Logseq 入门：Journal、Block、Page 到底是什么' was written and pushed to main",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-logseq-003",
-      "source_id": "history_md",
-      "timestamp": "2026-03-25T19:16",
-      "raw_text": "2026-03-25T19:16 — Published 'A Small Digital Garden' to DJClaw despite limited source access and WeChat block",
-      "redacted_text": "2026-03-25T19:16 — Published 'A Small Digital Garden' to DJClaw despite limited source access and WeChat block",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-logseq-004",
-      "source_id": "history_md",
-      "timestamp": "2026-03-25T21:20",
-      "raw_text": "2026-03-25T21:20 — kernel.json regenerated, scripts updated, old entries replaced, new nodes/relations/events schema in place",
-      "redacted_text": "2026-03-25T21:20 — kernel.json regenerated, scripts updated, old entries replaced, new nodes/relations/events schema in place",
+      "timestamp": "2026-03-26T07:48",
+      "raw_text": "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
+      "redacted_text": "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
       "publishable": true
     },
     {
@@ -244,84 +260,113 @@
       "evidence_id": "ev-mixergy-001",
       "source_id": "history_md",
       "timestamp": "2026-03-31T12:51",
-      "raw_text": "2026-03-31T12:51 — Drafted and published DJClaw post 078 about Sahil Lavingia’s book The Minimalist Entrepreneur",
-      "redacted_text": "2026-03-31T12:51 — Drafted and published DJClaw post 078 about Sahil Lavingia’s book The Minimalist Entrepreneur",
+      "raw_text": "2026-03-31T12:51 — DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
+      "redacted_text": "2026-03-31T12:51 — DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
       "publishable": true
     },
     {
       "evidence_id": "ev-nanobanand-001",
       "source_id": "history_md",
       "timestamp": "2026-03-26T10:18",
-      "raw_text": "2026-03-26T10:18 — Rejected two Pillow-based poster attempts; user requests comic/manga-style via nanobanand instead.",
-      "redacted_text": "2026-03-26T10:18 — Rejected two Pillow-based poster attempts; user requests comic/manga-style via nanobanand instead.",
+      "raw_text": "2026-03-26T10:18 — [2026-03-26 10:18] User reviewed DJClaw post 071 replacement image attempts and rejected both Pillow-based cartoon/editorial poster versions as not good-looking",
+      "redacted_text": "2026-03-26T10:18 — [2026-03-26 10:18] User reviewed DJClaw post 071 replacement image attempts and rejected both Pillow-based cartoon/editorial poster versions as not good-looking",
       "publishable": true
     },
     {
       "evidence_id": "ev-nanobot-daily-wiki-scheduler-001",
       "source_id": "history_md",
       "timestamp": "2026-03-26T00:20",
-      "raw_text": "2026-03-26T00:20 — Subagent nanobot-daily-wiki-scheduler activated to explore daily ingestion and GitHub push scheduling options",
-      "redacted_text": "2026-03-26T00:20 — Subagent nanobot-daily-wiki-scheduler activated to explore daily ingestion and GitHub push scheduling options",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-pillow-001",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T10:18",
-      "raw_text": "2026-03-26T10:18 — Rejected two Pillow-based poster attempts; user requests comic/manga-style via nanobanand instead.",
-      "redacted_text": "2026-03-26T10:18 — Rejected two Pillow-based poster attempts; user requests comic/manga-style via nanobanand instead.",
+      "raw_text": "2026-03-26T00:20 — Pipeline produced wiki.db with 98 evidence, 60 nodes, 421 relations, 98 events and 44 generated node pages, then pushed to djclaw/wiki",
+      "redacted_text": "2026-03-26T00:20 — Pipeline produced wiki.db with 98 evidence, 60 nodes, 421 relations, 98 events and 44 generated node pages, then pushed to djclaw/wiki",
       "publishable": true
     },
     {
       "evidence_id": "ev-sahil-lavingia-001",
       "source_id": "history_md",
       "timestamp": "2026-03-31T12:51",
-      "raw_text": "2026-03-31T12:51 — Drafted and published DJClaw post 078 about Sahil Lavingia’s book The Minimalist Entrepreneur",
-      "redacted_text": "2026-03-31T12:51 — Drafted and published DJClaw post 078 about Sahil Lavingia’s book The Minimalist Entrepreneur",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-thariq-001",
-      "source_id": "history_md",
-      "timestamp": "2026-03-29T20:33",
-      "raw_text": "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper ",
-      "redacted_text": "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper ",
+      "raw_text": "2026-03-31T12:51 — DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
+      "redacted_text": "2026-03-31T12:51 — DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
       "publishable": true
     },
     {
       "evidence_id": "ev-wiki-001",
       "source_id": "history_md",
-      "timestamp": "2026-03-25T19:16",
-      "raw_text": "2026-03-25T19:16 — Published 'A Small Digital Garden' to DJClaw despite limited source access and WeChat block",
-      "redacted_text": "2026-03-25T19:16 — Published 'A Small Digital Garden' to DJClaw despite limited source access and WeChat block",
+      "timestamp": "2026-03-26T00:13",
+      "raw_text": "2026-03-26T00:13 — Assistant tightened extraction script and relation filtering, pushed commits to djclaw/wiki and created new script for last‑7‑days history extraction.",
+      "redacted_text": "2026-03-26T00:13 — Assistant tightened extraction script and relation filtering, pushed commits to djclaw/wiki and created new script for last‑7‑days history extraction.",
       "publishable": true
     },
     {
       "evidence_id": "ev-wiki-002",
       "source_id": "history_md",
-      "timestamp": "2026-03-25T21:20",
-      "raw_text": "2026-03-25T21:20 — kernel.json regenerated, scripts updated, old entries replaced, new nodes/relations/events schema in place",
-      "redacted_text": "2026-03-25T21:20 — kernel.json regenerated, scripts updated, old entries replaced, new nodes/relations/events schema in place",
+      "timestamp": "2026-03-26T00:20",
+      "raw_text": "2026-03-26T00:20 — Pipeline produced wiki.db with 98 evidence, 60 nodes, 421 relations, 98 events and 44 generated node pages, then pushed to djclaw/wiki",
+      "redacted_text": "2026-03-26T00:20 — Pipeline produced wiki.db with 98 evidence, 60 nodes, 421 relations, 98 events and 44 generated node pages, then pushed to djclaw/wiki",
       "publishable": true
     },
     {
       "evidence_id": "ev-wiki-003",
       "source_id": "history_md",
-      "timestamp": "2026-03-26T00:13",
-      "raw_text": "2026-03-26T00:13 — [2026-03-26 00:13] User directed wiki extraction hardening and operations follow-up. Assistant tightened `wiki/scripts/extraction_poc.py` in two passes: first m",
-      "redacted_text": "2026-03-26T00:13 — [2026-03-26 00:13] User directed wiki extraction hardening and operations follow-up. Assistant tightened `wiki/scripts/extraction_poc.py` in two passes: first m",
+      "timestamp": "2026-03-26T06:57",
+      "raw_text": "2026-03-26T06:57 — 8e36ebb commit pushed: user-visible wiki materialization, daily automation, .gitignore cleanup, state tracking, scripts, wiki issue updates #7/#9/#10",
+      "redacted_text": "2026-03-26T06:57 — 8e36ebb commit pushed: user-visible wiki materialization, daily automation, .gitignore cleanup, state tracking, scripts, wiki issue updates #7/#9/#10",
       "publishable": true
     },
     {
       "evidence_id": "ev-wiki-004",
       "source_id": "history_md",
       "timestamp": "2026-03-26T07:48",
-      "raw_text": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, tightened filtering, verified results",
-      "redacted_text": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, tightened filtering, verified results",
+      "raw_text": "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
+      "redacted_text": "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
       "publishable": true
     }
   ],
   "nodes": [
+    {
+      "node_id": "airbnb",
+      "node_type": "organization",
+      "title": "Airbnb",
+      "summary": "Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
+      "aliases": [
+        "airbnb"
+      ],
+      "tags": [],
+      "categories": [
+        "Organization"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
+      "node_id": "brave-search",
+      "node_type": "tool",
+      "title": "Brave Search",
+      "summary": "",
+      "aliases": [
+        "brave search"
+      ],
+      "tags": [],
+      "categories": [
+        "Tool"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
+      "node_id": "claude-code",
+      "node_type": "project",
+      "title": "Claude Code",
+      "summary": "",
+      "aliases": [
+        "claude code"
+      ],
+      "tags": [],
+      "categories": [
+        "Project"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
     {
       "node_id": "dan-shipper",
       "node_type": "person",
@@ -341,7 +386,7 @@
       "node_id": "djclaw",
       "node_type": "project",
       "title": "DJClaw",
-      "summary": "User requested converting a beginner-friendly Logseq explanation into a DJClaw article for publication / Post 067 titled 'Logseq 入门：Journal、Block、Page 到底是什么' was written and pushed to main",
+      "summary": "Began drafting new DJClaw article summarizing extraction pipeline progress / User selected Groq as the primary provider for wiki extraction PoC",
       "aliases": [
         "djclaw"
       ],
@@ -353,10 +398,25 @@
       "visibility": "review"
     },
     {
+      "node_id": "duckduckgo",
+      "node_type": "tool",
+      "title": "DuckDuckGo",
+      "summary": "DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
+      "aliases": [
+        "duckduckgo"
+      ],
+      "tags": [],
+      "categories": [
+        "Tool"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
       "node_id": "every",
       "node_type": "organization",
       "title": "Every",
-      "summary": "Retrieved Every article on product difficulty and Every transcript of Mike Krieger conversation",
+      "summary": "",
       "aliases": [
         "every"
       ],
@@ -371,9 +431,24 @@
       "node_id": "gemini-25-flash",
       "node_type": "tool",
       "title": "Gemini 2.5 Flash",
-      "summary": "Moved from design to implementation; user approved 1-week HISTORY samples, assistant created extraction scripts and data files, tuned prompt to reduce noise, and planned parallel tasks including testing Groq / Reverted default model from gemini-2.5-pro to gemini-2.5-flash due to 429 quota errors on free tier, created baseline comparison script and notes",
+      "summary": "Moved from design to implementation; Gemini 2.5 Flash integrated via HTTP; output reduced from 236 nodes to 36 nodes after prompt tightening / Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
       "aliases": [
         "gemini 2.5 flash"
+      ],
+      "tags": [],
+      "categories": [
+        "Tool"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
+      "node_id": "gemini-25-pro",
+      "node_type": "tool",
+      "title": "Gemini 2.5 Pro",
+      "summary": "Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
+      "aliases": [
+        "gemini 2.5 pro"
       ],
       "tags": [],
       "categories": [
@@ -386,7 +461,7 @@
       "node_id": "gemini-pro",
       "node_type": "tool",
       "title": "Gemini Pro",
-      "summary": "Reverted default model from gemini-2.5-pro to gemini-2.5-flash due to 429 quota errors on free tier, created baseline comparison script and notes",
+      "summary": "Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
       "aliases": [
         "gemini pro"
       ],
@@ -401,7 +476,7 @@
       "node_id": "github",
       "node_type": "organization",
       "title": "GitHub",
-      "summary": "Unified extraction path, moved outputs to data/extraction-pipeline/, tightened filtering, verified results",
+      "summary": "Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
       "aliases": [
         "github"
       ],
@@ -416,9 +491,24 @@
       "node_id": "groq",
       "node_type": "organization",
       "title": "Groq",
-      "summary": "Moved from design to implementation; user approved 1-week HISTORY samples, assistant created extraction scripts and data files, tuned prompt to reduce noise, and planned parallel tasks including testing Groq / Reverted default model from gemini-2.5-pro to gemini-2.5-flash due to 429 quota errors on free tier, created baseline comparison script and notes",
+      "summary": "Moved from design to implementation; Gemini 2.5 Flash integrated via HTTP; output reduced from 236 nodes to 36 nodes after prompt tightening / Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
       "aliases": [
         "groq"
+      ],
+      "tags": [],
+      "categories": [
+        "Organization"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
+      "node_id": "instagram",
+      "node_type": "organization",
+      "title": "Instagram",
+      "summary": "",
+      "aliases": [
+        "instagram"
       ],
       "tags": [],
       "categories": [
@@ -431,7 +521,7 @@
       "node_id": "kimi",
       "node_type": "tool",
       "title": "Kimi",
-      "summary": "Assistant refined extraction_poc.py to favor only stable entities like places, projects, tools, orgs, and people, cutting abstract nodes. / Wiki extraction PoC accepted and merged into official extraction pipeline; old rule-based logic retired",
+      "summary": "Adjusted extraction_poc.py to restrict candidates to stable entities like places, projects, tools, orgs, person, dropping abstract or transient items / PoC for wiki extraction accepted and integrated into the formal pipeline; old extract_history.py wrapper logic and supporting scripts updated accordingly.",
       "aliases": [
         "kimi"
       ],
@@ -446,7 +536,7 @@
       "node_id": "logseq",
       "node_type": "tool",
       "title": "Logseq",
-      "summary": "User requested converting a beginner-friendly Logseq explanation into a DJClaw article for publication / Post 067 titled 'Logseq 入门：Journal、Block、Page 到底是什么' was written and pushed to main",
+      "summary": "Assistant began task B for wiki overhaul by adding key docs, scripts, and rebuilding the local database from new kernel schema. / Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
       "aliases": [
         "logseq"
       ],
@@ -476,7 +566,7 @@
       "node_id": "mixergy",
       "node_type": "organization",
       "title": "Mixergy",
-      "summary": "Drafted and published DJClaw post 078 about Sahil Lavingia’s book The Minimalist Entrepreneur",
+      "summary": "DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
       "aliases": [
         "mixergy"
       ],
@@ -491,7 +581,7 @@
       "node_id": "nanobanand",
       "node_type": "tool",
       "title": "nanobanand",
-      "summary": "Rejected two Pillow-based poster attempts; user requests comic/manga-style via nanobanand instead.",
+      "summary": "",
       "aliases": [
         "nanobanand"
       ],
@@ -506,7 +596,7 @@
       "node_id": "nanobot-daily-wiki-scheduler",
       "node_type": "project",
       "title": "nanobot-daily-wiki-scheduler",
-      "summary": "Subagent nanobot-daily-wiki-scheduler activated to explore daily ingestion and GitHub push scheduling options",
+      "summary": "Pipeline produced wiki.db with 98 evidence, 60 nodes, 421 relations, 98 events and 44 generated node pages, then pushed to djclaw/wiki",
       "aliases": [
         "nanobot-daily-wiki-scheduler"
       ],
@@ -518,42 +608,12 @@
       "visibility": "review"
     },
     {
-      "node_id": "pillow",
-      "node_type": "tool",
-      "title": "Pillow",
-      "summary": "Rejected two Pillow-based poster attempts; user requests comic/manga-style via nanobanand instead.",
-      "aliases": [
-        "pillow"
-      ],
-      "tags": [],
-      "categories": [
-        "Tool"
-      ],
-      "status": "candidate",
-      "visibility": "review"
-    },
-    {
       "node_id": "sahil-lavingia",
       "node_type": "person",
       "title": "Sahil Lavingia",
-      "summary": "Drafted and published DJClaw post 078 about Sahil Lavingia’s book The Minimalist Entrepreneur",
+      "summary": "DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
       "aliases": [
         "sahil lavingia"
-      ],
-      "tags": [],
-      "categories": [
-        "Person"
-      ],
-      "status": "candidate",
-      "visibility": "review"
-    },
-    {
-      "node_id": "thariq",
-      "node_type": "person",
-      "title": "Thariq",
-      "summary": "",
-      "aliases": [
-        "thariq"
       ],
       "tags": [],
       "categories": [
@@ -566,7 +626,7 @@
       "node_id": "wiki",
       "node_type": "project",
       "title": "wiki",
-      "summary": "Published 'A Small Digital Garden' to DJClaw despite limited source access and WeChat block / kernel.json regenerated, scripts updated, old entries replaced, new nodes/relations/events schema in place",
+      "summary": "Assistant tightened extraction script and relation filtering, pushed commits to djclaw/wiki and created new script for last‑7‑days history extraction. / Pipeline produced wiki.db with 98 evidence, 60 nodes, 421 relations, 98 events and 44 generated node pages, then pushed to djclaw/wiki",
       "aliases": [
         "wiki"
       ],
@@ -580,9 +640,81 @@
   ],
   "relations": [
     {
-      "relation_id": "rel-dan-shipper-every-related",
-      "from_node": "dan-shipper",
+      "relation_id": "rel-airbnb-djclaw-related",
+      "from_node": "airbnb",
+      "to_node": "djclaw",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-airbnb-github-related",
+      "from_node": "airbnb",
+      "to_node": "github",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-airbnb-logseq-related",
+      "from_node": "airbnb",
+      "to_node": "logseq",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-airbnb-wiki-related",
+      "from_node": "airbnb",
+      "to_node": "wiki",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-brave-search-every-related",
+      "from_node": "brave-search",
       "to_node": "every",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-brave-search-instagram-related",
+      "from_node": "brave-search",
+      "to_node": "instagram",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-claude-code-dan-shipper-related",
+      "from_node": "claude-code",
+      "to_node": "dan-shipper",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-claude-code-mike-krieger-related",
+      "from_node": "claude-code",
+      "to_node": "mike-krieger",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-dan-shipper-claude-code-related",
+      "from_node": "dan-shipper",
+      "to_node": "claude-code",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -598,27 +730,27 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-dan-shipper-thariq-related",
-      "from_node": "dan-shipper",
-      "to_node": "thariq",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-djclaw-logseq-related",
-      "from_node": "djclaw",
-      "to_node": "logseq",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
       "relation_id": "rel-djclaw-wiki-related",
       "from_node": "djclaw",
       "to_node": "wiki",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-djclaw-airbnb-related",
+      "from_node": "djclaw",
+      "to_node": "airbnb",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-djclaw-duckduckgo-related",
+      "from_node": "djclaw",
+      "to_node": "duckduckgo",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -643,6 +775,24 @@
       "status": "candidate"
     },
     {
+      "relation_id": "rel-djclaw-kimi-related",
+      "from_node": "djclaw",
+      "to_node": "kimi",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-djclaw-logseq-related",
+      "from_node": "djclaw",
+      "to_node": "logseq",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
       "relation_id": "rel-djclaw-mixergy-related",
       "from_node": "djclaw",
       "to_node": "mixergy",
@@ -652,26 +802,26 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-djclaw-nanobanand-related",
-      "from_node": "djclaw",
-      "to_node": "nanobanand",
+      "relation_id": "rel-duckduckgo-djclaw-related",
+      "from_node": "duckduckgo",
+      "to_node": "djclaw",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-djclaw-pillow-related",
-      "from_node": "djclaw",
-      "to_node": "pillow",
+      "relation_id": "rel-duckduckgo-mixergy-related",
+      "from_node": "duckduckgo",
+      "to_node": "mixergy",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-djclaw-sahil-lavingia-related",
-      "from_node": "djclaw",
+      "relation_id": "rel-duckduckgo-sahil-lavingia-related",
+      "from_node": "duckduckgo",
       "to_node": "sahil-lavingia",
       "relation_type": "related_to",
       "weight": 1,
@@ -679,27 +829,18 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-every-dan-shipper-related",
+      "relation_id": "rel-every-brave-search-related",
       "from_node": "every",
-      "to_node": "dan-shipper",
+      "to_node": "brave-search",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-every-mike-krieger-related",
+      "relation_id": "rel-every-instagram-related",
       "from_node": "every",
-      "to_node": "mike-krieger",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-every-thariq-related",
-      "from_node": "every",
-      "to_node": "thariq",
+      "to_node": "instagram",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -715,9 +856,45 @@
       "status": "candidate"
     },
     {
+      "relation_id": "rel-gemini-25-flash-gemini-25-pro-related",
+      "from_node": "gemini-25-flash",
+      "to_node": "gemini-25-pro",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
       "relation_id": "rel-gemini-25-flash-gemini-pro-related",
       "from_node": "gemini-25-flash",
       "to_node": "gemini-pro",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-gemini-25-pro-gemini-25-flash-related",
+      "from_node": "gemini-25-pro",
+      "to_node": "gemini-25-flash",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-gemini-25-pro-gemini-pro-related",
+      "from_node": "gemini-25-pro",
+      "to_node": "gemini-pro",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-gemini-25-pro-groq-related",
+      "from_node": "gemini-25-pro",
+      "to_node": "groq",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -733,6 +910,15 @@
       "status": "candidate"
     },
     {
+      "relation_id": "rel-gemini-pro-gemini-25-pro-related",
+      "from_node": "gemini-pro",
+      "to_node": "gemini-25-pro",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
       "relation_id": "rel-gemini-pro-groq-related",
       "from_node": "gemini-pro",
       "to_node": "groq",
@@ -742,9 +928,27 @@
       "status": "candidate"
     },
     {
+      "relation_id": "rel-github-airbnb-related",
+      "from_node": "github",
+      "to_node": "airbnb",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
       "relation_id": "rel-github-djclaw-related",
       "from_node": "github",
       "to_node": "djclaw",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-github-logseq-related",
+      "from_node": "github",
+      "to_node": "logseq",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -778,6 +982,15 @@
       "status": "candidate"
     },
     {
+      "relation_id": "rel-groq-gemini-25-pro-related",
+      "from_node": "groq",
+      "to_node": "gemini-25-pro",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
       "relation_id": "rel-groq-gemini-pro-related",
       "from_node": "groq",
       "to_node": "gemini-pro",
@@ -796,9 +1009,27 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-groq-wiki-related",
-      "from_node": "groq",
-      "to_node": "wiki",
+      "relation_id": "rel-instagram-brave-search-related",
+      "from_node": "instagram",
+      "to_node": "brave-search",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-instagram-every-related",
+      "from_node": "instagram",
+      "to_node": "every",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-kimi-djclaw-related",
+      "from_node": "kimi",
+      "to_node": "djclaw",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -814,9 +1045,27 @@
       "status": "candidate"
     },
     {
+      "relation_id": "rel-logseq-airbnb-related",
+      "from_node": "logseq",
+      "to_node": "airbnb",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
       "relation_id": "rel-logseq-djclaw-related",
       "from_node": "logseq",
       "to_node": "djclaw",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-logseq-github-related",
+      "from_node": "logseq",
+      "to_node": "github",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -832,27 +1081,18 @@
       "status": "candidate"
     },
     {
+      "relation_id": "rel-mike-krieger-claude-code-related",
+      "from_node": "mike-krieger",
+      "to_node": "claude-code",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
       "relation_id": "rel-mike-krieger-dan-shipper-related",
       "from_node": "mike-krieger",
       "to_node": "dan-shipper",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-mike-krieger-every-related",
-      "from_node": "mike-krieger",
-      "to_node": "every",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-mike-krieger-thariq-related",
-      "from_node": "mike-krieger",
-      "to_node": "thariq",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -868,6 +1108,15 @@
       "status": "candidate"
     },
     {
+      "relation_id": "rel-mixergy-duckduckgo-related",
+      "from_node": "mixergy",
+      "to_node": "duckduckgo",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
       "relation_id": "rel-mixergy-sahil-lavingia-related",
       "from_node": "mixergy",
       "to_node": "sahil-lavingia",
@@ -877,36 +1126,9 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-nanobanand-djclaw-related",
-      "from_node": "nanobanand",
-      "to_node": "djclaw",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-nanobanand-pillow-related",
-      "from_node": "nanobanand",
-      "to_node": "pillow",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-pillow-djclaw-related",
-      "from_node": "pillow",
-      "to_node": "djclaw",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-pillow-nanobanand-related",
-      "from_node": "pillow",
-      "to_node": "nanobanand",
+      "relation_id": "rel-nanobot-daily-wiki-scheduler-wiki-related",
+      "from_node": "nanobot-daily-wiki-scheduler",
+      "to_node": "wiki",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -922,36 +1144,18 @@
       "status": "candidate"
     },
     {
+      "relation_id": "rel-sahil-lavingia-duckduckgo-related",
+      "from_node": "sahil-lavingia",
+      "to_node": "duckduckgo",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
       "relation_id": "rel-sahil-lavingia-mixergy-related",
       "from_node": "sahil-lavingia",
       "to_node": "mixergy",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-thariq-dan-shipper-related",
-      "from_node": "thariq",
-      "to_node": "dan-shipper",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-thariq-every-related",
-      "from_node": "thariq",
-      "to_node": "every",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-thariq-mike-krieger-related",
-      "from_node": "thariq",
-      "to_node": "mike-krieger",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -967,9 +1171,9 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-wiki-logseq-related",
+      "relation_id": "rel-wiki-airbnb-related",
       "from_node": "wiki",
-      "to_node": "logseq",
+      "to_node": "airbnb",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -985,9 +1189,18 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-wiki-groq-related",
+      "relation_id": "rel-wiki-logseq-related",
       "from_node": "wiki",
-      "to_node": "groq",
+      "to_node": "logseq",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-wiki-nanobot-daily-wiki-scheduler-related",
+      "from_node": "wiki",
+      "to_node": "nanobot-daily-wiki-scheduler",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -995,6 +1208,36 @@
     }
   ],
   "events": [
+    {
+      "event_id": "event-airbnb-001",
+      "timestamp": "2026-03-26T07:48",
+      "summary": "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
+      "node_ids": [
+        "airbnb"
+      ],
+      "evidence_id": "ev-airbnb-001",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-brave-search-001",
+      "timestamp": "2026-03-29T20:34",
+      "summary": "2026-03-29T20:34 — [2026-03-29 20:34] User asked to start three subagents to summarize three pieces (Thariq/X on Claude Code skills, Mike Krieger video/X thread, and Every article",
+      "node_ids": [
+        "brave-search"
+      ],
+      "evidence_id": "ev-brave-search-001",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-claude-code-001",
+      "timestamp": "2026-03-29T20:33",
+      "summary": "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper ",
+      "node_ids": [
+        "claude-code"
+      ],
+      "evidence_id": "ev-claude-code-001",
+      "source_id": "history_md"
+    },
     {
       "event_id": "event-dan-shipper-001",
       "timestamp": "2026-03-29T20:33",
@@ -1007,8 +1250,8 @@
     },
     {
       "event_id": "event-djclaw-001",
-      "timestamp": "2026-03-25T10:21",
-      "summary": "2026-03-25T10:21 — User requested converting a beginner-friendly Logseq explanation into a DJClaw article for publication",
+      "timestamp": "2026-03-25T21:35",
+      "summary": "2026-03-25T21:35 — Began drafting new DJClaw article summarizing extraction pipeline progress",
       "node_ids": [
         "djclaw"
       ],
@@ -1017,8 +1260,8 @@
     },
     {
       "event_id": "event-djclaw-002",
-      "timestamp": "2026-03-25T14:17",
-      "summary": "2026-03-25T14:17 — Post 067 titled 'Logseq 入门：Journal、Block、Page 到底是什么' was written and pushed to main",
+      "timestamp": "2026-03-26T00:03",
+      "summary": "2026-03-26T00:03 — User selected Groq as the primary provider for wiki extraction PoC",
       "node_ids": [
         "djclaw"
       ],
@@ -1027,8 +1270,8 @@
     },
     {
       "event_id": "event-djclaw-003",
-      "timestamp": "2026-03-25T19:16",
-      "summary": "2026-03-25T19:16 — Published 'A Small Digital Garden' to DJClaw despite limited source access and WeChat block",
+      "timestamp": "2026-03-26T06:57",
+      "summary": "2026-03-26T06:57 — 8e36ebb commit pushed: user-visible wiki materialization, daily automation, .gitignore cleanup, state tracking, scripts, wiki issue updates #7/#9/#10",
       "node_ids": [
         "djclaw"
       ],
@@ -1037,8 +1280,8 @@
     },
     {
       "event_id": "event-djclaw-004",
-      "timestamp": "2026-03-25T21:35",
-      "summary": "2026-03-25T21:35 — Wiki extraction kernel milestone reached; external tool research identified Instructor, LlamaIndex, GraphRAG for future extraction strategy",
+      "timestamp": "2026-03-26T07:20",
+      "summary": "2026-03-26T07:20 — Adjusted extraction_poc.py to restrict candidates to stable entities like places, projects, tools, orgs, person, dropping abstract or transient items",
       "node_ids": [
         "djclaw"
       ],
@@ -1047,8 +1290,8 @@
     },
     {
       "event_id": "event-djclaw-005",
-      "timestamp": "2026-03-26T00:03",
-      "summary": "2026-03-26T00:03 — User selected Groq as the main extraction provider for the wiki pipeline PoC.",
+      "timestamp": "2026-03-26T07:48",
+      "summary": "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
       "node_ids": [
         "djclaw"
       ],
@@ -1057,8 +1300,8 @@
     },
     {
       "event_id": "event-djclaw-006",
-      "timestamp": "2026-03-26T00:29",
-      "summary": "2026-03-26T00:29 — Post 071 on wiki layers published with cleaned assets",
+      "timestamp": "2026-03-29T20:44",
+      "summary": "2026-03-29T20:44 — User approved two new DJClaw article titles and requested added notes explaining title choice before publication.",
       "node_ids": [
         "djclaw"
       ],
@@ -1067,8 +1310,8 @@
     },
     {
       "event_id": "event-djclaw-007",
-      "timestamp": "2026-03-26T06:57",
-      "summary": "2026-03-26T06:57 — Changes including .gitignore cleanup, tracked state files, daily incremental script, and issue updates for wiki issues #7, #9, and #10 were committed and pushed as 8e36ebb.",
+      "timestamp": "2026-03-30T14:41",
+      "summary": "2026-03-30T14:41 — Published quiet Saint Peter note and later added Chinese audio via online TTS",
       "node_ids": [
         "djclaw"
       ],
@@ -1077,8 +1320,8 @@
     },
     {
       "event_id": "event-djclaw-008",
-      "timestamp": "2026-03-26T07:48",
-      "summary": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, tightened filtering, verified results",
+      "timestamp": "2026-03-31T12:51",
+      "summary": "2026-03-31T12:51 — DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
       "node_ids": [
         "djclaw"
       ],
@@ -1087,8 +1330,8 @@
     },
     {
       "event_id": "event-djclaw-009",
-      "timestamp": "2026-03-26T10:18",
-      "summary": "2026-03-26T10:18 — Rejected two Pillow-based poster attempts; user requests comic/manga-style via nanobanand instead.",
+      "timestamp": "2026-04-01T00:21",
+      "summary": "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as",
       "node_ids": [
         "djclaw"
       ],
@@ -1097,8 +1340,8 @@
     },
     {
       "event_id": "event-djclaw-010",
-      "timestamp": "2026-03-26T11:14",
-      "summary": "2026-03-26T11:14 — User selected version B (editorial newsroom comic) for DJClaw post 071 and instructed to publish only that variant.",
+      "timestamp": "2026-04-01T19:33",
+      "summary": "2026-04-01T19:33 — Started a new djclaw article on knee-protection advice",
       "node_ids": [
         "djclaw"
       ],
@@ -1106,9 +1349,19 @@
       "source_id": "history_md"
     },
     {
+      "event_id": "event-duckduckgo-001",
+      "timestamp": "2026-03-31T12:51",
+      "summary": "2026-03-31T12:51 — DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
+      "node_ids": [
+        "duckduckgo"
+      ],
+      "evidence_id": "ev-duckduckgo-001",
+      "source_id": "history_md"
+    },
+    {
       "event_id": "event-every-001",
-      "timestamp": "2026-03-29T20:33",
-      "summary": "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper ",
+      "timestamp": "2026-03-29T20:34",
+      "summary": "2026-03-29T20:34 — [2026-03-29 20:34] User asked to start three subagents to summarize three pieces (Thariq/X on Claude Code skills, Mike Krieger video/X thread, and Every article",
       "node_ids": [
         "every"
       ],
@@ -1116,19 +1369,9 @@
       "source_id": "history_md"
     },
     {
-      "event_id": "event-every-002",
-      "timestamp": "2026-03-29T20:34",
-      "summary": "2026-03-29T20:34 — Retrieved Every article on product difficulty and Every transcript of Mike Krieger conversation",
-      "node_ids": [
-        "every"
-      ],
-      "evidence_id": "ev-every-002",
-      "source_id": "history_md"
-    },
-    {
       "event_id": "event-gemini-25-flash-001",
       "timestamp": "2026-03-25T23:13",
-      "summary": "2026-03-25T23:13 — Moved from design to implementation; user approved 1-week HISTORY samples, assistant created extraction scripts and data files, tuned prompt to reduce noise, and planned parallel tasks including testing Groq",
+      "summary": "2026-03-25T23:13 — Moved from design to implementation; Gemini 2.5 Flash integrated via HTTP; output reduced from 236 nodes to 36 nodes after prompt tightening",
       "node_ids": [
         "gemini-25-flash"
       ],
@@ -1138,7 +1381,7 @@
     {
       "event_id": "event-gemini-25-flash-002",
       "timestamp": "2026-03-25T23:22",
-      "summary": "2026-03-25T23:22 — Reverted default model from gemini-2.5-pro to gemini-2.5-flash due to 429 quota errors on free tier, created baseline comparison script and notes",
+      "summary": "2026-03-25T23:22 — Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
       "node_ids": [
         "gemini-25-flash"
       ],
@@ -1146,9 +1389,19 @@
       "source_id": "history_md"
     },
     {
+      "event_id": "event-gemini-25-pro-001",
+      "timestamp": "2026-03-25T23:22",
+      "summary": "2026-03-25T23:22 — Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
+      "node_ids": [
+        "gemini-25-pro"
+      ],
+      "evidence_id": "ev-gemini-25-pro-001",
+      "source_id": "history_md"
+    },
+    {
       "event_id": "event-gemini-pro-001",
       "timestamp": "2026-03-25T23:22",
-      "summary": "2026-03-25T23:22 — Reverted default model from gemini-2.5-pro to gemini-2.5-flash due to 429 quota errors on free tier, created baseline comparison script and notes",
+      "summary": "2026-03-25T23:22 — Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
       "node_ids": [
         "gemini-pro"
       ],
@@ -1158,7 +1411,7 @@
     {
       "event_id": "event-github-001",
       "timestamp": "2026-03-26T07:48",
-      "summary": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, tightened filtering, verified results",
+      "summary": "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
       "node_ids": [
         "github"
       ],
@@ -1168,7 +1421,7 @@
     {
       "event_id": "event-groq-001",
       "timestamp": "2026-03-25T23:13",
-      "summary": "2026-03-25T23:13 — Moved from design to implementation; user approved 1-week HISTORY samples, assistant created extraction scripts and data files, tuned prompt to reduce noise, and planned parallel tasks including testing Groq",
+      "summary": "2026-03-25T23:13 — Moved from design to implementation; Gemini 2.5 Flash integrated via HTTP; output reduced from 236 nodes to 36 nodes after prompt tightening",
       "node_ids": [
         "groq"
       ],
@@ -1178,7 +1431,7 @@
     {
       "event_id": "event-groq-002",
       "timestamp": "2026-03-25T23:22",
-      "summary": "2026-03-25T23:22 — Reverted default model from gemini-2.5-pro to gemini-2.5-flash due to 429 quota errors on free tier, created baseline comparison script and notes",
+      "summary": "2026-03-25T23:22 — Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
       "node_ids": [
         "groq"
       ],
@@ -1188,7 +1441,7 @@
     {
       "event_id": "event-groq-003",
       "timestamp": "2026-03-26T00:03",
-      "summary": "2026-03-26T00:03 — User selected Groq as the main extraction provider for the wiki pipeline PoC.",
+      "summary": "2026-03-26T00:03 — User selected Groq as the primary provider for wiki extraction PoC",
       "node_ids": [
         "groq"
       ],
@@ -1197,8 +1450,8 @@
     },
     {
       "event_id": "event-groq-004",
-      "timestamp": "2026-03-26T00:13",
-      "summary": "2026-03-26T00:13 — [2026-03-26 00:13] User directed wiki extraction hardening and operations follow-up. Assistant tightened `wiki/scripts/extraction_poc.py` in two passes: first m",
+      "timestamp": "2026-03-26T07:40",
+      "summary": "2026-03-26T07:40 — PoC for wiki extraction accepted and integrated into the formal pipeline; old extract_history.py wrapper logic and supporting scripts updated accordingly.",
       "node_ids": [
         "groq"
       ],
@@ -1206,19 +1459,19 @@
       "source_id": "history_md"
     },
     {
-      "event_id": "event-groq-005",
-      "timestamp": "2026-03-26T07:40",
-      "summary": "2026-03-26T07:40 — Wiki extraction PoC accepted and merged into official extraction pipeline; old rule-based logic retired",
+      "event_id": "event-instagram-001",
+      "timestamp": "2026-03-29T20:34",
+      "summary": "2026-03-29T20:34 — [2026-03-29 20:34] User asked to start three subagents to summarize three pieces (Thariq/X on Claude Code skills, Mike Krieger video/X thread, and Every article",
       "node_ids": [
-        "groq"
+        "instagram"
       ],
-      "evidence_id": "ev-groq-005",
+      "evidence_id": "ev-instagram-001",
       "source_id": "history_md"
     },
     {
       "event_id": "event-kimi-001",
       "timestamp": "2026-03-26T07:20",
-      "summary": "2026-03-26T07:20 — Assistant refined extraction_poc.py to favor only stable entities like places, projects, tools, orgs, and people, cutting abstract nodes.",
+      "summary": "2026-03-26T07:20 — Adjusted extraction_poc.py to restrict candidates to stable entities like places, projects, tools, orgs, person, dropping abstract or transient items",
       "node_ids": [
         "kimi"
       ],
@@ -1228,7 +1481,7 @@
     {
       "event_id": "event-kimi-002",
       "timestamp": "2026-03-26T07:40",
-      "summary": "2026-03-26T07:40 — Wiki extraction PoC accepted and merged into official extraction pipeline; old rule-based logic retired",
+      "summary": "2026-03-26T07:40 — PoC for wiki extraction accepted and integrated into the formal pipeline; old extract_history.py wrapper logic and supporting scripts updated accordingly.",
       "node_ids": [
         "kimi"
       ],
@@ -1237,8 +1490,8 @@
     },
     {
       "event_id": "event-logseq-001",
-      "timestamp": "2026-03-25T10:21",
-      "summary": "2026-03-25T10:21 — User requested converting a beginner-friendly Logseq explanation into a DJClaw article for publication",
+      "timestamp": "2026-03-25T21:20",
+      "summary": "2026-03-25T21:20 — Assistant began task B for wiki overhaul by adding key docs, scripts, and rebuilding the local database from new kernel schema.",
       "node_ids": [
         "logseq"
       ],
@@ -1247,32 +1500,12 @@
     },
     {
       "event_id": "event-logseq-002",
-      "timestamp": "2026-03-25T14:17",
-      "summary": "2026-03-25T14:17 — Post 067 titled 'Logseq 入门：Journal、Block、Page 到底是什么' was written and pushed to main",
+      "timestamp": "2026-03-26T07:48",
+      "summary": "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
       "node_ids": [
         "logseq"
       ],
       "evidence_id": "ev-logseq-002",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-logseq-003",
-      "timestamp": "2026-03-25T19:16",
-      "summary": "2026-03-25T19:16 — Published 'A Small Digital Garden' to DJClaw despite limited source access and WeChat block",
-      "node_ids": [
-        "logseq"
-      ],
-      "evidence_id": "ev-logseq-003",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-logseq-004",
-      "timestamp": "2026-03-25T21:20",
-      "summary": "2026-03-25T21:20 — kernel.json regenerated, scripts updated, old entries replaced, new nodes/relations/events schema in place",
-      "node_ids": [
-        "logseq"
-      ],
-      "evidence_id": "ev-logseq-004",
       "source_id": "history_md"
     },
     {
@@ -1288,7 +1521,7 @@
     {
       "event_id": "event-mixergy-001",
       "timestamp": "2026-03-31T12:51",
-      "summary": "2026-03-31T12:51 — Drafted and published DJClaw post 078 about Sahil Lavingia’s book The Minimalist Entrepreneur",
+      "summary": "2026-03-31T12:51 — DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
       "node_ids": [
         "mixergy"
       ],
@@ -1298,7 +1531,7 @@
     {
       "event_id": "event-nanobanand-001",
       "timestamp": "2026-03-26T10:18",
-      "summary": "2026-03-26T10:18 — Rejected two Pillow-based poster attempts; user requests comic/manga-style via nanobanand instead.",
+      "summary": "2026-03-26T10:18 — [2026-03-26 10:18] User reviewed DJClaw post 071 replacement image attempts and rejected both Pillow-based cartoon/editorial poster versions as not good-looking",
       "node_ids": [
         "nanobanand"
       ],
@@ -1308,7 +1541,7 @@
     {
       "event_id": "event-nanobot-daily-wiki-scheduler-001",
       "timestamp": "2026-03-26T00:20",
-      "summary": "2026-03-26T00:20 — Subagent nanobot-daily-wiki-scheduler activated to explore daily ingestion and GitHub push scheduling options",
+      "summary": "2026-03-26T00:20 — Pipeline produced wiki.db with 98 evidence, 60 nodes, 421 relations, 98 events and 44 generated node pages, then pushed to djclaw/wiki",
       "node_ids": [
         "nanobot-daily-wiki-scheduler"
       ],
@@ -1316,19 +1549,9 @@
       "source_id": "history_md"
     },
     {
-      "event_id": "event-pillow-001",
-      "timestamp": "2026-03-26T10:18",
-      "summary": "2026-03-26T10:18 — Rejected two Pillow-based poster attempts; user requests comic/manga-style via nanobanand instead.",
-      "node_ids": [
-        "pillow"
-      ],
-      "evidence_id": "ev-pillow-001",
-      "source_id": "history_md"
-    },
-    {
       "event_id": "event-sahil-lavingia-001",
       "timestamp": "2026-03-31T12:51",
-      "summary": "2026-03-31T12:51 — Drafted and published DJClaw post 078 about Sahil Lavingia’s book The Minimalist Entrepreneur",
+      "summary": "2026-03-31T12:51 — DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
       "node_ids": [
         "sahil-lavingia"
       ],
@@ -1336,19 +1559,9 @@
       "source_id": "history_md"
     },
     {
-      "event_id": "event-thariq-001",
-      "timestamp": "2026-03-29T20:33",
-      "summary": "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper ",
-      "node_ids": [
-        "thariq"
-      ],
-      "evidence_id": "ev-thariq-001",
-      "source_id": "history_md"
-    },
-    {
       "event_id": "event-wiki-001",
-      "timestamp": "2026-03-25T19:16",
-      "summary": "2026-03-25T19:16 — Published 'A Small Digital Garden' to DJClaw despite limited source access and WeChat block",
+      "timestamp": "2026-03-26T00:13",
+      "summary": "2026-03-26T00:13 — Assistant tightened extraction script and relation filtering, pushed commits to djclaw/wiki and created new script for last‑7‑days history extraction.",
       "node_ids": [
         "wiki"
       ],
@@ -1357,8 +1570,8 @@
     },
     {
       "event_id": "event-wiki-002",
-      "timestamp": "2026-03-25T21:20",
-      "summary": "2026-03-25T21:20 — kernel.json regenerated, scripts updated, old entries replaced, new nodes/relations/events schema in place",
+      "timestamp": "2026-03-26T00:20",
+      "summary": "2026-03-26T00:20 — Pipeline produced wiki.db with 98 evidence, 60 nodes, 421 relations, 98 events and 44 generated node pages, then pushed to djclaw/wiki",
       "node_ids": [
         "wiki"
       ],
@@ -1367,8 +1580,8 @@
     },
     {
       "event_id": "event-wiki-003",
-      "timestamp": "2026-03-26T00:13",
-      "summary": "2026-03-26T00:13 — [2026-03-26 00:13] User directed wiki extraction hardening and operations follow-up. Assistant tightened `wiki/scripts/extraction_poc.py` in two passes: first m",
+      "timestamp": "2026-03-26T06:57",
+      "summary": "2026-03-26T06:57 — 8e36ebb commit pushed: user-visible wiki materialization, daily automation, .gitignore cleanup, state tracking, scripts, wiki issue updates #7/#9/#10",
       "node_ids": [
         "wiki"
       ],
@@ -1378,7 +1591,7 @@
     {
       "event_id": "event-wiki-004",
       "timestamp": "2026-03-26T07:48",
-      "summary": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, tightened filtering, verified results",
+      "summary": "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
       "node_ids": [
         "wiki"
       ],

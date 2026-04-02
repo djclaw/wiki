@@ -1,5 +1,67 @@
 [
   {
+    "title": "Airbnb",
+    "summary": "Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
+    "timeline": [
+      "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki."
+    ],
+    "tags": [],
+    "categories": [
+      "Organization"
+    ],
+    "aliases": [
+      "airbnb"
+    ],
+    "related": [
+      "DJClaw",
+      "GitHub",
+      "Logseq",
+      "wiki"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "Brave Search",
+    "summary": "",
+    "timeline": [
+      "2026-03-29T20:34 — [2026-03-29 20:34] User asked to start three subagents to summarize three pieces (Thariq/X on Claude Code skills, Mike Krieger video/X thread, and Every article"
+    ],
+    "tags": [],
+    "categories": [
+      "Tool"
+    ],
+    "aliases": [
+      "brave search"
+    ],
+    "related": [
+      "Every",
+      "Instagram"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "Claude Code",
+    "summary": "",
+    "timeline": [
+      "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper "
+    ],
+    "tags": [],
+    "categories": [
+      "Project"
+    ],
+    "aliases": [
+      "claude code"
+    ],
+    "related": [
+      "Dan Shipper",
+      "Mike Krieger"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
     "title": "Dan Shipper",
     "summary": "",
     "timeline": [
@@ -13,27 +75,26 @@
       "dan shipper"
     ],
     "related": [
-      "Every",
-      "Mike Krieger",
-      "Thariq"
+      "Claude Code",
+      "Mike Krieger"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "DJClaw",
-    "summary": "User requested converting a beginner-friendly Logseq explanation into a DJClaw article for publication / Post 067 titled 'Logseq 入门：Journal、Block、Page 到底是什么' was written and pushed to main",
+    "summary": "Began drafting new DJClaw article summarizing extraction pipeline progress / User selected Groq as the primary provider for wiki extraction PoC",
     "timeline": [
-      "2026-03-25T10:21 — User requested converting a beginner-friendly Logseq explanation into a DJClaw article for publication",
-      "2026-03-25T14:17 — Post 067 titled 'Logseq 入门：Journal、Block、Page 到底是什么' was written and pushed to main",
-      "2026-03-25T19:16 — Published 'A Small Digital Garden' to DJClaw despite limited source access and WeChat block",
-      "2026-03-25T21:35 — Wiki extraction kernel milestone reached; external tool research identified Instructor, LlamaIndex, GraphRAG for future extraction strategy",
-      "2026-03-26T00:03 — User selected Groq as the main extraction provider for the wiki pipeline PoC.",
-      "2026-03-26T00:29 — Post 071 on wiki layers published with cleaned assets",
-      "2026-03-26T06:57 — Changes including .gitignore cleanup, tracked state files, daily incremental script, and issue updates for wiki issues #7, #9, and #10 were committed and pushed as 8e36ebb.",
-      "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, tightened filtering, verified results",
-      "2026-03-26T10:18 — Rejected two Pillow-based poster attempts; user requests comic/manga-style via nanobanand instead.",
-      "2026-03-26T11:14 — User selected version B (editorial newsroom comic) for DJClaw post 071 and instructed to publish only that variant."
+      "2026-03-25T21:35 — Began drafting new DJClaw article summarizing extraction pipeline progress",
+      "2026-03-26T00:03 — User selected Groq as the primary provider for wiki extraction PoC",
+      "2026-03-26T06:57 — 8e36ebb commit pushed: user-visible wiki materialization, daily automation, .gitignore cleanup, state tracking, scripts, wiki issue updates #7/#9/#10",
+      "2026-03-26T07:20 — Adjusted extraction_poc.py to restrict candidates to stable entities like places, projects, tools, orgs, person, dropping abstract or transient items",
+      "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
+      "2026-03-29T20:44 — User approved two new DJClaw article titles and requested added notes explaining title choice before publication.",
+      "2026-03-30T14:41 — Published quiet Saint Peter note and later added Chinese audio via online TTS",
+      "2026-03-31T12:51 — DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
+      "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as",
+      "2026-04-01T19:33 — Started a new djclaw article on knee-protection advice"
     ],
     "tags": [],
     "categories": [
@@ -43,13 +104,34 @@
       "djclaw"
     ],
     "related": [
-      "Logseq",
       "wiki",
+      "Airbnb",
+      "DuckDuckGo",
       "GitHub",
       "Groq",
+      "Kimi",
+      "Logseq",
+      "Mixergy"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "DuckDuckGo",
+    "summary": "DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
+    "timeline": [
+      "2026-03-31T12:51 — DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview"
+    ],
+    "tags": [],
+    "categories": [
+      "Tool"
+    ],
+    "aliases": [
+      "duckduckgo"
+    ],
+    "related": [
+      "DJClaw",
       "Mixergy",
-      "nanobanand",
-      "Pillow",
       "Sahil Lavingia"
     ],
     "source": "history",
@@ -57,10 +139,9 @@
   },
   {
     "title": "Every",
-    "summary": "Retrieved Every article on product difficulty and Every transcript of Mike Krieger conversation",
+    "summary": "",
     "timeline": [
-      "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper ",
-      "2026-03-29T20:34 — Retrieved Every article on product difficulty and Every transcript of Mike Krieger conversation"
+      "2026-03-29T20:34 — [2026-03-29 20:34] User asked to start three subagents to summarize three pieces (Thariq/X on Claude Code skills, Mike Krieger video/X thread, and Every article"
     ],
     "tags": [],
     "categories": [
@@ -70,19 +151,18 @@
       "every"
     ],
     "related": [
-      "Dan Shipper",
-      "Mike Krieger",
-      "Thariq"
+      "Brave Search",
+      "Instagram"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "Gemini 2.5 Flash",
-    "summary": "Moved from design to implementation; user approved 1-week HISTORY samples, assistant created extraction scripts and data files, tuned prompt to reduce noise, and planned parallel tasks including testing Groq / Reverted default model from gemini-2.5-pro to gemini-2.5-flash due to 429 quota errors on free tier, created baseline comparison script and notes",
+    "summary": "Moved from design to implementation; Gemini 2.5 Flash integrated via HTTP; output reduced from 236 nodes to 36 nodes after prompt tightening / Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
     "timeline": [
-      "2026-03-25T23:13 — Moved from design to implementation; user approved 1-week HISTORY samples, assistant created extraction scripts and data files, tuned prompt to reduce noise, and planned parallel tasks including testing Groq",
-      "2026-03-25T23:22 — Reverted default model from gemini-2.5-pro to gemini-2.5-flash due to 429 quota errors on free tier, created baseline comparison script and notes"
+      "2026-03-25T23:13 — Moved from design to implementation; Gemini 2.5 Flash integrated via HTTP; output reduced from 236 nodes to 36 nodes after prompt tightening",
+      "2026-03-25T23:22 — Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash"
     ],
     "tags": [],
     "categories": [
@@ -93,16 +173,38 @@
     ],
     "related": [
       "Groq",
+      "Gemini 2.5 Pro",
       "Gemini Pro"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
-    "title": "Gemini Pro",
-    "summary": "Reverted default model from gemini-2.5-pro to gemini-2.5-flash due to 429 quota errors on free tier, created baseline comparison script and notes",
+    "title": "Gemini 2.5 Pro",
+    "summary": "Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
     "timeline": [
-      "2026-03-25T23:22 — Reverted default model from gemini-2.5-pro to gemini-2.5-flash due to 429 quota errors on free tier, created baseline comparison script and notes"
+      "2026-03-25T23:22 — Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash"
+    ],
+    "tags": [],
+    "categories": [
+      "Tool"
+    ],
+    "aliases": [
+      "gemini 2.5 pro"
+    ],
+    "related": [
+      "Gemini 2.5 Flash",
+      "Gemini Pro",
+      "Groq"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "Gemini Pro",
+    "summary": "Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
+    "timeline": [
+      "2026-03-25T23:22 — Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash"
     ],
     "tags": [],
     "categories": [
@@ -113,6 +215,7 @@
     ],
     "related": [
       "Gemini 2.5 Flash",
+      "Gemini 2.5 Pro",
       "Groq"
     ],
     "source": "history",
@@ -120,9 +223,9 @@
   },
   {
     "title": "GitHub",
-    "summary": "Unified extraction path, moved outputs to data/extraction-pipeline/, tightened filtering, verified results",
+    "summary": "Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
     "timeline": [
-      "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, tightened filtering, verified results"
+      "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki."
     ],
     "tags": [],
     "categories": [
@@ -132,7 +235,9 @@
       "github"
     ],
     "related": [
+      "Airbnb",
       "DJClaw",
+      "Logseq",
       "wiki"
     ],
     "source": "history",
@@ -140,13 +245,12 @@
   },
   {
     "title": "Groq",
-    "summary": "Moved from design to implementation; user approved 1-week HISTORY samples, assistant created extraction scripts and data files, tuned prompt to reduce noise, and planned parallel tasks including testing Groq / Reverted default model from gemini-2.5-pro to gemini-2.5-flash due to 429 quota errors on free tier, created baseline comparison script and notes",
+    "summary": "Moved from design to implementation; Gemini 2.5 Flash integrated via HTTP; output reduced from 236 nodes to 36 nodes after prompt tightening / Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
     "timeline": [
-      "2026-03-25T23:13 — Moved from design to implementation; user approved 1-week HISTORY samples, assistant created extraction scripts and data files, tuned prompt to reduce noise, and planned parallel tasks including testing Groq",
-      "2026-03-25T23:22 — Reverted default model from gemini-2.5-pro to gemini-2.5-flash due to 429 quota errors on free tier, created baseline comparison script and notes",
-      "2026-03-26T00:03 — User selected Groq as the main extraction provider for the wiki pipeline PoC.",
-      "2026-03-26T00:13 — [2026-03-26 00:13] User directed wiki extraction hardening and operations follow-up. Assistant tightened `wiki/scripts/extraction_poc.py` in two passes: first m",
-      "2026-03-26T07:40 — Wiki extraction PoC accepted and merged into official extraction pipeline; old rule-based logic retired"
+      "2026-03-25T23:13 — Moved from design to implementation; Gemini 2.5 Flash integrated via HTTP; output reduced from 236 nodes to 36 nodes after prompt tightening",
+      "2026-03-25T23:22 — Gemini 2.5 Pro hit 13/13 HTTP 429 quota errors on free tier, so extraction PoC reverted to Gemini 2.5 Flash",
+      "2026-03-26T00:03 — User selected Groq as the primary provider for wiki extraction PoC",
+      "2026-03-26T07:40 — PoC for wiki extraction accepted and integrated into the formal pipeline; old extract_history.py wrapper logic and supporting scripts updated accordingly."
     ],
     "tags": [],
     "categories": [
@@ -158,19 +262,39 @@
     "related": [
       "Gemini 2.5 Flash",
       "DJClaw",
+      "Gemini 2.5 Pro",
       "Gemini Pro",
-      "Kimi",
-      "wiki"
+      "Kimi"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "Instagram",
+    "summary": "",
+    "timeline": [
+      "2026-03-29T20:34 — [2026-03-29 20:34] User asked to start three subagents to summarize three pieces (Thariq/X on Claude Code skills, Mike Krieger video/X thread, and Every article"
+    ],
+    "tags": [],
+    "categories": [
+      "Organization"
+    ],
+    "aliases": [
+      "instagram"
+    ],
+    "related": [
+      "Brave Search",
+      "Every"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "Kimi",
-    "summary": "Assistant refined extraction_poc.py to favor only stable entities like places, projects, tools, orgs, and people, cutting abstract nodes. / Wiki extraction PoC accepted and merged into official extraction pipeline; old rule-based logic retired",
+    "summary": "Adjusted extraction_poc.py to restrict candidates to stable entities like places, projects, tools, orgs, person, dropping abstract or transient items / PoC for wiki extraction accepted and integrated into the formal pipeline; old extract_history.py wrapper logic and supporting scripts updated accordingly.",
     "timeline": [
-      "2026-03-26T07:20 — Assistant refined extraction_poc.py to favor only stable entities like places, projects, tools, orgs, and people, cutting abstract nodes.",
-      "2026-03-26T07:40 — Wiki extraction PoC accepted and merged into official extraction pipeline; old rule-based logic retired"
+      "2026-03-26T07:20 — Adjusted extraction_poc.py to restrict candidates to stable entities like places, projects, tools, orgs, person, dropping abstract or transient items",
+      "2026-03-26T07:40 — PoC for wiki extraction accepted and integrated into the formal pipeline; old extract_history.py wrapper logic and supporting scripts updated accordingly."
     ],
     "tags": [],
     "categories": [
@@ -180,6 +304,7 @@
       "kimi"
     ],
     "related": [
+      "DJClaw",
       "Groq"
     ],
     "source": "history",
@@ -187,12 +312,10 @@
   },
   {
     "title": "Logseq",
-    "summary": "User requested converting a beginner-friendly Logseq explanation into a DJClaw article for publication / Post 067 titled 'Logseq 入门：Journal、Block、Page 到底是什么' was written and pushed to main",
+    "summary": "Assistant began task B for wiki overhaul by adding key docs, scripts, and rebuilding the local database from new kernel schema. / Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
     "timeline": [
-      "2026-03-25T10:21 — User requested converting a beginner-friendly Logseq explanation into a DJClaw article for publication",
-      "2026-03-25T14:17 — Post 067 titled 'Logseq 入门：Journal、Block、Page 到底是什么' was written and pushed to main",
-      "2026-03-25T19:16 — Published 'A Small Digital Garden' to DJClaw despite limited source access and WeChat block",
-      "2026-03-25T21:20 — kernel.json regenerated, scripts updated, old entries replaced, new nodes/relations/events schema in place"
+      "2026-03-25T21:20 — Assistant began task B for wiki overhaul by adding key docs, scripts, and rebuilding the local database from new kernel schema.",
+      "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki."
     ],
     "tags": [],
     "categories": [
@@ -202,7 +325,9 @@
       "logseq"
     ],
     "related": [
+      "Airbnb",
       "DJClaw",
+      "GitHub",
       "wiki"
     ],
     "source": "history",
@@ -222,18 +347,17 @@
       "mike krieger"
     ],
     "related": [
-      "Dan Shipper",
-      "Every",
-      "Thariq"
+      "Claude Code",
+      "Dan Shipper"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "Mixergy",
-    "summary": "Drafted and published DJClaw post 078 about Sahil Lavingia’s book The Minimalist Entrepreneur",
+    "summary": "DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
     "timeline": [
-      "2026-03-31T12:51 — Drafted and published DJClaw post 078 about Sahil Lavingia’s book The Minimalist Entrepreneur"
+      "2026-03-31T12:51 — DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview"
     ],
     "tags": [],
     "categories": [
@@ -244,6 +368,7 @@
     ],
     "related": [
       "DJClaw",
+      "DuckDuckGo",
       "Sahil Lavingia"
     ],
     "source": "history",
@@ -251,9 +376,9 @@
   },
   {
     "title": "nanobanand",
-    "summary": "Rejected two Pillow-based poster attempts; user requests comic/manga-style via nanobanand instead.",
+    "summary": "",
     "timeline": [
-      "2026-03-26T10:18 — Rejected two Pillow-based poster attempts; user requests comic/manga-style via nanobanand instead."
+      "2026-03-26T10:18 — [2026-03-26 10:18] User reviewed DJClaw post 071 replacement image attempts and rejected both Pillow-based cartoon/editorial poster versions as not good-looking"
     ],
     "tags": [],
     "categories": [
@@ -262,18 +387,15 @@
     "aliases": [
       "nanobanand"
     ],
-    "related": [
-      "DJClaw",
-      "Pillow"
-    ],
+    "related": [],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "nanobot-daily-wiki-scheduler",
-    "summary": "Subagent nanobot-daily-wiki-scheduler activated to explore daily ingestion and GitHub push scheduling options",
+    "summary": "Pipeline produced wiki.db with 98 evidence, 60 nodes, 421 relations, 98 events and 44 generated node pages, then pushed to djclaw/wiki",
     "timeline": [
-      "2026-03-26T00:20 — Subagent nanobot-daily-wiki-scheduler activated to explore daily ingestion and GitHub push scheduling options"
+      "2026-03-26T00:20 — Pipeline produced wiki.db with 98 evidence, 60 nodes, 421 relations, 98 events and 44 generated node pages, then pushed to djclaw/wiki"
     ],
     "tags": [],
     "categories": [
@@ -282,35 +404,17 @@
     "aliases": [
       "nanobot-daily-wiki-scheduler"
     ],
-    "related": [],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "Pillow",
-    "summary": "Rejected two Pillow-based poster attempts; user requests comic/manga-style via nanobanand instead.",
-    "timeline": [
-      "2026-03-26T10:18 — Rejected two Pillow-based poster attempts; user requests comic/manga-style via nanobanand instead."
-    ],
-    "tags": [],
-    "categories": [
-      "Tool"
-    ],
-    "aliases": [
-      "pillow"
-    ],
     "related": [
-      "DJClaw",
-      "nanobanand"
+      "wiki"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "Sahil Lavingia",
-    "summary": "Drafted and published DJClaw post 078 about Sahil Lavingia’s book The Minimalist Entrepreneur",
+    "summary": "DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview",
     "timeline": [
-      "2026-03-31T12:51 — Drafted and published DJClaw post 078 about Sahil Lavingia’s book The Minimalist Entrepreneur"
+      "2026-03-31T12:51 — DJClaw article summarizing Sahil Lavingia's The Minimalist Entrepreneur drafted and published after retrieval via DuckDuckGo and Mixergy interview"
     ],
     "tags": [],
     "categories": [
@@ -321,40 +425,20 @@
     ],
     "related": [
       "DJClaw",
+      "DuckDuckGo",
       "Mixergy"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
-    "title": "Thariq",
-    "summary": "",
-    "timeline": [
-      "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper "
-    ],
-    "tags": [],
-    "categories": [
-      "Person"
-    ],
-    "aliases": [
-      "thariq"
-    ],
-    "related": [
-      "Dan Shipper",
-      "Every",
-      "Mike Krieger"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
     "title": "wiki",
-    "summary": "Published 'A Small Digital Garden' to DJClaw despite limited source access and WeChat block / kernel.json regenerated, scripts updated, old entries replaced, new nodes/relations/events schema in place",
+    "summary": "Assistant tightened extraction script and relation filtering, pushed commits to djclaw/wiki and created new script for last‑7‑days history extraction. / Pipeline produced wiki.db with 98 evidence, 60 nodes, 421 relations, 98 events and 44 generated node pages, then pushed to djclaw/wiki",
     "timeline": [
-      "2026-03-25T19:16 — Published 'A Small Digital Garden' to DJClaw despite limited source access and WeChat block",
-      "2026-03-25T21:20 — kernel.json regenerated, scripts updated, old entries replaced, new nodes/relations/events schema in place",
-      "2026-03-26T00:13 — [2026-03-26 00:13] User directed wiki extraction hardening and operations follow-up. Assistant tightened `wiki/scripts/extraction_poc.py` in two passes: first m",
-      "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, tightened filtering, verified results"
+      "2026-03-26T00:13 — Assistant tightened extraction script and relation filtering, pushed commits to djclaw/wiki and created new script for last‑7‑days history extraction.",
+      "2026-03-26T00:20 — Pipeline produced wiki.db with 98 evidence, 60 nodes, 421 relations, 98 events and 44 generated node pages, then pushed to djclaw/wiki",
+      "2026-03-26T06:57 — 8e36ebb commit pushed: user-visible wiki materialization, daily automation, .gitignore cleanup, state tracking, scripts, wiki issue updates #7/#9/#10",
+      "2026-03-26T07:48 — Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki."
     ],
     "tags": [],
     "categories": [
@@ -365,9 +449,10 @@
     ],
     "related": [
       "DJClaw",
-      "Logseq",
+      "Airbnb",
       "GitHub",
-      "Groq"
+      "Logseq",
+      "nanobot-daily-wiki-scheduler"
     ],
     "source": "history",
     "source_id": "history_md"
