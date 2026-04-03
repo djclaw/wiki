@@ -1,28 +1,8 @@
 [
   {
-    "title": "Airbnb",
-    "url": "entries/history/airbnb.html",
-    "snippet": "Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "Claude Code",
-    "url": "entries/history/claude-code.html",
-    "snippet": "(No summary yet.)",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
     "title": "DJClaw",
     "url": "entries/history/djclaw.html",
-    "snippet": "Began drafting new DJClaw article summarizing extraction pipeline progress / User selected Groq as the primary provider for wiki extraction PoC",
+    "snippet": "Published blog post 069 detailing wiki architecture and added kernel schema documentation and scripts. / Assistant began drafting DJClaw article summarizing extraction pipeline progress and future options.",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -32,7 +12,7 @@
   {
     "title": "GitHub",
     "url": "entries/history/github.html",
-    "snippet": "Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
+    "snippet": "Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -42,7 +22,17 @@
   {
     "title": "Logseq",
     "url": "entries/history/logseq.html",
-    "snippet": "Assistant began task B for wiki overhaul by adding key docs, scripts, and rebuilding the local database from new kernel schema. / Unified extraction path, moved outputs, tightened filtering, verified baseline, daily refresh, and materialization; kept pages include airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki.",
+    "snippet": "Published blog post 069 detailing wiki architecture and added kernel schema documentation and scripts. / Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
+    "tags": [],
+    "categories": [],
+    "aliases": [],
+    "related": [],
+    "coordinates": null
+  },
+  {
+    "title": "Lonely Planet",
+    "url": "entries/history/lonely-planet.html",
+    "snippet": "Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -52,7 +42,7 @@
   {
     "title": "wiki",
     "url": "entries/history/wiki.html",
-    "snippet": "Assistant tightened extraction script and relation filtering, pushed commits to djclaw/wiki and created new script for last‑7‑days history extraction. / Pipeline produced wiki.db with 98 evidence, 60 nodes, 421 relations, 98 events and 44 generated node pages, then pushed to djclaw/wiki",
+    "snippet": "Tightened extraction script, validated with Groq llama-3.3-70b-versatile, pushed commits 1555e60 and eba06f0, and created extract_history_recent.py for 7-day wiki rebuild pipeline / End-to-end run produced wiki.db and 44 node pages, pushed via commits 022c165 & 67c0e01",
     "tags": [],
     "categories": [],
     "aliases": [],
