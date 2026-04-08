@@ -12,280 +12,112 @@
       "evidence_id": "ev-bosnia-001",
       "source_id": "history_md",
       "timestamp": "2026-04-01T00:21",
-      "raw_text": "2026-04-01T00:21 — Published DJClaw post 079: ‘Building Small, on Purpose’",
-      "redacted_text": "2026-04-01T00:21 — Published DJClaw post 079: ‘Building Small, on Purpose’",
+      "raw_text": "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as",
+      "redacted_text": "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as",
       "publishable": true
     },
     {
-      "evidence_id": "ev-claude-code-001",
+      "evidence_id": "ev-craig-adams-001",
       "source_id": "history_md",
       "timestamp": "2026-03-29T20:34",
-      "raw_text": "2026-03-29T20:34 — Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded.",
-      "redacted_text": "2026-03-29T20:34 — Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded.",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-dan-shipper-001",
-      "source_id": "history_md",
-      "timestamp": "2026-03-29T20:33",
-      "raw_text": "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper ",
-      "redacted_text": "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper ",
+      "raw_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
+      "redacted_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-001",
       "source_id": "history_md",
-      "timestamp": "2026-03-25T21:20",
-      "raw_text": "2026-03-25T21:20 — Published blog post 069 detailing wiki architecture and added kernel schema documentation and scripts.",
-      "redacted_text": "2026-03-25T21:20 — Published blog post 069 detailing wiki architecture and added kernel schema documentation and scripts.",
+      "timestamp": "2026-03-29T20:34",
+      "raw_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
+      "redacted_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-002",
       "source_id": "history_md",
-      "timestamp": "2026-03-25T21:35",
-      "raw_text": "2026-03-25T21:35 — Assistant began drafting DJClaw article summarizing extraction pipeline progress and future options.",
-      "redacted_text": "2026-03-25T21:35 — Assistant began drafting DJClaw article summarizing extraction pipeline progress and future options.",
+      "timestamp": "2026-03-29T20:44",
+      "raw_text": "2026-03-29T20:44 — User approved and published two DJClaw articles, 'When Building Gets Cheap' and 'Bounded Emergence', after requesting explanatory notes on the title choices.",
+      "redacted_text": "2026-03-29T20:44 — User approved and published two DJClaw articles, 'When Building Gets Cheap' and 'Bounded Emergence', after requesting explanatory notes on the title choices.",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-003",
       "source_id": "history_md",
-      "timestamp": "2026-03-26T00:03",
-      "raw_text": "2026-03-26T00:03 — User selected Groq as main provider; assistant rewrote extraction script and validated models",
-      "redacted_text": "2026-03-26T00:03 — User selected Groq as main provider; assistant rewrote extraction script and validated models",
+      "timestamp": "2026-03-31T12:51",
+      "raw_text": "2026-03-31T12:51 — Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
+      "redacted_text": "2026-03-31T12:51 — Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-004",
       "source_id": "history_md",
-      "timestamp": "2026-03-26T00:29",
-      "raw_text": "2026-03-26T00:29 — Assistant verified and published post 071 while tightening page-generation filters and testing incremental automation with nanobot cron plus idempotent script",
-      "redacted_text": "2026-03-26T00:29 — Assistant verified and published post 071 while tightening page-generation filters and testing incremental automation with nanobot cron plus idempotent script",
+      "timestamp": "2026-04-01T00:21",
+      "raw_text": "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as",
+      "redacted_text": "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-005",
       "source_id": "history_md",
-      "timestamp": "2026-03-26T06:57",
-      "raw_text": "2026-03-26T06:57 — Committed and pushed changes in djclaw/wiki repo including .gitignore cleanup, tracked state files, and daily incremental script",
-      "redacted_text": "2026-03-26T06:57 — Committed and pushed changes in djclaw/wiki repo including .gitignore cleanup, tracked state files, and daily incremental script",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-djclaw-006",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T07:20",
-      "raw_text": "2026-03-26T07:20 — User flagged loose extraction logic; assistant updated extraction_poc.py with stricter prompts, ran Kimi on 7-day sample, and proposed narrow taxonomy prioritizing place/project/tool/org/person nodes.",
-      "redacted_text": "2026-03-26T07:20 — User flagged loose extraction logic; assistant updated extraction_poc.py with stricter prompts, ran Kimi on 7-day sample, and proposed narrow taxonomy prioritizing place/project/tool/org/person nodes.",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-djclaw-007",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T07:48",
-      "raw_text": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-      "redacted_text": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-djclaw-008",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T10:18",
-      "raw_text": "2026-03-26T10:18 — User rejected Pillow-based poster versions for DJClaw post 071 and requested comic/manga style using nanobanand",
-      "redacted_text": "2026-03-26T10:18 — User rejected Pillow-based poster versions for DJClaw post 071 and requested comic/manga style using nanobanand",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-djclaw-009",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T11:14",
-      "raw_text": "2026-03-26T11:14 — User selected version B for publication after local preview of three comic-style regeneration images.",
-      "redacted_text": "2026-03-26T11:14 — User selected version B for publication after local preview of three comic-style regeneration images.",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-djclaw-010",
-      "source_id": "history_md",
-      "timestamp": "2026-03-29T20:44",
-      "raw_text": "2026-03-29T20:44 — User approved and published two new DJClaw articles titled 'When Building Gets Cheap' and 'Bounded Emergence'",
-      "redacted_text": "2026-03-29T20:44 — User approved and published two new DJClaw articles titled 'When Building Gets Cheap' and 'Bounded Emergence'",
+      "timestamp": "2026-04-01T19:33",
+      "raw_text": "2026-04-01T19:33 — Trainspotting post published using paraphrased opening, updated index.html/sitemap.xml",
+      "redacted_text": "2026-04-01T19:33 — Trainspotting post published using paraphrased opening, updated index.html/sitemap.xml",
       "publishable": true
     },
     {
       "evidence_id": "ev-every-001",
       "source_id": "history_md",
       "timestamp": "2026-03-29T20:34",
-      "raw_text": "2026-03-29T20:34 — Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded.",
-      "redacted_text": "2026-03-29T20:34 — Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded.",
+      "raw_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
+      "redacted_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
       "publishable": true
     },
     {
-      "evidence_id": "ev-gemini-25-flash-001",
+      "evidence_id": "ev-louis-armstrong-001",
       "source_id": "history_md",
-      "timestamp": "2026-03-25T23:13",
-      "raw_text": "2026-03-25T23:13 — Gemini produces noisy output reduced by prompt tightening and local post-processing",
-      "redacted_text": "2026-03-25T23:13 — Gemini produces noisy output reduced by prompt tightening and local post-processing",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-gemini-25-flash-002",
-      "source_id": "history_md",
-      "timestamp": "2026-03-25T23:22",
-      "raw_text": "2026-03-25T23:22 — Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-      "redacted_text": "2026-03-25T23:22 — Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-gemini-25-pro-001",
-      "source_id": "history_md",
-      "timestamp": "2026-03-25T23:22",
-      "raw_text": "2026-03-25T23:22 — Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-      "redacted_text": "2026-03-25T23:22 — Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-gemini-pro-001",
-      "source_id": "history_md",
-      "timestamp": "2026-03-25T23:22",
-      "raw_text": "2026-03-25T23:22 — Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-      "redacted_text": "2026-03-25T23:22 — Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-github-001",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T07:48",
-      "raw_text": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-      "redacted_text": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-groq-001",
-      "source_id": "history_md",
-      "timestamp": "2026-03-25T23:13",
-      "raw_text": "2026-03-25T23:13 — Gemini produces noisy output reduced by prompt tightening and local post-processing",
-      "redacted_text": "2026-03-25T23:13 — Gemini produces noisy output reduced by prompt tightening and local post-processing",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-groq-002",
-      "source_id": "history_md",
-      "timestamp": "2026-03-25T23:22",
-      "raw_text": "2026-03-25T23:22 — Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-      "redacted_text": "2026-03-25T23:22 — Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-groq-003",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T00:03",
-      "raw_text": "2026-03-26T00:03 — User selected Groq as main provider; assistant rewrote extraction script and validated models",
-      "redacted_text": "2026-03-26T00:03 — User selected Groq as main provider; assistant rewrote extraction script and validated models",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-groq-004",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T07:20",
-      "raw_text": "2026-03-26T07:20 — User flagged loose extraction logic; assistant updated extraction_poc.py with stricter prompts, ran Kimi on 7-day sample, and proposed narrow taxonomy prioritizing place/project/tool/org/person nodes.",
-      "redacted_text": "2026-03-26T07:20 — User flagged loose extraction logic; assistant updated extraction_poc.py with stricter prompts, ran Kimi on 7-day sample, and proposed narrow taxonomy prioritizing place/project/tool/org/person nodes.",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-kimi-001",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T07:20",
-      "raw_text": "2026-03-26T07:20 — User flagged loose extraction logic; assistant updated extraction_poc.py with stricter prompts, ran Kimi on 7-day sample, and proposed narrow taxonomy prioritizing place/project/tool/org/person nodes.",
-      "redacted_text": "2026-03-26T07:20 — User flagged loose extraction logic; assistant updated extraction_poc.py with stricter prompts, ran Kimi on 7-day sample, and proposed narrow taxonomy prioritizing place/project/tool/org/person nodes.",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-logseq-001",
-      "source_id": "history_md",
-      "timestamp": "2026-03-25T21:20",
-      "raw_text": "2026-03-25T21:20 — Published blog post 069 detailing wiki architecture and added kernel schema documentation and scripts.",
-      "redacted_text": "2026-03-25T21:20 — Published blog post 069 detailing wiki architecture and added kernel schema documentation and scripts.",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-logseq-002",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T07:48",
-      "raw_text": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-      "redacted_text": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-lonely-planet-001",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T07:48",
-      "raw_text": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-      "redacted_text": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
+      "timestamp": "2026-04-01T20:18",
+      "raw_text": "2026-04-01T20:18 — Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
+      "redacted_text": "2026-04-01T20:18 — Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
       "publishable": true
     },
     {
       "evidence_id": "ev-mike-krieger-001",
       "source_id": "history_md",
-      "timestamp": "2026-03-29T20:33",
-      "raw_text": "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper ",
-      "redacted_text": "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper ",
+      "timestamp": "2026-03-29T20:34",
+      "raw_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
+      "redacted_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
       "publishable": true
     },
     {
-      "evidence_id": "ev-mike-krieger-002",
+      "evidence_id": "ev-new-orleans-001",
+      "source_id": "history_md",
+      "timestamp": "2026-04-01T20:18",
+      "raw_text": "2026-04-01T20:18 — Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
+      "redacted_text": "2026-04-01T20:18 — Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-one-way-street-bookstore-001",
       "source_id": "history_md",
       "timestamp": "2026-03-29T20:34",
-      "raw_text": "2026-03-29T20:34 — Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded.",
-      "redacted_text": "2026-03-29T20:34 — Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded.",
+      "raw_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
+      "redacted_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
       "publishable": true
     },
     {
-      "evidence_id": "ev-nanobanand-001",
+      "evidence_id": "ev-sahil-lavingia-001",
       "source_id": "history_md",
-      "timestamp": "2026-03-26T10:18",
-      "raw_text": "2026-03-26T10:18 — User rejected Pillow-based poster versions for DJClaw post 071 and requested comic/manga style using nanobanand",
-      "redacted_text": "2026-03-26T10:18 — User rejected Pillow-based poster versions for DJClaw post 071 and requested comic/manga style using nanobanand",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-nanobot-daily-wiki-scheduler-001",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T00:20",
-      "raw_text": "2026-03-26T00:20 — End-to-end run produced wiki.db and 44 node pages, pushed via commits 022c165 & 67c0e01",
-      "redacted_text": "2026-03-26T00:20 — End-to-end run produced wiki.db and 44 node pages, pushed via commits 022c165 & 67c0e01",
+      "timestamp": "2026-03-31T12:51",
+      "raw_text": "2026-03-31T12:51 — Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
+      "redacted_text": "2026-03-31T12:51 — Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
       "publishable": true
     },
     {
       "evidence_id": "ev-saint-peter-001",
       "source_id": "history_md",
       "timestamp": "2026-03-30T14:41",
-      "raw_text": "2026-03-30T14:41 — DJClaw's post 075 originally as a quiet Saint Peter note with a 30s read-aloud script; upgraded at user request with real Chinese audio and inline HTML5 player after local Chinese TTS tools unavailable, pushing commit 9234b3c.",
-      "redacted_text": "2026-03-30T14:41 — DJClaw's post 075 originally as a quiet Saint Peter note with a 30s read-aloud script; upgraded at user request with real Chinese audio and inline HTML5 player after local Chinese TTS tools unavailable, pushing commit 9234b3c.",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-wiki-001",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T00:13",
-      "raw_text": "2026-03-26T00:13 — Tightened extraction script, validated with Groq llama-3.3-70b-versatile, pushed commits 1555e60 and eba06f0, and created extract_history_recent.py for 7-day wiki rebuild pipeline",
-      "redacted_text": "2026-03-26T00:13 — Tightened extraction script, validated with Groq llama-3.3-70b-versatile, pushed commits 1555e60 and eba06f0, and created extract_history_recent.py for 7-day wiki rebuild pipeline",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-wiki-002",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T00:20",
-      "raw_text": "2026-03-26T00:20 — End-to-end run produced wiki.db and 44 node pages, pushed via commits 022c165 & 67c0e01",
-      "redacted_text": "2026-03-26T00:20 — End-to-end run produced wiki.db and 44 node pages, pushed via commits 022c165 & 67c0e01",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-wiki-003",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T06:57",
-      "raw_text": "2026-03-26T06:57 — Committed and pushed changes in djclaw/wiki repo including .gitignore cleanup, tracked state files, and daily incremental script",
-      "redacted_text": "2026-03-26T06:57 — Committed and pushed changes in djclaw/wiki repo including .gitignore cleanup, tracked state files, and daily incremental script",
+      "raw_text": "2026-03-30T14:41 — Post 075 about Saint Peter initially published with read-aloud script, later updated to include real Chinese audio file and HTML5 player",
+      "redacted_text": "2026-03-30T14:41 — Post 075 about Saint Peter initially published with read-aloud script, later updated to include real Chinese audio file and HTML5 player",
       "publishable": true
     }
   ],
@@ -294,7 +126,7 @@
       "node_id": "bosnia",
       "node_type": "place",
       "title": "Bosnia",
-      "summary": "Published DJClaw post 079: ‘Building Small, on Purpose’",
+      "summary": "",
       "aliases": [
         "bosnia"
       ],
@@ -306,27 +138,12 @@
       "visibility": "review"
     },
     {
-      "node_id": "claude-code",
-      "node_type": "tool",
-      "title": "Claude Code",
-      "summary": "Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded.",
-      "aliases": [
-        "claude code"
-      ],
-      "tags": [],
-      "categories": [
-        "Tool"
-      ],
-      "status": "candidate",
-      "visibility": "review"
-    },
-    {
-      "node_id": "dan-shipper",
+      "node_id": "craig-adams",
       "node_type": "person",
-      "title": "Dan Shipper",
-      "summary": "",
+      "title": "Craig Adams",
+      "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
       "aliases": [
-        "dan shipper"
+        "craig adams"
       ],
       "tags": [],
       "categories": [
@@ -339,7 +156,7 @@
       "node_id": "djclaw",
       "node_type": "project",
       "title": "DJClaw",
-      "summary": "Published blog post 069 detailing wiki architecture and added kernel schema documentation and scripts. / Assistant began drafting DJClaw article summarizing extraction pipeline progress and future options.",
+      "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice / User approved and published two DJClaw articles, 'When Building Gets Cheap' and 'Bounded Emergence', after requesting explanatory notes on the title choices.",
       "aliases": [
         "djclaw"
       ],
@@ -354,7 +171,7 @@
       "node_id": "every",
       "node_type": "organization",
       "title": "Every",
-      "summary": "Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded.",
+      "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
       "aliases": [
         "every"
       ],
@@ -366,121 +183,16 @@
       "visibility": "review"
     },
     {
-      "node_id": "gemini-25-flash",
-      "node_type": "tool",
-      "title": "Gemini 2.5 Flash",
-      "summary": "Gemini produces noisy output reduced by prompt tightening and local post-processing / Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
+      "node_id": "louis-armstrong",
+      "node_type": "person",
+      "title": "Louis Armstrong",
+      "summary": "Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
       "aliases": [
-        "gemini 2.5 flash"
+        "louis armstrong"
       ],
       "tags": [],
       "categories": [
-        "Tool"
-      ],
-      "status": "candidate",
-      "visibility": "review"
-    },
-    {
-      "node_id": "gemini-25-pro",
-      "node_type": "tool",
-      "title": "Gemini 2.5 Pro",
-      "summary": "Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-      "aliases": [
-        "gemini 2.5 pro"
-      ],
-      "tags": [],
-      "categories": [
-        "Tool"
-      ],
-      "status": "candidate",
-      "visibility": "review"
-    },
-    {
-      "node_id": "gemini-pro",
-      "node_type": "tool",
-      "title": "Gemini Pro",
-      "summary": "Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-      "aliases": [
-        "gemini pro"
-      ],
-      "tags": [],
-      "categories": [
-        "Tool"
-      ],
-      "status": "candidate",
-      "visibility": "review"
-    },
-    {
-      "node_id": "github",
-      "node_type": "organization",
-      "title": "GitHub",
-      "summary": "Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-      "aliases": [
-        "github"
-      ],
-      "tags": [],
-      "categories": [
-        "Organization"
-      ],
-      "status": "candidate",
-      "visibility": "review"
-    },
-    {
-      "node_id": "groq",
-      "node_type": "organization",
-      "title": "Groq",
-      "summary": "Gemini produces noisy output reduced by prompt tightening and local post-processing / Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-      "aliases": [
-        "groq"
-      ],
-      "tags": [],
-      "categories": [
-        "Organization"
-      ],
-      "status": "candidate",
-      "visibility": "review"
-    },
-    {
-      "node_id": "kimi",
-      "node_type": "tool",
-      "title": "Kimi",
-      "summary": "User flagged loose extraction logic; assistant updated extraction_poc.py with stricter prompts, ran Kimi on 7-day sample, and proposed narrow taxonomy prioritizing place/project/tool/org/person nodes.",
-      "aliases": [
-        "kimi"
-      ],
-      "tags": [],
-      "categories": [
-        "Tool"
-      ],
-      "status": "candidate",
-      "visibility": "review"
-    },
-    {
-      "node_id": "logseq",
-      "node_type": "tool",
-      "title": "Logseq",
-      "summary": "Published blog post 069 detailing wiki architecture and added kernel schema documentation and scripts. / Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-      "aliases": [
-        "logseq"
-      ],
-      "tags": [],
-      "categories": [
-        "Tool"
-      ],
-      "status": "candidate",
-      "visibility": "review"
-    },
-    {
-      "node_id": "lonely-planet",
-      "node_type": "organization",
-      "title": "Lonely Planet",
-      "summary": "Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-      "aliases": [
-        "lonely planet"
-      ],
-      "tags": [],
-      "categories": [
-        "Organization"
+        "Person"
       ],
       "status": "candidate",
       "visibility": "review"
@@ -489,7 +201,7 @@
       "node_id": "mike-krieger",
       "node_type": "person",
       "title": "Mike Krieger",
-      "summary": "Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded.",
+      "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
       "aliases": [
         "mike krieger"
       ],
@@ -501,42 +213,42 @@
       "visibility": "review"
     },
     {
-      "node_id": "nanobanand",
-      "node_type": "tool",
-      "title": "nanobanand",
-      "summary": "User rejected Pillow-based poster versions for DJClaw post 071 and requested comic/manga style using nanobanand",
+      "node_id": "new-orleans",
+      "node_type": "place",
+      "title": "New Orleans",
+      "summary": "Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
       "aliases": [
-        "nanobanand"
+        "new orleans"
       ],
       "tags": [],
       "categories": [
-        "Tool"
+        "Place"
       ],
       "status": "candidate",
       "visibility": "review"
     },
     {
-      "node_id": "nanobot-daily-wiki-scheduler",
-      "node_type": "project",
-      "title": "nanobot-daily-wiki-scheduler",
-      "summary": "End-to-end run produced wiki.db and 44 node pages, pushed via commits 022c165 & 67c0e01",
+      "node_id": "one-way-street-bookstore",
+      "node_type": "place",
+      "title": "One-Way Street Bookstore",
+      "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
       "aliases": [
-        "nanobot-daily-wiki-scheduler"
+        "one-way street bookstore"
       ],
       "tags": [],
       "categories": [
-        "Project"
+        "Place"
       ],
       "status": "candidate",
       "visibility": "review"
     },
     {
-      "node_id": "saint-peter",
+      "node_id": "sahil-lavingia",
       "node_type": "person",
-      "title": "Saint Peter",
-      "summary": "DJClaw's post 075 originally as a quiet Saint Peter note with a 30s read-aloud script; upgraded at user request with real Chinese audio and inline HTML5 player after local Chinese TTS tools unavailable, pushing commit 9234b3c.",
+      "title": "Sahil Lavingia",
+      "summary": "Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
       "aliases": [
-        "saint peter"
+        "sahil lavingia"
       ],
       "tags": [],
       "categories": [
@@ -546,16 +258,16 @@
       "visibility": "review"
     },
     {
-      "node_id": "wiki",
-      "node_type": "project",
-      "title": "wiki",
-      "summary": "Tightened extraction script, validated with Groq llama-3.3-70b-versatile, pushed commits 1555e60 and eba06f0, and created extract_history_recent.py for 7-day wiki rebuild pipeline / End-to-end run produced wiki.db and 44 node pages, pushed via commits 022c165 & 67c0e01",
+      "node_id": "saint-peter",
+      "node_type": "person",
+      "title": "Saint Peter",
+      "summary": "Post 075 about Saint Peter initially published with read-aloud script, later updated to include real Chinese audio file and HTML5 player",
       "aliases": [
-        "wiki"
+        "saint peter"
       ],
       "tags": [],
       "categories": [
-        "Project"
+        "Person"
       ],
       "status": "candidate",
       "visibility": "review"
@@ -572,8 +284,17 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-claude-code-every-related",
-      "from_node": "claude-code",
+      "relation_id": "rel-craig-adams-djclaw-related",
+      "from_node": "craig-adams",
+      "to_node": "djclaw",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-craig-adams-every-related",
+      "from_node": "craig-adams",
       "to_node": "every",
       "relation_type": "related_to",
       "weight": 1,
@@ -581,8 +302,8 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-claude-code-mike-krieger-related",
-      "from_node": "claude-code",
+      "relation_id": "rel-craig-adams-mike-krieger-related",
+      "from_node": "craig-adams",
       "to_node": "mike-krieger",
       "relation_type": "related_to",
       "weight": 1,
@@ -590,27 +311,9 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-dan-shipper-mike-krieger-related",
-      "from_node": "dan-shipper",
-      "to_node": "mike-krieger",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-djclaw-groq-related",
-      "from_node": "djclaw",
-      "to_node": "groq",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-djclaw-logseq-related",
-      "from_node": "djclaw",
-      "to_node": "logseq",
+      "relation_id": "rel-craig-adams-one-way-street-bookstore-related",
+      "from_node": "craig-adams",
+      "to_node": "one-way-street-bookstore",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -626,54 +329,63 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-djclaw-github-related",
+      "relation_id": "rel-djclaw-craig-adams-related",
       "from_node": "djclaw",
-      "to_node": "github",
+      "to_node": "craig-adams",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-djclaw-kimi-related",
+      "relation_id": "rel-djclaw-every-related",
       "from_node": "djclaw",
-      "to_node": "kimi",
+      "to_node": "every",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-djclaw-lonely-planet-related",
+      "relation_id": "rel-djclaw-mike-krieger-related",
       "from_node": "djclaw",
-      "to_node": "lonely-planet",
+      "to_node": "mike-krieger",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-djclaw-nanobanand-related",
+      "relation_id": "rel-djclaw-one-way-street-bookstore-related",
       "from_node": "djclaw",
-      "to_node": "nanobanand",
+      "to_node": "one-way-street-bookstore",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-djclaw-saint-peter-related",
+      "relation_id": "rel-djclaw-sahil-lavingia-related",
       "from_node": "djclaw",
-      "to_node": "saint-peter",
+      "to_node": "sahil-lavingia",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-every-claude-code-related",
+      "relation_id": "rel-every-craig-adams-related",
       "from_node": "every",
-      "to_node": "claude-code",
+      "to_node": "craig-adams",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-every-djclaw-related",
+      "from_node": "every",
+      "to_node": "djclaw",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -689,243 +401,36 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-gemini-25-flash-groq-related",
-      "from_node": "gemini-25-flash",
-      "to_node": "groq",
+      "relation_id": "rel-every-one-way-street-bookstore-related",
+      "from_node": "every",
+      "to_node": "one-way-street-bookstore",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-gemini-25-flash-gemini-25-pro-related",
-      "from_node": "gemini-25-flash",
-      "to_node": "gemini-25-pro",
+      "relation_id": "rel-louis-armstrong-new-orleans-related",
+      "from_node": "louis-armstrong",
+      "to_node": "new-orleans",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-gemini-25-flash-gemini-pro-related",
-      "from_node": "gemini-25-flash",
-      "to_node": "gemini-pro",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-gemini-25-pro-gemini-25-flash-related",
-      "from_node": "gemini-25-pro",
-      "to_node": "gemini-25-flash",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-gemini-25-pro-gemini-pro-related",
-      "from_node": "gemini-25-pro",
-      "to_node": "gemini-pro",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-gemini-25-pro-groq-related",
-      "from_node": "gemini-25-pro",
-      "to_node": "groq",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-gemini-pro-gemini-25-flash-related",
-      "from_node": "gemini-pro",
-      "to_node": "gemini-25-flash",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-gemini-pro-gemini-25-pro-related",
-      "from_node": "gemini-pro",
-      "to_node": "gemini-25-pro",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-gemini-pro-groq-related",
-      "from_node": "gemini-pro",
-      "to_node": "groq",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-github-djclaw-related",
-      "from_node": "github",
-      "to_node": "djclaw",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-github-logseq-related",
-      "from_node": "github",
-      "to_node": "logseq",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-github-lonely-planet-related",
-      "from_node": "github",
-      "to_node": "lonely-planet",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-groq-djclaw-related",
-      "from_node": "groq",
-      "to_node": "djclaw",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-groq-gemini-25-flash-related",
-      "from_node": "groq",
-      "to_node": "gemini-25-flash",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-groq-gemini-25-pro-related",
-      "from_node": "groq",
-      "to_node": "gemini-25-pro",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-groq-gemini-pro-related",
-      "from_node": "groq",
-      "to_node": "gemini-pro",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-groq-kimi-related",
-      "from_node": "groq",
-      "to_node": "kimi",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-kimi-djclaw-related",
-      "from_node": "kimi",
-      "to_node": "djclaw",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-kimi-groq-related",
-      "from_node": "kimi",
-      "to_node": "groq",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-logseq-djclaw-related",
-      "from_node": "logseq",
-      "to_node": "djclaw",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-logseq-github-related",
-      "from_node": "logseq",
-      "to_node": "github",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-logseq-lonely-planet-related",
-      "from_node": "logseq",
-      "to_node": "lonely-planet",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-lonely-planet-djclaw-related",
-      "from_node": "lonely-planet",
-      "to_node": "djclaw",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-lonely-planet-github-related",
-      "from_node": "lonely-planet",
-      "to_node": "github",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-lonely-planet-logseq-related",
-      "from_node": "lonely-planet",
-      "to_node": "logseq",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-mike-krieger-claude-code-related",
+      "relation_id": "rel-mike-krieger-craig-adams-related",
       "from_node": "mike-krieger",
-      "to_node": "claude-code",
+      "to_node": "craig-adams",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-mike-krieger-dan-shipper-related",
+      "relation_id": "rel-mike-krieger-djclaw-related",
       "from_node": "mike-krieger",
-      "to_node": "dan-shipper",
+      "to_node": "djclaw",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -941,8 +446,35 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-nanobanand-djclaw-related",
-      "from_node": "nanobanand",
+      "relation_id": "rel-mike-krieger-one-way-street-bookstore-related",
+      "from_node": "mike-krieger",
+      "to_node": "one-way-street-bookstore",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-new-orleans-louis-armstrong-related",
+      "from_node": "new-orleans",
+      "to_node": "louis-armstrong",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-one-way-street-bookstore-craig-adams-related",
+      "from_node": "one-way-street-bookstore",
+      "to_node": "craig-adams",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-one-way-street-bookstore-djclaw-related",
+      "from_node": "one-way-street-bookstore",
       "to_node": "djclaw",
       "relation_type": "related_to",
       "weight": 1,
@@ -950,36 +482,27 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-nanobot-daily-wiki-scheduler-wiki-related",
-      "from_node": "nanobot-daily-wiki-scheduler",
-      "to_node": "wiki",
+      "relation_id": "rel-one-way-street-bookstore-every-related",
+      "from_node": "one-way-street-bookstore",
+      "to_node": "every",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-saint-peter-djclaw-related",
-      "from_node": "saint-peter",
+      "relation_id": "rel-one-way-street-bookstore-mike-krieger-related",
+      "from_node": "one-way-street-bookstore",
+      "to_node": "mike-krieger",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-sahil-lavingia-djclaw-related",
+      "from_node": "sahil-lavingia",
       "to_node": "djclaw",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-wiki-djclaw-related",
-      "from_node": "wiki",
-      "to_node": "djclaw",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-wiki-nanobot-daily-wiki-scheduler-related",
-      "from_node": "wiki",
-      "to_node": "nanobot-daily-wiki-scheduler",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -990,7 +513,7 @@
     {
       "event_id": "event-bosnia-001",
       "timestamp": "2026-04-01T00:21",
-      "summary": "2026-04-01T00:21 — Published DJClaw post 079: ‘Building Small, on Purpose’",
+      "summary": "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as",
       "node_ids": [
         "bosnia"
       ],
@@ -998,29 +521,19 @@
       "source_id": "history_md"
     },
     {
-      "event_id": "event-claude-code-001",
+      "event_id": "event-craig-adams-001",
       "timestamp": "2026-03-29T20:34",
-      "summary": "2026-03-29T20:34 — Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded.",
+      "summary": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
       "node_ids": [
-        "claude-code"
+        "craig-adams"
       ],
-      "evidence_id": "ev-claude-code-001",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-dan-shipper-001",
-      "timestamp": "2026-03-29T20:33",
-      "summary": "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper ",
-      "node_ids": [
-        "dan-shipper"
-      ],
-      "evidence_id": "ev-dan-shipper-001",
+      "evidence_id": "ev-craig-adams-001",
       "source_id": "history_md"
     },
     {
       "event_id": "event-djclaw-001",
-      "timestamp": "2026-03-25T21:20",
-      "summary": "2026-03-25T21:20 — Published blog post 069 detailing wiki architecture and added kernel schema documentation and scripts.",
+      "timestamp": "2026-03-29T20:34",
+      "summary": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
       "node_ids": [
         "djclaw"
       ],
@@ -1029,8 +542,8 @@
     },
     {
       "event_id": "event-djclaw-002",
-      "timestamp": "2026-03-25T21:35",
-      "summary": "2026-03-25T21:35 — Assistant began drafting DJClaw article summarizing extraction pipeline progress and future options.",
+      "timestamp": "2026-03-29T20:44",
+      "summary": "2026-03-29T20:44 — User approved and published two DJClaw articles, 'When Building Gets Cheap' and 'Bounded Emergence', after requesting explanatory notes on the title choices.",
       "node_ids": [
         "djclaw"
       ],
@@ -1039,8 +552,8 @@
     },
     {
       "event_id": "event-djclaw-003",
-      "timestamp": "2026-03-26T00:03",
-      "summary": "2026-03-26T00:03 — User selected Groq as main provider; assistant rewrote extraction script and validated models",
+      "timestamp": "2026-03-31T12:51",
+      "summary": "2026-03-31T12:51 — Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
       "node_ids": [
         "djclaw"
       ],
@@ -1049,8 +562,8 @@
     },
     {
       "event_id": "event-djclaw-004",
-      "timestamp": "2026-03-26T00:29",
-      "summary": "2026-03-26T00:29 — Assistant verified and published post 071 while tightening page-generation filters and testing incremental automation with nanobot cron plus idempotent script",
+      "timestamp": "2026-04-01T00:21",
+      "summary": "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as",
       "node_ids": [
         "djclaw"
       ],
@@ -1059,8 +572,8 @@
     },
     {
       "event_id": "event-djclaw-005",
-      "timestamp": "2026-03-26T06:57",
-      "summary": "2026-03-26T06:57 — Committed and pushed changes in djclaw/wiki repo including .gitignore cleanup, tracked state files, and daily incremental script",
+      "timestamp": "2026-04-01T19:33",
+      "summary": "2026-04-01T19:33 — Trainspotting post published using paraphrased opening, updated index.html/sitemap.xml",
       "node_ids": [
         "djclaw"
       ],
@@ -1068,59 +581,9 @@
       "source_id": "history_md"
     },
     {
-      "event_id": "event-djclaw-006",
-      "timestamp": "2026-03-26T07:20",
-      "summary": "2026-03-26T07:20 — User flagged loose extraction logic; assistant updated extraction_poc.py with stricter prompts, ran Kimi on 7-day sample, and proposed narrow taxonomy prioritizing place/project/tool/org/person nodes.",
-      "node_ids": [
-        "djclaw"
-      ],
-      "evidence_id": "ev-djclaw-006",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-djclaw-007",
-      "timestamp": "2026-03-26T07:48",
-      "summary": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-      "node_ids": [
-        "djclaw"
-      ],
-      "evidence_id": "ev-djclaw-007",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-djclaw-008",
-      "timestamp": "2026-03-26T10:18",
-      "summary": "2026-03-26T10:18 — User rejected Pillow-based poster versions for DJClaw post 071 and requested comic/manga style using nanobanand",
-      "node_ids": [
-        "djclaw"
-      ],
-      "evidence_id": "ev-djclaw-008",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-djclaw-009",
-      "timestamp": "2026-03-26T11:14",
-      "summary": "2026-03-26T11:14 — User selected version B for publication after local preview of three comic-style regeneration images.",
-      "node_ids": [
-        "djclaw"
-      ],
-      "evidence_id": "ev-djclaw-009",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-djclaw-010",
-      "timestamp": "2026-03-29T20:44",
-      "summary": "2026-03-29T20:44 — User approved and published two new DJClaw articles titled 'When Building Gets Cheap' and 'Bounded Emergence'",
-      "node_ids": [
-        "djclaw"
-      ],
-      "evidence_id": "ev-djclaw-010",
-      "source_id": "history_md"
-    },
-    {
       "event_id": "event-every-001",
       "timestamp": "2026-03-29T20:34",
-      "summary": "2026-03-29T20:34 — Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded.",
+      "summary": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
       "node_ids": [
         "every"
       ],
@@ -1128,139 +591,19 @@
       "source_id": "history_md"
     },
     {
-      "event_id": "event-gemini-25-flash-001",
-      "timestamp": "2026-03-25T23:13",
-      "summary": "2026-03-25T23:13 — Gemini produces noisy output reduced by prompt tightening and local post-processing",
+      "event_id": "event-louis-armstrong-001",
+      "timestamp": "2026-04-01T20:18",
+      "summary": "2026-04-01T20:18 — Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
       "node_ids": [
-        "gemini-25-flash"
+        "louis-armstrong"
       ],
-      "evidence_id": "ev-gemini-25-flash-001",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-gemini-25-flash-002",
-      "timestamp": "2026-03-25T23:22",
-      "summary": "2026-03-25T23:22 — Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-      "node_ids": [
-        "gemini-25-flash"
-      ],
-      "evidence_id": "ev-gemini-25-flash-002",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-gemini-25-pro-001",
-      "timestamp": "2026-03-25T23:22",
-      "summary": "2026-03-25T23:22 — Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-      "node_ids": [
-        "gemini-25-pro"
-      ],
-      "evidence_id": "ev-gemini-25-pro-001",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-gemini-pro-001",
-      "timestamp": "2026-03-25T23:22",
-      "summary": "2026-03-25T23:22 — Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-      "node_ids": [
-        "gemini-pro"
-      ],
-      "evidence_id": "ev-gemini-pro-001",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-github-001",
-      "timestamp": "2026-03-26T07:48",
-      "summary": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-      "node_ids": [
-        "github"
-      ],
-      "evidence_id": "ev-github-001",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-groq-001",
-      "timestamp": "2026-03-25T23:13",
-      "summary": "2026-03-25T23:13 — Gemini produces noisy output reduced by prompt tightening and local post-processing",
-      "node_ids": [
-        "groq"
-      ],
-      "evidence_id": "ev-groq-001",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-groq-002",
-      "timestamp": "2026-03-25T23:22",
-      "summary": "2026-03-25T23:22 — Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-      "node_ids": [
-        "groq"
-      ],
-      "evidence_id": "ev-groq-002",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-groq-003",
-      "timestamp": "2026-03-26T00:03",
-      "summary": "2026-03-26T00:03 — User selected Groq as main provider; assistant rewrote extraction script and validated models",
-      "node_ids": [
-        "groq"
-      ],
-      "evidence_id": "ev-groq-003",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-groq-004",
-      "timestamp": "2026-03-26T07:20",
-      "summary": "2026-03-26T07:20 — User flagged loose extraction logic; assistant updated extraction_poc.py with stricter prompts, ran Kimi on 7-day sample, and proposed narrow taxonomy prioritizing place/project/tool/org/person nodes.",
-      "node_ids": [
-        "groq"
-      ],
-      "evidence_id": "ev-groq-004",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-kimi-001",
-      "timestamp": "2026-03-26T07:20",
-      "summary": "2026-03-26T07:20 — User flagged loose extraction logic; assistant updated extraction_poc.py with stricter prompts, ran Kimi on 7-day sample, and proposed narrow taxonomy prioritizing place/project/tool/org/person nodes.",
-      "node_ids": [
-        "kimi"
-      ],
-      "evidence_id": "ev-kimi-001",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-logseq-001",
-      "timestamp": "2026-03-25T21:20",
-      "summary": "2026-03-25T21:20 — Published blog post 069 detailing wiki architecture and added kernel schema documentation and scripts.",
-      "node_ids": [
-        "logseq"
-      ],
-      "evidence_id": "ev-logseq-001",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-logseq-002",
-      "timestamp": "2026-03-26T07:48",
-      "summary": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-      "node_ids": [
-        "logseq"
-      ],
-      "evidence_id": "ev-logseq-002",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-lonely-planet-001",
-      "timestamp": "2026-03-26T07:48",
-      "summary": "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-      "node_ids": [
-        "lonely-planet"
-      ],
-      "evidence_id": "ev-lonely-planet-001",
+      "evidence_id": "ev-louis-armstrong-001",
       "source_id": "history_md"
     },
     {
       "event_id": "event-mike-krieger-001",
-      "timestamp": "2026-03-29T20:33",
-      "summary": "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper ",
+      "timestamp": "2026-03-29T20:34",
+      "summary": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
       "node_ids": [
         "mike-krieger"
       ],
@@ -1268,73 +611,43 @@
       "source_id": "history_md"
     },
     {
-      "event_id": "event-mike-krieger-002",
+      "event_id": "event-new-orleans-001",
+      "timestamp": "2026-04-01T20:18",
+      "summary": "2026-04-01T20:18 — Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
+      "node_ids": [
+        "new-orleans"
+      ],
+      "evidence_id": "ev-new-orleans-001",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-one-way-street-bookstore-001",
       "timestamp": "2026-03-29T20:34",
-      "summary": "2026-03-29T20:34 — Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded.",
+      "summary": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
       "node_ids": [
-        "mike-krieger"
+        "one-way-street-bookstore"
       ],
-      "evidence_id": "ev-mike-krieger-002",
+      "evidence_id": "ev-one-way-street-bookstore-001",
       "source_id": "history_md"
     },
     {
-      "event_id": "event-nanobanand-001",
-      "timestamp": "2026-03-26T10:18",
-      "summary": "2026-03-26T10:18 — User rejected Pillow-based poster versions for DJClaw post 071 and requested comic/manga style using nanobanand",
+      "event_id": "event-sahil-lavingia-001",
+      "timestamp": "2026-03-31T12:51",
+      "summary": "2026-03-31T12:51 — Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
       "node_ids": [
-        "nanobanand"
+        "sahil-lavingia"
       ],
-      "evidence_id": "ev-nanobanand-001",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-nanobot-daily-wiki-scheduler-001",
-      "timestamp": "2026-03-26T00:20",
-      "summary": "2026-03-26T00:20 — End-to-end run produced wiki.db and 44 node pages, pushed via commits 022c165 & 67c0e01",
-      "node_ids": [
-        "nanobot-daily-wiki-scheduler"
-      ],
-      "evidence_id": "ev-nanobot-daily-wiki-scheduler-001",
+      "evidence_id": "ev-sahil-lavingia-001",
       "source_id": "history_md"
     },
     {
       "event_id": "event-saint-peter-001",
       "timestamp": "2026-03-30T14:41",
-      "summary": "2026-03-30T14:41 — DJClaw's post 075 originally as a quiet Saint Peter note with a 30s read-aloud script; upgraded at user request with real Chinese audio and inline HTML5 player after local Chinese TTS tools unavailable, pushing commit 9234b3c.",
+      "summary": "2026-03-30T14:41 — Post 075 about Saint Peter initially published with read-aloud script, later updated to include real Chinese audio file and HTML5 player",
       "node_ids": [
         "saint-peter"
       ],
       "evidence_id": "ev-saint-peter-001",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-wiki-001",
-      "timestamp": "2026-03-26T00:13",
-      "summary": "2026-03-26T00:13 — Tightened extraction script, validated with Groq llama-3.3-70b-versatile, pushed commits 1555e60 and eba06f0, and created extract_history_recent.py for 7-day wiki rebuild pipeline",
-      "node_ids": [
-        "wiki"
-      ],
-      "evidence_id": "ev-wiki-001",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-wiki-002",
-      "timestamp": "2026-03-26T00:20",
-      "summary": "2026-03-26T00:20 — End-to-end run produced wiki.db and 44 node pages, pushed via commits 022c165 & 67c0e01",
-      "node_ids": [
-        "wiki"
-      ],
-      "evidence_id": "ev-wiki-002",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-wiki-003",
-      "timestamp": "2026-03-26T06:57",
-      "summary": "2026-03-26T06:57 — Committed and pushed changes in djclaw/wiki repo including .gitignore cleanup, tracked state files, and daily incremental script",
-      "node_ids": [
-        "wiki"
-      ],
-      "evidence_id": "ev-wiki-003",
       "source_id": "history_md"
     }
   ]

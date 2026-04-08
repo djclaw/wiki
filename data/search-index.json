@@ -2,7 +2,7 @@
   {
     "title": "DJClaw",
     "url": "entries/history/djclaw.html",
-    "snippet": "Published blog post 069 detailing wiki architecture and added kernel schema documentation and scripts. / Assistant began drafting DJClaw article summarizing extraction pipeline progress and future options.",
+    "snippet": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice / User approved and published two DJClaw articles, 'When Building Gets Cheap' and 'Bounded Emergence', after requesting explanatory notes on the title choices.",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -10,9 +10,9 @@
     "coordinates": null
   },
   {
-    "title": "GitHub",
-    "url": "entries/history/github.html",
-    "snippet": "Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
+    "title": "New Orleans",
+    "url": "entries/history/new-orleans.html",
+    "snippet": "Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -20,29 +20,9 @@
     "coordinates": null
   },
   {
-    "title": "Logseq",
-    "url": "entries/history/logseq.html",
-    "snippet": "Published blog post 069 detailing wiki architecture and added kernel schema documentation and scripts. / Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "Lonely Planet",
-    "url": "entries/history/lonely-planet.html",
-    "snippet": "Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "wiki",
-    "url": "entries/history/wiki.html",
-    "snippet": "Tightened extraction script, validated with Groq llama-3.3-70b-versatile, pushed commits 1555e60 and eba06f0, and created extract_history_recent.py for 7-day wiki rebuild pipeline / End-to-end run produced wiki.db and 44 node pages, pushed via commits 022c165 & 67c0e01",
+    "title": "One-Way Street Bookstore",
+    "url": "entries/history/one-way-street-bookstore.html",
+    "snippet": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
     "tags": [],
     "categories": [],
     "aliases": [],

@@ -1,9 +1,9 @@
 [
   {
     "title": "Bosnia",
-    "summary": "Published DJClaw post 079: ‘Building Small, on Purpose’",
+    "summary": "",
     "timeline": [
-      "2026-04-01T00:21 — Published DJClaw post 079: ‘Building Small, on Purpose’"
+      "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as"
     ],
     "tags": [],
     "categories": [
@@ -19,58 +19,36 @@
     "source_id": "history_md"
   },
   {
-    "title": "Claude Code",
-    "summary": "Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded.",
+    "title": "Craig Adams",
+    "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
     "timeline": [
-      "2026-03-29T20:34 — Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded."
-    ],
-    "tags": [],
-    "categories": [
-      "Tool"
-    ],
-    "aliases": [
-      "claude code"
-    ],
-    "related": [
-      "Every",
-      "Mike Krieger"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "Dan Shipper",
-    "summary": "",
-    "timeline": [
-      "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper "
+      "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice"
     ],
     "tags": [],
     "categories": [
       "Person"
     ],
     "aliases": [
-      "dan shipper"
+      "craig adams"
     ],
     "related": [
-      "Mike Krieger"
+      "DJClaw",
+      "Every",
+      "Mike Krieger",
+      "One-Way Street Bookstore"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "DJClaw",
-    "summary": "Published blog post 069 detailing wiki architecture and added kernel schema documentation and scripts. / Assistant began drafting DJClaw article summarizing extraction pipeline progress and future options.",
+    "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice / User approved and published two DJClaw articles, 'When Building Gets Cheap' and 'Bounded Emergence', after requesting explanatory notes on the title choices.",
     "timeline": [
-      "2026-03-25T21:20 — Published blog post 069 detailing wiki architecture and added kernel schema documentation and scripts.",
-      "2026-03-25T21:35 — Assistant began drafting DJClaw article summarizing extraction pipeline progress and future options.",
-      "2026-03-26T00:03 — User selected Groq as main provider; assistant rewrote extraction script and validated models",
-      "2026-03-26T00:29 — Assistant verified and published post 071 while tightening page-generation filters and testing incremental automation with nanobot cron plus idempotent script",
-      "2026-03-26T06:57 — Committed and pushed changes in djclaw/wiki repo including .gitignore cleanup, tracked state files, and daily incremental script",
-      "2026-03-26T07:20 — User flagged loose extraction logic; assistant updated extraction_poc.py with stricter prompts, ran Kimi on 7-day sample, and proposed narrow taxonomy prioritizing place/project/tool/org/person nodes.",
-      "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-      "2026-03-26T10:18 — User rejected Pillow-based poster versions for DJClaw post 071 and requested comic/manga style using nanobanand",
-      "2026-03-26T11:14 — User selected version B for publication after local preview of three comic-style regeneration images.",
-      "2026-03-29T20:44 — User approved and published two new DJClaw articles titled 'When Building Gets Cheap' and 'Bounded Emergence'"
+      "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
+      "2026-03-29T20:44 — User approved and published two DJClaw articles, 'When Building Gets Cheap' and 'Bounded Emergence', after requesting explanatory notes on the title choices.",
+      "2026-03-31T12:51 — Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
+      "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as",
+      "2026-04-01T19:33 — Trainspotting post published using paraphrased opening, updated index.html/sitemap.xml"
     ],
     "tags": [],
     "categories": [
@@ -80,23 +58,21 @@
       "djclaw"
     ],
     "related": [
-      "Groq",
-      "Logseq",
       "Bosnia",
-      "GitHub",
-      "Kimi",
-      "Lonely Planet",
-      "nanobanand",
-      "Saint Peter"
+      "Craig Adams",
+      "Every",
+      "Mike Krieger",
+      "One-Way Street Bookstore",
+      "Sahil Lavingia"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "Every",
-    "summary": "Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded.",
+    "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
     "timeline": [
-      "2026-03-29T20:34 — Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded."
+      "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice"
     ],
     "tags": [],
     "categories": [
@@ -106,192 +82,38 @@
       "every"
     ],
     "related": [
-      "Claude Code",
-      "Mike Krieger"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "Gemini 2.5 Flash",
-    "summary": "Gemini produces noisy output reduced by prompt tightening and local post-processing / Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-    "timeline": [
-      "2026-03-25T23:13 — Gemini produces noisy output reduced by prompt tightening and local post-processing",
-      "2026-03-25T23:22 — Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash"
-    ],
-    "tags": [],
-    "categories": [
-      "Tool"
-    ],
-    "aliases": [
-      "gemini 2.5 flash"
-    ],
-    "related": [
-      "Groq",
-      "Gemini 2.5 Pro",
-      "Gemini Pro"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "Gemini 2.5 Pro",
-    "summary": "Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-    "timeline": [
-      "2026-03-25T23:22 — Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash"
-    ],
-    "tags": [],
-    "categories": [
-      "Tool"
-    ],
-    "aliases": [
-      "gemini 2.5 pro"
-    ],
-    "related": [
-      "Gemini 2.5 Flash",
-      "Gemini Pro",
-      "Groq"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "Gemini Pro",
-    "summary": "Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-    "timeline": [
-      "2026-03-25T23:22 — Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash"
-    ],
-    "tags": [],
-    "categories": [
-      "Tool"
-    ],
-    "aliases": [
-      "gemini pro"
-    ],
-    "related": [
-      "Gemini 2.5 Flash",
-      "Gemini 2.5 Pro",
-      "Groq"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "GitHub",
-    "summary": "Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-    "timeline": [
-      "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki"
-    ],
-    "tags": [],
-    "categories": [
-      "Organization"
-    ],
-    "aliases": [
-      "github"
-    ],
-    "related": [
+      "Craig Adams",
       "DJClaw",
-      "Logseq",
-      "Lonely Planet"
+      "Mike Krieger",
+      "One-Way Street Bookstore"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
-    "title": "Groq",
-    "summary": "Gemini produces noisy output reduced by prompt tightening and local post-processing / Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
+    "title": "Louis Armstrong",
+    "summary": "Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
     "timeline": [
-      "2026-03-25T23:13 — Gemini produces noisy output reduced by prompt tightening and local post-processing",
-      "2026-03-25T23:22 — Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-      "2026-03-26T00:03 — User selected Groq as main provider; assistant rewrote extraction script and validated models",
-      "2026-03-26T07:20 — User flagged loose extraction logic; assistant updated extraction_poc.py with stricter prompts, ran Kimi on 7-day sample, and proposed narrow taxonomy prioritizing place/project/tool/org/person nodes."
+      "2026-04-01T20:18 — Post 081 first published with bilingual content, knee-routine image card, and text fixes."
     ],
     "tags": [],
     "categories": [
-      "Organization"
+      "Person"
     ],
     "aliases": [
-      "groq"
+      "louis armstrong"
     ],
     "related": [
-      "DJClaw",
-      "Gemini 2.5 Flash",
-      "Gemini 2.5 Pro",
-      "Gemini Pro",
-      "Kimi"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "Kimi",
-    "summary": "User flagged loose extraction logic; assistant updated extraction_poc.py with stricter prompts, ran Kimi on 7-day sample, and proposed narrow taxonomy prioritizing place/project/tool/org/person nodes.",
-    "timeline": [
-      "2026-03-26T07:20 — User flagged loose extraction logic; assistant updated extraction_poc.py with stricter prompts, ran Kimi on 7-day sample, and proposed narrow taxonomy prioritizing place/project/tool/org/person nodes."
-    ],
-    "tags": [],
-    "categories": [
-      "Tool"
-    ],
-    "aliases": [
-      "kimi"
-    ],
-    "related": [
-      "DJClaw",
-      "Groq"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "Logseq",
-    "summary": "Published blog post 069 detailing wiki architecture and added kernel schema documentation and scripts. / Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-    "timeline": [
-      "2026-03-25T21:20 — Published blog post 069 detailing wiki architecture and added kernel schema documentation and scripts.",
-      "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki"
-    ],
-    "tags": [],
-    "categories": [
-      "Tool"
-    ],
-    "aliases": [
-      "logseq"
-    ],
-    "related": [
-      "DJClaw",
-      "GitHub",
-      "Lonely Planet"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "Lonely Planet",
-    "summary": "Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-    "timeline": [
-      "2026-03-26T07:48 — Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki"
-    ],
-    "tags": [],
-    "categories": [
-      "Organization"
-    ],
-    "aliases": [
-      "lonely planet"
-    ],
-    "related": [
-      "DJClaw",
-      "GitHub",
-      "Logseq"
+      "New Orleans"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "Mike Krieger",
-    "summary": "Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded.",
+    "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
     "timeline": [
-      "2026-03-29T20:33 — [2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper ",
-      "2026-03-29T20:34 — Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded."
+      "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice"
     ],
     "tags": [],
     "categories": [
@@ -301,25 +123,67 @@
       "mike krieger"
     ],
     "related": [
-      "Claude Code",
-      "Dan Shipper",
-      "Every"
+      "Craig Adams",
+      "DJClaw",
+      "Every",
+      "One-Way Street Bookstore"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
-    "title": "nanobanand",
-    "summary": "User rejected Pillow-based poster versions for DJClaw post 071 and requested comic/manga style using nanobanand",
+    "title": "New Orleans",
+    "summary": "Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
     "timeline": [
-      "2026-03-26T10:18 — User rejected Pillow-based poster versions for DJClaw post 071 and requested comic/manga style using nanobanand"
+      "2026-04-01T20:18 — Post 081 first published with bilingual content, knee-routine image card, and text fixes."
     ],
     "tags": [],
     "categories": [
-      "Tool"
+      "Place"
     ],
     "aliases": [
-      "nanobanand"
+      "new orleans"
+    ],
+    "related": [
+      "Louis Armstrong"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "One-Way Street Bookstore",
+    "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
+    "timeline": [
+      "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice"
+    ],
+    "tags": [],
+    "categories": [
+      "Place"
+    ],
+    "aliases": [
+      "one-way street bookstore"
+    ],
+    "related": [
+      "Craig Adams",
+      "DJClaw",
+      "Every",
+      "Mike Krieger"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "Sahil Lavingia",
+    "summary": "Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
+    "timeline": [
+      "2026-03-31T12:51 — Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview"
+    ],
+    "tags": [],
+    "categories": [
+      "Person"
+    ],
+    "aliases": [
+      "sahil lavingia"
     ],
     "related": [
       "DJClaw"
@@ -328,29 +192,10 @@
     "source_id": "history_md"
   },
   {
-    "title": "nanobot-daily-wiki-scheduler",
-    "summary": "End-to-end run produced wiki.db and 44 node pages, pushed via commits 022c165 & 67c0e01",
-    "timeline": [
-      "2026-03-26T00:20 — End-to-end run produced wiki.db and 44 node pages, pushed via commits 022c165 & 67c0e01"
-    ],
-    "tags": [],
-    "categories": [
-      "Project"
-    ],
-    "aliases": [
-      "nanobot-daily-wiki-scheduler"
-    ],
-    "related": [
-      "wiki"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
     "title": "Saint Peter",
-    "summary": "DJClaw's post 075 originally as a quiet Saint Peter note with a 30s read-aloud script; upgraded at user request with real Chinese audio and inline HTML5 player after local Chinese TTS tools unavailable, pushing commit 9234b3c.",
+    "summary": "Post 075 about Saint Peter initially published with read-aloud script, later updated to include real Chinese audio file and HTML5 player",
     "timeline": [
-      "2026-03-30T14:41 — DJClaw's post 075 originally as a quiet Saint Peter note with a 30s read-aloud script; upgraded at user request with real Chinese audio and inline HTML5 player after local Chinese TTS tools unavailable, pushing commit 9234b3c."
+      "2026-03-30T14:41 — Post 075 about Saint Peter initially published with read-aloud script, later updated to include real Chinese audio file and HTML5 player"
     ],
     "tags": [],
     "categories": [
@@ -359,31 +204,7 @@
     "aliases": [
       "saint peter"
     ],
-    "related": [
-      "DJClaw"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "wiki",
-    "summary": "Tightened extraction script, validated with Groq llama-3.3-70b-versatile, pushed commits 1555e60 and eba06f0, and created extract_history_recent.py for 7-day wiki rebuild pipeline / End-to-end run produced wiki.db and 44 node pages, pushed via commits 022c165 & 67c0e01",
-    "timeline": [
-      "2026-03-26T00:13 — Tightened extraction script, validated with Groq llama-3.3-70b-versatile, pushed commits 1555e60 and eba06f0, and created extract_history_recent.py for 7-day wiki rebuild pipeline",
-      "2026-03-26T00:20 — End-to-end run produced wiki.db and 44 node pages, pushed via commits 022c165 & 67c0e01",
-      "2026-03-26T06:57 — Committed and pushed changes in djclaw/wiki repo including .gitignore cleanup, tracked state files, and daily incremental script"
-    ],
-    "tags": [],
-    "categories": [
-      "Project"
-    ],
-    "aliases": [
-      "wiki"
-    ],
-    "related": [
-      "DJClaw",
-      "nanobot-daily-wiki-scheduler"
-    ],
+    "related": [],
     "source": "history",
     "source_id": "history_md"
   }

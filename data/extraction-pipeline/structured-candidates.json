@@ -1,535 +1,72 @@
 [
   {
     "entry_id": "entry-001",
-    "timestamp": "2026-03-25T21:20",
-    "evidence": {
-      "evidence_id": "evidence-001",
-      "source_id": "history_md",
-      "timestamp": "2026-03-25T21:20",
-      "text": "[2026-03-25 21:20] User approved doing A then B for the wiki overhaul. Assistant pushed wiki README commit `528314a` (`Refine wiki README around Logseq-inspired kernel`) and DJClaw post 069 commit `dd3722f` (`Publish post 069 on wiki architecture`), then began B by adding `wiki/docs/ARCHITECTURE.md`, `wiki/docs/MINIMAL-SCHEMA.md`, `wiki/scripts/build_kernel_json.py`, linking them from README, generating `data/kernel.json`, and posting progress comments to wiki issues #6/#8/#9. Later user approved replacing the old local SQLite contents entirely; assistant rewrote `wiki/scripts/build_db.py` to rebuild from the new kernel schema, fixed duplicate-ID collisions in `build_kernel_json.py` caused by repeated titles, regenerated `data/kernel.json`, and successfully rebuilt `/home/dj/.nanobot/workspace/memory/wiki.db` with tables `sources`, `evidence`, `nodes`, `relations`, and `events` (counts: 1 / 407 / 126 / 578 / 407), replacing the old `entries` table."
-    },
-    "nodes": [
-      {
-        "label": "Logseq",
-        "type": "tool",
-        "confidence": 0.9
-      },
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.95
-      }
-    ],
-    "relations": [],
-    "events": [
-      {
-        "title": "DJClaw post 069 published",
-        "timestamp": "2026-03-25T21:20",
-        "summary": "Published blog post 069 detailing wiki architecture and added kernel schema documentation and scripts.",
-        "confidence": 0.95
-      }
-    ],
-    "raw_response": "{\"nodes\": [{\"label\": \"Logseq\", \"type\": \"tool\", \"confidence\": 0.9}, {\"label\": \"DJClaw\", \"type\": \"project\", \"confidence\": 0.95}, {\"label\": \"Nanobot\", \"type\": \"project\", \"confidence\": 0.95}], \"relations\": [], \"events\": [{\"title\": \"DJClaw post 069 published\", \"timestamp\": \"2026-03-25T21:20\", \"summary\": \"Published blog post 069 detailing wiki architecture and added kernel schema documentation and scripts.\", \"confidence\": 0.95}]}",
-    "parse_error": null
-  },
-  {
-    "entry_id": "entry-002",
-    "timestamp": "2026-03-25T21:35",
-    "evidence": {
-      "evidence_id": "evidence-002",
-      "source_id": "history_md",
-      "timestamp": "2026-03-25T21:35",
-      "text": "[2026-03-25 21:35] Wiki extraction work reached a new kernel milestone, then paused for broader extraction research and a DJClaw article request. The assistant had already switched wiki page generation to the new kernel DB (`nodes/events/relations`), added first-pass publish filters, cleared stale `entries/history/*.html`, and regenerated a cleaner set of 146 node pages while skipping 54 noisy nodes. Before proceeding with extraction-rule improvements (`2.1` tighter entity extraction, `2.2` canonicalization/alias merge), the user asked for external research on existing extraction tools, LLM-assisted skills/plugins, and a more comprehensive future extraction strategy. Brave search was unavailable, so the assistant used direct fetches of official docs/repos and summarized a layered recommendation: Instructor for structured extraction, LlamaIndex property-graph ideas for graph-shaped design, BAML / DSPy for later engineering/eval optimization, and GraphRAG as long-term architecture reference. The user then requested a concise DJClaw article summarizing the original extraction idea, what had actually been implemented so far, and the future options; assistant checked the DJClaw repo, confirmed latest post number 069, inspected `index.html`, `sitemap.xml`, and recent post templates, and began drafting/publishing the new article as post 070."
-    },
-    "nodes": [
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.9
-      }
-    ],
-    "relations": [],
-    "events": [
-      {
-        "title": "DJClaw post 070 drafted",
-        "timestamp": "2026-03-25T21:35",
-        "summary": "Assistant began drafting DJClaw article summarizing extraction pipeline progress and future options.",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"Instructor\",\"type\":\"tool\",\"confidence\":0.8},{\"label\":\"LlamaIndex\",\"type\":\"tool\",\"confidence\":0.8},{\"label\":\"BAML\",\"type\":\"tool\",\"confidence\":0.7},{\"label\":\"DSPy\",\"type\":\"tool\",\"confidence\":0.7},{\"label\":\"GraphRAG\",\"type\":\"tool\",\"confidence\":0.7}],\"relations\":[],\"events\":[{\"title\":\"DJClaw post 070 drafted\",\"timestamp\":\"2026-03-25T21:35\",\"summary\":\"Assistant began drafting DJClaw article summarizing extraction pipeline progress and future options.\",\"confidence\":0.9}]}",
-    "parse_error": null
-  },
-  {
-    "entry_id": "entry-003",
-    "timestamp": "2026-03-25T23:13",
-    "evidence": {
-      "evidence_id": "evidence-003",
-      "source_id": "history_md",
-      "timestamp": "2026-03-25T23:13",
-      "text": "[2026-03-25 23:13] Wiki extraction PoC moved from design into implementation. User approved using recent 1-week HISTORY samples and current models; assistant created `wiki/docs/EXTRACTION-POC-PLAN.md` and `wiki/scripts/extraction_poc.py`, confirmed recent 7-day sample size (~12–13 entries), verified Gemini HTTP access with `GEMINI_API_KEY`, integrated Gemini 2.5 Flash via direct HTTP (no SDK/pydantic), and produced `wiki/data/extraction-poc/structured-candidates.json`. First Gemini run was too noisy (236 nodes / 247 relations / 60 events across 12 entries), then prompt tightening + local post-processing reduced output to 36 nodes / 24 relations / 16 events across 13 entries with 5 parse errors remaining. User then instructed assistant to do A/B/C in parallel: fix parse errors, add normalization, write a baseline comparison note, and also test Groq with the most advanced available model if possible."
-    },
-    "nodes": [
-      {
-        "label": "Gemini 2.5 Flash",
-        "type": "tool",
-        "confidence": 0.9
-      },
-      {
-        "label": "Groq",
-        "type": "org",
-        "confidence": 0.9
-      }
-    ],
-    "relations": [],
-    "events": [
-      {
-        "title": "Gemini extraction PoC first run",
-        "timestamp": "2026-03-25T23:13",
-        "summary": "Gemini produces noisy output reduced by prompt tightening and local post-processing",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\":[{\"label\":\"Gemini 2.5 Flash\",\"type\":\"tool\",\"confidence\":0.9},{\"label\":\"Groq\",\"type\":\"org\",\"confidence\":0.9},{\"label\":\"wiki/docs/EXTRACTION-POC-PLAN.md\",\"type\":\"doc\",\"confidence\":0.8},{\"label\":\"wiki/scripts/extraction_poc.py\",\"type\":\"doc\",\"confidence\":0.8},{\"label\":\"wiki/data/extraction-poc/structured-candidates.json\",\"type\":\"doc\",\"confidence\":0.8}],\"relations\":[{\"source_label\":\"Gemini 2.5 Flash\",\"relation_type\":\"uses\",\"target_label\":\"wiki/data/extraction-poc/structured-candidates.json\",\"confidence\":0.9}],\"events\":[{\"title\":\"Gemini extraction PoC first run\",\"timestamp\":\"2026-03-25T23:13\",\"summary\":\"Gemini produces noisy output reduced by prompt tightening and local post-processing\",\"confidence\":0.9}]}",
-    "parse_error": null
-  },
-  {
-    "entry_id": "entry-004",
-    "timestamp": "2026-03-25T23:22",
-    "evidence": {
-      "evidence_id": "evidence-004",
-      "source_id": "history_md",
-      "timestamp": "2026-03-25T23:22",
-      "text": "[2026-03-25 23:22] Wiki extraction PoC work continued. User asked to do A/B/C together: fix remaining parse errors, add normalization, and write a baseline comparison note, while preferring Gemini or Groq and asking to use the most advanced available model. Assistant edited `wiki/scripts/extraction_poc.py` multiple times, first switching to Gemini Pro priority with 429 retry and stronger normalization, then discovered `gemini-2.5-pro` was unusable on the current free tier (13/13 requests hit HTTP 429 quota errors), so reverted default back to `gemini-2.5-flash`. A new comparison script `wiki/scripts/baseline_recent_history_compare.py` and note `wiki/docs/EXTRACTION-COMPARISON-NOTES.md` were created; baseline recent-window output showed top entities like DJClaw, Git, GitHub, Logseq, trips, wiki, and New Orleans, while Flash PoC only partially succeeded because quota remained the main bottleneck. Assistant concluded the real issue is provider quota rather than parser logic, recommended adding resume/skip-completed plus slow batch execution next, and then investigated the user’s claim that Groq might still be available. Shell env checks showed no `GROQ_API_KEY` in `~/.profile`, `~/.bashrc`, or current env, but the user clarified Groq is in config; assistant verified `~/.nanobot/config.json` and `.bak` contain a `groq` section, confirming Groq credentials/config likely exist in nanobot config rather than shell env. Useful files touched/created: `wiki/scripts/extraction_poc.py`, `wiki/scripts/baseline_recent_history_compare.py`, `wiki/docs/EXTRACTION-COMPARISON-NOTES.md`, `wiki/data/extraction-poc/baseline-recent-history.json`, and refreshed `wiki/data/extraction-poc/structured-candidates.json`."
-    },
-    "nodes": [
-      {
-        "label": "Gemini Pro",
-        "type": "tool",
-        "confidence": 0.9
-      },
-      {
-        "label": "Groq",
-        "type": "tool",
-        "confidence": 0.9
-      },
-      {
-        "label": "Gemini 2.5 Pro",
-        "type": "tool",
-        "confidence": 0.9
-      },
-      {
-        "label": "Gemini 2.5 Flash",
-        "type": "tool",
-        "confidence": 0.9
-      }
-    ],
-    "relations": [],
-    "events": [
-      {
-        "title": "Wiki extraction PoC switched from Gemini 2.5 Pro to Gemini 2.5 Flash due to quota errors",
-        "timestamp": "2026-03-25T23:22",
-        "summary": "Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash",
-        "confidence": 0.95
-      }
-    ],
-    "raw_response": "{\"nodes\": [{\"label\": \"Gemini Pro\", \"type\": \"tool\", \"confidence\": 0.9}, {\"label\": \"Groq\", \"type\": \"tool\", \"confidence\": 0.9}, {\"label\": \"Gemini 2.5 Pro\", \"type\": \"tool\", \"confidence\": 0.9}, {\"label\": \"Gemini 2.5 Flash\", \"type\": \"tool\", \"confidence\": 0.9}], \"relations\": [], \"events\": [{\"title\": \"Wiki extraction PoC switched from Gemini 2.5 Pro to Gemini 2.5 Flash due to quota errors\", \"timestamp\": \"2026-03-25T23:22\", \"summary\": \"Gemini 2.5 Pro unusable on free tier due to 429 quota errors, reverted default to Gemini 2.5 Flash\", \"confidence\": 0.95}]}",
-    "parse_error": null
-  },
-  {
-    "entry_id": "entry-005",
-    "timestamp": "2026-03-26T00:03",
-    "evidence": {
-      "evidence_id": "evidence-005",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T00:03",
-      "text": "[2026-03-26 00:03] Wiki extraction PoC provider/model work advanced and the user selected Groq as the main extraction provider. Assistant verified nanobot config contains readable provider keys for Groq/Gemini/OpenAI, rewrote `wiki/scripts/extraction_poc.py` to support env→`~/.nanobot/config.json` fallback plus `--provider/--model/--limit/--days`, and validated Groq/OpenAI while Gemini was blocked by 429 quota. Groq model discovery against the live API showed available text models including `llama-3.3-70b-versatile`, `moonshotai/kimi-k2-instruct`, `openai/gpt-oss-120b`, `qwen/qwen3-32b`, and `meta-llama/llama-4-scout-17b-16e-instruct`; a 5-entry A/B on `llama-3.3-70b-versatile`, `moonshotai/kimi-k2-instruct`, and `openai/gpt-oss-120b` found all three parse-stable, with `llama-3.3-70b-versatile` the most balanced current default for nodes+relations+events, Kimi the backup challenger, and `gpt-oss-120b` weak on relations. User approved continuing with Groq as the default main model and also requested a deeper explanation of the wiki pipeline layers (the 5–6 layer design from extraction through materialization), how the current PoC maps onto those layers, examples, and a cartoon-poster visualization using an OpenAI image model, to be published on DJClaw. Assistant started subagent `wiki-layers-poster-note` for that architecture/poster/article package, confirmed DJClaw repo path `/home/dj/.nanobot/workspace/djclaw.github.io`, corrected an initial post-numbering detection mistake by listing repo files directly, and determined the next DJClaw post number should be 071. Assistant also verified OpenAI/Groq/Gemini keys are readable from config and began checking DJClaw post templates plus possible OpenAI Images API availability for generating the poster asset."
-    },
-    "nodes": [
-      {
-        "label": "Groq",
-        "type": "org",
-        "confidence": 1.0
-      },
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.9
-      }
-    ],
-    "relations": [],
-    "events": [
-      {
-        "title": "Groq selected as main extraction provider",
-        "timestamp": "2026-03-26T00:03",
-        "summary": "User selected Groq as main provider; assistant rewrote extraction script and validated models",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\":[{\"label\":\"Groq\",\"type\":\"org\",\"confidence\":1.0},{\"label\":\"wiki/scripts/extraction_poc.py\",\"type\":\"doc\",\"confidence\":0.9},{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.9}],\"relations\":[],\"events\":[{\"title\":\"Groq selected as main extraction provider\",\"timestamp\":\"2026-03-26T00:03\",\"summary\":\"User selected Groq as main provider; assistant rewrote extraction script and validated models\",\"confidence\":0.9}]}",
-    "parse_error": null
-  },
-  {
-    "entry_id": "entry-006",
-    "timestamp": "2026-03-26T00:13",
-    "evidence": {
-      "evidence_id": "evidence-006",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T00:13",
-      "text": "[2026-03-26 00:13] User directed wiki extraction hardening and operations follow-up. Assistant tightened `wiki/scripts/extraction_poc.py` in two passes: first made relation extraction more conservative, added stronger normalization, alias merge, and abstract-node filtering, validated with Groq `llama-3.3-70b-versatile` on 5 samples (parse_errors 0; after second pass relations dropped to 0), then pushed `djclaw/wiki` commits `1555e60` (`Tighten extraction PoC and update wiki extraction docs`) and `eba06f0` (`Tighten relation extraction and alias merge v2`). User then requested rebuilding the wiki DB using only the most recent 7 days, pushing any GitHub-worthy wiki changes, and setting a daily cron to run the wiki refresh/extract pipeline. Assistant inspected the current wiki pipeline (`extract_history.py -> build_kernel_json.py -> build_db.py -> generate_entries_from_db.py`), noted it only handled full HISTORY.md, and began a minimal safe extension by creating `wiki/scripts/extract_history_recent.py` to write last-7-days data into `wiki/data/extracted-history.json`; first run reported `Wrote 62 items from last 7 days`."
-    },
-    "nodes": [
-      {
-        "label": "wiki",
-        "type": "project",
-        "confidence": 0.9
-      }
-    ],
-    "relations": [],
-    "events": [
-      {
-        "title": "Wiki extraction hardening and operations follow-up",
-        "timestamp": "2026-03-26T00:13",
-        "summary": "Tightened extraction script, validated with Groq llama-3.3-70b-versatile, pushed commits 1555e60 and eba06f0, and created extract_history_recent.py for 7-day wiki rebuild pipeline",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\":[{\"label\":\"djclaw/wiki\",\"type\":\"project\",\"confidence\":0.9}],\"relations\":[],\"events\":[{\"title\":\"Wiki extraction hardening and operations follow-up\",\"timestamp\":\"2026-03-26T00:13\",\"summary\":\"Tightened extraction script, validated with Groq llama-3.3-70b-versatile, pushed commits 1555e60 and eba06f0, and created extract_history_recent.py for 7-day wiki rebuild pipeline\",\"confidence\":0.9}]}",
-    "parse_error": null
-  },
-  {
-    "entry_id": "entry-007",
-    "timestamp": "2026-03-26T00:20",
-    "evidence": {
-      "evidence_id": "evidence-007",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T00:20",
-      "text": "[2026-03-26 00:20] Wiki recent-window refresh and scheduler investigation advanced. The 7-day wiki pipeline was run end-to-end, producing /home/dj/.nanobot/workspace/memory/wiki.db with {sources:1, evidence:98, nodes:60, relations:421, events:98} and 44 generated node pages (16 skipped), then pushed to djclaw/wiki in commits 022c165 (Refresh wiki from recent 7-day history) and 67c0e01 (Add daily wiki refresh runner). New script /home/dj/.nanobot/workspace/wiki/scripts/run_recent_daily_refresh.sh was created and locally validated; built-in nanobot CLI lacked `nanobot cron`, and the available cron tool appears reminder-only rather than a real shell executor, so true daily auto-run is still unresolved. User approved the assistant’s recommendation to continue with normalization v2, one more mild round of abstract-node restriction, and a full 13-entry A/B comparison to verify nodes/events are improved without over-tightening. User also requested a deeper scheduler design for daily ingestion of new HISTORY content through extraction/build/db/page generation and automatic GitHub push; subagent `nanobot-daily-wiki-scheduler` was started (id 336e7dc7) to investigate whether nanobot scheduling should live in heartbeat/cron/another layer."
-    },
-    "nodes": [
-      {
-        "label": "wiki",
-        "type": "project",
-        "confidence": 0.9
-      },
-      {
-        "label": "nanobot-daily-wiki-scheduler",
-        "type": "project",
-        "confidence": 0.8
-      }
-    ],
-    "relations": [],
-    "events": [
-      {
-        "title": "7-day wiki pipeline completed and pushed to djclaw/wiki",
-        "timestamp": "2026-03-26T00:20",
-        "summary": "End-to-end run produced wiki.db and 44 node pages, pushed via commits 022c165 & 67c0e01",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\": [{\"label\": \"nanobot\", \"type\": \"tool\", \"confidence\": 0.9}, {\"label\": \"djclaw/wiki\", \"type\": \"project\", \"confidence\": 0.9}, {\"label\": \"nanobot-daily-wiki-scheduler\", \"type\": \"project\", \"confidence\": 0.8}], \"relations\": [], \"events\": [{\"title\": \"7-day wiki pipeline completed and pushed to djclaw/wiki\", \"timestamp\": \"2026-03-26T00:20\", \"summary\": \"End-to-end run produced wiki.db and 44 node pages, pushed via commits 022c165 & 67c0e01\", \"confidence\": 0.9}]}",
-    "parse_error": null
-  },
-  {
-    "entry_id": "entry-008",
-    "timestamp": "2026-03-26T00:29",
-    "evidence": {
-      "evidence_id": "evidence-008",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T00:29",
-      "text": "[2026-03-26 00:29] User approved execution priority for wiki cleanup: first tighten materialization filter for page generation, then implement daily incremental automation. Assistant verified DJClaw post 071 had only local uncommitted changes, confirmed the final assets/files, removed the unused test image `assets/wiki-layers-poster-test.png`, and published post 071 `posts-2026-03-25-071-from-history-to-wiki-layers.html` with image `assets/wiki-layers-poster-071.png` in commit `fbd6dee` (`Publish post 071 on wiki layers`). For wiki automation architecture, assistant summarized that the best approach in this environment is nanobot built-in cron as scheduler plus an idempotent local script, not `HEARTBEAT.md`, for checking new `HISTORY.md`, rebuilding wiki outputs, and auto-pushing. In `/home/dj/.nanobot/workspace/wiki`, assistant began A-phase work by inspecting `scripts/generate_entries_from_db.py` and `scripts/run_recent_daily_refresh.sh`, identified noisy materialized nodes such as process words, file/path-like items, commit hashes, and stage-number tokens, and edited `generate_entries_from_db.py` multiple times to tighten publishability rules and add better generation-result summary before rerunning page generation/search index validation."
-    },
-    "nodes": [
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.9
-      }
-    ],
-    "relations": [],
-    "events": [
-      {
-        "title": "Post 071 on wiki layers published",
-        "timestamp": "2026-03-26T00:29",
-        "summary": "Assistant verified and published post 071 while tightening page-generation filters and testing incremental automation with nanobot cron plus idempotent script",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\": [{\"label\": \"DJClaw\", \"type\": \"project\", \"confidence\": 0.9}], \"relations\": [], \"events\": [{\"title\": \"Post 071 on wiki layers published\", \"timestamp\": \"2026-03-26T00:29\", \"summary\": \"Assistant verified and published post 071 while tightening page-generation filters and testing incremental automation with nanobot cron plus idempotent script\", \"confidence\": 0.9}]}",
-    "parse_error": null
-  },
-  {
-    "entry_id": "entry-009",
-    "timestamp": "2026-03-26T06:57",
-    "evidence": {
-      "evidence_id": "evidence-009",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T06:57",
-      "text": "[2026-03-26 06:57] Wiki and DJClaw follow-up: in djclaw/wiki, user-visible wiki materialization + daily automation changes were committed and pushed as `8e36ebb` (`Polish wiki materialization and daily automation`). This included `.gitignore` cleanup, tracked state files under `data/state/` (`last_history_sha.txt`, `last_daily_refresh_success.json`), daily incremental script `scripts/daily_history_ingest.sh`, and issue updates for wiki issues #7, #9, and #10 after earlier shell-escaped comment noise. Separately, user reported DJClaw post 071 image cropping; diagnosis confirmed the article HTML/CSS was not the cause and the source image itself is missing the left-side first step. User approved fixing it by regenerating/extending the image with left safe margin and replacing `assets/wiki-layers-poster-071.png` in `/home/dj/.nanobot/workspace/djclaw.github.io`."
-    },
-    "nodes": [
-      {
-        "label": "wiki",
-        "type": "project",
-        "confidence": 1.0
-      },
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 1.0
-      }
-    ],
-    "relations": [],
-    "events": [
-      {
-        "title": "Polish wiki materialization and daily automation",
-        "timestamp": "2026-03-26T06:57",
-        "summary": "Committed and pushed changes in djclaw/wiki repo including .gitignore cleanup, tracked state files, and daily incremental script",
-        "confidence": 1.0
-      }
-    ],
-    "raw_response": "{\"nodes\":[{\"label\":\"djclaw/wiki\",\"type\":\"project\",\"confidence\":1.0},{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":1.0}],\"relations\":[{\"source_label\":\"djclaw/wiki\",\"relation_type\":\"related_to\",\"target_label\":\"DJClaw\",\"confidence\":0.8}],\"events\":[{\"title\":\"Polish wiki materialization and daily automation\",\"timestamp\":\"2026-03-26T06:57\",\"summary\":\"Committed and pushed changes in djclaw/wiki repo including .gitignore cleanup, tracked state files, and daily incremental script\",\"confidence\":1.0}]}",
-    "parse_error": null
-  },
-  {
-    "entry_id": "entry-010",
-    "timestamp": "2026-03-26T07:20",
-    "evidence": {
-      "evidence_id": "evidence-010",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T07:20",
-      "text": "[2026-03-26 07:20] User reported wiki extraction logic still felt too loose after reviewing several extracted entities, and asked to use a stricter logic plus the Kimi model so final entities look more like stable concrete items such as New York or New Jersey. Assistant inspected `wiki/scripts/extraction_poc.py`, sampled current outputs, ran Groq Kimi (`moonshotai/kimi-k2-instruct`) on recent-history windows, and concluded the current pipeline was still too summary-like, leaving abstract/internal nodes such as workflow names, device/platform terms, and model/provider artifacts. Assistant edited `extraction_poc.py` multiple times to make prompts and local filtering more conservative, reran Kimi on a wider 7-day sample, and proposed the next stricter taxonomy gate: prioritize only place / project / tool-product-service / org-platform / person, while largely dropping topic/other, abstract workflow phrases, temporary task names, device/OS/channel nouns, and model-experiment noise. Earlier in the same conversation, the cropped poster image for DJClaw post 071 was first fixed and pushed in commit `a03cd93`, but after the user reported section 1 still was not fully visible, assistant verified the source image itself was too far left, rebuilt the poster with a full six-column relayout, and pushed the redesigned asset in commit `5ebf885` (`Redesign poster image for post 071`)."
-    },
-    "nodes": [
-      {
-        "label": "Kimi",
-        "type": "tool",
-        "confidence": 0.9
-      },
-      {
-        "label": "Groq",
-        "type": "tool",
-        "confidence": 0.8
-      },
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.8
-      }
-    ],
-    "relations": [],
-    "events": [
-      {
-        "title": "Assistant tightened wiki extraction pipeline per user request",
-        "timestamp": "2026-03-26T07:20",
-        "summary": "User flagged loose extraction logic; assistant updated extraction_poc.py with stricter prompts, ran Kimi on 7-day sample, and proposed narrow taxonomy prioritizing place/project/tool/org/person nodes.",
-        "confidence": 0.95
-      },
-      {
-        "title": "Redesigned poster image for DJClaw post 071",
-        "timestamp": "2026-03-26T07:20",
-        "summary": "After initial commit a03cd93 failed to show section 1, assistant rebuilt poster with six-column layout and pushed redesigned asset in commit 5ebf885.",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\": [{\"label\": \"Kimi\", \"type\": \"tool\", \"confidence\": 0.9}, {\"label\": \"Groq\", \"type\": \"tool\", \"confidence\": 0.8}, {\"label\": \"DJClaw\", \"type\": \"project\", \"confidence\": 0.8}], \"relations\": [], \"events\": [{\"title\": \"Assistant tightened wiki extraction pipeline per user request\", \"timestamp\": \"2026-03-26T07:20\", \"summary\": \"User flagged loose extraction logic; assistant updated extraction_poc.py with stricter prompts, ran Kimi on 7-day sample, and proposed narrow taxonomy prioritizing place/project/tool/org/person nodes.\", \"confidence\": 0.95}, {\"title\": \"Redesigned poster image for DJClaw post 071\", \"timestamp\": \"2026-03-26T07:20\", \"summary\": \"After initial commit a03cd93 failed to show section 1, assistant rebuilt poster with six-column layout and pushed redesigned asset in commit 5ebf885.\", \"confidence\": 0.9}]}",
-    "parse_error": null
-  },
-  {
-    "entry_id": "entry-011",
-    "timestamp": "2026-03-26T07:40",
-    "evidence": {
-      "evidence_id": "evidence-011",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T07:40",
-      "text": "[2026-03-26 07:40] Wiki extraction PoC was deemed good enough by the user to merge into the formal extraction pipeline. Before this request, the assistant had already switched the daily recent-history path away from the old rule-based `extract_history.py` to a Kimi-backed flow by making `extract_history.py` a thin wrapper over `scripts/extraction_poc.py`, updating `extract_history_recent.py`, and adding default Groq/Kimi env wiring in `run_recent_daily_refresh.sh`. The assistant also tightened place-first / anti-generic filtering and verified recent extraction runs were using provider `groq` model `moonshotai/kimi-k2-instruct`. User’s latest instruction: fully merge the PoC into the official extraction pipeline, clean up old code, and audit the wiki extraction/build chain so every step uses the most updated logic."
-    },
-    "nodes": [],
-    "relations": [],
-    "events": [
-      {
-        "title": "Kimi-backed flow replaces old extract_history.py logic",
-        "timestamp": "2026-03-26T07:40",
-        "summary": "Wiki extraction PoC accepted and merged into formal extraction pipeline; related scripts updated to leverage Kimi/Groq models",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\":[{\"label\":\"extract_history.py\",\"type\":\"other\",\"confidence\":0.8},{\"label\":\"scripts/extraction_poc.py\",\"type\":\"other\",\"confidence\":0.8}],\"relations\":[],\"events\":[{\"title\":\"Kimi-backed flow replaces old extract_history.py logic\",\"timestamp\":\"2026-03-26T07:40\",\"summary\":\"Wiki extraction PoC accepted and merged into formal extraction pipeline; related scripts updated to leverage Kimi/Groq models\",\"confidence\":0.9}]}",
-    "parse_error": null
-  },
-  {
-    "entry_id": "entry-012",
-    "timestamp": "2026-03-26T07:48",
-    "evidence": {
-      "evidence_id": "evidence-012",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T07:48",
-      "text": "[2026-03-26 07:48] User asked whether the subagent-generated wiki layers poster was done; assistant verified the note, asset, and published DJClaw post 071 already existed and had been fixed in prior commits, then user instructed “strict v3 执行 同时做你说的三件事.” Assistant completed strict v3 cleanup in the wiki repo: unified the formal extraction path/naming (formalized around `scripts/history_extraction.py` with `extract_history.py` using the formal module and `extraction_poc.py` retained only as a compatibility wrapper), moved formal outputs to `data/extraction-pipeline/`, updated `scripts/baseline_recent_history_compare.py` to write `data/extraction-pipeline/baseline-recent-history.json`, tightened `scripts/generate_entries_from_db.py` materialization filtering to suppress model/provider names, weak numeric/stage titles, path/slug/process terms, and restored `wiki` to an allowlist so it would not be accidentally filtered. Verification reran baseline, daily refresh, and materialization; current recent-window extraction reported 21 entries, 18 extracted items, kernel counts nodes 18 / relations 69 / events 47 / evidence 47, and the final kept pages were only `airbnb`, `djclaw`, `github`, `logseq`, `lonely-planet`, `new-orleans`, `seqlog`, `trips`, and `wiki`, while noisy pages such as `Craig Adams`, `Gemini 2.5 Flash`, `Groq`, `Kimi`, `djclaw/trips`, and `nanobot-daily-wiki-scheduler` were correctly filtered. User then approved cleanup/archive plus pushing this strict v3 round; assistant checked the wiki repo state on branch `main` with remote `https://github.com/djclaw/wiki.git` and prepared to commit/push only the strict-v3-related changes."
-    },
-    "nodes": [
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.9
-      },
-      {
-        "label": "GitHub",
-        "type": "org",
-        "confidence": 0.9
-      },
-      {
-        "label": "Logseq",
-        "type": "tool",
-        "confidence": 0.9
-      },
-      {
-        "label": "Lonely Planet",
-        "type": "org",
-        "confidence": 0.9
-      }
-    ],
-    "relations": [],
-    "events": [
-      {
-        "title": "Strict v3 cleanup completed in wiki repo",
-        "timestamp": "2026-03-26T07:48",
-        "summary": "Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"GitHub\",\"type\":\"org\",\"confidence\":0.9},{\"label\":\"Logseq\",\"type\":\"tool\",\"confidence\":0.9},{\"label\":\"Lonely Planet\",\"type\":\"org\",\"confidence\":0.9}],\"relations\":[],\"events\":[{\"title\":\"Strict v3 cleanup completed in wiki repo\",\"timestamp\":\"2026-03-26T07:48\",\"summary\":\"Unified extraction path, moved outputs to data/extraction-pipeline/, updated filtering, verified 18 kept pages including airbnb, djclaw, github, logseq, lonely-planet, new-orleans, seqlog, trips, wiki\",\"confidence\":0.9}]}",
-    "parse_error": null
-  },
-  {
-    "entry_id": "entry-013",
-    "timestamp": "2026-03-26T10:18",
-    "evidence": {
-      "evidence_id": "evidence-013",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T10:18",
-      "text": "[2026-03-26 10:18] User reviewed DJClaw post 071 replacement image attempts and rejected both Pillow-based cartoon/editorial poster versions as not good-looking enough. User now wants a comic/manga-style presentation instead of the current flow-diagram approach and specifically suggested trying generation with nanobanand. Prior context in this exchange: assistant had launched two image-generation attempts for post 071, both previewed in Telegram first per user request; OpenAI image generation was unavailable in the workspace, so the fallback local Pillow-generated PNG replaced `/home/dj/.nanobot/workspace/djclaw.github.io/assets/wiki-layers-poster-071.png`, with notes recorded in `/home/dj/.nanobot/workspace/docs/post-071-cartoon-image-generation-note.md`."
-    },
-    "nodes": [
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.9
-      },
-      {
-        "label": "nanobanand",
-        "type": "tool",
-        "confidence": 0.9
-      }
-    ],
-    "relations": [],
-    "events": [
-      {
-        "title": "DJClaw post 071 image rejected and style pivot requested",
-        "timestamp": "2026-03-26T10:18",
-        "summary": "User rejected Pillow-based poster versions for DJClaw post 071 and requested comic/manga style using nanobanand",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"nanobanand\",\"type\":\"tool\",\"confidence\":0.9}],\"relations\":[],\"events\":[{\"title\":\"DJClaw post 071 image rejected and style pivot requested\",\"timestamp\":\"2026-03-26T10:18\",\"summary\":\"User rejected Pillow-based poster versions for DJClaw post 071 and requested comic/manga style using nanobanand\",\"confidence\":0.9}]}",
-    "parse_error": null
-  },
-  {
-    "entry_id": "entry-014",
-    "timestamp": "2026-03-26T11:14",
-    "evidence": {
-      "evidence_id": "evidence-014",
-      "source_id": "history_md",
-      "timestamp": "2026-03-26T11:14",
-      "text": "[2026-03-26 11:14] User requested comic-style regeneration for DJClaw post 071 image and ultimately chose to publish only version B (editorial newsroom comic). Three preview images were generated locally as `assets/wiki-layers-comic-a-071.png`, `...-b-071.png`, and `...-c-071.png` and sent to Telegram for preview; user first said they liked B, briefly sent a conflicting `只放a`, then clarified `只放b 发布push`. Assistant was in the process of replacing post 071’s main image with B, cleaning unused A/C and old poster changes before commit/push."
-    },
-    "nodes": [
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.9
-      }
-    ],
-    "relations": [],
-    "events": [
-      {
-        "title": "Chose editorial newsroom comic B for DJClaw post 071",
-        "timestamp": "2026-03-26T11:14",
-        "summary": "User selected version B for publication after local preview of three comic-style regeneration images.",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.9}],\"relations\":[],\"events\":[{\"title\":\"Chose editorial newsroom comic B for DJClaw post 071\",\"timestamp\":\"2026-03-26T11:14\",\"summary\":\"User selected version B for publication after local preview of three comic-style regeneration images.\",\"confidence\":0.9}]}",
-    "parse_error": null
-  },
-  {
-    "entry_id": "entry-015",
     "timestamp": "2026-03-29T20:33",
     "evidence": {
-      "evidence_id": "evidence-015",
+      "evidence_id": "evidence-001",
       "source_id": "history_md",
       "timestamp": "2026-03-29T20:33",
       "text": "[2026-03-29 20:33] User requested 5-subagent article workflow: summarize three sources (Thariq on Claude Code skills/X, Mike Krieger AI & I video + Dan Shipper thread, Every article on why great products are still hard to build), plus a two-agent five-round debate on their inner connection, then publish two bilingual DJClaw posts in a quiet Craig-Adams-like style."
     },
-    "nodes": [
-      {
-        "label": "Mike Krieger",
-        "type": "person",
-        "confidence": 0.9
-      },
-      {
-        "label": "Dan Shipper",
-        "type": "person",
-        "confidence": 0.9
-      }
-    ],
+    "nodes": [],
     "relations": [],
     "events": [],
-    "raw_response": "{\"nodes\":[{\"label\":\"Mike Krieger\",\"type\":\"person\",\"confidence\":0.9},{\"label\":\"Dan Shipper\",\"type\":\"person\",\"confidence\":0.9}],\"relations\":[],\"events\":[]}",
+    "raw_response": "{\"nodes\": [], \"relations\": [], \"events\": []}",
     "parse_error": null
   },
   {
-    "entry_id": "entry-016",
+    "entry_id": "entry-002",
     "timestamp": "2026-03-29T20:34",
     "evidence": {
-      "evidence_id": "evidence-016",
+      "evidence_id": "evidence-002",
       "source_id": "history_md",
       "timestamp": "2026-03-29T20:34",
       "text": "[2026-03-29 20:34] User asked to start three subagents to summarize three pieces (Thariq/X on Claude Code skills, Mike Krieger video/X thread, and Every article on why great products are still hard to build), plus two additional agents to debate their internal connections for five rounds, then publish two bilingual DJClaw articles in a quiet Craig Adams–style voice. During execution, accessible source retrieval succeeded for the Every article and the Every transcript page for the Mike Krieger conversation, while direct X/YouTube extraction remained limited; assistant summarized the Instagram/Every piece and the Mike Krieger video/thread in plain Chinese for the user. Also preserved a prior failed WeChat-book-title retrieval attempt: user chose option 2 to search public sources for the 11th One-Way Street Bookstore Literary Award nominations/winners, but Brave Search was unavailable and direct WeChat secondary-link extraction was blocked, so no reliable book-title list could be recovered."
     },
     "nodes": [
       {
-        "label": "Claude Code",
-        "type": "tool",
-        "confidence": 0.9
-      },
-      {
         "label": "Every",
         "type": "org",
-        "confidence": 0.8
+        "confidence": 0.9
       },
       {
         "label": "Mike Krieger",
         "type": "person",
         "confidence": 0.9
+      },
+      {
+        "label": "One-Way Street Bookstore",
+        "type": "place",
+        "confidence": 0.88
+      },
+      {
+        "label": "DJClaw",
+        "type": "project",
+        "confidence": 0.85
+      },
+      {
+        "label": "Craig Adams",
+        "type": "person",
+        "confidence": 0.82
       }
     ],
     "relations": [],
     "events": [
       {
-        "title": "Summarized Every article and Mike Krieger video/thread in Chinese",
+        "title": "Summarization and bilingual DJClaw article generation",
         "timestamp": "2026-03-29T20:34",
-        "summary": "Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded.",
-        "confidence": 0.85
+        "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
+        "confidence": 0.9
       }
     ],
-    "raw_response": "{\"nodes\":[{\"label\":\"Claude Code\",\"type\":\"tool\",\"confidence\":0.9},{\"label\":\"Every\",\"type\":\"org\",\"confidence\":0.8},{\"label\":\"Mike Krieger\",\"type\":\"person\",\"confidence\":0.9}],\"relations\":[],\"events\":[{\"title\":\"Summarized Every article and Mike Krieger video/thread in Chinese\",\"timestamp\":\"2026-03-29T20:34\",\"summary\":\"Assistant summarized the Every article on product-building difficulty and the Mike Krieger video/thread in plain Chinese after source retrieval succeeded.\",\"confidence\":0.85}]}",
+    "raw_response": "{\"nodes\":[{\"label\":\"Every\",\"type\":\"org\",\"confidence\":0.9},{\"label\":\"Mike Krieger\",\"type\":\"person\",\"confidence\":0.9},{\"label\":\"One-Way Street Bookstore\",\"type\":\"place\",\"confidence\":0.88},{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.85},{\"label\":\"Craig Adams\",\"type\":\"person\",\"confidence\":0.82}], \"relations\":[], \"events\":[{\"title\":\"Summarization and bilingual DJClaw article generation\",\"timestamp\":\"2026-03-29T20:34\",\"summary\":\"User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice\",\"confidence\":0.9}]}",
     "parse_error": null
   },
   {
-    "entry_id": "entry-017",
+    "entry_id": "entry-003",
     "timestamp": "2026-03-29T20:44",
     "evidence": {
-      "evidence_id": "evidence-017",
+      "evidence_id": "evidence-003",
       "source_id": "history_md",
       "timestamp": "2026-03-29T20:44",
       "text": "[2026-03-29 20:44] User approved the two new DJClaw article titles `When Building Gets Cheap` (post 072) and `Bounded Emergence` (post 073) after asking why those names were chosen. User then requested that each article end with a short note explaining the title choice before publishing. The two posts were updated accordingly, and DJClaw repo changes (`index.html`, `sitemap.xml`, the two new post files) were committed and pushed in commit `e06929f` with message `Publish posts 072 and 073 on AI product judgment`."
@@ -544,68 +81,81 @@
     "relations": [],
     "events": [
       {
-        "title": "DJClaw posts 072 and 073 published",
+        "title": "DJClaw posts 072 and 073 approved and published",
         "timestamp": "2026-03-29T20:44",
-        "summary": "User approved and published two new DJClaw articles titled 'When Building Gets Cheap' and 'Bounded Emergence'",
+        "summary": "User approved and published two DJClaw articles, 'When Building Gets Cheap' and 'Bounded Emergence', after requesting explanatory notes on the title choices.",
         "confidence": 0.85
       }
     ],
-    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.9}],\"relations\":[],\"events\":[{\"title\":\"DJClaw posts 072 and 073 published\",\"timestamp\":\"2026-03-29T20:44\",\"summary\":\"User approved and published two new DJClaw articles titled 'When Building Gets Cheap' and 'Bounded Emergence'\",\"confidence\":0.85}]}",
+    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.9}],\"relations\":[],\"events\":[{\"title\":\"DJClaw posts 072 and 073 approved and published\",\"timestamp\":\"2026-03-29T20:44\",\"summary\":\"User approved and published two DJClaw articles, 'When Building Gets Cheap' and 'Bounded Emergence', after requesting explanatory notes on the title choices.\",\"confidence\":0.85}]}",
     "parse_error": null
   },
   {
-    "entry_id": "entry-018",
+    "entry_id": "entry-004",
     "timestamp": "2026-03-30T14:41",
     "evidence": {
-      "evidence_id": "evidence-018",
+      "evidence_id": "evidence-004",
       "source_id": "history_md",
       "timestamp": "2026-03-30T14:41",
       "text": "[2026-03-30 14:41] DJClaw post 075 `posts-2026-03-30-075-saint-peter-a-quiet-note.html` was first published as a quiet Saint Peter note with an embedded 30-second read-aloud script, then upgraded at user request to include a real Chinese audio file and inline HTML5 player replacing the script. Audio asset `/assets/audio/saint-peter-quiet-note-075-zh.mp3` was generated via a lightweight online TTS path after local Chinese TTS tools were unavailable, a short transcript was retained, and the update was pushed in commit `9234b3c` (`Add audio player to post 075`). Later the user asked for a short summary of why the post works; assistant framed the article as emphasizing Peter as an ordinary, fearful, fallible person who is still loved and entrusted after failure."
     },
     "nodes": [
       {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.9
-      },
-      {
         "label": "Saint Peter",
         "type": "person",
-        "confidence": 0.95
+        "confidence": 0.9
       }
     ],
     "relations": [],
     "events": [
       {
-        "title": "Post 075 published and upgraded with Chinese audio",
+        "title": "Saint Peter post upgraded with Chinese audio",
         "timestamp": "2026-03-30T14:41",
-        "summary": "DJClaw's post 075 originally as a quiet Saint Peter note with a 30s read-aloud script; upgraded at user request with real Chinese audio and inline HTML5 player after local Chinese TTS tools unavailable, pushing commit 9234b3c.",
+        "summary": "Post 075 about Saint Peter initially published with read-aloud script, later updated to include real Chinese audio file and HTML5 player",
         "confidence": 0.9
       }
     ],
-    "raw_response": "{\"nodes\": [{\"label\": \"DJClaw\", \"type\": \"person\", \"confidence\": 0.9}, {\"label\": \"Saint Peter\", \"type\": \"person\", \"confidence\": 0.95}], \"relations\": [{\"source_label\": \"DJClaw\", \"target_label\": \"Saint Peter\", \"relation_type\": \"about\", \"confidence\": 0.8}], \"events\": [{\"title\": \"Post 075 published and upgraded with Chinese audio\", \"timestamp\": \"2026-03-30T14:41\", \"summary\": \"DJClaw's post 075 originally as a quiet Saint Peter note with a 30s read-aloud script; upgraded at user request with real Chinese audio and inline HTML5 player after local Chinese TTS tools unavailable, pushing commit 9234b3c.\", \"confidence\": 0.9}]}",
+    "raw_response": "{\"nodes\": [{\"label\": \"Saint Peter\", \"type\": \"person\", \"confidence\": 0.9}], \"relations\": [], \"events\": [{\"title\": \"Saint Peter post upgraded with Chinese audio\", \"timestamp\": \"2026-03-30T14:41\", \"summary\": \"Post 075 about Saint Peter initially published with read-aloud script, later updated to include real Chinese audio file and HTML5 player\", \"confidence\": 0.9}]}",
     "parse_error": null
   },
   {
-    "entry_id": "entry-019",
+    "entry_id": "entry-005",
     "timestamp": "2026-03-31T12:51",
     "evidence": {
-      "evidence_id": "evidence-019",
+      "evidence_id": "evidence-005",
       "source_id": "history_md",
       "timestamp": "2026-03-31T12:51",
       "text": "[2026-03-31 12:51] User requested a DJClaw article summarizing Sahil Lavingia’s The Minimalist Entrepreneur. Because Brave Search was unavailable and several direct book/product pages failed (Amazon/PenguinRandomHouse/Google Books/Gumroad 404s, Goodreads mismatch, one SSL error), assistant switched to direct public-source retrieval via DuckDuckGo result pages plus reliable sources including the Mixergy interview with Sahil Lavingia and a structured 7-step summary page. Assistant drafted DJClaw post 078 `posts-2026-03-31-078-the-minimalist-entrepreneur-step-by-step.html`, updated `index.html` and `sitemap.xml`, and published/pushed to `main` in commit `2653c4d` (`Publish post 078 on The Minimalist Entrepreneur`)."
     },
-    "nodes": [],
+    "nodes": [
+      {
+        "label": "Sahil Lavingia",
+        "type": "person",
+        "confidence": 0.9
+      },
+      {
+        "label": "DJClaw",
+        "type": "project",
+        "confidence": 0.9
+      }
+    ],
     "relations": [],
-    "events": [],
-    "raw_response": "{\"nodes\":[],\"relations\":[],\"events\":[]}",
+    "events": [
+      {
+        "title": "Published post 078 on The Minimalist Entrepreneur",
+        "timestamp": "2026-03-31T12:51",
+        "summary": "Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
+        "confidence": 0.9
+      }
+    ],
+    "raw_response": "{\"nodes\": [{\"label\": \"Sahil Lavingia\", \"type\": \"person\", \"confidence\": 0.9}, {\"label\": \"The Minimalist Entrepreneur\", \"type\": \"doc\", \"confidence\": 0.9}, {\"label\": \"DJClaw\", \"type\": \"project\", \"confidence\": 0.9}], \"relations\": [{\"source_label\": \"Sahil Lavingia\", \"relation_type\": \"published_to\", \"confidence\": 0.9}], \"events\": [{\"title\": \"Published post 078 on The Minimalist Entrepreneur\", \"timestamp\": \"2026-03-31T12:51\", \"summary\": \"Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview\", \"confidence\": 0.9}]}",
     "parse_error": null
   },
   {
-    "entry_id": "entry-020",
+    "entry_id": "entry-006",
     "timestamp": "2026-04-01T00:21",
     "evidence": {
-      "evidence_id": "evidence-020",
+      "evidence_id": "evidence-006",
       "source_id": "history_md",
       "timestamp": "2026-04-01T00:21",
       "text": "[2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user asked general questions about Bosnia’s use of `canton` and why people like the film `Trainspotting`; then the user requested turning the Trainspotting explanation into a new DJClaw article with the opening `Choose Life` quote at the very start. Work began by locating the DJClaw repo, confirming next post number `080`, and reading existing post/index/sitemap structure, but no completion/publish confirmation for post 080 appears in this conversation. Later, the user asked `你在用什么model`; the assistant answered that it cannot see the exact underlying model ID in this nanobot/API environment, but could help inspect provider/config exposure or write a command for the user to check available model configuration."
@@ -619,26 +169,19 @@
       {
         "label": "Bosnia",
         "type": "place",
-        "confidence": 0.8
-      }
-    ],
-    "relations": [],
-    "events": [
-      {
-        "title": "DJClaw post 079 published",
-        "timestamp": "2026-04-01T00:21",
-        "summary": "Published DJClaw post 079: ‘Building Small, on Purpose’",
         "confidence": 0.9
       }
     ],
-    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"Bosnia\",\"type\":\"place\",\"confidence\":0.8},{\"label\":\"Trainspotting\",\"type\":\"doc\",\"confidence\":0.8}],\"relations\":[],\"events\":[{\"title\":\"DJClaw post 079 published\",\"timestamp\":\"2026-04-01T00:21\",\"summary\":\"Published DJClaw post 079: ‘Building Small, on Purpose’\",\"confidence\":0.9}]}",
+    "relations": [],
+    "events": [],
+    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"Bosnia\",\"type\":\"place\",\"confidence\":0.9},{\"label\":\"Trainspotting\",\"type\":\"doc\",\"confidence\":0.8}],\"relations\":[],\"events\":[]}",
     "parse_error": null
   },
   {
-    "entry_id": "entry-021",
+    "entry_id": "entry-007",
     "timestamp": "2026-04-01T19:33",
     "evidence": {
-      "evidence_id": "evidence-021",
+      "evidence_id": "evidence-007",
       "source_id": "history_md",
       "timestamp": "2026-04-01T19:33",
       "text": "[2026-04-01 19:33] User requested turning the knee-protection advice into a new DJClaw article while hiding their age and not mentioning flat feet. Earlier in the same conversation, Trainspotting post 080 was successfully published to DJClaw using an English paraphrased “Choose life” opening, updating index.html and sitemap.xml, with commit 9b215ad after removing an accidental stray file. A new publish flow then began for the knee article: assistant checked the DJClaw repo and found max_post_number 80, but no completion/push is recorded yet in this conversation."
@@ -651,24 +194,36 @@
       }
     ],
     "relations": [],
-    "events": [],
-    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":1.0},{\"label\":\"Trainspotting post 080\",\"type\":\"doc\",\"confidence\":0.9}],\"relations\":[],\"events\":[]}",
+    "events": [
+      {
+        "title": "Trainspotting post 080 published to DJClaw",
+        "timestamp": "2026-04-01T19:33",
+        "summary": "Trainspotting post published using paraphrased opening, updated index.html/sitemap.xml",
+        "confidence": 0.9
+      }
+    ],
+    "raw_response": "{\"nodes\": [{\"label\": \"DJClaw\", \"type\": \"project\", \"confidence\": 1.0}], \"relations\": [], \"events\": [{\"title\": \"Trainspotting post 080 published to DJClaw\", \"timestamp\": \"2026-04-01T19:33\", \"summary\": \"Trainspotting post published using paraphrased opening, updated index.html/sitemap.xml\", \"confidence\": 0.9}]}",
     "parse_error": null
   },
   {
-    "entry_id": "entry-022",
+    "entry_id": "entry-008",
     "timestamp": "2026-04-01T20:18",
     "evidence": {
-      "evidence_id": "evidence-022",
+      "evidence_id": "evidence-008",
       "source_id": "history_md",
       "timestamp": "2026-04-01T20:18",
       "text": "[2026-04-01 20:18] User’s DJClaw knee-protection article workflow was completed and refined. Post 081 `posts-2026-04-01-081-a-quiet-plan-for-protecting-my-knees.html` was first published in commit `b1b6676`, then expanded by appending a Chinese version in the same file (commit `40319e3`, as reported in chat) and later updated with a knee routine image card asset `/assets/knee-routine-card-081.png` while fixing a stray Chinese-text corruption (`움직`) in commit `298f92c` (`Add bilingual knee card to post 081`). Immediately after, the conversation shifted into New Orleans culture/food Q&A: assistant explained the historical background of `When the Saints Go Marching In`, its deep New Orleans / jazz funeral / Louis Armstrong connection, and gave user-friendly explanations of `bayou`, `Cajun`, `Creole`, `gumbo`, `jambalaya`, and `étouffée`. The latest user request is to continue and introduce the remaining New Orleans dishes previously mentioned."
     },
     "nodes": [
       {
-        "label": "DJClaw",
-        "type": "project",
+        "label": "New Orleans",
+        "type": "place",
         "confidence": 0.9
+      },
+      {
+        "label": "Louis Armstrong",
+        "type": "person",
+        "confidence": 0.8
       }
     ],
     "relations": [],
@@ -676,11 +231,26 @@
       {
         "title": "DJClaw knee-protection article workflow completed",
         "timestamp": "2026-04-01T20:18",
-        "summary": "Post 081 first published, expanded with Chinese version and knee routine image, fixing text corruption",
-        "confidence": 0.9
+        "summary": "Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
+        "confidence": 0.7
       }
     ],
-    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"person\",\"confidence\":0.9}],\"relations\":[],\"events\":[{\"title\":\"DJClaw knee-protection article workflow completed\",\"timestamp\":\"2026-04-01T20:18\",\"summary\":\"Post 081 first published, expanded with Chinese version and knee routine image, fixing text corruption\",\"confidence\":0.9}]}",
+    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw knee-protection article\",\"type\":\"doc\",\"confidence\":0.7},{\"label\":\"New Orleans\",\"type\":\"place\",\"confidence\":0.9},{\"label\":\"Louis Armstrong\",\"type\":\"person\",\"confidence\":0.8}],\"relations\":[],\"events\":[{\"title\":\"DJClaw knee-protection article workflow completed\",\"timestamp\":\"2026-04-01T20:18\",\"summary\":\"Post 081 first published with bilingual content, knee-routine image card, and text fixes.\",\"confidence\":0.7}]}",
     "parse_error": null
+  },
+  {
+    "entry_id": "entry-009",
+    "timestamp": "2026-04-05T15:57",
+    "evidence": {
+      "evidence_id": "evidence-009",
+      "source_id": "history_md",
+      "timestamp": "2026-04-05T15:57",
+      "text": "[2026-04-05 15:57] Processed latest conversation updates. User published two DJClaw game-design posts from a WeChat article: post 082 `posts-2026-04-02-082-ai-cannot-feel-the-turn.html` (AI and game design, tied to Ticket to Ride variation) in commit `583e62d`, and then requested a pure summary version, resulting in post 083 `posts-2026-04-02-083-what-ai-still-cannot-replace-in-game-design.html` in commit `25ebc37`. Later, user shared a detailed rehab routine for adductor strain/posterior-chain tightness/tibial-nerve sensitivity; assistant summarized it but no publish action occurred. Most recently on 2026-04-05, user sent an image and asked to identify the instruments, find corresponding images and names, and publish a DJClaw post; assistant stated the plan to transcribe instruments/people first, then gather image sources and publish."
+    },
+    "nodes": [],
+    "relations": [],
+    "events": [],
+    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"project\"},{\"label\":\"WeChat\",\"type\":\"org\"}],\"relations\":[],\"events\":[]}",
+    "parse_error": "NodeCandidate.__init__() missing 1 required positional argument: 'confidence'"
   }
 ]
