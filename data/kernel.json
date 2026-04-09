@@ -9,145 +9,106 @@
   ],
   "evidence": [
     {
-      "evidence_id": "ev-bosnia-001",
+      "evidence_id": "ev-caveman-001",
       "source_id": "history_md",
-      "timestamp": "2026-04-01T00:21",
-      "raw_text": "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as",
-      "redacted_text": "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-craig-adams-001",
-      "source_id": "history_md",
-      "timestamp": "2026-03-29T20:34",
-      "raw_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
-      "redacted_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
+      "timestamp": "2026-04-08T16:11",
+      "raw_text": "2026-04-08T16:11 — User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088.",
+      "redacted_text": "2026-04-08T16:11 — User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088.",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-001",
       "source_id": "history_md",
-      "timestamp": "2026-03-29T20:34",
-      "raw_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
-      "redacted_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
+      "timestamp": "2026-04-01T19:33",
+      "raw_text": "2026-04-01T19:33 — Successfully published Trainspotting post 080 to DJClaw with an English paraphrased 'Choose life' opening, updating index.html and sitemap.xml, and committed as 9b215ad after cleanup.",
+      "redacted_text": "2026-04-01T19:33 — Successfully published Trainspotting post 080 to DJClaw with an English paraphrased 'Choose life' opening, updating index.html and sitemap.xml, and committed as 9b215ad after cleanup.",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-002",
       "source_id": "history_md",
-      "timestamp": "2026-03-29T20:44",
-      "raw_text": "2026-03-29T20:44 — User approved and published two DJClaw articles, 'When Building Gets Cheap' and 'Bounded Emergence', after requesting explanatory notes on the title choices.",
-      "redacted_text": "2026-03-29T20:44 — User approved and published two DJClaw articles, 'When Building Gets Cheap' and 'Bounded Emergence', after requesting explanatory notes on the title choices.",
+      "timestamp": "2026-04-01T20:18",
+      "raw_text": "2026-04-01T20:18 — DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
+      "redacted_text": "2026-04-01T20:18 — DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-003",
       "source_id": "history_md",
-      "timestamp": "2026-03-31T12:51",
-      "raw_text": "2026-03-31T12:51 — Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
-      "redacted_text": "2026-03-31T12:51 — Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
+      "timestamp": "2026-04-05T15:57",
+      "raw_text": "2026-04-05T15:57 — Two DJClaw game-design posts derived from a WeChat article were published",
+      "redacted_text": "2026-04-05T15:57 — Two DJClaw game-design posts derived from a WeChat article were published",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-004",
       "source_id": "history_md",
-      "timestamp": "2026-04-01T00:21",
-      "raw_text": "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as",
-      "redacted_text": "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as",
+      "timestamp": "2026-04-08T11:21",
+      "raw_text": "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
+      "redacted_text": "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-005",
       "source_id": "history_md",
-      "timestamp": "2026-04-01T19:33",
-      "raw_text": "2026-04-01T19:33 — Trainspotting post published using paraphrased opening, updated index.html/sitemap.xml",
-      "redacted_text": "2026-04-01T19:33 — Trainspotting post published using paraphrased opening, updated index.html/sitemap.xml",
+      "timestamp": "2026-04-08T12:22",
+      "raw_text": "2026-04-08T12:22 — Assistant created initial product docs for LedgerClaw project",
+      "redacted_text": "2026-04-08T12:22 — Assistant created initial product docs for LedgerClaw project",
       "publishable": true
     },
     {
-      "evidence_id": "ev-every-001",
+      "evidence_id": "ev-djclaw-006",
       "source_id": "history_md",
-      "timestamp": "2026-03-29T20:34",
-      "raw_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
-      "redacted_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
+      "timestamp": "2026-04-08T16:11",
+      "raw_text": "2026-04-08T16:11 — User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088.",
+      "redacted_text": "2026-04-08T16:11 — User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088.",
       "publishable": true
     },
     {
-      "evidence_id": "ev-louis-armstrong-001",
+      "evidence_id": "ev-ledgerclaw-001",
       "source_id": "history_md",
-      "timestamp": "2026-04-01T20:18",
-      "raw_text": "2026-04-01T20:18 — Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
-      "redacted_text": "2026-04-01T20:18 — Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
+      "timestamp": "2026-04-08T11:21",
+      "raw_text": "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
+      "redacted_text": "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
       "publishable": true
     },
     {
-      "evidence_id": "ev-mike-krieger-001",
+      "evidence_id": "ev-ledgerclaw-002",
       "source_id": "history_md",
-      "timestamp": "2026-03-29T20:34",
-      "raw_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
-      "redacted_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
+      "timestamp": "2026-04-08T12:22",
+      "raw_text": "2026-04-08T12:22 — Assistant created initial product docs for LedgerClaw project",
+      "redacted_text": "2026-04-08T12:22 — Assistant created initial product docs for LedgerClaw project",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-mattpocockskills-001",
+      "source_id": "history_md",
+      "timestamp": "2026-04-08T11:21",
+      "raw_text": "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
+      "redacted_text": "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
       "publishable": true
     },
     {
       "evidence_id": "ev-new-orleans-001",
       "source_id": "history_md",
       "timestamp": "2026-04-01T20:18",
-      "raw_text": "2026-04-01T20:18 — Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
-      "redacted_text": "2026-04-01T20:18 — Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-one-way-street-bookstore-001",
-      "source_id": "history_md",
-      "timestamp": "2026-03-29T20:34",
-      "raw_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
-      "redacted_text": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-sahil-lavingia-001",
-      "source_id": "history_md",
-      "timestamp": "2026-03-31T12:51",
-      "raw_text": "2026-03-31T12:51 — Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
-      "redacted_text": "2026-03-31T12:51 — Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
-      "publishable": true
-    },
-    {
-      "evidence_id": "ev-saint-peter-001",
-      "source_id": "history_md",
-      "timestamp": "2026-03-30T14:41",
-      "raw_text": "2026-03-30T14:41 — Post 075 about Saint Peter initially published with read-aloud script, later updated to include real Chinese audio file and HTML5 player",
-      "redacted_text": "2026-03-30T14:41 — Post 075 about Saint Peter initially published with read-aloud script, later updated to include real Chinese audio file and HTML5 player",
+      "raw_text": "2026-04-01T20:18 — DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
+      "redacted_text": "2026-04-01T20:18 — DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
       "publishable": true
     }
   ],
   "nodes": [
     {
-      "node_id": "bosnia",
-      "node_type": "place",
-      "title": "Bosnia",
-      "summary": "",
+      "node_id": "caveman",
+      "node_type": "project",
+      "title": "caveman",
+      "summary": "User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088.",
       "aliases": [
-        "bosnia"
+        "caveman"
       ],
       "tags": [],
       "categories": [
-        "Place"
-      ],
-      "status": "candidate",
-      "visibility": "review"
-    },
-    {
-      "node_id": "craig-adams",
-      "node_type": "person",
-      "title": "Craig Adams",
-      "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
-      "aliases": [
-        "craig adams"
-      ],
-      "tags": [],
-      "categories": [
-        "Person"
+        "Project"
       ],
       "status": "candidate",
       "visibility": "review"
@@ -156,7 +117,7 @@
       "node_id": "djclaw",
       "node_type": "project",
       "title": "DJClaw",
-      "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice / User approved and published two DJClaw articles, 'When Building Gets Cheap' and 'Bounded Emergence', after requesting explanatory notes on the title choices.",
+      "summary": "Successfully published Trainspotting post 080 to DJClaw with an English paraphrased 'Choose life' opening, updating index.html and sitemap.xml, and committed as 9b215ad after cleanup. / DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
       "aliases": [
         "djclaw"
       ],
@@ -168,46 +129,31 @@
       "visibility": "review"
     },
     {
-      "node_id": "every",
-      "node_type": "organization",
-      "title": "Every",
-      "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
+      "node_id": "ledgerclaw",
+      "node_type": "project",
+      "title": "LedgerClaw",
+      "summary": "Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow. / Assistant created initial product docs for LedgerClaw project",
       "aliases": [
-        "every"
+        "ledgerclaw"
       ],
       "tags": [],
       "categories": [
-        "Organization"
+        "Project"
       ],
       "status": "candidate",
       "visibility": "review"
     },
     {
-      "node_id": "louis-armstrong",
-      "node_type": "person",
-      "title": "Louis Armstrong",
-      "summary": "Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
+      "node_id": "mattpocockskills",
+      "node_type": "project",
+      "title": "mattpocock/skills",
+      "summary": "Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
       "aliases": [
-        "louis armstrong"
+        "mattpocock/skills"
       ],
       "tags": [],
       "categories": [
-        "Person"
-      ],
-      "status": "candidate",
-      "visibility": "review"
-    },
-    {
-      "node_id": "mike-krieger",
-      "node_type": "person",
-      "title": "Mike Krieger",
-      "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
-      "aliases": [
-        "mike krieger"
-      ],
-      "tags": [],
-      "categories": [
-        "Person"
+        "Project"
       ],
       "status": "candidate",
       "visibility": "review"
@@ -216,7 +162,7 @@
       "node_id": "new-orleans",
       "node_type": "place",
       "title": "New Orleans",
-      "summary": "Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
+      "summary": "DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
       "aliases": [
         "new orleans"
       ],
@@ -226,57 +172,12 @@
       ],
       "status": "candidate",
       "visibility": "review"
-    },
-    {
-      "node_id": "one-way-street-bookstore",
-      "node_type": "place",
-      "title": "One-Way Street Bookstore",
-      "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
-      "aliases": [
-        "one-way street bookstore"
-      ],
-      "tags": [],
-      "categories": [
-        "Place"
-      ],
-      "status": "candidate",
-      "visibility": "review"
-    },
-    {
-      "node_id": "sahil-lavingia",
-      "node_type": "person",
-      "title": "Sahil Lavingia",
-      "summary": "Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
-      "aliases": [
-        "sahil lavingia"
-      ],
-      "tags": [],
-      "categories": [
-        "Person"
-      ],
-      "status": "candidate",
-      "visibility": "review"
-    },
-    {
-      "node_id": "saint-peter",
-      "node_type": "person",
-      "title": "Saint Peter",
-      "summary": "Post 075 about Saint Peter initially published with read-aloud script, later updated to include real Chinese audio file and HTML5 player",
-      "aliases": [
-        "saint peter"
-      ],
-      "tags": [],
-      "categories": [
-        "Person"
-      ],
-      "status": "candidate",
-      "visibility": "review"
     }
   ],
   "relations": [
     {
-      "relation_id": "rel-bosnia-djclaw-related",
-      "from_node": "bosnia",
+      "relation_id": "rel-caveman-djclaw-related",
+      "from_node": "caveman",
       "to_node": "djclaw",
       "relation_type": "related_to",
       "weight": 1,
@@ -284,134 +185,35 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-craig-adams-djclaw-related",
-      "from_node": "craig-adams",
-      "to_node": "djclaw",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-craig-adams-every-related",
-      "from_node": "craig-adams",
-      "to_node": "every",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-craig-adams-mike-krieger-related",
-      "from_node": "craig-adams",
-      "to_node": "mike-krieger",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-craig-adams-one-way-street-bookstore-related",
-      "from_node": "craig-adams",
-      "to_node": "one-way-street-bookstore",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-djclaw-bosnia-related",
+      "relation_id": "rel-djclaw-ledgerclaw-related",
       "from_node": "djclaw",
-      "to_node": "bosnia",
+      "to_node": "ledgerclaw",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-djclaw-craig-adams-related",
+      "relation_id": "rel-djclaw-caveman-related",
       "from_node": "djclaw",
-      "to_node": "craig-adams",
+      "to_node": "caveman",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-djclaw-every-related",
+      "relation_id": "rel-djclaw-mattpocockskills-related",
       "from_node": "djclaw",
-      "to_node": "every",
+      "to_node": "mattpocockskills",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-djclaw-mike-krieger-related",
+      "relation_id": "rel-djclaw-new-orleans-related",
       "from_node": "djclaw",
-      "to_node": "mike-krieger",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-djclaw-one-way-street-bookstore-related",
-      "from_node": "djclaw",
-      "to_node": "one-way-street-bookstore",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-djclaw-sahil-lavingia-related",
-      "from_node": "djclaw",
-      "to_node": "sahil-lavingia",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-every-craig-adams-related",
-      "from_node": "every",
-      "to_node": "craig-adams",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-every-djclaw-related",
-      "from_node": "every",
-      "to_node": "djclaw",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-every-mike-krieger-related",
-      "from_node": "every",
-      "to_node": "mike-krieger",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-every-one-way-street-bookstore-related",
-      "from_node": "every",
-      "to_node": "one-way-street-bookstore",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-louis-armstrong-new-orleans-related",
-      "from_node": "louis-armstrong",
       "to_node": "new-orleans",
       "relation_type": "related_to",
       "weight": 1,
@@ -419,17 +221,8 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-mike-krieger-craig-adams-related",
-      "from_node": "mike-krieger",
-      "to_node": "craig-adams",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-mike-krieger-djclaw-related",
-      "from_node": "mike-krieger",
+      "relation_id": "rel-ledgerclaw-djclaw-related",
+      "from_node": "ledgerclaw",
       "to_node": "djclaw",
       "relation_type": "related_to",
       "weight": 1,
@@ -437,71 +230,35 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-mike-krieger-every-related",
-      "from_node": "mike-krieger",
-      "to_node": "every",
+      "relation_id": "rel-ledgerclaw-mattpocockskills-related",
+      "from_node": "ledgerclaw",
+      "to_node": "mattpocockskills",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-mike-krieger-one-way-street-bookstore-related",
-      "from_node": "mike-krieger",
-      "to_node": "one-way-street-bookstore",
+      "relation_id": "rel-mattpocockskills-djclaw-related",
+      "from_node": "mattpocockskills",
+      "to_node": "djclaw",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
       "status": "candidate"
     },
     {
-      "relation_id": "rel-new-orleans-louis-armstrong-related",
+      "relation_id": "rel-mattpocockskills-ledgerclaw-related",
+      "from_node": "mattpocockskills",
+      "to_node": "ledgerclaw",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-new-orleans-djclaw-related",
       "from_node": "new-orleans",
-      "to_node": "louis-armstrong",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-one-way-street-bookstore-craig-adams-related",
-      "from_node": "one-way-street-bookstore",
-      "to_node": "craig-adams",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-one-way-street-bookstore-djclaw-related",
-      "from_node": "one-way-street-bookstore",
-      "to_node": "djclaw",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-one-way-street-bookstore-every-related",
-      "from_node": "one-way-street-bookstore",
-      "to_node": "every",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-one-way-street-bookstore-mike-krieger-related",
-      "from_node": "one-way-street-bookstore",
-      "to_node": "mike-krieger",
-      "relation_type": "related_to",
-      "weight": 1,
-      "evidence_ids": [],
-      "status": "candidate"
-    },
-    {
-      "relation_id": "rel-sahil-lavingia-djclaw-related",
-      "from_node": "sahil-lavingia",
       "to_node": "djclaw",
       "relation_type": "related_to",
       "weight": 1,
@@ -511,29 +268,19 @@
   ],
   "events": [
     {
-      "event_id": "event-bosnia-001",
-      "timestamp": "2026-04-01T00:21",
-      "summary": "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as",
+      "event_id": "event-caveman-001",
+      "timestamp": "2026-04-08T16:11",
+      "summary": "2026-04-08T16:11 — User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088.",
       "node_ids": [
-        "bosnia"
+        "caveman"
       ],
-      "evidence_id": "ev-bosnia-001",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-craig-adams-001",
-      "timestamp": "2026-03-29T20:34",
-      "summary": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
-      "node_ids": [
-        "craig-adams"
-      ],
-      "evidence_id": "ev-craig-adams-001",
+      "evidence_id": "ev-caveman-001",
       "source_id": "history_md"
     },
     {
       "event_id": "event-djclaw-001",
-      "timestamp": "2026-03-29T20:34",
-      "summary": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
+      "timestamp": "2026-04-01T19:33",
+      "summary": "2026-04-01T19:33 — Successfully published Trainspotting post 080 to DJClaw with an English paraphrased 'Choose life' opening, updating index.html and sitemap.xml, and committed as 9b215ad after cleanup.",
       "node_ids": [
         "djclaw"
       ],
@@ -542,8 +289,8 @@
     },
     {
       "event_id": "event-djclaw-002",
-      "timestamp": "2026-03-29T20:44",
-      "summary": "2026-03-29T20:44 — User approved and published two DJClaw articles, 'When Building Gets Cheap' and 'Bounded Emergence', after requesting explanatory notes on the title choices.",
+      "timestamp": "2026-04-01T20:18",
+      "summary": "2026-04-01T20:18 — DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
       "node_ids": [
         "djclaw"
       ],
@@ -552,8 +299,8 @@
     },
     {
       "event_id": "event-djclaw-003",
-      "timestamp": "2026-03-31T12:51",
-      "summary": "2026-03-31T12:51 — Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
+      "timestamp": "2026-04-05T15:57",
+      "summary": "2026-04-05T15:57 — Two DJClaw game-design posts derived from a WeChat article were published",
       "node_ids": [
         "djclaw"
       ],
@@ -562,8 +309,8 @@
     },
     {
       "event_id": "event-djclaw-004",
-      "timestamp": "2026-04-01T00:21",
-      "summary": "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as",
+      "timestamp": "2026-04-08T11:21",
+      "summary": "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
       "node_ids": [
         "djclaw"
       ],
@@ -572,8 +319,8 @@
     },
     {
       "event_id": "event-djclaw-005",
-      "timestamp": "2026-04-01T19:33",
-      "summary": "2026-04-01T19:33 — Trainspotting post published using paraphrased opening, updated index.html/sitemap.xml",
+      "timestamp": "2026-04-08T12:22",
+      "summary": "2026-04-08T12:22 — Assistant created initial product docs for LedgerClaw project",
       "node_ids": [
         "djclaw"
       ],
@@ -581,73 +328,53 @@
       "source_id": "history_md"
     },
     {
-      "event_id": "event-every-001",
-      "timestamp": "2026-03-29T20:34",
-      "summary": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
+      "event_id": "event-djclaw-006",
+      "timestamp": "2026-04-08T16:11",
+      "summary": "2026-04-08T16:11 — User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088.",
       "node_ids": [
-        "every"
+        "djclaw"
       ],
-      "evidence_id": "ev-every-001",
+      "evidence_id": "ev-djclaw-006",
       "source_id": "history_md"
     },
     {
-      "event_id": "event-louis-armstrong-001",
-      "timestamp": "2026-04-01T20:18",
-      "summary": "2026-04-01T20:18 — Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
+      "event_id": "event-ledgerclaw-001",
+      "timestamp": "2026-04-08T11:21",
+      "summary": "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
       "node_ids": [
-        "louis-armstrong"
+        "ledgerclaw"
       ],
-      "evidence_id": "ev-louis-armstrong-001",
+      "evidence_id": "ev-ledgerclaw-001",
       "source_id": "history_md"
     },
     {
-      "event_id": "event-mike-krieger-001",
-      "timestamp": "2026-03-29T20:34",
-      "summary": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
+      "event_id": "event-ledgerclaw-002",
+      "timestamp": "2026-04-08T12:22",
+      "summary": "2026-04-08T12:22 — Assistant created initial product docs for LedgerClaw project",
       "node_ids": [
-        "mike-krieger"
+        "ledgerclaw"
       ],
-      "evidence_id": "ev-mike-krieger-001",
+      "evidence_id": "ev-ledgerclaw-002",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-mattpocockskills-001",
+      "timestamp": "2026-04-08T11:21",
+      "summary": "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
+      "node_ids": [
+        "mattpocockskills"
+      ],
+      "evidence_id": "ev-mattpocockskills-001",
       "source_id": "history_md"
     },
     {
       "event_id": "event-new-orleans-001",
       "timestamp": "2026-04-01T20:18",
-      "summary": "2026-04-01T20:18 — Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
+      "summary": "2026-04-01T20:18 — DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
       "node_ids": [
         "new-orleans"
       ],
       "evidence_id": "ev-new-orleans-001",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-one-way-street-bookstore-001",
-      "timestamp": "2026-03-29T20:34",
-      "summary": "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
-      "node_ids": [
-        "one-way-street-bookstore"
-      ],
-      "evidence_id": "ev-one-way-street-bookstore-001",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-sahil-lavingia-001",
-      "timestamp": "2026-03-31T12:51",
-      "summary": "2026-03-31T12:51 — Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
-      "node_ids": [
-        "sahil-lavingia"
-      ],
-      "evidence_id": "ev-sahil-lavingia-001",
-      "source_id": "history_md"
-    },
-    {
-      "event_id": "event-saint-peter-001",
-      "timestamp": "2026-03-30T14:41",
-      "summary": "2026-03-30T14:41 — Post 075 about Saint Peter initially published with read-aloud script, later updated to include real Chinese audio file and HTML5 player",
-      "node_ids": [
-        "saint-peter"
-      ],
-      "evidence_id": "ev-saint-peter-001",
       "source_id": "history_md"
     }
   ]

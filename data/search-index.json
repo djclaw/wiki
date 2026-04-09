@@ -2,7 +2,17 @@
   {
     "title": "DJClaw",
     "url": "entries/history/djclaw.html",
-    "snippet": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice / User approved and published two DJClaw articles, 'When Building Gets Cheap' and 'Bounded Emergence', after requesting explanatory notes on the title choices.",
+    "snippet": "Successfully published Trainspotting post 080 to DJClaw with an English paraphrased 'Choose life' opening, updating index.html and sitemap.xml, and committed as 9b215ad after cleanup. / DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
+    "tags": [],
+    "categories": [],
+    "aliases": [],
+    "related": [],
+    "coordinates": null
+  },
+  {
+    "title": "LedgerClaw",
+    "url": "entries/history/ledgerclaw.html",
+    "snippet": "Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow. / Assistant created initial product docs for LedgerClaw project",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -12,17 +22,7 @@
   {
     "title": "New Orleans",
     "url": "entries/history/new-orleans.html",
-    "snippet": "Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
-    "tags": [],
-    "categories": [],
-    "aliases": [],
-    "related": [],
-    "coordinates": null
-  },
-  {
-    "title": "One-Way Street Bookstore",
-    "url": "entries/history/one-way-street-bookstore.html",
-    "snippet": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
+    "snippet": "DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
     "tags": [],
     "categories": [],
     "aliases": [],

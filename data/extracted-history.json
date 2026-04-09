@@ -1,16 +1,16 @@
 [
   {
-    "title": "Bosnia",
-    "summary": "",
+    "title": "caveman",
+    "summary": "User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088.",
     "timeline": [
-      "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as"
+      "2026-04-08T16:11 — User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088."
     ],
     "tags": [],
     "categories": [
-      "Place"
+      "Project"
     ],
     "aliases": [
-      "bosnia"
+      "caveman"
     ],
     "related": [
       "DJClaw"
@@ -19,36 +19,15 @@
     "source_id": "history_md"
   },
   {
-    "title": "Craig Adams",
-    "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
-    "timeline": [
-      "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice"
-    ],
-    "tags": [],
-    "categories": [
-      "Person"
-    ],
-    "aliases": [
-      "craig adams"
-    ],
-    "related": [
-      "DJClaw",
-      "Every",
-      "Mike Krieger",
-      "One-Way Street Bookstore"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
     "title": "DJClaw",
-    "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice / User approved and published two DJClaw articles, 'When Building Gets Cheap' and 'Bounded Emergence', after requesting explanatory notes on the title choices.",
+    "summary": "Successfully published Trainspotting post 080 to DJClaw with an English paraphrased 'Choose life' opening, updating index.html and sitemap.xml, and committed as 9b215ad after cleanup. / DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
     "timeline": [
-      "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
-      "2026-03-29T20:44 — User approved and published two DJClaw articles, 'When Building Gets Cheap' and 'Bounded Emergence', after requesting explanatory notes on the title choices.",
-      "2026-03-31T12:51 — Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
-      "2026-04-01T00:21 — [2026-04-01 00:21] Conversation included two main threads. First, after publishing DJClaw post 079 (`Building Small, on Purpose`, commit `8406405`), the user as",
-      "2026-04-01T19:33 — Trainspotting post published using paraphrased opening, updated index.html/sitemap.xml"
+      "2026-04-01T19:33 — Successfully published Trainspotting post 080 to DJClaw with an English paraphrased 'Choose life' opening, updating index.html and sitemap.xml, and committed as 9b215ad after cleanup.",
+      "2026-04-01T20:18 — DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
+      "2026-04-05T15:57 — Two DJClaw game-design posts derived from a WeChat article were published",
+      "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
+      "2026-04-08T12:22 — Assistant created initial product docs for LedgerClaw project",
+      "2026-04-08T16:11 — User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088."
     ],
     "tags": [],
     "categories": [
@@ -58,84 +37,60 @@
       "djclaw"
     ],
     "related": [
-      "Bosnia",
-      "Craig Adams",
-      "Every",
-      "Mike Krieger",
-      "One-Way Street Bookstore",
-      "Sahil Lavingia"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "Every",
-    "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
-    "timeline": [
-      "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice"
-    ],
-    "tags": [],
-    "categories": [
-      "Organization"
-    ],
-    "aliases": [
-      "every"
-    ],
-    "related": [
-      "Craig Adams",
-      "DJClaw",
-      "Mike Krieger",
-      "One-Way Street Bookstore"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "Louis Armstrong",
-    "summary": "Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
-    "timeline": [
-      "2026-04-01T20:18 — Post 081 first published with bilingual content, knee-routine image card, and text fixes."
-    ],
-    "tags": [],
-    "categories": [
-      "Person"
-    ],
-    "aliases": [
-      "louis armstrong"
-    ],
-    "related": [
+      "LedgerClaw",
+      "caveman",
+      "mattpocock/skills",
       "New Orleans"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
-    "title": "Mike Krieger",
-    "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
+    "title": "LedgerClaw",
+    "summary": "Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow. / Assistant created initial product docs for LedgerClaw project",
     "timeline": [
-      "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice"
+      "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
+      "2026-04-08T12:22 — Assistant created initial product docs for LedgerClaw project"
     ],
     "tags": [],
     "categories": [
-      "Person"
+      "Project"
     ],
     "aliases": [
-      "mike krieger"
+      "ledgerclaw"
     ],
     "related": [
-      "Craig Adams",
       "DJClaw",
-      "Every",
-      "One-Way Street Bookstore"
+      "mattpocock/skills"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "mattpocock/skills",
+    "summary": "Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
+    "timeline": [
+      "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow."
+    ],
+    "tags": [],
+    "categories": [
+      "Project"
+    ],
+    "aliases": [
+      "mattpocock/skills"
+    ],
+    "related": [
+      "DJClaw",
+      "LedgerClaw"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "New Orleans",
-    "summary": "Post 081 first published with bilingual content, knee-routine image card, and text fixes.",
+    "summary": "DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
     "timeline": [
-      "2026-04-01T20:18 — Post 081 first published with bilingual content, knee-routine image card, and text fixes."
+      "2026-04-01T20:18 — DJClaw's knee-protection article was published and refined with bilingual content and image assets."
     ],
     "tags": [],
     "categories": [
@@ -145,66 +100,8 @@
       "new orleans"
     ],
     "related": [
-      "Louis Armstrong"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "One-Way Street Bookstore",
-    "summary": "User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice",
-    "timeline": [
-      "2026-03-29T20:34 — User initiated multi-agent summarization of Thariq/X Claude Code piece, Mike Krieger video/thread, and Every article; two agents debated findings for five rounds; assistant produced two bilingual DJClaw articles in Craig Adams–style voice"
-    ],
-    "tags": [],
-    "categories": [
-      "Place"
-    ],
-    "aliases": [
-      "one-way street bookstore"
-    ],
-    "related": [
-      "Craig Adams",
-      "DJClaw",
-      "Every",
-      "Mike Krieger"
-    ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "Sahil Lavingia",
-    "summary": "Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview",
-    "timeline": [
-      "2026-03-31T12:51 — Assistant drafted and published DJClaw post summarizing The Minimalist Entrepreneur using public sources including Mixergy interview"
-    ],
-    "tags": [],
-    "categories": [
-      "Person"
-    ],
-    "aliases": [
-      "sahil lavingia"
-    ],
-    "related": [
       "DJClaw"
     ],
-    "source": "history",
-    "source_id": "history_md"
-  },
-  {
-    "title": "Saint Peter",
-    "summary": "Post 075 about Saint Peter initially published with read-aloud script, later updated to include real Chinese audio file and HTML5 player",
-    "timeline": [
-      "2026-03-30T14:41 — Post 075 about Saint Peter initially published with read-aloud script, later updated to include real Chinese audio file and HTML5 player"
-    ],
-    "tags": [],
-    "categories": [
-      "Person"
-    ],
-    "aliases": [
-      "saint peter"
-    ],
-    "related": [],
     "source": "history",
     "source_id": "history_md"
   }
