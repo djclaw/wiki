@@ -1,16 +1,41 @@
 [
   {
-    "title": "caveman",
-    "summary": "User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088.",
+    "title": "Anthropic",
+    "summary": "Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
     "timeline": [
-      "2026-04-08T16:11 — User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088."
+      "2026-04-10T10:16 — [2026-04-10 10:16] User asked for discussion/analysis of external articles/videos. Assistant read Anthropic’s engineering post on managed agents and explained i",
+      "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9."
+    ],
+    "tags": [],
+    "categories": [
+      "Organization"
+    ],
+    "aliases": [
+      "anthropic"
+    ],
+    "related": [
+      "DJClaw",
+      "Julius Brussee",
+      "Karpathy",
+      "llm-wiki",
+      "Matt Pocock",
+      "Weekly Signals"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "CRON",
+    "summary": "User approved separating DJClaw cron-generated content into dedicated CRON series with fixed naming and bilingual formatting.",
+    "timeline": [
+      "2026-04-10T14:44 — User approved separating DJClaw cron-generated content into dedicated CRON series with fixed naming and bilingual formatting."
     ],
     "tags": [],
     "categories": [
       "Project"
     ],
     "aliases": [
-      "caveman"
+      "cron"
     ],
     "related": [
       "DJClaw"
@@ -20,14 +45,15 @@
   },
   {
     "title": "DJClaw",
-    "summary": "Successfully published Trainspotting post 080 to DJClaw with an English paraphrased 'Choose life' opening, updating index.html and sitemap.xml, and committed as 9b215ad after cleanup. / DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
+    "summary": "Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw / User approved continuing the LedgerClaw bookkeeping app; assistant created initial product docs and defined UX direction.",
     "timeline": [
-      "2026-04-01T19:33 — Successfully published Trainspotting post 080 to DJClaw with an English paraphrased 'Choose life' opening, updating index.html and sitemap.xml, and committed as 9b215ad after cleanup.",
-      "2026-04-01T20:18 — DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
-      "2026-04-05T15:57 — Two DJClaw game-design posts derived from a WeChat article were published",
-      "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
-      "2026-04-08T12:22 — Assistant created initial product docs for LedgerClaw project",
-      "2026-04-08T16:11 — User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088."
+      "2026-04-08T11:21 — Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw",
+      "2026-04-08T12:22 — User approved continuing the LedgerClaw bookkeeping app; assistant created initial product docs and defined UX direction.",
+      "2026-04-08T16:11 — User-published caveman skill workflow update set as default reply style; assistant created workspace skill directory and spec docs, then posted article 088 on DJClaw.",
+      "2026-04-10T14:44 — User approved separating DJClaw cron-generated content into dedicated CRON series with fixed naming and bilingual formatting.",
+      "2026-04-10T18:23 — Weekly Signals bilingual roundup automated run started",
+      "2026-04-10T19:24 — DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
+      "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9."
     ],
     "tags": [],
     "categories": [
@@ -38,19 +64,84 @@
     ],
     "related": [
       "LedgerClaw",
-      "caveman",
+      "Matt Pocock",
       "mattpocock/skills",
-      "New Orleans"
+      "Weekly Signals",
+      "Anthropic",
+      "CRON",
+      "Julius Brussee"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "DJClaw CRON",
+    "summary": "User requested cleanup of Monthly Index template for DJClaw CRON to remove boilerplate sections and align format with Weekly Signals.",
+    "timeline": [
+      "2026-04-10T16:41 — User requested cleanup of Monthly Index template for DJClaw CRON to remove boilerplate sections and align format with Weekly Signals."
+    ],
+    "tags": [],
+    "categories": [
+      "Project"
+    ],
+    "aliases": [
+      "djclaw cron"
+    ],
+    "related": [
+      "Weekly Signals"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "Julius Brussee",
+    "summary": "Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
+    "timeline": [
+      "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9."
+    ],
+    "tags": [],
+    "categories": [
+      "Person"
+    ],
+    "aliases": [
+      "julius brussee"
+    ],
+    "related": [
+      "Anthropic",
+      "DJClaw",
+      "Matt Pocock",
+      "Weekly Signals"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "Karpathy",
+    "summary": "",
+    "timeline": [
+      "2026-04-10T10:16 — [2026-04-10 10:16] User asked for discussion/analysis of external articles/videos. Assistant read Anthropic’s engineering post on managed agents and explained i"
+    ],
+    "tags": [],
+    "categories": [
+      "Person"
+    ],
+    "aliases": [
+      "karpathy"
+    ],
+    "related": [
+      "Anthropic",
+      "llm-wiki"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "LedgerClaw",
-    "summary": "Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow. / Assistant created initial product docs for LedgerClaw project",
+    "summary": "Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw / User approved continuing the LedgerClaw bookkeeping app; assistant created initial product docs and defined UX direction.",
     "timeline": [
-      "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
-      "2026-04-08T12:22 — Assistant created initial product docs for LedgerClaw project"
+      "2026-04-08T11:21 — Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw",
+      "2026-04-08T12:22 — User approved continuing the LedgerClaw bookkeeping app; assistant created initial product docs and defined UX direction.",
+      "2026-04-10T19:24 — DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html"
     ],
     "tags": [],
     "categories": [
@@ -61,16 +152,63 @@
     ],
     "related": [
       "DJClaw",
-      "mattpocock/skills"
+      "Matt Pocock",
+      "mattpocock/skills",
+      "Weekly Signals"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "llm-wiki",
+    "summary": "",
+    "timeline": [
+      "2026-04-10T10:16 — [2026-04-10 10:16] User asked for discussion/analysis of external articles/videos. Assistant read Anthropic’s engineering post on managed agents and explained i"
+    ],
+    "tags": [],
+    "categories": [
+      "Project"
+    ],
+    "aliases": [
+      "llm-wiki"
+    ],
+    "related": [
+      "Anthropic",
+      "Karpathy"
+    ],
+    "source": "history",
+    "source_id": "history_md"
+  },
+  {
+    "title": "Matt Pocock",
+    "summary": "DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html / Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
+    "timeline": [
+      "2026-04-10T19:24 — DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
+      "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9."
+    ],
+    "tags": [],
+    "categories": [
+      "Person"
+    ],
+    "aliases": [
+      "matt pocock"
+    ],
+    "related": [
+      "DJClaw",
+      "Weekly Signals",
+      "Anthropic",
+      "Julius Brussee",
+      "LedgerClaw"
     ],
     "source": "history",
     "source_id": "history_md"
   },
   {
     "title": "mattpocock/skills",
-    "summary": "Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
+    "summary": "Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw / User-published caveman skill workflow update set as default reply style; assistant created workspace skill directory and spec docs, then posted article 088 on DJClaw.",
     "timeline": [
-      "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow."
+      "2026-04-08T11:21 — Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw",
+      "2026-04-08T16:11 — User-published caveman skill workflow update set as default reply style; assistant created workspace skill directory and spec docs, then posted article 088 on DJClaw."
     ],
     "tags": [],
     "categories": [
@@ -87,20 +225,27 @@
     "source_id": "history_md"
   },
   {
-    "title": "New Orleans",
-    "summary": "DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
+    "title": "Weekly Signals",
+    "summary": "User requested cleanup of Monthly Index template for DJClaw CRON to remove boilerplate sections and align format with Weekly Signals. / DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
     "timeline": [
-      "2026-04-01T20:18 — DJClaw's knee-protection article was published and refined with bilingual content and image assets."
+      "2026-04-10T16:41 — User requested cleanup of Monthly Index template for DJClaw CRON to remove boilerplate sections and align format with Weekly Signals.",
+      "2026-04-10T19:24 — DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
+      "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9."
     ],
     "tags": [],
     "categories": [
-      "Place"
+      "Project"
     ],
     "aliases": [
-      "new orleans"
+      "weekly signals"
     ],
     "related": [
-      "DJClaw"
+      "DJClaw",
+      "Matt Pocock",
+      "Anthropic",
+      "DJClaw CRON",
+      "Julius Brussee",
+      "LedgerClaw"
     ],
     "source": "history",
     "source_id": "history_md"

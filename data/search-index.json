@@ -2,7 +2,7 @@
   {
     "title": "DJClaw",
     "url": "entries/history/djclaw.html",
-    "snippet": "Successfully published Trainspotting post 080 to DJClaw with an English paraphrased 'Choose life' opening, updating index.html and sitemap.xml, and committed as 9b215ad after cleanup. / DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
+    "snippet": "Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw / User approved continuing the LedgerClaw bookkeeping app; assistant created initial product docs and defined UX direction.",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -12,7 +12,7 @@
   {
     "title": "LedgerClaw",
     "url": "entries/history/ledgerclaw.html",
-    "snippet": "Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow. / Assistant created initial product docs for LedgerClaw project",
+    "snippet": "Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw / User approved continuing the LedgerClaw bookkeeping app; assistant created initial product docs and defined UX direction.",
     "tags": [],
     "categories": [],
     "aliases": [],
@@ -20,9 +20,9 @@
     "coordinates": null
   },
   {
-    "title": "New Orleans",
-    "url": "entries/history/new-orleans.html",
-    "snippet": "DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
+    "title": "Weekly Signals",
+    "url": "entries/history/weekly-signals.html",
+    "snippet": "User requested cleanup of Monthly Index template for DJClaw CRON to remove boilerplate sections and align format with Weekly Signals. / DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
     "tags": [],
     "categories": [],
     "aliases": [],

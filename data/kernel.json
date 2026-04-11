@@ -9,102 +9,221 @@
   ],
   "evidence": [
     {
-      "evidence_id": "ev-caveman-001",
+      "evidence_id": "ev-anthropic-001",
       "source_id": "history_md",
-      "timestamp": "2026-04-08T16:11",
-      "raw_text": "2026-04-08T16:11 — User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088.",
-      "redacted_text": "2026-04-08T16:11 — User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088.",
+      "timestamp": "2026-04-10T10:16",
+      "raw_text": "2026-04-10T10:16 — [2026-04-10 10:16] User asked for discussion/analysis of external articles/videos. Assistant read Anthropic’s engineering post on managed agents and explained i",
+      "redacted_text": "2026-04-10T10:16 — [2026-04-10 10:16] User asked for discussion/analysis of external articles/videos. Assistant read Anthropic’s engineering post on managed agents and explained i",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-anthropic-002",
+      "source_id": "history_md",
+      "timestamp": "2026-04-10T22:39",
+      "raw_text": "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
+      "redacted_text": "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-cron-001",
+      "source_id": "history_md",
+      "timestamp": "2026-04-10T14:44",
+      "raw_text": "2026-04-10T14:44 — User approved separating DJClaw cron-generated content into dedicated CRON series with fixed naming and bilingual formatting.",
+      "redacted_text": "2026-04-10T14:44 — User approved separating DJClaw cron-generated content into dedicated CRON series with fixed naming and bilingual formatting.",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-001",
       "source_id": "history_md",
-      "timestamp": "2026-04-01T19:33",
-      "raw_text": "2026-04-01T19:33 — Successfully published Trainspotting post 080 to DJClaw with an English paraphrased 'Choose life' opening, updating index.html and sitemap.xml, and committed as 9b215ad after cleanup.",
-      "redacted_text": "2026-04-01T19:33 — Successfully published Trainspotting post 080 to DJClaw with an English paraphrased 'Choose life' opening, updating index.html and sitemap.xml, and committed as 9b215ad after cleanup.",
+      "timestamp": "2026-04-08T11:21",
+      "raw_text": "2026-04-08T11:21 — Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw",
+      "redacted_text": "2026-04-08T11:21 — Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-002",
       "source_id": "history_md",
-      "timestamp": "2026-04-01T20:18",
-      "raw_text": "2026-04-01T20:18 — DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
-      "redacted_text": "2026-04-01T20:18 — DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
+      "timestamp": "2026-04-08T12:22",
+      "raw_text": "2026-04-08T12:22 — User approved continuing the LedgerClaw bookkeeping app; assistant created initial product docs and defined UX direction.",
+      "redacted_text": "2026-04-08T12:22 — User approved continuing the LedgerClaw bookkeeping app; assistant created initial product docs and defined UX direction.",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-003",
       "source_id": "history_md",
-      "timestamp": "2026-04-05T15:57",
-      "raw_text": "2026-04-05T15:57 — Two DJClaw game-design posts derived from a WeChat article were published",
-      "redacted_text": "2026-04-05T15:57 — Two DJClaw game-design posts derived from a WeChat article were published",
+      "timestamp": "2026-04-08T16:11",
+      "raw_text": "2026-04-08T16:11 — User-published caveman skill workflow update set as default reply style; assistant created workspace skill directory and spec docs, then posted article 088 on DJClaw.",
+      "redacted_text": "2026-04-08T16:11 — User-published caveman skill workflow update set as default reply style; assistant created workspace skill directory and spec docs, then posted article 088 on DJClaw.",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-004",
       "source_id": "history_md",
-      "timestamp": "2026-04-08T11:21",
-      "raw_text": "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
-      "redacted_text": "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
+      "timestamp": "2026-04-10T14:44",
+      "raw_text": "2026-04-10T14:44 — User approved separating DJClaw cron-generated content into dedicated CRON series with fixed naming and bilingual formatting.",
+      "redacted_text": "2026-04-10T14:44 — User approved separating DJClaw cron-generated content into dedicated CRON series with fixed naming and bilingual formatting.",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-005",
       "source_id": "history_md",
-      "timestamp": "2026-04-08T12:22",
-      "raw_text": "2026-04-08T12:22 — Assistant created initial product docs for LedgerClaw project",
-      "redacted_text": "2026-04-08T12:22 — Assistant created initial product docs for LedgerClaw project",
+      "timestamp": "2026-04-10T18:23",
+      "raw_text": "2026-04-10T18:23 — Weekly Signals bilingual roundup automated run started",
+      "redacted_text": "2026-04-10T18:23 — Weekly Signals bilingual roundup automated run started",
       "publishable": true
     },
     {
       "evidence_id": "ev-djclaw-006",
       "source_id": "history_md",
-      "timestamp": "2026-04-08T16:11",
-      "raw_text": "2026-04-08T16:11 — User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088.",
-      "redacted_text": "2026-04-08T16:11 — User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088.",
+      "timestamp": "2026-04-10T19:24",
+      "raw_text": "2026-04-10T19:24 — DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
+      "redacted_text": "2026-04-10T19:24 — DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-djclaw-007",
+      "source_id": "history_md",
+      "timestamp": "2026-04-10T22:39",
+      "raw_text": "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
+      "redacted_text": "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-djclaw-cron-001",
+      "source_id": "history_md",
+      "timestamp": "2026-04-10T16:41",
+      "raw_text": "2026-04-10T16:41 — User requested cleanup of Monthly Index template for DJClaw CRON to remove boilerplate sections and align format with Weekly Signals.",
+      "redacted_text": "2026-04-10T16:41 — User requested cleanup of Monthly Index template for DJClaw CRON to remove boilerplate sections and align format with Weekly Signals.",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-julius-brussee-001",
+      "source_id": "history_md",
+      "timestamp": "2026-04-10T22:39",
+      "raw_text": "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
+      "redacted_text": "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-karpathy-001",
+      "source_id": "history_md",
+      "timestamp": "2026-04-10T10:16",
+      "raw_text": "2026-04-10T10:16 — [2026-04-10 10:16] User asked for discussion/analysis of external articles/videos. Assistant read Anthropic’s engineering post on managed agents and explained i",
+      "redacted_text": "2026-04-10T10:16 — [2026-04-10 10:16] User asked for discussion/analysis of external articles/videos. Assistant read Anthropic’s engineering post on managed agents and explained i",
       "publishable": true
     },
     {
       "evidence_id": "ev-ledgerclaw-001",
       "source_id": "history_md",
       "timestamp": "2026-04-08T11:21",
-      "raw_text": "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
-      "redacted_text": "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
+      "raw_text": "2026-04-08T11:21 — Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw",
+      "redacted_text": "2026-04-08T11:21 — Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw",
       "publishable": true
     },
     {
       "evidence_id": "ev-ledgerclaw-002",
       "source_id": "history_md",
       "timestamp": "2026-04-08T12:22",
-      "raw_text": "2026-04-08T12:22 — Assistant created initial product docs for LedgerClaw project",
-      "redacted_text": "2026-04-08T12:22 — Assistant created initial product docs for LedgerClaw project",
+      "raw_text": "2026-04-08T12:22 — User approved continuing the LedgerClaw bookkeeping app; assistant created initial product docs and defined UX direction.",
+      "redacted_text": "2026-04-08T12:22 — User approved continuing the LedgerClaw bookkeeping app; assistant created initial product docs and defined UX direction.",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-ledgerclaw-003",
+      "source_id": "history_md",
+      "timestamp": "2026-04-10T19:24",
+      "raw_text": "2026-04-10T19:24 — DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
+      "redacted_text": "2026-04-10T19:24 — DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-llm-wiki-001",
+      "source_id": "history_md",
+      "timestamp": "2026-04-10T10:16",
+      "raw_text": "2026-04-10T10:16 — [2026-04-10 10:16] User asked for discussion/analysis of external articles/videos. Assistant read Anthropic’s engineering post on managed agents and explained i",
+      "redacted_text": "2026-04-10T10:16 — [2026-04-10 10:16] User asked for discussion/analysis of external articles/videos. Assistant read Anthropic’s engineering post on managed agents and explained i",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-matt-pocock-001",
+      "source_id": "history_md",
+      "timestamp": "2026-04-10T19:24",
+      "raw_text": "2026-04-10T19:24 — DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
+      "redacted_text": "2026-04-10T19:24 — DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-matt-pocock-002",
+      "source_id": "history_md",
+      "timestamp": "2026-04-10T22:39",
+      "raw_text": "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
+      "redacted_text": "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
       "publishable": true
     },
     {
       "evidence_id": "ev-mattpocockskills-001",
       "source_id": "history_md",
       "timestamp": "2026-04-08T11:21",
-      "raw_text": "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
-      "redacted_text": "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
+      "raw_text": "2026-04-08T11:21 — Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw",
+      "redacted_text": "2026-04-08T11:21 — Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw",
       "publishable": true
     },
     {
-      "evidence_id": "ev-new-orleans-001",
+      "evidence_id": "ev-mattpocockskills-002",
       "source_id": "history_md",
-      "timestamp": "2026-04-01T20:18",
-      "raw_text": "2026-04-01T20:18 — DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
-      "redacted_text": "2026-04-01T20:18 — DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
+      "timestamp": "2026-04-08T16:11",
+      "raw_text": "2026-04-08T16:11 — User-published caveman skill workflow update set as default reply style; assistant created workspace skill directory and spec docs, then posted article 088 on DJClaw.",
+      "redacted_text": "2026-04-08T16:11 — User-published caveman skill workflow update set as default reply style; assistant created workspace skill directory and spec docs, then posted article 088 on DJClaw.",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-weekly-signals-001",
+      "source_id": "history_md",
+      "timestamp": "2026-04-10T16:41",
+      "raw_text": "2026-04-10T16:41 — User requested cleanup of Monthly Index template for DJClaw CRON to remove boilerplate sections and align format with Weekly Signals.",
+      "redacted_text": "2026-04-10T16:41 — User requested cleanup of Monthly Index template for DJClaw CRON to remove boilerplate sections and align format with Weekly Signals.",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-weekly-signals-002",
+      "source_id": "history_md",
+      "timestamp": "2026-04-10T19:24",
+      "raw_text": "2026-04-10T19:24 — DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
+      "redacted_text": "2026-04-10T19:24 — DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
+      "publishable": true
+    },
+    {
+      "evidence_id": "ev-weekly-signals-003",
+      "source_id": "history_md",
+      "timestamp": "2026-04-10T22:39",
+      "raw_text": "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
+      "redacted_text": "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
       "publishable": true
     }
   ],
   "nodes": [
     {
-      "node_id": "caveman",
-      "node_type": "project",
-      "title": "caveman",
-      "summary": "User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088.",
+      "node_id": "anthropic",
+      "node_type": "organization",
+      "title": "Anthropic",
+      "summary": "Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
       "aliases": [
-        "caveman"
+        "anthropic"
+      ],
+      "tags": [],
+      "categories": [
+        "Organization"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
+      "node_id": "cron",
+      "node_type": "project",
+      "title": "CRON",
+      "summary": "User approved separating DJClaw cron-generated content into dedicated CRON series with fixed naming and bilingual formatting.",
+      "aliases": [
+        "cron"
       ],
       "tags": [],
       "categories": [
@@ -117,7 +236,7 @@
       "node_id": "djclaw",
       "node_type": "project",
       "title": "DJClaw",
-      "summary": "Successfully published Trainspotting post 080 to DJClaw with an English paraphrased 'Choose life' opening, updating index.html and sitemap.xml, and committed as 9b215ad after cleanup. / DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
+      "summary": "Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw / User approved continuing the LedgerClaw bookkeeping app; assistant created initial product docs and defined UX direction.",
       "aliases": [
         "djclaw"
       ],
@@ -129,10 +248,55 @@
       "visibility": "review"
     },
     {
+      "node_id": "djclaw-cron",
+      "node_type": "project",
+      "title": "DJClaw CRON",
+      "summary": "User requested cleanup of Monthly Index template for DJClaw CRON to remove boilerplate sections and align format with Weekly Signals.",
+      "aliases": [
+        "djclaw cron"
+      ],
+      "tags": [],
+      "categories": [
+        "Project"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
+      "node_id": "julius-brussee",
+      "node_type": "person",
+      "title": "Julius Brussee",
+      "summary": "Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
+      "aliases": [
+        "julius brussee"
+      ],
+      "tags": [],
+      "categories": [
+        "Person"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
+      "node_id": "karpathy",
+      "node_type": "person",
+      "title": "Karpathy",
+      "summary": "",
+      "aliases": [
+        "karpathy"
+      ],
+      "tags": [],
+      "categories": [
+        "Person"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
       "node_id": "ledgerclaw",
       "node_type": "project",
       "title": "LedgerClaw",
-      "summary": "Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow. / Assistant created initial product docs for LedgerClaw project",
+      "summary": "Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw / User approved continuing the LedgerClaw bookkeeping app; assistant created initial product docs and defined UX direction.",
       "aliases": [
         "ledgerclaw"
       ],
@@ -144,10 +308,40 @@
       "visibility": "review"
     },
     {
+      "node_id": "llm-wiki",
+      "node_type": "project",
+      "title": "llm-wiki",
+      "summary": "",
+      "aliases": [
+        "llm-wiki"
+      ],
+      "tags": [],
+      "categories": [
+        "Project"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
+      "node_id": "matt-pocock",
+      "node_type": "person",
+      "title": "Matt Pocock",
+      "summary": "DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html / Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
+      "aliases": [
+        "matt pocock"
+      ],
+      "tags": [],
+      "categories": [
+        "Person"
+      ],
+      "status": "candidate",
+      "visibility": "review"
+    },
+    {
       "node_id": "mattpocockskills",
       "node_type": "project",
       "title": "mattpocock/skills",
-      "summary": "Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
+      "summary": "Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw / User-published caveman skill workflow update set as default reply style; assistant created workspace skill directory and spec docs, then posted article 088 on DJClaw.",
       "aliases": [
         "mattpocock/skills"
       ],
@@ -159,16 +353,16 @@
       "visibility": "review"
     },
     {
-      "node_id": "new-orleans",
-      "node_type": "place",
-      "title": "New Orleans",
-      "summary": "DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
+      "node_id": "weekly-signals",
+      "node_type": "project",
+      "title": "Weekly Signals",
+      "summary": "User requested cleanup of Monthly Index template for DJClaw CRON to remove boilerplate sections and align format with Weekly Signals. / DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
       "aliases": [
-        "new orleans"
+        "weekly signals"
       ],
       "tags": [],
       "categories": [
-        "Place"
+        "Project"
       ],
       "status": "candidate",
       "visibility": "review"
@@ -176,8 +370,62 @@
   ],
   "relations": [
     {
-      "relation_id": "rel-caveman-djclaw-related",
-      "from_node": "caveman",
+      "relation_id": "rel-anthropic-djclaw-related",
+      "from_node": "anthropic",
+      "to_node": "djclaw",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-anthropic-julius-brussee-related",
+      "from_node": "anthropic",
+      "to_node": "julius-brussee",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-anthropic-karpathy-related",
+      "from_node": "anthropic",
+      "to_node": "karpathy",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-anthropic-llm-wiki-related",
+      "from_node": "anthropic",
+      "to_node": "llm-wiki",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-anthropic-matt-pocock-related",
+      "from_node": "anthropic",
+      "to_node": "matt-pocock",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-anthropic-weekly-signals-related",
+      "from_node": "anthropic",
+      "to_node": "weekly-signals",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-cron-djclaw-related",
+      "from_node": "cron",
       "to_node": "djclaw",
       "relation_type": "related_to",
       "weight": 1,
@@ -194,9 +442,9 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-djclaw-caveman-related",
+      "relation_id": "rel-djclaw-matt-pocock-related",
       "from_node": "djclaw",
-      "to_node": "caveman",
+      "to_node": "matt-pocock",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -212,9 +460,99 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-djclaw-new-orleans-related",
+      "relation_id": "rel-djclaw-weekly-signals-related",
       "from_node": "djclaw",
-      "to_node": "new-orleans",
+      "to_node": "weekly-signals",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-djclaw-anthropic-related",
+      "from_node": "djclaw",
+      "to_node": "anthropic",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-djclaw-cron-related",
+      "from_node": "djclaw",
+      "to_node": "cron",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-djclaw-julius-brussee-related",
+      "from_node": "djclaw",
+      "to_node": "julius-brussee",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-djclaw-cron-weekly-signals-related",
+      "from_node": "djclaw-cron",
+      "to_node": "weekly-signals",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-julius-brussee-anthropic-related",
+      "from_node": "julius-brussee",
+      "to_node": "anthropic",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-julius-brussee-djclaw-related",
+      "from_node": "julius-brussee",
+      "to_node": "djclaw",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-julius-brussee-matt-pocock-related",
+      "from_node": "julius-brussee",
+      "to_node": "matt-pocock",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-julius-brussee-weekly-signals-related",
+      "from_node": "julius-brussee",
+      "to_node": "weekly-signals",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-karpathy-anthropic-related",
+      "from_node": "karpathy",
+      "to_node": "anthropic",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-karpathy-llm-wiki-related",
+      "from_node": "karpathy",
+      "to_node": "llm-wiki",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -230,9 +568,90 @@
       "status": "candidate"
     },
     {
+      "relation_id": "rel-ledgerclaw-matt-pocock-related",
+      "from_node": "ledgerclaw",
+      "to_node": "matt-pocock",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
       "relation_id": "rel-ledgerclaw-mattpocockskills-related",
       "from_node": "ledgerclaw",
       "to_node": "mattpocockskills",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-ledgerclaw-weekly-signals-related",
+      "from_node": "ledgerclaw",
+      "to_node": "weekly-signals",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-llm-wiki-anthropic-related",
+      "from_node": "llm-wiki",
+      "to_node": "anthropic",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-llm-wiki-karpathy-related",
+      "from_node": "llm-wiki",
+      "to_node": "karpathy",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-matt-pocock-djclaw-related",
+      "from_node": "matt-pocock",
+      "to_node": "djclaw",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-matt-pocock-weekly-signals-related",
+      "from_node": "matt-pocock",
+      "to_node": "weekly-signals",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-matt-pocock-anthropic-related",
+      "from_node": "matt-pocock",
+      "to_node": "anthropic",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-matt-pocock-julius-brussee-related",
+      "from_node": "matt-pocock",
+      "to_node": "julius-brussee",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-matt-pocock-ledgerclaw-related",
+      "from_node": "matt-pocock",
+      "to_node": "ledgerclaw",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -257,9 +676,54 @@
       "status": "candidate"
     },
     {
-      "relation_id": "rel-new-orleans-djclaw-related",
-      "from_node": "new-orleans",
+      "relation_id": "rel-weekly-signals-djclaw-related",
+      "from_node": "weekly-signals",
       "to_node": "djclaw",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-weekly-signals-matt-pocock-related",
+      "from_node": "weekly-signals",
+      "to_node": "matt-pocock",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-weekly-signals-anthropic-related",
+      "from_node": "weekly-signals",
+      "to_node": "anthropic",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-weekly-signals-djclaw-cron-related",
+      "from_node": "weekly-signals",
+      "to_node": "djclaw-cron",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-weekly-signals-julius-brussee-related",
+      "from_node": "weekly-signals",
+      "to_node": "julius-brussee",
+      "relation_type": "related_to",
+      "weight": 1,
+      "evidence_ids": [],
+      "status": "candidate"
+    },
+    {
+      "relation_id": "rel-weekly-signals-ledgerclaw-related",
+      "from_node": "weekly-signals",
+      "to_node": "ledgerclaw",
       "relation_type": "related_to",
       "weight": 1,
       "evidence_ids": [],
@@ -268,19 +732,39 @@
   ],
   "events": [
     {
-      "event_id": "event-caveman-001",
-      "timestamp": "2026-04-08T16:11",
-      "summary": "2026-04-08T16:11 — User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088.",
+      "event_id": "event-anthropic-001",
+      "timestamp": "2026-04-10T10:16",
+      "summary": "2026-04-10T10:16 — [2026-04-10 10:16] User asked for discussion/analysis of external articles/videos. Assistant read Anthropic’s engineering post on managed agents and explained i",
       "node_ids": [
-        "caveman"
+        "anthropic"
       ],
-      "evidence_id": "ev-caveman-001",
+      "evidence_id": "ev-anthropic-001",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-anthropic-002",
+      "timestamp": "2026-04-10T22:39",
+      "summary": "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
+      "node_ids": [
+        "anthropic"
+      ],
+      "evidence_id": "ev-anthropic-002",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-cron-001",
+      "timestamp": "2026-04-10T14:44",
+      "summary": "2026-04-10T14:44 — User approved separating DJClaw cron-generated content into dedicated CRON series with fixed naming and bilingual formatting.",
+      "node_ids": [
+        "cron"
+      ],
+      "evidence_id": "ev-cron-001",
       "source_id": "history_md"
     },
     {
       "event_id": "event-djclaw-001",
-      "timestamp": "2026-04-01T19:33",
-      "summary": "2026-04-01T19:33 — Successfully published Trainspotting post 080 to DJClaw with an English paraphrased 'Choose life' opening, updating index.html and sitemap.xml, and committed as 9b215ad after cleanup.",
+      "timestamp": "2026-04-08T11:21",
+      "summary": "2026-04-08T11:21 — Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw",
       "node_ids": [
         "djclaw"
       ],
@@ -289,8 +773,8 @@
     },
     {
       "event_id": "event-djclaw-002",
-      "timestamp": "2026-04-01T20:18",
-      "summary": "2026-04-01T20:18 — DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
+      "timestamp": "2026-04-08T12:22",
+      "summary": "2026-04-08T12:22 — User approved continuing the LedgerClaw bookkeeping app; assistant created initial product docs and defined UX direction.",
       "node_ids": [
         "djclaw"
       ],
@@ -299,8 +783,8 @@
     },
     {
       "event_id": "event-djclaw-003",
-      "timestamp": "2026-04-05T15:57",
-      "summary": "2026-04-05T15:57 — Two DJClaw game-design posts derived from a WeChat article were published",
+      "timestamp": "2026-04-08T16:11",
+      "summary": "2026-04-08T16:11 — User-published caveman skill workflow update set as default reply style; assistant created workspace skill directory and spec docs, then posted article 088 on DJClaw.",
       "node_ids": [
         "djclaw"
       ],
@@ -309,8 +793,8 @@
     },
     {
       "event_id": "event-djclaw-004",
-      "timestamp": "2026-04-08T11:21",
-      "summary": "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
+      "timestamp": "2026-04-10T14:44",
+      "summary": "2026-04-10T14:44 — User approved separating DJClaw cron-generated content into dedicated CRON series with fixed naming and bilingual formatting.",
       "node_ids": [
         "djclaw"
       ],
@@ -319,8 +803,8 @@
     },
     {
       "event_id": "event-djclaw-005",
-      "timestamp": "2026-04-08T12:22",
-      "summary": "2026-04-08T12:22 — Assistant created initial product docs for LedgerClaw project",
+      "timestamp": "2026-04-10T18:23",
+      "summary": "2026-04-10T18:23 — Weekly Signals bilingual roundup automated run started",
       "node_ids": [
         "djclaw"
       ],
@@ -329,8 +813,8 @@
     },
     {
       "event_id": "event-djclaw-006",
-      "timestamp": "2026-04-08T16:11",
-      "summary": "2026-04-08T16:11 — User published bilingual caveman skill update and set default replies to caveman style; assistant created workspace skill and updated DJClaw with post 088.",
+      "timestamp": "2026-04-10T19:24",
+      "summary": "2026-04-10T19:24 — DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
       "node_ids": [
         "djclaw"
       ],
@@ -338,9 +822,49 @@
       "source_id": "history_md"
     },
     {
+      "event_id": "event-djclaw-007",
+      "timestamp": "2026-04-10T22:39",
+      "summary": "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
+      "node_ids": [
+        "djclaw"
+      ],
+      "evidence_id": "ev-djclaw-007",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-djclaw-cron-001",
+      "timestamp": "2026-04-10T16:41",
+      "summary": "2026-04-10T16:41 — User requested cleanup of Monthly Index template for DJClaw CRON to remove boilerplate sections and align format with Weekly Signals.",
+      "node_ids": [
+        "djclaw-cron"
+      ],
+      "evidence_id": "ev-djclaw-cron-001",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-julius-brussee-001",
+      "timestamp": "2026-04-10T22:39",
+      "summary": "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
+      "node_ids": [
+        "julius-brussee"
+      ],
+      "evidence_id": "ev-julius-brussee-001",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-karpathy-001",
+      "timestamp": "2026-04-10T10:16",
+      "summary": "2026-04-10T10:16 — [2026-04-10 10:16] User asked for discussion/analysis of external articles/videos. Assistant read Anthropic’s engineering post on managed agents and explained i",
+      "node_ids": [
+        "karpathy"
+      ],
+      "evidence_id": "ev-karpathy-001",
+      "source_id": "history_md"
+    },
+    {
       "event_id": "event-ledgerclaw-001",
       "timestamp": "2026-04-08T11:21",
-      "summary": "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
+      "summary": "2026-04-08T11:21 — Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw",
       "node_ids": [
         "ledgerclaw"
       ],
@@ -350,7 +874,7 @@
     {
       "event_id": "event-ledgerclaw-002",
       "timestamp": "2026-04-08T12:22",
-      "summary": "2026-04-08T12:22 — Assistant created initial product docs for LedgerClaw project",
+      "summary": "2026-04-08T12:22 — User approved continuing the LedgerClaw bookkeeping app; assistant created initial product docs and defined UX direction.",
       "node_ids": [
         "ledgerclaw"
       ],
@@ -358,9 +882,49 @@
       "source_id": "history_md"
     },
     {
+      "event_id": "event-ledgerclaw-003",
+      "timestamp": "2026-04-10T19:24",
+      "summary": "2026-04-10T19:24 — DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
+      "node_ids": [
+        "ledgerclaw"
+      ],
+      "evidence_id": "ev-ledgerclaw-003",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-llm-wiki-001",
+      "timestamp": "2026-04-10T10:16",
+      "summary": "2026-04-10T10:16 — [2026-04-10 10:16] User asked for discussion/analysis of external articles/videos. Assistant read Anthropic’s engineering post on managed agents and explained i",
+      "node_ids": [
+        "llm-wiki"
+      ],
+      "evidence_id": "ev-llm-wiki-001",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-matt-pocock-001",
+      "timestamp": "2026-04-10T19:24",
+      "summary": "2026-04-10T19:24 — DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
+      "node_ids": [
+        "matt-pocock"
+      ],
+      "evidence_id": "ev-matt-pocock-001",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-matt-pocock-002",
+      "timestamp": "2026-04-10T22:39",
+      "summary": "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
+      "node_ids": [
+        "matt-pocock"
+      ],
+      "evidence_id": "ev-matt-pocock-002",
+      "source_id": "history_md"
+    },
+    {
       "event_id": "event-mattpocockskills-001",
       "timestamp": "2026-04-08T11:21",
-      "summary": "2026-04-08T11:21 — Kicked off a new product-development pipeline that produced the LedgerClaw MVP concept for freelancers, featuring CSV import, auto-categorization, and an agent-first AI workflow.",
+      "summary": "2026-04-08T11:21 — Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw",
       "node_ids": [
         "mattpocockskills"
       ],
@@ -368,13 +932,43 @@
       "source_id": "history_md"
     },
     {
-      "event_id": "event-new-orleans-001",
-      "timestamp": "2026-04-01T20:18",
-      "summary": "2026-04-01T20:18 — DJClaw's knee-protection article was published and refined with bilingual content and image assets.",
+      "event_id": "event-mattpocockskills-002",
+      "timestamp": "2026-04-08T16:11",
+      "summary": "2026-04-08T16:11 — User-published caveman skill workflow update set as default reply style; assistant created workspace skill directory and spec docs, then posted article 088 on DJClaw.",
       "node_ids": [
-        "new-orleans"
+        "mattpocockskills"
       ],
-      "evidence_id": "ev-new-orleans-001",
+      "evidence_id": "ev-mattpocockskills-002",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-weekly-signals-001",
+      "timestamp": "2026-04-10T16:41",
+      "summary": "2026-04-10T16:41 — User requested cleanup of Monthly Index template for DJClaw CRON to remove boilerplate sections and align format with Weekly Signals.",
+      "node_ids": [
+        "weekly-signals"
+      ],
+      "evidence_id": "ev-weekly-signals-001",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-weekly-signals-002",
+      "timestamp": "2026-04-10T19:24",
+      "summary": "2026-04-10T19:24 — DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
+      "node_ids": [
+        "weekly-signals"
+      ],
+      "evidence_id": "ev-weekly-signals-002",
+      "source_id": "history_md"
+    },
+    {
+      "event_id": "event-weekly-signals-003",
+      "timestamp": "2026-04-10T22:39",
+      "summary": "2026-04-10T22:39 — Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
+      "node_ids": [
+        "weekly-signals"
+      ],
+      "evidence_id": "ev-weekly-signals-003",
       "source_id": "history_md"
     }
   ]
