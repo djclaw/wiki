@@ -58,5 +58,17 @@
   {
     "timestamp": "2026-04-11T07:07",
     "text": "[2026-04-11 07:07] Weekly Signals automation was tightened around a fixed script path (`/home/dj/.nanobot/workspace/scripts/build_weekly_signals.py`) and HEARTBEAT was changed to call that script instead of ad hoc model reconstruction. User explicitly chose ISO week numbering and changed Weekly Signals cadence from Friday 6pm to Sunday 23:59 America/New_York; assistant updated `HEARTBEAT.md` accordingly and noted heartbeat still polls every 30 minutes so actual execution will be on the first check after that time. Assistant also confirmed a remaining mismatch: `build_weekly_signals.py` still internally uses the old Friday-18:00 window / non-ISO logic, while Monthly Index is still configured for month-end 6pm, and the next intended work is to update Monthly Index to stricter month-end logic and align the weekly script implementation itself with ISO-week Sunday-end behavior."
+  },
+  {
+    "timestamp": "2026-04-11T03:58",
+    "text": "[2026-04-11 03:58] Processed repeated heartbeat-status conversation for CRON tasks. The conversation mainly consisted of periodic HEARTBEAT.md checks from 2026-04-10 22:26 through 2026-04-11 03:58, all returning HEARTBEAT_OK after confirming Weekly Signals WK16 was already published and Monthly Index was not due. Important persistent state reflected in this exchange: Weekly Signals schedule is now Sunday 11:59 PM America/New_York using /home/dj/.nanobot/workspace/scripts/build_weekly_signals.py as the source-of-truth script; Monthly Index remains scheduled for the last day of each month at 6:00 PM America/New_York. This exchange is also another concrete example of heartbeat repeatedly surfacing active tasks/noise while no work is due."
+  },
+  {
+    "timestamp": "2026-04-11T11:00",
+    "text": "[2026-04-11 11:00] HEARTBEAT/CRON schedule wording was repeatedly surfaced through the night while responses stayed HEARTBEAT_OK, confirming ongoing heartbeat noise/idempotency behavior. The periodic-task spec is now effectively stabilized in the surfaced HEARTBEAT.md wording: Weekly Signals runs every Sunday 11:59 PM America/New_York via `python /home/dj/.nanobot/workspace/scripts/build_weekly_signals.py`, and Monthly Index runs the last day of each month 11:59 PM America/New_York via `python /home/dj/.nanobot/workspace/scripts/build_monthly_index.py`, with commit/push and title/URL/commit-hash reporting on success, error-only reporting on failure."
+  },
+  {
+    "timestamp": "2026-04-11T20:32",
+    "text": "[2026-04-11 20:32] Repeated heartbeat/status checks throughout 2026-04-11 continued to surface the active CRON tasks from HEARTBEAT.md while returning HEARTBEAT_OK. The surfaced schedule wording consistently reflected Weekly Signals running Sundays at 11:59 PM America/New_York via /home/dj/.nanobot/workspace/scripts/build_weekly_signals.py and Monthly Index running the last day of each month at 11:59 PM America/New_York via /home/dj/.nanobot/workspace/scripts/build_monthly_index.py, with commit/push plus title/URL/commit-hash reporting on success. This reinforces the existing duplicate/noise pattern: heartbeat keeps echoing active periodic tasks even when nothing is due."
   }
 ]

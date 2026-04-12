@@ -8,10 +8,23 @@
       "timestamp": "2026-04-05T15:57",
       "text": "[2026-04-05 15:57] Processed latest conversation updates. User published two DJClaw game-design posts from a WeChat article: post 082 `posts-2026-04-02-082-ai-cannot-feel-the-turn.html` (AI and game design, tied to Ticket to Ride variation) in commit `583e62d`, and then requested a pure summary version, resulting in post 083 `posts-2026-04-02-083-what-ai-still-cannot-replace-in-game-design.html` in commit `25ebc37`. Later, user shared a detailed rehab routine for adductor strain/posterior-chain tightness/tibial-nerve sensitivity; assistant summarized it but no publish action occurred. Most recently on 2026-04-05, user sent an image and asked to identify the instruments, find corresponding images and names, and publish a DJClaw post; assistant stated the plan to transcribe instruments/people first, then gather image sources and publish."
     },
-    "nodes": [],
+    "nodes": [
+      {
+        "label": "DJClaw",
+        "type": "project",
+        "confidence": 1.0
+      }
+    ],
     "relations": [],
-    "events": [],
-    "raw_response": "{\"nodes\":[],\"relations\":[],\"events\":[]}",
+    "events": [
+      {
+        "title": "DJClaw game-design posts 082–083 published",
+        "timestamp": "2026-04-05T15:57",
+        "summary": "User published two DJClaw game-design posts derived from a WeChat article and later requested a pure-summary version, culminating in posts 082 and 083.",
+        "confidence": 0.9
+      }
+    ],
+    "raw_response": "{\"nodes\": [{\"label\": \"DJClaw\", \"type\": \"project\", \"confidence\": 1.0}], \"relations\": [], \"events\": [{\"title\": \"DJClaw game-design posts 082–083 published\", \"timestamp\": \"2026-04-05T15:57\", \"summary\": \"User published two DJClaw game-design posts derived from a WeChat article and later requested a pure-summary version, culminating in posts 082 and 083.\", \"confidence\": 0.9}]}",
     "parse_error": null
   },
   {
@@ -25,38 +38,36 @@
     },
     "nodes": [
       {
-        "label": "mattpocock/skills",
+        "label": "LedgerClaw",
         "type": "project",
-        "confidence": 1.0
+        "confidence": 0.9
       },
       {
         "label": "DJClaw",
         "type": "project",
-        "confidence": 1.0
+        "confidence": 0.85
       },
       {
-        "label": "LedgerClaw",
+        "label": "Matt Pocock",
+        "type": "person",
+        "confidence": 0.8
+      },
+      {
+        "label": "skills",
         "type": "project",
-        "confidence": 1.0
+        "confidence": 0.7
       }
     ],
-    "relations": [
+    "relations": [],
+    "events": [
       {
-        "source_label": "LedgerClaw",
-        "relation_type": "published_to",
-        "target_label": "DJClaw",
+        "title": "Started LedgerClaw product pipeline",
+        "timestamp": "2026-04-08T11:21",
+        "summary": "User initiated product/publishing workflow based on mattpocock/skills repo to design bookkeeping app LedgerClaw and publish results on DJClaw",
         "confidence": 0.9
       }
     ],
-    "events": [
-      {
-        "title": "Started product pipeline for LedgerClaw",
-        "timestamp": "2026-04-08T11:21",
-        "summary": "Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw",
-        "confidence": 1.0
-      }
-    ],
-    "raw_response": "{\"nodes\": [{\"label\": \"mattpocock/skills\", \"type\": \"project\", \"confidence\": 1.0}, {\"label\": \"DJClaw\", \"type\": \"project\", \"confidence\": 1.0}, {\"label\": \"LedgerClaw\", \"type\": \"project\", \"confidence\": 1.0}], \"relations\": [{\"source_label\": \"LedgerClaw\", \"relation_type\": \"published_to\", \"target_label\": \"DJClaw\", \"confidence\": 0.9}], \"events\": [{\"title\": \"Started product pipeline for LedgerClaw\", \"timestamp\": \"2026-04-08T11:21\", \"summary\": \"Launched agent-driven pipeline deriving from mattpocock/skills to design bookkeeping app LedgerClaw and publish on DJClaw\", \"confidence\": 1.0}]}",
+    "raw_response": "{\"nodes\":[{\"label\":\"LedgerClaw\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.85},{\"label\":\"Matt Pocock\",\"type\":\"person\",\"confidence\":0.8},{\"label\":\"skills\",\"type\":\"project\",\"confidence\":0.7}],\"relations\":[],\"events\":[{\"title\":\"Started LedgerClaw product pipeline\",\"timestamp\":\"2026-04-08T11:21\",\"summary\":\"User initiated product/publishing workflow based on mattpocock/skills repo to design bookkeeping app LedgerClaw and publish results on DJClaw\",\"confidence\":0.9}]}",
     "parse_error": null
   },
   {
@@ -72,12 +83,7 @@
       {
         "label": "LedgerClaw",
         "type": "project",
-        "confidence": 0.95
-      },
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.85
+        "confidence": 1.0
       }
     ],
     "relations": [],
@@ -85,11 +91,11 @@
       {
         "title": "LedgerClaw product path approved",
         "timestamp": "2026-04-08T12:22",
-        "summary": "User approved continuing the LedgerClaw bookkeeping app; assistant created initial product docs and defined UX direction.",
-        "confidence": 0.95
+        "summary": "LedgerClaw lightweight bookkeeping app for freelancers approved; initial product docs created and validated",
+        "confidence": 1.0
       }
     ],
-    "raw_response": "{\"nodes\":[{\"label\":\"LedgerClaw\",\"type\":\"project\",\"confidence\":0.95},{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.85}],\"relations\":[],\"events\":[{\"title\":\"LedgerClaw product path approved\",\"timestamp\":\"2026-04-08T12:22\",\"summary\":\"User approved continuing the LedgerClaw bookkeeping app; assistant created initial product docs and defined UX direction.\",\"confidence\":0.95}]}",
+    "raw_response": "{\"nodes\": [{\"label\": \"LedgerClaw\", \"type\": \"project\", \"confidence\": 1.0}], \"relations\": [], \"events\": [{\"title\": \"LedgerClaw product path approved\", \"timestamp\": \"2026-04-08T12:22\", \"summary\": \"LedgerClaw lightweight bookkeeping app for freelancers approved; initial product docs created and validated\", \"confidence\": 1.0}]}",
     "parse_error": null
   },
   {
@@ -103,9 +109,14 @@
     },
     "nodes": [
       {
+        "label": "caveman",
+        "type": "project",
+        "confidence": 0.95
+      },
+      {
         "label": "DJClaw",
         "type": "project",
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "label": "mattpocock/skills",
@@ -116,13 +127,13 @@
     "relations": [],
     "events": [
       {
-        "title": "Published local bilingual caveman skill workflow update",
+        "title": "caveman skill workflow published on DJClaw",
         "timestamp": "2026-04-08T16:11",
-        "summary": "User-published caveman skill workflow update set as default reply style; assistant created workspace skill directory and spec docs, then posted article 088 on DJClaw.",
-        "confidence": 0.9
+        "summary": "User published a bilingual caveman skill workflow update, including default-replies preference, via DJClaw post 088.",
+        "confidence": 0.95
       }
     ],
-    "raw_response": "{\"nodes\": [{\"label\": \"DJClaw\", \"type\": \"project\", \"confidence\": 0.9}, {\"label\": \"mattpocock/skills\", \"type\": \"project\", \"confidence\": 0.9}], \"relations\": [], \"events\": [{\"title\": \"Published local bilingual caveman skill workflow update\", \"timestamp\": \"2026-04-08T16:11\", \"summary\": \"User-published caveman skill workflow update set as default reply style; assistant created workspace skill directory and spec docs, then posted article 088 on DJClaw.\", \"confidence\": 0.9}]}",
+    "raw_response": "{\"nodes\": [{\"label\": \"caveman\", \"type\": \"project\", \"confidence\": 0.95}, {\"label\": \"DJClaw\", \"type\": \"project\", \"confidence\": 0.95}, {\"label\": \"mattpocock/skills\", \"type\": \"project\", \"confidence\": 0.9}], \"relations\": [], \"events\": [{\"title\": \"caveman skill workflow published on DJClaw\", \"timestamp\": \"2026-04-08T16:11\", \"summary\": \"User published a bilingual caveman skill workflow update, including default-replies preference, via DJClaw post 088.\", \"confidence\": 0.95}]}",
     "parse_error": null
   },
   {
@@ -138,22 +149,34 @@
       {
         "label": "Anthropic",
         "type": "org",
-        "confidence": 1.0
+        "confidence": 0.95
       },
       {
         "label": "Karpathy",
         "type": "person",
-        "confidence": 1.0
+        "confidence": 0.95
       },
       {
         "label": "llm-wiki",
         "type": "project",
-        "confidence": 1.0
+        "confidence": 0.95
+      },
+      {
+        "label": "DJClaw",
+        "type": "project",
+        "confidence": 0.95
       }
     ],
     "relations": [],
-    "events": [],
-    "raw_response": "{\"nodes\":[{\"label\":\"Anthropic\",\"type\":\"org\",\"confidence\":1.0},{\"label\":\"Karpathy\",\"type\":\"person\",\"confidence\":1.0},{\"label\":\"llm-wiki\",\"type\":\"project\",\"confidence\":1.0}],\"relations\":[],\"events\":[]}",
+    "events": [
+      {
+        "title": "Assistant analyzed Anthropic managed agents post and Karpathy llm-wiki",
+        "timestamp": "2026-04-10T10:16",
+        "summary": "Assistant read Anthropic’s engineering post on managed agents, explained the brain/hands/session architecture, and linked it to the user’s nanobot system. Also read Karpathy’s llm-wiki gist, highlighting compiled knowledge vs RAG and markdown presentation vs structured kernel. Separately, polished DJClaw posts 085–089 for layout consistency.",
+        "confidence": 0.9
+      }
+    ],
+    "raw_response": "{\"nodes\": [\n  {\"label\": \"Anthropic\", \"type\": \"org\", \"confidence\": 0.95},\n  {\"label\": \"Karpathy\", \"type\": \"person\", \"confidence\": 0.95},\n  {\"label\": \"llm-wiki\", \"type\": \"project\", \"confidence\": 0.95},\n  {\"label\": \"DJClaw\", \"type\": \"person\", \"confidence\": 0.95}\n],\n\"relations\": [],\n\"events\": [\n  {\n    \"title\": \"Assistant analyzed Anthropic managed agents post and Karpathy llm-wiki\",\n    \"timestamp\": \"2026-04-10T10:16\",\n    \"summary\": \"Assistant read Anthropic’s engineering post on managed agents, explained the brain/hands/session architecture, and linked it to the user’s nanobot system. Also read Karpathy’s llm-wiki gist, highlighting compiled knowledge vs RAG and markdown presentation vs structured kernel. Separately, polished DJClaw posts 085–089 for layout consistency.\",\n    \"confidence\": 0.9\n  }\n]}",
     "parse_error": null
   },
   {
@@ -167,26 +190,29 @@
     },
     "nodes": [
       {
+        "label": "Weekly Signals",
+        "type": "project",
+        "confidence": 0.9
+      },
+      {
+        "label": "Monthly Index",
+        "type": "project",
+        "confidence": 0.9
+      },
+      {
         "label": "DJClaw",
         "type": "project",
-        "confidence": 0.95
+        "confidence": 0.9
       },
       {
         "label": "CRON",
         "type": "project",
-        "confidence": 0.85
+        "confidence": 0.9
       }
     ],
     "relations": [],
-    "events": [
-      {
-        "title": "DJClaw CRON series approved",
-        "timestamp": "2026-04-10T14:44",
-        "summary": "User approved separating DJClaw cron-generated content into dedicated CRON series with fixed naming and bilingual formatting.",
-        "confidence": 0.95
-      }
-    ],
-    "raw_response": "{\"nodes\": [{\"label\": \"DJClaw\", \"type\": \"project\", \"confidence\": 0.95}, {\"label\": \"Weekly Signals\", \"type\": \"doc\", \"confidence\": 0.9}, {\"label\": \"Monthly Index\", \"type\": \"doc\", \"confidence\": 0.9}, {\"label\": \"CRON\", \"type\": \"project\", \"confidence\": 0.85}, {\"label\": \"HEARTBEAT.md\", \"type\": \"doc\", \"confidence\": 0.8}], \"relations\": [{\"source_label\": \"Weekly Signals\", \"relation_type\": \"part_of\", \"target_label\": \"CRON\", \"confidence\": 0.9}, {\"source_label\": \"Monthly Index\", \"relation_type\": \"part_of\", \"target_label\": \"CRON\", \"confidence\": 0.9}], \"events\": [{\"title\": \"DJClaw CRON series approved\", \"timestamp\": \"2026-04-10T14:44\", \"summary\": \"User approved separating DJClaw cron-generated content into dedicated CRON series with fixed naming and bilingual formatting.\", \"confidence\": 0.95}]}",
+    "events": [],
+    "raw_response": "{\"nodes\":[{\"label\":\"Weekly Signals\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"Monthly Index\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"DJClaw\",\"type\":\"org\",\"confidence\":0.9},{\"label\":\"CRON\",\"type\":\"project\",\"confidence\":0.9}],\"relations\":[],\"events\":[]}",
     "parse_error": null
   },
   {
@@ -198,11 +224,24 @@
       "timestamp": "2026-04-10T16:25",
       "text": "[2026-04-10 16:25] DJClaw CRON series was implemented and extended. Commit `433a54e` added `cron.html`, bilingual `Weekly Signals` page `cron-2026-wk15-weekly-signals-structure-memory-and-contact.html`, shared `assets/js/lang-toggle.js`, and removed ordinary post 090 so weekly roundup content now lives in a separate CRON section rather than numbered posts. Then commit `ba3e701` added the first `Monthly Index` test page `cron-2026-03-monthly-index.html` and lightly polished `cron.html` into a better archive surface; user then asked why `HEARTBEAT_OK` appears often, and assistant explained it likely comes from periodic heartbeat health checks/logging every ~30 minutes, probably being surfaced too noisily. Latest explicit instruction: standardize the Monthly Index template and then further polish `cron.html` into a fuller archive hub with clearer series info/status/cadence/language presentation."
     },
-    "nodes": [],
+    "nodes": [
+      {
+        "label": "DJClaw CRON series",
+        "type": "project",
+        "confidence": 0.9
+      }
+    ],
     "relations": [],
-    "events": [],
-    "raw_response": "",
-    "parse_error": "groq HTTP 400: {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"max completion tokens reached before generating a valid document\"}}\n"
+    "events": [
+      {
+        "title": "DJClaw CRON series implementation and monthly index creation",
+        "timestamp": "2026-04-10T16:25",
+        "summary": "Implemented DJClaw CRON series; added Monthly Index test page and improved `cron.html` archive",
+        "confidence": 0.9
+      }
+    ],
+    "raw_response": "{\"nodes\": [\n  {\"label\": \"DJClaw CRON series\", \"type\": \"project\", \"confidence\": 0.90},\n  {\"label\": \"cron.html\", \"type\": \"doc\", \"confidence\": 0.60}\n],\n\"relations\": [],\n\"events\": [\n  {\n    \"title\": \"DJClaw CRON series implementation and monthly index creation\",\n    \"timestamp\": \"2026-04-10T16:25\",\n    \"summary\": \"Implemented DJClaw CRON series; added Monthly Index test page and improved `cron.html` archive\",\n    \"confidence\": 0.90\n  }\n]}",
+    "parse_error": null
   },
   {
     "entry_id": "entry-008",
@@ -215,26 +254,26 @@
     },
     "nodes": [
       {
-        "label": "DJClaw CRON",
+        "label": "DJClaw",
         "type": "project",
-        "confidence": 0.9
+        "confidence": 0.95
       },
       {
         "label": "Weekly Signals",
         "type": "project",
-        "confidence": 0.9
+        "confidence": 0.95
       }
     ],
     "relations": [],
     "events": [
       {
-        "title": "DJClaw CRON Monthly Index template cleanup requested",
+        "title": "DJClaw CRON Monthly Index template cleanup",
         "timestamp": "2026-04-10T16:41",
-        "summary": "User requested cleanup of Monthly Index template for DJClaw CRON to remove boilerplate sections and align format with Weekly Signals.",
+        "summary": "Assistant rewrote header/subtitle and removed template/overview blocks per user request.",
         "confidence": 0.95
       }
     ],
-    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw CRON\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"Weekly Signals\",\"type\":\"project\",\"confidence\":0.9}],\"relations\":[],\"events\":[{\"title\":\"DJClaw CRON Monthly Index template cleanup requested\",\"timestamp\":\"2026-04-10T16:41\",\"summary\":\"User requested cleanup of Monthly Index template for DJClaw CRON to remove boilerplate sections and align format with Weekly Signals.\",\"confidence\":0.95}]}",
+    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.95},{\"label\":\"Weekly Signals\",\"type\":\"project\",\"confidence\":0.95}],\"relations\":[],\"events\":[{\"title\":\"DJClaw CRON Monthly Index template cleanup\",\"timestamp\":\"2026-04-10T16:41\",\"summary\":\"Assistant rewrote header/subtitle and removed template/overview blocks per user request.\",\"confidence\":0.95}]}",
     "parse_error": null
   },
   {
@@ -246,21 +285,6 @@
       "timestamp": "2026-04-10T17:53",
       "text": "[2026-04-10 17:53] DJClaw CRON section polish continued. The assistant removed the April 2026 Monthly Index placeholder from `cron.html` and pushed commit `aecbf0b` (`Remove April monthly index placeholder`). Then, based on Telegram screenshot feedback, the CRON archive page was simplified in several passes: removed `Scheduled series`, removed `Weekly`/`Monthly` eyebrow labels, simplified archive entries to plain post-list style without descriptions/tag badges (`d552bb1`), removed outer card styling from CRON lists via `style.css` (`61a4640`), softened section headings and intro (`b32a284`), and then further simplified the page plus added very short series notes (`d4b4d3e`) so `Weekly Signals` says `A short weekly reading log.` and `Monthly Index` says `A simple monthly map of posts.` User repeatedly emphasized wanting the CRON page to visually match the main posts list: no borders/cards, less highlight, faster/cleaner reading."
     },
-    "nodes": [],
-    "relations": [],
-    "events": [],
-    "raw_response": "",
-    "parse_error": "groq HTTP 400: {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"max completion tokens reached before generating a valid document\"}}\n"
-  },
-  {
-    "entry_id": "entry-010",
-    "timestamp": "2026-04-10T18:23",
-    "evidence": {
-      "evidence_id": "evidence-010",
-      "source_id": "history_md",
-      "timestamp": "2026-04-10T18:23",
-      "text": "[2026-04-10 18:23] HEARTBEAT periodic-task behavior changed from old numbered DJClaw roundup posts to the new DJClaw CRON system. HEARTBEAT.md now tracks two active CRON-series tasks: Weekly Signals every Friday 6:00 PM America/New_York (bilingual EN+ZH weekly links roundup) and Monthly Index on the last day of each month at 6:00 PM America/New_York (English-only monthly writing index). Earlier 2026-03-03 heartbeat checks repeatedly failed with `Error calling Codex: [Errno 2] No such file or directory`. On 2026-04-10 multiple heartbeat checks before 6pm correctly returned HEARTBEAT_OK as not yet due; at 18:23 EDT the assistant began the due Weekly Signals run by inspecting the DJClaw repo and recent history to generate/update the CRON entry and related CRON index/navigation/sitemap."
-    },
     "nodes": [
       {
         "label": "DJClaw",
@@ -271,13 +295,28 @@
     "relations": [],
     "events": [
       {
-        "title": "DJClaw Weekly Signals CRON task run",
-        "timestamp": "2026-04-10T18:23",
-        "summary": "Weekly Signals bilingual roundup automated run started",
-        "confidence": 0.8
+        "title": "CRON section polish continued",
+        "timestamp": "2026-04-10T17:53",
+        "summary": "Removed April 2026 Monthly Index placeholder and multiple CRON archive simplifications based on Telegram feedback to match main posts list style",
+        "confidence": 0.95
       }
     ],
-    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.9}],\"relations\":[],\"events\":[{\"title\":\"DJClaw Weekly Signals CRON task run\",\"timestamp\":\"2026-04-10T18:23\",\"summary\":\"Weekly Signals bilingual roundup automated run started\",\"confidence\":0.8}]}",
+    "raw_response": "{\"nodes\": [{\"label\": \"DJClaw\", \"type\": \"person\", \"confidence\": 0.9}], \"relations\": [], \"events\": [{\"title\": \"CRON section polish continued\", \"timestamp\": \"2026-04-10T17:53\", \"summary\": \"Removed April 2026 Monthly Index placeholder and multiple CRON archive simplifications based on Telegram feedback to match main posts list style\", \"confidence\": 0.95}]}",
+    "parse_error": null
+  },
+  {
+    "entry_id": "entry-010",
+    "timestamp": "2026-04-10T18:23",
+    "evidence": {
+      "evidence_id": "evidence-010",
+      "source_id": "history_md",
+      "timestamp": "2026-04-10T18:23",
+      "text": "[2026-04-10 18:23] HEARTBEAT periodic-task behavior changed from old numbered DJClaw roundup posts to the new DJClaw CRON system. HEARTBEAT.md now tracks two active CRON-series tasks: Weekly Signals every Friday 6:00 PM America/New_York (bilingual EN+ZH weekly links roundup) and Monthly Index on the last day of each month at 6:00 PM America/New_York (English-only monthly writing index). Earlier 2026-03-03 heartbeat checks repeatedly failed with `Error calling Codex: [Errno 2] No such file or directory`. On 2026-04-10 multiple heartbeat checks before 6pm correctly returned HEARTBEAT_OK as not yet due; at 18:23 EDT the assistant began the due Weekly Signals run by inspecting the DJClaw repo and recent history to generate/update the CRON entry and related CRON index/navigation/sitemap."
+    },
+    "nodes": [],
+    "relations": [],
+    "events": [],
+    "raw_response": "{\"nodes\":[],\"relations\":[],\"events\":[]}",
     "parse_error": null
   },
   {
@@ -298,29 +337,19 @@
       {
         "label": "Weekly Signals",
         "type": "project",
-        "confidence": 0.8
-      },
-      {
-        "label": "Matt Pocock",
-        "type": "person",
-        "confidence": 0.8
-      },
-      {
-        "label": "LedgerClaw",
-        "type": "tool",
-        "confidence": 0.7
+        "confidence": 0.9
       }
     ],
     "relations": [],
     "events": [
       {
-        "title": "Weekly Signals published WK16 roundup",
+        "title": "Weekly Signals published for 2026 WK16",
         "timestamp": "2026-04-10T18:23",
-        "summary": "DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html",
+        "summary": "DJClaw automated CRON generated and published the bilingual Weekly Signals page for week 16.",
         "confidence": 0.9
       }
     ],
-    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"Weekly Signals\",\"type\":\"project\",\"confidence\":0.8},{\"label\":\"Matt Pocock\",\"type\":\"person\",\"confidence\":0.8},{\"label\":\"LedgerClaw\",\"type\":\"tool\",\"confidence\":0.7}],\"relations\":[],\"events\":[{\"title\":\"Weekly Signals published WK16 roundup\",\"timestamp\":\"2026-04-10T18:23\",\"summary\":\"DJClaw CRON generated bilingual page cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html\",\"confidence\":0.9}]}",
+    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"org\",\"confidence\":0.9},{\"label\":\"Weekly Signals\",\"type\":\"project\",\"confidence\":0.9}],\"relations\":[{\"source_label\":\"DJClaw\",\"relation_type\":\"publishes\",\"confidence\":0.9}],\"events\":[{\"title\":\"Weekly Signals published for 2026 WK16\",\"timestamp\":\"2026-04-10T18:23\",\"summary\":\"DJClaw automated CRON generated and published the bilingual Weekly Signals page for week 16.\",\"confidence\":0.9}]}",
     "parse_error": null
   },
   {
@@ -332,11 +361,29 @@
       "timestamp": "2026-04-10T22:03",
       "text": "[2026-04-10 22:03] User identified a CRON/Weekly Signals source-of-truth bug: weekly roundup was including all links seen in chat/session history, including generated DJClaw/internal links, instead of only links the user personally sent. Assistant confirmed the correct rule should be hard-filtered to user-authored messages within the Friday 6pm→Friday 6pm window, keeping only user-sent external links and excluding assistant/bot-generated links plus internal/local URLs such as djclaw.github.io, github.io site pages, CRON/sitemap/preview/local paths. Assistant began tracing the Weekly Signals generation path, found likely session/heartbeat-based extraction (`sessions/heartbeat.jsonl`, heartbeat service code), and noted HEARTBEAT task text already says “user-sent links” but execution appears to let the model infer from broad recent history without a hard role/domain filter. Immediate next step in progress: patch heartbeat/Weekly Signals generation logic to enforce user-role-only external link extraction before regenerating future weekly pages."
     },
-    "nodes": [],
+    "nodes": [
+      {
+        "label": "DJClaw",
+        "type": "project",
+        "confidence": 0.9
+      },
+      {
+        "label": "Weekly Signals",
+        "type": "tool",
+        "confidence": 0.8
+      }
+    ],
     "relations": [],
-    "events": [],
-    "raw_response": "",
-    "parse_error": "groq HTTP 400: {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"max completion tokens reached before generating a valid document\"}}\n"
+    "events": [
+      {
+        "title": "DJClaw Weekly Signals user-link filter bug identified",
+        "timestamp": "2026-04-10T22:03",
+        "summary": "Weekly roundup incorrectly included all links from session history; fix in progress to restrict to user-sent external links only",
+        "confidence": 0.9
+      }
+    ],
+    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"Weekly Signals\",\"type\":\"tool\",\"confidence\":0.8}],\"relations\":[],\"events\":[{\"title\":\"DJClaw Weekly Signals user-link filter bug identified\",\"timestamp\":\"2026-04-10T22:03\",\"summary\":\"Weekly roundup incorrectly included all links from session history; fix in progress to restrict to user-sent external links only\",\"confidence\":0.9}]}",
+    "parse_error": null
   },
   {
     "entry_id": "entry-013",
@@ -354,36 +401,36 @@
         "confidence": 0.95
       },
       {
+        "label": "Matt Pocock skills repo",
+        "type": "project",
+        "confidence": 0.85
+      },
+      {
+        "label": "Julius Brussee caveman repo",
+        "type": "project",
+        "confidence": 0.85
+      },
+      {
+        "label": "Anthropic managed agents",
+        "type": "tool",
+        "confidence": 0.85
+      },
+      {
         "label": "DJClaw",
         "type": "project",
-        "confidence": 0.9
-      },
-      {
-        "label": "Matt Pocock",
-        "type": "person",
-        "confidence": 0.9
-      },
-      {
-        "label": "Julius Brussee",
-        "type": "person",
-        "confidence": 0.9
-      },
-      {
-        "label": "Anthropic",
-        "type": "org",
-        "confidence": 0.9
+        "confidence": 0.8
       }
     ],
     "relations": [],
     "events": [
       {
-        "title": "Weekly Signals WK16 corrected and published with new link-filtering rule",
+        "title": "Weekly Signals WK16 source-filtering bug partially fixed and republished",
         "timestamp": "2026-04-10T22:39",
-        "summary": "Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.",
+        "summary": "Applied new user-link extractor and republished WK16 with only six verified external user-sent sources.",
         "confidence": 0.9
       }
     ],
-    "raw_response": "{\"nodes\": [{\"label\": \"Weekly Signals\", \"type\": \"project\", \"confidence\": 0.95}, {\"label\": \"DJClaw\", \"type\": \"org\", \"confidence\": 0.9}, {\"label\": \"Matt Pocock\", \"type\": \"person\", \"confidence\": 0.9}, {\"label\": \"Julius Brussee\", \"type\": \"person\", \"confidence\": 0.9}, {\"label\": \"Anthropic\", \"type\": \"org\", \"confidence\": 0.9}, {\"label\": \"Karpathy\", \"type\": \"person\", \"confidence\": 0.85}, {\"label\": \"YouTube\", \"type\": \"tool\", \"confidence\": 0.9}], \"relations\": [], \"events\": [{\"title\": \"Weekly Signals WK16 corrected and published with new link-filtering rule\", \"timestamp\": \"2026-04-10T22:39\", \"summary\": \"Partial fix of source-filtering bug; WK16 rewritten using only 6 verified user-sent external links and published via commit d3d50c9.\", \"confidence\": 0.9}]}",
+    "raw_response": "{\"nodes\": [{\"label\": \"Weekly Signals\", \"type\": \"project\", \"confidence\": 0.95}, {\"label\": \"Matt Pocock skills repo\", \"type\": \"project\", \"confidence\": 0.85}, {\"label\": \"Julius Brussee caveman repo\", \"type\": \"project\", \"confidence\": 0.85}, {\"label\": \"Anthropic managed agents\", \"type\": \"tool\", \"confidence\": 0.85}, {\"label\": \"Karpathy llm-wiki gist\", \"type\": \"doc\", \"confidence\": 0.85}, {\"label\": \"DJClaw\", \"type\": \"other\", \"confidence\": 0.8}], \"relations\": [], \"events\": [{\"title\": \"Weekly Signals WK16 source-filtering bug partially fixed and republished\", \"timestamp\": \"2026-04-10T22:39\", \"summary\": \"Applied new user-link extractor and republished WK16 with only six verified external user-sent sources.\", \"confidence\": 0.9}]}",
     "parse_error": null
   },
   {
@@ -395,10 +442,28 @@
       "timestamp": "2026-04-10T22:39",
       "text": "[2026-04-10 22:39] Heartbeat/CRON checks repeatedly re-announced Weekly Signals and Monthly Index tasks after the initial WK16 publish, often returning HEARTBEAT_OK after verifying commit `ed2a30f` and the existing page `cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html`. This reinforced an idempotency/debugging issue: heartbeat may repeatedly inspect and re-report already-completed CRON work in the same due window rather than staying quiet after publication. The pending follow-up remains to verify/fix the actual Weekly Signals execution chain so it truly uses the stricter `weekly_signals_links.py` user-link-only extraction path and YouTube retrieval rule."
     },
-    "nodes": [],
+    "nodes": [
+      {
+        "label": "Weekly Signals",
+        "type": "project",
+        "confidence": 0.9
+      },
+      {
+        "label": "Monthly Index",
+        "type": "project",
+        "confidence": 0.8
+      }
+    ],
     "relations": [],
-    "events": [],
-    "raw_response": "{\"nodes\": [], \"relations\": [], \"events\": []}",
+    "events": [
+      {
+        "title": "Heartbeat/CRON repeatedly re-announced Weekly Signals and Monthly Index tasks after WK16 publish",
+        "timestamp": "2026-04-10T22:39",
+        "summary": "Heartbeat checks kept re-reporting already-completed CRON work within the same window instead of staying silent post-publication, exposing idempotency/debug issue",
+        "confidence": 0.85
+      }
+    ],
+    "raw_response": "{\"nodes\": [{\"label\": \"Weekly Signals\", \"type\": \"project\", \"confidence\": 0.9}, {\"label\": \"Monthly Index\", \"type\": \"project\", \"confidence\": 0.8}, {\"label\": \"ed2a30f\", \"type\": \"doc\", \"confidence\": 0.7}], \"relations\": [], \"events\": [{\"title\": \"Heartbeat/CRON repeatedly re-announced Weekly Signals and Monthly Index tasks after WK16 publish\", \"timestamp\": \"2026-04-10T22:39\", \"summary\": \"Heartbeat checks kept re-reporting already-completed CRON work within the same window instead of staying silent post-publication, exposing idempotency/debug issue\", \"confidence\": 0.85}]}",
     "parse_error": null
   },
   {
@@ -410,10 +475,109 @@
       "timestamp": "2026-04-11T07:07",
       "text": "[2026-04-11 07:07] Weekly Signals automation was tightened around a fixed script path (`/home/dj/.nanobot/workspace/scripts/build_weekly_signals.py`) and HEARTBEAT was changed to call that script instead of ad hoc model reconstruction. User explicitly chose ISO week numbering and changed Weekly Signals cadence from Friday 6pm to Sunday 23:59 America/New_York; assistant updated `HEARTBEAT.md` accordingly and noted heartbeat still polls every 30 minutes so actual execution will be on the first check after that time. Assistant also confirmed a remaining mismatch: `build_weekly_signals.py` still internally uses the old Friday-18:00 window / non-ISO logic, while Monthly Index is still configured for month-end 6pm, and the next intended work is to update Monthly Index to stricter month-end logic and align the weekly script implementation itself with ISO-week Sunday-end behavior."
     },
+    "nodes": [
+      {
+        "label": "HEARTBEAT",
+        "type": "project",
+        "confidence": 0.9
+      },
+      {
+        "label": "Weekly Signals",
+        "type": "project",
+        "confidence": 0.8
+      }
+    ],
+    "relations": [],
+    "events": [
+      {
+        "title": "HEARTBEAT switched to fixed Weekly Signals script call",
+        "timestamp": "2026-04-11T07:07",
+        "summary": "HEARTBEAT now invokes /home/dj/.nanobot/workspace/scripts/build_weekly_signals.py instead of ad hoc model reconstruction, with cadence shifted to ISO-week ending Sunday 23:59 America/New_York",
+        "confidence": 0.9
+      }
+    ],
+    "raw_response": "{\"nodes\":[{\"label\":\"HEARTBEAT\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"build_weekly_signals.py\",\"type\":\"tool\",\"confidence\":0.9},{\"label\":\"Weekly Signals\",\"type\":\"project\",\"confidence\":0.8}],\"relations\":[],\"events\":[{\"title\":\"HEARTBEAT switched to fixed Weekly Signals script call\",\"timestamp\":\"2026-04-11T07:07\",\"summary\":\"HEARTBEAT now invokes /home/dj/.nanobot/workspace/scripts/build_weekly_signals.py instead of ad hoc model reconstruction, with cadence shifted to ISO-week ending Sunday 23:59 America/New_York\",\"confidence\":0.9}]}",
+    "parse_error": null
+  },
+  {
+    "entry_id": "entry-016",
+    "timestamp": "2026-04-11T03:58",
+    "evidence": {
+      "evidence_id": "evidence-016",
+      "source_id": "history_md",
+      "timestamp": "2026-04-11T03:58",
+      "text": "[2026-04-11 03:58] Processed repeated heartbeat-status conversation for CRON tasks. The conversation mainly consisted of periodic HEARTBEAT.md checks from 2026-04-10 22:26 through 2026-04-11 03:58, all returning HEARTBEAT_OK after confirming Weekly Signals WK16 was already published and Monthly Index was not due. Important persistent state reflected in this exchange: Weekly Signals schedule is now Sunday 11:59 PM America/New_York using /home/dj/.nanobot/workspace/scripts/build_weekly_signals.py as the source-of-truth script; Monthly Index remains scheduled for the last day of each month at 6:00 PM America/New_York. This exchange is also another concrete example of heartbeat repeatedly surfacing active tasks/noise while no work is due."
+    },
     "nodes": [],
     "relations": [],
     "events": [],
-    "raw_response": "",
-    "parse_error": "groq HTTP 400: {\"error\":{\"message\":\"Failed to generate JSON. Please adjust your prompt. See 'failed_generation' for more details.\",\"type\":\"invalid_request_error\",\"code\":\"json_validate_failed\",\"failed_generation\":\"max completion tokens reached before generating a valid document\"}}\n"
+    "raw_response": "{\"nodes\":[],\"relations\":[],\"events\":[]}",
+    "parse_error": null
+  },
+  {
+    "entry_id": "entry-017",
+    "timestamp": "2026-04-11T11:00",
+    "evidence": {
+      "evidence_id": "evidence-017",
+      "source_id": "history_md",
+      "timestamp": "2026-04-11T11:00",
+      "text": "[2026-04-11 11:00] HEARTBEAT/CRON schedule wording was repeatedly surfaced through the night while responses stayed HEARTBEAT_OK, confirming ongoing heartbeat noise/idempotency behavior. The periodic-task spec is now effectively stabilized in the surfaced HEARTBEAT.md wording: Weekly Signals runs every Sunday 11:59 PM America/New_York via `python /home/dj/.nanobot/workspace/scripts/build_weekly_signals.py`, and Monthly Index runs the last day of each month 11:59 PM America/New_York via `python /home/dj/.nanobot/workspace/scripts/build_monthly_index.py`, with commit/push and title/URL/commit-hash reporting on success, error-only reporting on failure."
+    },
+    "nodes": [
+      {
+        "label": "Weekly Signals",
+        "type": "project",
+        "confidence": 0.9
+      },
+      {
+        "label": "Monthly Index",
+        "type": "project",
+        "confidence": 0.9
+      }
+    ],
+    "relations": [],
+    "events": [
+      {
+        "title": "Periodic-task spec stabilized in HEARTBEAT.md",
+        "timestamp": "2026-04-11T11:00",
+        "summary": "Final wording in HEARTBEAT.md sets weekly and monthly cron specs and reporting behavior.",
+        "confidence": 0.9
+      }
+    ],
+    "raw_response": "{\"nodes\":[{\"label\":\"Weekly Signals\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"Monthly Index\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"HEARTBEAT.md\",\"type\":\"doc\",\"confidence\":0.8}],\"relations\":[],\"events\":[{\"title\":\"Periodic-task spec stabilized in HEARTBEAT.md\",\"timestamp\":\"2026-04-11T11:00\",\"summary\":\"Final wording in HEARTBEAT.md sets weekly and monthly cron specs and reporting behavior.\",\"confidence\":0.9}]}",
+    "parse_error": null
+  },
+  {
+    "entry_id": "entry-018",
+    "timestamp": "2026-04-11T20:32",
+    "evidence": {
+      "evidence_id": "evidence-018",
+      "source_id": "history_md",
+      "timestamp": "2026-04-11T20:32",
+      "text": "[2026-04-11 20:32] Repeated heartbeat/status checks throughout 2026-04-11 continued to surface the active CRON tasks from HEARTBEAT.md while returning HEARTBEAT_OK. The surfaced schedule wording consistently reflected Weekly Signals running Sundays at 11:59 PM America/New_York via /home/dj/.nanobot/workspace/scripts/build_weekly_signals.py and Monthly Index running the last day of each month at 11:59 PM America/New_York via /home/dj/.nanobot/workspace/scripts/build_monthly_index.py, with commit/push plus title/URL/commit-hash reporting on success. This reinforces the existing duplicate/noise pattern: heartbeat keeps echoing active periodic tasks even when nothing is due."
+    },
+    "nodes": [
+      {
+        "label": "Weekly Signals",
+        "type": "tool",
+        "confidence": 0.9
+      },
+      {
+        "label": "Monthly Index",
+        "type": "tool",
+        "confidence": 0.9
+      }
+    ],
+    "relations": [],
+    "events": [
+      {
+        "title": "Heartbeat check surfaces CRON tasks",
+        "timestamp": "2026-04-11T20:32",
+        "summary": "Repeated checks showed active CRON tasks from HEARTBEAT.md with HEARTBEAT_OK status, indicating routine periodic-task logging rather than fresh activity.",
+        "confidence": 0.8
+      }
+    ],
+    "raw_response": "{\"nodes\": [{\"label\": \"Weekly Signals\", \"type\": \"tool\", \"confidence\": 0.9}, {\"label\": \"Monthly Index\", \"type\": \"tool\", \"confidence\": 0.9}, {\"label\": \"HEARTBEAT.md\", \"type\": \"doc\", \"confidence\": 0.8}], \"relations\": [], \"events\": [{\"title\": \"Heartbeat check surfaces CRON tasks\", \"timestamp\": \"2026-04-11T20:32\", \"summary\": \"Repeated checks showed active CRON tasks from HEARTBEAT.md with HEARTBEAT_OK status, indicating routine periodic-task logging rather than fresh activity.\", \"confidence\": 0.8}]}",
+    "parse_error": null
   }
 ]
