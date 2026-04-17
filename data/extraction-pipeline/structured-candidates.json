@@ -8,24 +8,11 @@
       "timestamp": "2026-04-05T15:57",
       "text": "[2026-04-05 15:57] Processed latest conversation updates. User published two DJClaw game-design posts from a WeChat article: post 082 `posts-2026-04-02-082-ai-cannot-feel-the-turn.html` (AI and game design, tied to Ticket to Ride variation) in commit `583e62d`, and then requested a pure summary version, resulting in post 083 `posts-2026-04-02-083-what-ai-still-cannot-replace-in-game-design.html` in commit `25ebc37`. Later, user shared a detailed rehab routine for adductor strain/posterior-chain tightness/tibial-nerve sensitivity; assistant summarized it but no publish action occurred. Most recently on 2026-04-05, user sent an image and asked to identify the instruments, find corresponding images and names, and publish a DJClaw post; assistant stated the plan to transcribe instruments/people first, then gather image sources and publish."
     },
-    "nodes": [
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 1.0
-      }
-    ],
+    "nodes": [],
     "relations": [],
-    "events": [
-      {
-        "title": "DJClaw game-design posts 082–083 published",
-        "timestamp": "2026-04-05T15:57",
-        "summary": "User published two DJClaw game-design posts derived from a WeChat article and later requested a pure-summary version, culminating in posts 082 and 083.",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\": [{\"label\": \"DJClaw\", \"type\": \"project\", \"confidence\": 1.0}], \"relations\": [], \"events\": [{\"title\": \"DJClaw game-design posts 082–083 published\", \"timestamp\": \"2026-04-05T15:57\", \"summary\": \"User published two DJClaw game-design posts derived from a WeChat article and later requested a pure-summary version, culminating in posts 082 and 083.\", \"confidence\": 0.9}]}",
-    "parse_error": null
+    "events": [],
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   },
   {
     "entry_id": "entry-002",
@@ -36,39 +23,11 @@
       "timestamp": "2026-04-08T11:21",
       "text": "[2026-04-08 11:21] User started a new product/publishing workflow based on https://github.com/mattpocock/skills/tree/main, asking to seriously read the repo, derive a new product-development pipeline, use that pipeline to design a bookkeeping app, and publish the process/results on DJClaw. Conversation context also included recent DJClaw post 084 work: post 084 `posts-2026-04-05-084-jazz-greats-instruments-and-players.html` was published in commit `210feb8`, then upgraded with Wikipedia instrument reference links (not direct hotlinked images due 429 rate limits) and pushed in commit `ecdfce3` (`Add instrument reference links to post 084`); user also asked to turn the New Orleans / `When the Saints Go Marching In` explanation into the first New Orleans travel-note article in a quiet Craig Adams–style voice, but that article was only requested and not yet completed in this excerpt. For the new pipeline work, assistant launched three parallel analyses and received two completed results: a lightweight agent-driven product pipeline (discovery → spec → UX → architecture → task breakdown → implementation → evaluation → publication) and a bookkeeping-app concept `LedgerClaw` for freelancers/solo operators with MVP centered on CSV import, auto-categorization, review queue, reports/exports, and an agent-first workflow where AI does first-pass cleanup and humans review exceptions."
     },
-    "nodes": [
-      {
-        "label": "LedgerClaw",
-        "type": "project",
-        "confidence": 0.9
-      },
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.85
-      },
-      {
-        "label": "Matt Pocock",
-        "type": "person",
-        "confidence": 0.8
-      },
-      {
-        "label": "skills",
-        "type": "project",
-        "confidence": 0.7
-      }
-    ],
+    "nodes": [],
     "relations": [],
-    "events": [
-      {
-        "title": "Started LedgerClaw product pipeline",
-        "timestamp": "2026-04-08T11:21",
-        "summary": "User initiated product/publishing workflow based on mattpocock/skills repo to design bookkeeping app LedgerClaw and publish results on DJClaw",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\":[{\"label\":\"LedgerClaw\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.85},{\"label\":\"Matt Pocock\",\"type\":\"person\",\"confidence\":0.8},{\"label\":\"skills\",\"type\":\"project\",\"confidence\":0.7}],\"relations\":[],\"events\":[{\"title\":\"Started LedgerClaw product pipeline\",\"timestamp\":\"2026-04-08T11:21\",\"summary\":\"User initiated product/publishing workflow based on mattpocock/skills repo to design bookkeeping app LedgerClaw and publish results on DJClaw\",\"confidence\":0.9}]}",
-    "parse_error": null
+    "events": [],
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   },
   {
     "entry_id": "entry-003",
@@ -79,24 +38,11 @@
       "timestamp": "2026-04-08T12:22",
       "text": "[2026-04-08 12:22] User approved continuing the LedgerClaw product path after publishing DJClaw posts 085–087. Assistant created `/home/dj/.nanobot/workspace/ledgerclaw/docs/` and wrote three initial product docs: `PRD.md`, `SCREEN-OUTLINE.md`, and `MVP-ISSUES.md`. LedgerClaw is defined as a lightweight bookkeeping app for freelancers/solo operators where AI does first-pass cleanup/categorization from CSV imports and humans review exceptions before export. The UX direction is a calm operations tool with primary nav Home, Imports, Transactions, Review Queue, Categories & Rules, Reports, Agent Console, Settings; the docs were then re-read/validated in place."
     },
-    "nodes": [
-      {
-        "label": "LedgerClaw",
-        "type": "project",
-        "confidence": 1.0
-      }
-    ],
+    "nodes": [],
     "relations": [],
-    "events": [
-      {
-        "title": "LedgerClaw product path approved",
-        "timestamp": "2026-04-08T12:22",
-        "summary": "LedgerClaw lightweight bookkeeping app for freelancers approved; initial product docs created and validated",
-        "confidence": 1.0
-      }
-    ],
-    "raw_response": "{\"nodes\": [{\"label\": \"LedgerClaw\", \"type\": \"project\", \"confidence\": 1.0}], \"relations\": [], \"events\": [{\"title\": \"LedgerClaw product path approved\", \"timestamp\": \"2026-04-08T12:22\", \"summary\": \"LedgerClaw lightweight bookkeeping app for freelancers approved; initial product docs created and validated\", \"confidence\": 1.0}]}",
-    "parse_error": null
+    "events": [],
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   },
   {
     "entry_id": "entry-004",
@@ -107,34 +53,11 @@
       "timestamp": "2026-04-08T16:11",
       "text": "[2026-04-08 16:11] User created/published a local bilingual `caveman` skill workflow update and set a new long-term preference: default replies should use caveman style. Assistant created workspace skill `/home/dj/.nanobot/workspace/skills/caveman/` with `SKILL.md` and `README.md` as spec-only (no runtime toggle yet), explaining lite/full/ultra modes and bilingual compression rules. User asked to summarize/publish it on DJClaw; post 088 `posts-2026-04-08-088-a-local-caveman-skill.html` was added with `index.html` and `sitemap.xml` updates and pushed in commit `7706543` (`Publish post 088 on local caveman skill`). User then explicitly approved remembering the new default-response preference. Finally, user asked to study `https://github.com/mattpocock/skills/tree/main`, learn/summarize it, and publish a deeper DJClaw deep-dive article; assistant confirmed next post number 089 and framed it as a design-method article about decomposing product development into callable skill units."
     },
-    "nodes": [
-      {
-        "label": "caveman",
-        "type": "project",
-        "confidence": 0.95
-      },
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.95
-      },
-      {
-        "label": "mattpocock/skills",
-        "type": "project",
-        "confidence": 0.9
-      }
-    ],
+    "nodes": [],
     "relations": [],
-    "events": [
-      {
-        "title": "caveman skill workflow published on DJClaw",
-        "timestamp": "2026-04-08T16:11",
-        "summary": "User published a bilingual caveman skill workflow update, including default-replies preference, via DJClaw post 088.",
-        "confidence": 0.95
-      }
-    ],
-    "raw_response": "{\"nodes\": [{\"label\": \"caveman\", \"type\": \"project\", \"confidence\": 0.95}, {\"label\": \"DJClaw\", \"type\": \"project\", \"confidence\": 0.95}, {\"label\": \"mattpocock/skills\", \"type\": \"project\", \"confidence\": 0.9}], \"relations\": [], \"events\": [{\"title\": \"caveman skill workflow published on DJClaw\", \"timestamp\": \"2026-04-08T16:11\", \"summary\": \"User published a bilingual caveman skill workflow update, including default-replies preference, via DJClaw post 088.\", \"confidence\": 0.95}]}",
-    "parse_error": null
+    "events": [],
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   },
   {
     "entry_id": "entry-005",
@@ -145,39 +68,11 @@
       "timestamp": "2026-04-10T10:16",
       "text": "[2026-04-10 10:16] User asked for discussion/analysis of external articles/videos. Assistant read Anthropic’s engineering post on managed agents and explained its core architecture: decoupling brain / hands / session, durable external session vs context window, OS-like stable interfaces, recoverability, and security boundaries; linked this to the user’s nanobot/wiki/event architecture. Assistant then read Karpathy’s `llm-wiki` gist and framed it as compiled knowledge / persistent wiki vs query-time-only RAG, emphasizing raw sources + wiki + schema, query results writing back carefully, and the distinction between markdown wiki as presentation vs structured kernel as canonical layer. Separately, DJClaw posts 085–089 were batch-polished for layout consistency: posts 088/089 were fixed to the unified article template and posts 085–087 received matching `Reference` tail sections, pushed in commits `427aabb` and `d8434b2`. Conversation ended with a new user request to inspect/discuss YouTube video `https://youtu.be/CFUtwYXE5Vs?si=OgwtQDI9eqPZMXuM`, with assistant beginning content retrieval."
     },
-    "nodes": [
-      {
-        "label": "Anthropic",
-        "type": "org",
-        "confidence": 0.95
-      },
-      {
-        "label": "Karpathy",
-        "type": "person",
-        "confidence": 0.95
-      },
-      {
-        "label": "llm-wiki",
-        "type": "project",
-        "confidence": 0.95
-      },
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.95
-      }
-    ],
+    "nodes": [],
     "relations": [],
-    "events": [
-      {
-        "title": "Assistant analyzed Anthropic managed agents post and Karpathy llm-wiki",
-        "timestamp": "2026-04-10T10:16",
-        "summary": "Assistant read Anthropic’s engineering post on managed agents, explained the brain/hands/session architecture, and linked it to the user’s nanobot system. Also read Karpathy’s llm-wiki gist, highlighting compiled knowledge vs RAG and markdown presentation vs structured kernel. Separately, polished DJClaw posts 085–089 for layout consistency.",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\": [\n  {\"label\": \"Anthropic\", \"type\": \"org\", \"confidence\": 0.95},\n  {\"label\": \"Karpathy\", \"type\": \"person\", \"confidence\": 0.95},\n  {\"label\": \"llm-wiki\", \"type\": \"project\", \"confidence\": 0.95},\n  {\"label\": \"DJClaw\", \"type\": \"person\", \"confidence\": 0.95}\n],\n\"relations\": [],\n\"events\": [\n  {\n    \"title\": \"Assistant analyzed Anthropic managed agents post and Karpathy llm-wiki\",\n    \"timestamp\": \"2026-04-10T10:16\",\n    \"summary\": \"Assistant read Anthropic’s engineering post on managed agents, explained the brain/hands/session architecture, and linked it to the user’s nanobot system. Also read Karpathy’s llm-wiki gist, highlighting compiled knowledge vs RAG and markdown presentation vs structured kernel. Separately, polished DJClaw posts 085–089 for layout consistency.\",\n    \"confidence\": 0.9\n  }\n]}",
-    "parse_error": null
+    "events": [],
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   },
   {
     "entry_id": "entry-006",
@@ -188,32 +83,11 @@
       "timestamp": "2026-04-10T14:44",
       "text": "[2026-04-10 14:44] User approved turning recurring DJClaw cron-generated content into a separate CRON series rather than ordinary numbered blog posts. Weekly series name is `Weekly Signals`; visible title format should be `Weekly Signals — YYYY WKNN — [custom title]`; filename should use the second naming scheme with strong sort order (`cron-YYYY-wkNN-weekly-signals-slug.html`). Monthly series should use the simpler name `Monthly Index` (not `Monthly Signals Index`) with similarly structured time-based naming. User wants these series listed under a new DJClaw site tab `CRON`, separate from normal posts. Weekly entries should be bilingual with block-separated language sections, and assistant recommended English first then Chinese; user also asked to convert the current recent-links article into bilingual form and align it to this new CRON-series structure. Earlier the assistant added two recurring tasks to HEARTBEAT.md: weekly Friday 6pm New York link roundup and month-end 6pm monthly index, but user clarified they should belong to this new CRON publication layer with fixed naming/organization."
     },
-    "nodes": [
-      {
-        "label": "Weekly Signals",
-        "type": "project",
-        "confidence": 0.9
-      },
-      {
-        "label": "Monthly Index",
-        "type": "project",
-        "confidence": 0.9
-      },
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.9
-      },
-      {
-        "label": "CRON",
-        "type": "project",
-        "confidence": 0.9
-      }
-    ],
+    "nodes": [],
     "relations": [],
     "events": [],
-    "raw_response": "{\"nodes\":[{\"label\":\"Weekly Signals\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"Monthly Index\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"DJClaw\",\"type\":\"org\",\"confidence\":0.9},{\"label\":\"CRON\",\"type\":\"project\",\"confidence\":0.9}],\"relations\":[],\"events\":[]}",
-    "parse_error": null
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   },
   {
     "entry_id": "entry-007",
@@ -224,24 +98,11 @@
       "timestamp": "2026-04-10T16:25",
       "text": "[2026-04-10 16:25] DJClaw CRON series was implemented and extended. Commit `433a54e` added `cron.html`, bilingual `Weekly Signals` page `cron-2026-wk15-weekly-signals-structure-memory-and-contact.html`, shared `assets/js/lang-toggle.js`, and removed ordinary post 090 so weekly roundup content now lives in a separate CRON section rather than numbered posts. Then commit `ba3e701` added the first `Monthly Index` test page `cron-2026-03-monthly-index.html` and lightly polished `cron.html` into a better archive surface; user then asked why `HEARTBEAT_OK` appears often, and assistant explained it likely comes from periodic heartbeat health checks/logging every ~30 minutes, probably being surfaced too noisily. Latest explicit instruction: standardize the Monthly Index template and then further polish `cron.html` into a fuller archive hub with clearer series info/status/cadence/language presentation."
     },
-    "nodes": [
-      {
-        "label": "DJClaw CRON series",
-        "type": "project",
-        "confidence": 0.9
-      }
-    ],
+    "nodes": [],
     "relations": [],
-    "events": [
-      {
-        "title": "DJClaw CRON series implementation and monthly index creation",
-        "timestamp": "2026-04-10T16:25",
-        "summary": "Implemented DJClaw CRON series; added Monthly Index test page and improved `cron.html` archive",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\": [\n  {\"label\": \"DJClaw CRON series\", \"type\": \"project\", \"confidence\": 0.90},\n  {\"label\": \"cron.html\", \"type\": \"doc\", \"confidence\": 0.60}\n],\n\"relations\": [],\n\"events\": [\n  {\n    \"title\": \"DJClaw CRON series implementation and monthly index creation\",\n    \"timestamp\": \"2026-04-10T16:25\",\n    \"summary\": \"Implemented DJClaw CRON series; added Monthly Index test page and improved `cron.html` archive\",\n    \"confidence\": 0.90\n  }\n]}",
-    "parse_error": null
+    "events": [],
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   },
   {
     "entry_id": "entry-008",
@@ -252,29 +113,11 @@
       "timestamp": "2026-04-10T16:41",
       "text": "[2026-04-10 16:41] User requested Monthly Index template cleanup for DJClaw CRON after Weekly Signals polish. Specific edits requested: remove the sections/text “Template note”, “Why this page exists”, the subtitle sentence “A test monthly page for the CRON system: one month, one quiet index, one place to see what kept recurring.”, and stop using highlight-style modules for “Month at a glance” and “Top themes”; instead make Monthly Index use a more normal article template with subtitle aligned to the Weekly Signals format. Assistant inspected `cron-2026-03-monthly-index.html`, confirmed the target lines, and began rewriting the header/subtitle and removing the template/overview blocks."
     },
-    "nodes": [
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.95
-      },
-      {
-        "label": "Weekly Signals",
-        "type": "project",
-        "confidence": 0.95
-      }
-    ],
+    "nodes": [],
     "relations": [],
-    "events": [
-      {
-        "title": "DJClaw CRON Monthly Index template cleanup",
-        "timestamp": "2026-04-10T16:41",
-        "summary": "Assistant rewrote header/subtitle and removed template/overview blocks per user request.",
-        "confidence": 0.95
-      }
-    ],
-    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.95},{\"label\":\"Weekly Signals\",\"type\":\"project\",\"confidence\":0.95}],\"relations\":[],\"events\":[{\"title\":\"DJClaw CRON Monthly Index template cleanup\",\"timestamp\":\"2026-04-10T16:41\",\"summary\":\"Assistant rewrote header/subtitle and removed template/overview blocks per user request.\",\"confidence\":0.95}]}",
-    "parse_error": null
+    "events": [],
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   },
   {
     "entry_id": "entry-009",
@@ -285,24 +128,11 @@
       "timestamp": "2026-04-10T17:53",
       "text": "[2026-04-10 17:53] DJClaw CRON section polish continued. The assistant removed the April 2026 Monthly Index placeholder from `cron.html` and pushed commit `aecbf0b` (`Remove April monthly index placeholder`). Then, based on Telegram screenshot feedback, the CRON archive page was simplified in several passes: removed `Scheduled series`, removed `Weekly`/`Monthly` eyebrow labels, simplified archive entries to plain post-list style without descriptions/tag badges (`d552bb1`), removed outer card styling from CRON lists via `style.css` (`61a4640`), softened section headings and intro (`b32a284`), and then further simplified the page plus added very short series notes (`d4b4d3e`) so `Weekly Signals` says `A short weekly reading log.` and `Monthly Index` says `A simple monthly map of posts.` User repeatedly emphasized wanting the CRON page to visually match the main posts list: no borders/cards, less highlight, faster/cleaner reading."
     },
-    "nodes": [
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.9
-      }
-    ],
+    "nodes": [],
     "relations": [],
-    "events": [
-      {
-        "title": "CRON section polish continued",
-        "timestamp": "2026-04-10T17:53",
-        "summary": "Removed April 2026 Monthly Index placeholder and multiple CRON archive simplifications based on Telegram feedback to match main posts list style",
-        "confidence": 0.95
-      }
-    ],
-    "raw_response": "{\"nodes\": [{\"label\": \"DJClaw\", \"type\": \"person\", \"confidence\": 0.9}], \"relations\": [], \"events\": [{\"title\": \"CRON section polish continued\", \"timestamp\": \"2026-04-10T17:53\", \"summary\": \"Removed April 2026 Monthly Index placeholder and multiple CRON archive simplifications based on Telegram feedback to match main posts list style\", \"confidence\": 0.95}]}",
-    "parse_error": null
+    "events": [],
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   },
   {
     "entry_id": "entry-010",
@@ -316,8 +146,8 @@
     "nodes": [],
     "relations": [],
     "events": [],
-    "raw_response": "{\"nodes\":[],\"relations\":[],\"events\":[]}",
-    "parse_error": null
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   },
   {
     "entry_id": "entry-011",
@@ -328,29 +158,11 @@
       "timestamp": "2026-04-10T19:24",
       "text": "[2026-04-10 19:24] HEARTBEAT/CRON behavior was exercised for DJClaw recurring publications. At 18:23, the due Weekly Signals task generated and published a new bilingual CRON page `cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html`, updated `cron.html` and `sitemap.xml`, and pushed commit `ed2a30f` (`Publish Weekly Signals for 2026 WK16`). The page title is `Weekly Signals — 2026 WK16 — Building Shape and Living Systems`, and the assistant noted the week’s source window was light so the roundup leaned on the logged cluster around Matt Pocock skills, LedgerClaw, caveman skill, and AI/game-design notes. Later heartbeat checks at 18:54 and 19:24 surfaced the active HEARTBEAT.md periodic tasks again; one returned `HEARTBEAT_OK`, and another restarted due-task inspection for Weekly Signals, reinforcing the existing context that heartbeat checks happen repeatedly and may re-announce CRON tasks."
     },
-    "nodes": [
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.9
-      },
-      {
-        "label": "Weekly Signals",
-        "type": "project",
-        "confidence": 0.9
-      }
-    ],
+    "nodes": [],
     "relations": [],
-    "events": [
-      {
-        "title": "Weekly Signals published for 2026 WK16",
-        "timestamp": "2026-04-10T18:23",
-        "summary": "DJClaw automated CRON generated and published the bilingual Weekly Signals page for week 16.",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"org\",\"confidence\":0.9},{\"label\":\"Weekly Signals\",\"type\":\"project\",\"confidence\":0.9}],\"relations\":[{\"source_label\":\"DJClaw\",\"relation_type\":\"publishes\",\"confidence\":0.9}],\"events\":[{\"title\":\"Weekly Signals published for 2026 WK16\",\"timestamp\":\"2026-04-10T18:23\",\"summary\":\"DJClaw automated CRON generated and published the bilingual Weekly Signals page for week 16.\",\"confidence\":0.9}]}",
-    "parse_error": null
+    "events": [],
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   },
   {
     "entry_id": "entry-012",
@@ -361,29 +173,11 @@
       "timestamp": "2026-04-10T22:03",
       "text": "[2026-04-10 22:03] User identified a CRON/Weekly Signals source-of-truth bug: weekly roundup was including all links seen in chat/session history, including generated DJClaw/internal links, instead of only links the user personally sent. Assistant confirmed the correct rule should be hard-filtered to user-authored messages within the Friday 6pm→Friday 6pm window, keeping only user-sent external links and excluding assistant/bot-generated links plus internal/local URLs such as djclaw.github.io, github.io site pages, CRON/sitemap/preview/local paths. Assistant began tracing the Weekly Signals generation path, found likely session/heartbeat-based extraction (`sessions/heartbeat.jsonl`, heartbeat service code), and noted HEARTBEAT task text already says “user-sent links” but execution appears to let the model infer from broad recent history without a hard role/domain filter. Immediate next step in progress: patch heartbeat/Weekly Signals generation logic to enforce user-role-only external link extraction before regenerating future weekly pages."
     },
-    "nodes": [
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.9
-      },
-      {
-        "label": "Weekly Signals",
-        "type": "tool",
-        "confidence": 0.8
-      }
-    ],
+    "nodes": [],
     "relations": [],
-    "events": [
-      {
-        "title": "DJClaw Weekly Signals user-link filter bug identified",
-        "timestamp": "2026-04-10T22:03",
-        "summary": "Weekly roundup incorrectly included all links from session history; fix in progress to restrict to user-sent external links only",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\":[{\"label\":\"DJClaw\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"Weekly Signals\",\"type\":\"tool\",\"confidence\":0.8}],\"relations\":[],\"events\":[{\"title\":\"DJClaw Weekly Signals user-link filter bug identified\",\"timestamp\":\"2026-04-10T22:03\",\"summary\":\"Weekly roundup incorrectly included all links from session history; fix in progress to restrict to user-sent external links only\",\"confidence\":0.9}]}",
-    "parse_error": null
+    "events": [],
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   },
   {
     "entry_id": "entry-013",
@@ -394,44 +188,11 @@
       "timestamp": "2026-04-10T22:39",
       "text": "[2026-04-10 22:39] Weekly Signals source-filtering bug was partially fixed and WK16 was corrected/pushed. Assistant created `/home/dj/.nanobot/workspace/scripts/weekly_signals_links.py` to extract links only from `role=user` session messages in the current Telegram chat within the weekly window, normalize non-string message content safely, and exclude internal/local URLs such as `djclaw.github.io`, localhost, and sitemap links. A run for `2026-04-04 18:00 EDT` to `2026-04-10 18:00 EDT` returned 6 valid user-sent external links: Matt Pocock skills repo, Julius Brussee caveman repo, caveman docs site, Anthropic managed agents, Karpathy llm-wiki gist, and a YouTube link. DJClaw CRON page `cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html` was rewritten to use only those 6 sources, fix the date range, and remove internal DJClaw links, then published in commit `d3d50c9` (`Fix Weekly Signals source links for WK16`). Workspace files `scripts/weekly_signals_links.py` and `HEARTBEAT.md` were updated locally but not committed because `/home/dj/.nanobot/workspace` is not a git repo. User also set a new hard rule for Weekly Signals handling of YouTube links: first attempt to retrieve transcript/description/title/metadata; only if content is actually retrieved may the system write a substantive summary; otherwise it must explicitly state retrieval failed/unavailable and avoid vague filler or pretending to understand the video. User approved doing both: (A) verify/fix the heartbeat/Weekly Signals execution chain so future automatic runs truly use the new user-link extractor and YouTube-first retrieval rule, and (B) rewrite WK16 point 5 into a compliant form and push again if needed."
     },
-    "nodes": [
-      {
-        "label": "Weekly Signals",
-        "type": "project",
-        "confidence": 0.95
-      },
-      {
-        "label": "Matt Pocock skills repo",
-        "type": "project",
-        "confidence": 0.85
-      },
-      {
-        "label": "Julius Brussee caveman repo",
-        "type": "project",
-        "confidence": 0.85
-      },
-      {
-        "label": "Anthropic managed agents",
-        "type": "tool",
-        "confidence": 0.85
-      },
-      {
-        "label": "DJClaw",
-        "type": "project",
-        "confidence": 0.8
-      }
-    ],
+    "nodes": [],
     "relations": [],
-    "events": [
-      {
-        "title": "Weekly Signals WK16 source-filtering bug partially fixed and republished",
-        "timestamp": "2026-04-10T22:39",
-        "summary": "Applied new user-link extractor and republished WK16 with only six verified external user-sent sources.",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\": [{\"label\": \"Weekly Signals\", \"type\": \"project\", \"confidence\": 0.95}, {\"label\": \"Matt Pocock skills repo\", \"type\": \"project\", \"confidence\": 0.85}, {\"label\": \"Julius Brussee caveman repo\", \"type\": \"project\", \"confidence\": 0.85}, {\"label\": \"Anthropic managed agents\", \"type\": \"tool\", \"confidence\": 0.85}, {\"label\": \"Karpathy llm-wiki gist\", \"type\": \"doc\", \"confidence\": 0.85}, {\"label\": \"DJClaw\", \"type\": \"other\", \"confidence\": 0.8}], \"relations\": [], \"events\": [{\"title\": \"Weekly Signals WK16 source-filtering bug partially fixed and republished\", \"timestamp\": \"2026-04-10T22:39\", \"summary\": \"Applied new user-link extractor and republished WK16 with only six verified external user-sent sources.\", \"confidence\": 0.9}]}",
-    "parse_error": null
+    "events": [],
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   },
   {
     "entry_id": "entry-014",
@@ -442,29 +203,11 @@
       "timestamp": "2026-04-10T22:39",
       "text": "[2026-04-10 22:39] Heartbeat/CRON checks repeatedly re-announced Weekly Signals and Monthly Index tasks after the initial WK16 publish, often returning HEARTBEAT_OK after verifying commit `ed2a30f` and the existing page `cron-2026-wk16-weekly-signals-building-shape-and-living-systems.html`. This reinforced an idempotency/debugging issue: heartbeat may repeatedly inspect and re-report already-completed CRON work in the same due window rather than staying quiet after publication. The pending follow-up remains to verify/fix the actual Weekly Signals execution chain so it truly uses the stricter `weekly_signals_links.py` user-link-only extraction path and YouTube retrieval rule."
     },
-    "nodes": [
-      {
-        "label": "Weekly Signals",
-        "type": "project",
-        "confidence": 0.9
-      },
-      {
-        "label": "Monthly Index",
-        "type": "project",
-        "confidence": 0.8
-      }
-    ],
+    "nodes": [],
     "relations": [],
-    "events": [
-      {
-        "title": "Heartbeat/CRON repeatedly re-announced Weekly Signals and Monthly Index tasks after WK16 publish",
-        "timestamp": "2026-04-10T22:39",
-        "summary": "Heartbeat checks kept re-reporting already-completed CRON work within the same window instead of staying silent post-publication, exposing idempotency/debug issue",
-        "confidence": 0.85
-      }
-    ],
-    "raw_response": "{\"nodes\": [{\"label\": \"Weekly Signals\", \"type\": \"project\", \"confidence\": 0.9}, {\"label\": \"Monthly Index\", \"type\": \"project\", \"confidence\": 0.8}, {\"label\": \"ed2a30f\", \"type\": \"doc\", \"confidence\": 0.7}], \"relations\": [], \"events\": [{\"title\": \"Heartbeat/CRON repeatedly re-announced Weekly Signals and Monthly Index tasks after WK16 publish\", \"timestamp\": \"2026-04-10T22:39\", \"summary\": \"Heartbeat checks kept re-reporting already-completed CRON work within the same window instead of staying silent post-publication, exposing idempotency/debug issue\", \"confidence\": 0.85}]}",
-    "parse_error": null
+    "events": [],
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   },
   {
     "entry_id": "entry-015",
@@ -475,29 +218,11 @@
       "timestamp": "2026-04-11T07:07",
       "text": "[2026-04-11 07:07] Weekly Signals automation was tightened around a fixed script path (`/home/dj/.nanobot/workspace/scripts/build_weekly_signals.py`) and HEARTBEAT was changed to call that script instead of ad hoc model reconstruction. User explicitly chose ISO week numbering and changed Weekly Signals cadence from Friday 6pm to Sunday 23:59 America/New_York; assistant updated `HEARTBEAT.md` accordingly and noted heartbeat still polls every 30 minutes so actual execution will be on the first check after that time. Assistant also confirmed a remaining mismatch: `build_weekly_signals.py` still internally uses the old Friday-18:00 window / non-ISO logic, while Monthly Index is still configured for month-end 6pm, and the next intended work is to update Monthly Index to stricter month-end logic and align the weekly script implementation itself with ISO-week Sunday-end behavior."
     },
-    "nodes": [
-      {
-        "label": "HEARTBEAT",
-        "type": "project",
-        "confidence": 0.9
-      },
-      {
-        "label": "Weekly Signals",
-        "type": "project",
-        "confidence": 0.8
-      }
-    ],
+    "nodes": [],
     "relations": [],
-    "events": [
-      {
-        "title": "HEARTBEAT switched to fixed Weekly Signals script call",
-        "timestamp": "2026-04-11T07:07",
-        "summary": "HEARTBEAT now invokes /home/dj/.nanobot/workspace/scripts/build_weekly_signals.py instead of ad hoc model reconstruction, with cadence shifted to ISO-week ending Sunday 23:59 America/New_York",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\":[{\"label\":\"HEARTBEAT\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"build_weekly_signals.py\",\"type\":\"tool\",\"confidence\":0.9},{\"label\":\"Weekly Signals\",\"type\":\"project\",\"confidence\":0.8}],\"relations\":[],\"events\":[{\"title\":\"HEARTBEAT switched to fixed Weekly Signals script call\",\"timestamp\":\"2026-04-11T07:07\",\"summary\":\"HEARTBEAT now invokes /home/dj/.nanobot/workspace/scripts/build_weekly_signals.py instead of ad hoc model reconstruction, with cadence shifted to ISO-week ending Sunday 23:59 America/New_York\",\"confidence\":0.9}]}",
-    "parse_error": null
+    "events": [],
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   },
   {
     "entry_id": "entry-016",
@@ -511,8 +236,8 @@
     "nodes": [],
     "relations": [],
     "events": [],
-    "raw_response": "{\"nodes\":[],\"relations\":[],\"events\":[]}",
-    "parse_error": null
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   },
   {
     "entry_id": "entry-017",
@@ -523,29 +248,11 @@
       "timestamp": "2026-04-11T11:00",
       "text": "[2026-04-11 11:00] HEARTBEAT/CRON schedule wording was repeatedly surfaced through the night while responses stayed HEARTBEAT_OK, confirming ongoing heartbeat noise/idempotency behavior. The periodic-task spec is now effectively stabilized in the surfaced HEARTBEAT.md wording: Weekly Signals runs every Sunday 11:59 PM America/New_York via `python /home/dj/.nanobot/workspace/scripts/build_weekly_signals.py`, and Monthly Index runs the last day of each month 11:59 PM America/New_York via `python /home/dj/.nanobot/workspace/scripts/build_monthly_index.py`, with commit/push and title/URL/commit-hash reporting on success, error-only reporting on failure."
     },
-    "nodes": [
-      {
-        "label": "Weekly Signals",
-        "type": "project",
-        "confidence": 0.9
-      },
-      {
-        "label": "Monthly Index",
-        "type": "project",
-        "confidence": 0.9
-      }
-    ],
+    "nodes": [],
     "relations": [],
-    "events": [
-      {
-        "title": "Periodic-task spec stabilized in HEARTBEAT.md",
-        "timestamp": "2026-04-11T11:00",
-        "summary": "Final wording in HEARTBEAT.md sets weekly and monthly cron specs and reporting behavior.",
-        "confidence": 0.9
-      }
-    ],
-    "raw_response": "{\"nodes\":[{\"label\":\"Weekly Signals\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"Monthly Index\",\"type\":\"project\",\"confidence\":0.9},{\"label\":\"HEARTBEAT.md\",\"type\":\"doc\",\"confidence\":0.8}],\"relations\":[],\"events\":[{\"title\":\"Periodic-task spec stabilized in HEARTBEAT.md\",\"timestamp\":\"2026-04-11T11:00\",\"summary\":\"Final wording in HEARTBEAT.md sets weekly and monthly cron specs and reporting behavior.\",\"confidence\":0.9}]}",
-    "parse_error": null
+    "events": [],
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   },
   {
     "entry_id": "entry-018",
@@ -556,28 +263,25 @@
       "timestamp": "2026-04-11T20:32",
       "text": "[2026-04-11 20:32] Repeated heartbeat/status checks throughout 2026-04-11 continued to surface the active CRON tasks from HEARTBEAT.md while returning HEARTBEAT_OK. The surfaced schedule wording consistently reflected Weekly Signals running Sundays at 11:59 PM America/New_York via /home/dj/.nanobot/workspace/scripts/build_weekly_signals.py and Monthly Index running the last day of each month at 11:59 PM America/New_York via /home/dj/.nanobot/workspace/scripts/build_monthly_index.py, with commit/push plus title/URL/commit-hash reporting on success. This reinforces the existing duplicate/noise pattern: heartbeat keeps echoing active periodic tasks even when nothing is due."
     },
-    "nodes": [
-      {
-        "label": "Weekly Signals",
-        "type": "tool",
-        "confidence": 0.9
-      },
-      {
-        "label": "Monthly Index",
-        "type": "tool",
-        "confidence": 0.9
-      }
-    ],
+    "nodes": [],
     "relations": [],
-    "events": [
-      {
-        "title": "Heartbeat check surfaces CRON tasks",
-        "timestamp": "2026-04-11T20:32",
-        "summary": "Repeated checks showed active CRON tasks from HEARTBEAT.md with HEARTBEAT_OK status, indicating routine periodic-task logging rather than fresh activity.",
-        "confidence": 0.8
-      }
-    ],
-    "raw_response": "{\"nodes\": [{\"label\": \"Weekly Signals\", \"type\": \"tool\", \"confidence\": 0.9}, {\"label\": \"Monthly Index\", \"type\": \"tool\", \"confidence\": 0.9}, {\"label\": \"HEARTBEAT.md\", \"type\": \"doc\", \"confidence\": 0.8}], \"relations\": [], \"events\": [{\"title\": \"Heartbeat check surfaces CRON tasks\", \"timestamp\": \"2026-04-11T20:32\", \"summary\": \"Repeated checks showed active CRON tasks from HEARTBEAT.md with HEARTBEAT_OK status, indicating routine periodic-task logging rather than fresh activity.\", \"confidence\": 0.8}]}",
-    "parse_error": null
+    "events": [],
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
+  },
+  {
+    "entry_id": "entry-019",
+    "timestamp": "2026-04-12T11:03",
+    "evidence": {
+      "evidence_id": "evidence-019",
+      "source_id": "history_md",
+      "timestamp": "2026-04-12T11:03",
+      "text": "[2026-04-12 11:03] Processed conversation covering CRON automation hardening and new user inquiry about Hermes Agent on Raspberry Pi. Assistant implemented `scripts/build_monthly_index.py`, patched installed `nanobot` heartbeat routing in `site-packages/nanobot/cli/commands.py` so heartbeat prefers fixed scripts for Weekly Signals/Monthly Index, updated `HEARTBEAT.md`, fixed a syntax error by rewriting the monthly script, and validated dry runs (Monthly Index for March 2026; Weekly Signals dry run with 6 links and ISO-week behavior still under refinement). User replied `好`; assistant proposed restarting `nanobot.service` next but no restart confirmation occurred. Later user asked why the WK16 YouTube item had a limitation note; answer clarified it was required disclosure because retrieval/transcript was incomplete and summaries must not pretend understanding. Then user asked if Hermes Agent can deploy on Raspberry Pi, whether Codex subscription can be used, and required RAM; assistant answered generally: Pi deployment is possible if Hermes is API/orchestration-heavy rather than local-model-heavy, Codex subscription usually is not a programmatic API replacement, and 4GB is practical minimum / 8GB preferable. User selected next step `1`, meaning they want official Hermes Agent requirements researched next."
+    },
+    "nodes": [],
+    "relations": [],
+    "events": [],
+    "raw_response": "",
+    "parse_error": "groq HTTP 404: {\"error\":{\"message\":\"The model `moonshotai/kimi-k2-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n"
   }
 ]

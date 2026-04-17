@@ -15,7 +15,7 @@ from pathlib import Path
 from history_extraction import OUTPUT_JSON as STRUCTURED_OUTPUT_JSON
 from history_extraction import choose_default_model, load_recent_entries, run_structured_extraction
 
-HISTORY_PATH = Path('/home/dj/.nanobot/workspace/memory/HISTORY.md')
+HISTORY_PATH = Path('/home/dj/.nanobot/workspace/memory/HISTORY.md.bak')
 OUTPUT_JSON = Path('/home/dj/.nanobot/workspace/wiki/data/extracted-history.json')
 
 CATEGORY_BY_TYPE = {

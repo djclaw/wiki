@@ -13,7 +13,7 @@ from typing import Any
 
 import requests
 
-HISTORY_PATH = Path('/home/dj/.nanobot/workspace/memory/HISTORY.md')
+HISTORY_PATH = Path('/home/dj/.nanobot/workspace/memory/HISTORY.md.bak')
 OUT_DIR = Path('/home/dj/.nanobot/workspace/wiki/data/extraction-pipeline')
 SAMPLE_JSON = OUT_DIR / 'recent-history-sample.json'
 OUTPUT_JSON = OUT_DIR / 'structured-candidates.json'

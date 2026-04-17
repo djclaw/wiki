@@ -2,7 +2,7 @@
 set -euo pipefail
 
 WIKI_DIR="/home/dj/.nanobot/workspace/wiki"
-HISTORY_FILE="/home/dj/.nanobot/workspace/memory/HISTORY.md"
+HISTORY_FILE="/home/dj/.nanobot/workspace/memory/HISTORY.md.bak"
 STATE_DIR="$WIKI_DIR/data/state"
 LAST_SHA_FILE="$STATE_DIR/last_history_sha.txt"
 LAST_SUCCESS_FILE="$STATE_DIR/last_daily_refresh_success.json"
